@@ -46,6 +46,7 @@
         }
         .navbar h1 {
             margin: 0;
+            position: relative;
             font-size: 24px;
             color: aliceblue;
         }
@@ -58,16 +59,18 @@
         .card {
             width: 1400px;
             background-color: transparent;
-            padding: 20px;
+            padding: 30px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
             display: flex;
             flex-direction: column;
             align-items: center;
             border-radius: 8px;
+            position: relative;
+            top: 10px;
         }
         .card h2 {
             margin: 0;
-            font-size: 40px;
+            font-size: 1.5em;
             margin-bottom: 20px;
             color: antiquewhite;
         }
@@ -94,16 +97,23 @@
             display: flex;
             justify-content: center;
         }
+        @media screen and (max-width:800px) {
+            .buttons{
+                display: flex;
+                flex-wrap: wrap;
+            }
+        }
     </style>
 </head>
 <body>
     <nav class="navbar">
-        <img src="logo.png" alt="Logo">
+        <a href="index.html"><img src="logo.png" alt="Logo"></a>
         <h1>AI Quiz Program</h1>
-    </nav>
+    </nav><br><br>
     <div class="container">
         <div class="card">
-            <h2>Learn with AI Quiz</h2>
+            <br>
+            <h2>Learn with AI Quiz</h2><br>
             <img src="developer.gif" alt="Course Photo">
             <h3 class="title">Cyber Security Quiz</h3>
             <div class="buttons">
