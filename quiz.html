@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+<body onmousedown="return false" onselectstart="return false">
+    <header>
+        <nav class="navbar">
+            <div class="logo-container">
+                <img src="logo.png" alt="Logo" class="logo">
+            </div>
+            <div class="exam-type">Exam Type: <span id="exam-type"></span></div>
+            <div class="score">Score: <span id="score">No score yet</span></div>
+        </nav>
+    </header>
+    <main>
+        <div class="question-card">
+            <h2 class="question">Questions</h2>
+            <form class="options">
+                
+            </form>
+            <script src="loadQuestionsFetch.js" type="module"></script>
+            <script>
+                document.addEventListener('contextmenu', event => event.preventDefault());
+            </script>
+        </div>
+    </main>
+</body>
+</html>
