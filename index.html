@@ -12,7 +12,8 @@
             margin: 0;
             padding: 0;
             overflow-x: hidden;
-            background: linear-gradient(120grad, rgb(100, 57, 134), rgb(152, 174, 213));
+            /*background: linear-gradient(120grad, rgb(100, 57, 134), rgb(152, 174, 213));*/
+            background: #000;
         }
         ::-webkit-scrollbar{
             width: 12px;
@@ -32,7 +33,13 @@
             font-family: serif;
             text-align: center;
             border-radius: 10px;
-            background: #c121ed;
+            /*background: #c121ed;*/
+        }
+        .title::before{
+            content: '< ';
+        }
+        .title::after{
+            content: ' />';
         }
         .navbar {
             background-color: #111;
@@ -67,10 +74,12 @@
             align-items: center;
             border-radius: 8px;
             position: relative;
-            top: 10px;
+            top: 10rem;
         }
         .card h2 {
             margin: 0;
+            position: absolute;
+            top: -1rem;
             font-size: 1.5em;
             margin-bottom: 20px;
             color: antiquewhite;
@@ -104,6 +113,12 @@
                 flex-wrap: wrap;
             }
         }
+        .language{
+            color: #fff;
+            text-decoration: wavy;
+            text-decoration-line: underline;
+            text-decoration-color: #23f6b3;
+        }
     </style>
 </head>
 <body>
@@ -126,7 +141,24 @@
             <div class="buttons">
                 <button class="btn" id="python">Python</button>
             </div>
-            <h3 class="title">Sinhala Quiz</h3>
+            <!--easy-->
+            <h3 class="title">Easy</h3>
+            <div class="button">
+                <button class="btn" id="python">Python</button>
+            </div>
+            <!--medimum-->
+            <h3 class="title">Medimum</h3>
+            <div class="button">
+                <button class="btn" id="python">Python</button>
+            </div>
+            <!--hard-->
+            <h3 class="title">Hard</h3>
+            <div class="button">
+                <button class="btn" id="python-hard">Python</button>
+            </div>
+            
+            <h3 class="language">Other Languages</h3>
+            <h3 class="title">Sinhala</h3>
             <div class="buttons">
                 <button class="btn" id="pythonsin">Python</button>
             </div>

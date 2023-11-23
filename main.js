@@ -6,6 +6,7 @@ const secPlusBtn = document.querySelector("#secplus");
 const hallucBtn = document.querySelector("#halluci");
 const python = document.querySelector("#python");
 const pythonsin = document.querySelector("#pythonsin");
+const pythonHard = document.querySelector("#python-hard");
 
 // We add event listeners to the buttons.
 // Depending on the button clicked we create a session variable called quiz and set it to the JSON file we want to load in hte quiz.html. The sessions variable allows us to share
@@ -45,5 +46,11 @@ python.addEventListener("click", (e) => {
 pythonsin.addEventListener("click", (e) => {
     e.preventDefault();
     sessionStorage.setItem("quiz", "./database/pythonsin.json");
+    location.href="quiz.html";
+});
+
+pythonHard.addEventListener("click", (e) => {
+    e.preventDefault();
+    sessionStorage.setItem("quiz", "./database/hard/python.json");
     location.href="quiz.html";
 });

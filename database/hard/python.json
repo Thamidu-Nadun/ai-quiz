@@ -1,0 +1,94 @@
+{
+    "questions": [
+        {
+            "question": "What is the purpose of the 'pass' statement in Python?",
+            "option_a": "A. It is used to indicate that a statement is required syntactically, but no action is required.",
+            "option_b": "B. It is used to pass control to another part of the program.",
+            "option_c": "C. It is used to pass arguments to a function.",
+            "option_d": "D. It is used to pass a test condition.",
+            "correct_answer": "A",
+            "explanation": "The 'pass' statement in Python is used as a placeholder for future code. When the pass statement is executed, nothing happens, but you avoid getting an error when empty code is not allowed."
+        },
+        {
+            "question": "What is the output of the following code? <br>print(type(lambda:None))",
+            "option_a": "A. <class 'function'>",
+            "option_b": "B. <class 'lambda'>",
+            "option_c": "C. <class 'NoneType'>",
+            "option_d": "D. Error",
+            "correct_answer": "A",
+            "explanation": "The lambda keyword in Python provides a shortcut for declaring small anonymous functions. Lambda functions behave just like regular functions declared with the def keyword. They can be used wherever function objects are required."
+        },
+        {
+            "question": "What is the output of the following code? <br>print('Hello, World!'[::-1])",
+            "option_a": "A. !dlroW ,olleH",
+            "option_b": "B. Hello, World!",
+            "option_c": "C. dlroW ,olleH",
+            "option_d": "D. Error",
+            "correct_answer": "A",
+            "explanation": "The slicing operation in Python with the step value -1 reverses the string."
+        },
+        {
+            "question": "What is the output of the following code? <br>print(0.1 + 0.2 == 0.3)",
+            "option_a": "A. True",
+            "option_b": "B. False",
+            "option_c": "C. 0.3",
+            "option_d": "D. Error",
+            "correct_answer": "B",
+            "explanation": "This is False due to the imprecision of floating point numbers in Python. When you add 0.1 and 0.2 in Python, you get a number that is very close to 0.3 but not exactly 0.3."
+        },
+        {
+            "question": "What is the output of the following code? <br>print('a' * 'b')",
+            "option_a": "A. ab",
+            "option_b": "B. a",
+            "option_c": "C. b",
+            "option_d": "D. Error",
+            "correct_answer": "D",
+            "explanation": "In Python, you can't multiply two strings, so this will result in a TypeError."
+        },
+        {
+            "question": "What is the output of the following code? <br>print(3 << 1)",
+            "option_a": "A. 3",
+            "option_b": "B. 1",
+            "option_c": "C. 6",
+            "option_d": "D. Error",
+            "correct_answer": "C",
+            "explanation": "The '<<' operator in Python is a bitwise operator that shifts the bits of the number to the left by the number of bits specified. In this case, it multiplies the number by 2."
+        },
+        {
+            "question": "What is the output of the following code? <br>print([i.lower() for i in 'HELLO'])",
+            "option_a": "A. ['h', 'e', 'l', 'l', 'o']",
+            "option_b": "B. hello",
+            "option_c": "C. HELLO",
+            "option_d": "D. Error",
+            "correct_answer": "A",
+            "explanation": "This is a list comprehension that converts each character in the string 'HELLO' to lowercase."
+        },
+        {
+            "question": "What is the output of the following code? <br>print({i: i * i for i in range(5)})",
+            "option_a": "A. {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}",
+            "option_b": "B. {0, 1, 4, 9, 16}",
+            "option_c": "C. {5: 25}",
+            "option_d": "D. Error",
+            "correct_answer": "A",
+            "explanation": "This is a dictionary comprehension that creates a dictionary with keys and values as the number and its square for numbers in the range from 0 to 4."
+        },
+        {
+            "question": "What is the output of the following code? <br>print('Hello, World!'.replace('World', 'Python'))",
+            "option_a": "A. Hello, World!",
+            "option_b": "B. Hello, Python!",
+            "option_c": "C. Python, World!",
+            "option_d": "D. Error",
+            "correct_answer": "B",
+            "explanation": "The replace() method in Python replaces a specified phrase with another specified phrase. Here, it replaces 'World' with 'Python'."
+        },
+        {
+            "question": "What is the output of the following code? <br>print('123'.isdigit())",
+            "option_a": "A. True",
+            "option_b": "B. False",
+            "option_c": "C. 123",
+            "option_d": "D. Error",
+            "correct_answer": "A",
+            "explanation": "The isdigit() method in Python returns True if all the characters in the string are digits, otherwise False."
+        }
+    ]
+}

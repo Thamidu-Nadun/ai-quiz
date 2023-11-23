@@ -1,0 +1,130 @@
+{
+    "questions": [
+        {
+            "question": "Python සමාන 'list' සම්බන්ධයේ කුමනය සහ නිවැරදිය වෙනස් කිරීමට භාවිතා කළ හැකියාවද?",
+            "option_a": "A. මුලු 'list' හෝ අවසන් 'list' සැකසුම් පවතින විට.",
+            "option_b": "B. 'list' භාවිතයේ වෙනස් කිරීමට 'add' හෝ 'remove' වෙනස් කිරීමට.",
+            "option_c": "C. 'list' සමානයේ දී 'append' හෝ 'pop' භාවිතයට වෙනස් කිරීමට.",
+            "option_d": "D. සෑම 'list' එකම 'element' සමඟ වෙනස් කිරීමට.",
+            "correct_answer": "B",
+            "explanation": "'list' සම්බන්ධයේ වෙනස් කිරීමට 'add' හෝ 'remove' භාවිතය භාවිතා කළ හැකිය."
+        },
+        {
+            "question": "Python හි 'elif' යනු කුමනයක්ද?",
+            "option_a": "A. සමාන ප්‍රකාශයකට 'if' සහිත 'else' යනුවට අදාළව 'if' සහිත කුමක්.",
+            "option_b": "B. 'else' සහිත 'if' යනුවට අදාළව 'if' සහිත කුමක්.",
+            "option_c": "C. ප්‍රකාශයට 'if' සහිත 'else' යනුවට අදාළව 'else' සහිත කුමක්.",
+            "option_d": "D. 'elif' වෙනස් කිරීමට භාවිතය කුමක් නොවේ.",
+            "correct_answer": "A",
+            "explanation": "'elif' යනු සමාන ප්‍රකාශයකට 'if' සහිත 'else' යනුවට අදාළව 'if' සහිත කුමයක් භාවිතයයි."
+        },
+        {
+            "question": "Python හි 'dictionary' භාවිතයේ එක් 'key' සහ එක් 'value' විය සහිත 'key-value' සම්බන්ධය කුමක්ද?",
+            "option_a": "A. 'pair'",
+            "option_b": "B. 'item'",
+            "option_c": "C. 'element'",
+            "option_d": "D. 'set'",
+            "correct_answer": "B",
+            "explanation": "'dictionary' භාවිතයේ එක් 'key' සහ එක් 'value' විය සහිත 'key-value' සම්බන්ධය 'item' කුමයක් භාවිතයයි."
+        },
+        {
+            "question": "Python හි 'module' කුමක්ද?",
+            "option_a": "A. 'class' සහිත ප්රවර්ධන පද්ධතිය.",
+            "option_b": "B. ප්‍රවේශන සහිත පරිපාලක පද්ධතිය.",
+            "option_c": "C. සහාය සහිත නිර්මාණ පද්ධතිය.",
+            "option_d": "D. සාමාන්‍ය ක්‍රමය සහිත පද්ධතිය.",
+            "correct_answer": "B",
+            "explanation": "'module' කුමය ප්‍රවේශන සහිත පරිපාලක පද්ධතියක් භාවිතයයි."
+        },
+        {
+            "question": "Python හි 'range()' සම්බන්ධය කුමක්ද?",
+            "option_a": "A. සංකේත උපාංග නිසා ලබාදෙන සංඛ්‍යාවන් අතරට යෙදීමට.",
+            "option_b": "B. සංකේත උපාංග පිළිතුරු සඳහා සහාය සලකා දැමීමට.",
+            "option_c": "C. සංකේත උපාංග නිසා ලබාදෙන අංක 1 තුනක්ද ඉදිරියේ යෙදීමට.",
+            "option_d": "D. සංකේත උපාංග පිළිතුරු සඳහා සහාය නොවන අංක 1 තුනක්ද ඉදිරියේ යෙදීමට.",
+            "correct_answer": "A",
+            "explanation": "'range()' සම්බන්ධය සංකේත උපාංග නිසා ලබාදෙන සංඛ්‍යාවන් අතරට යෙදීමට භාවිතයයි."
+        },
+        {
+            "question": "Python හි 'break' සහ 'continue' කුමනයක්ද?",
+            "option_a": "A. 'break' පවසන් සිටියාට පැමිණෙන්නේ 'loop' පාලකයේ සිටින 'iteration' ස්ථාපනයයි. 'continue' භාවිතයේ වැඩිපුර ක්රමයක් කුමක්ය.",
+            "option_b": "B. 'break' සහ 'continue' භාවිතය යොදන 'loop' පාලකයේ සිටින 'iteration' ස්ථාපනයයි. 'continue' වැඩිපුර ක්රමයක්ද සහිත කුමක්ය.",
+            "option_c": "C. 'break' සහ 'continue' භාවිතය පාලකයේ සිටින 'iteration' ස්ථාපනයයි. 'continue' වැඩිපුර ක්රමයක්ද සහිත කුමක්ය.",
+            "option_d": "D. 'break' සහ 'continue' පවසන් සිටියාට පැමිණෙන්නේ 'iteration' ස්ථාපනයයි. 'continue' භාවිතයේ වැඩිපුර ක්රමයක්ද සහිත කුමක්ය.",
+            "correct_answer": "B",
+            "explanation": "'break' සහ 'continue' භාවිතය යොදන 'loop' පාලකයේ සිටින 'iteration' ස්ථාපනයයි. 'continue' වැඩිපුර ක්රමයක්ද සහිත කුමක්ය."
+        },
+        {
+            "question": "Python හි 'try', 'except', 'finally' කුමනයක්ද?",
+            "option_a": "A. 'try' කුමක් නොකරන විට 'except' කුමක් නොකර 'finally' කුමක් කරයි.",
+            "option_b": "B. 'try' කුමක් කරන විට 'except' කුමක් කර 'finally' කුමක් නොකරයි.",
+            "option_c": "C. 'try' කුමක් කරන විට 'except' කුමක් නොකර 'finally' කුමක් කරයි.",
+            "option_d": "D. 'try' කුමක් නොකරන විට 'except' කුමක් කර 'finally' කුමක් කරයි.",
+            "correct_answer": "B",
+            "explanation": "'try' කුමක් කරන විට 'except' කුමක් කර 'finally' කුමක් නොකරයි."
+        },
+        {
+            "question": "Python සමාන 'list' සම්බන්ධයේ කුමනය සහ නිවැරදිය වෙනස් කිරීමට භාවිතා කළ හැකියාවද?",
+            "option_a": "A. මුලු 'list' හෝ අවසන් 'list' සැකසුම් පවතින විට.",
+            "option_b": "B. 'list' භාවිතයේ වෙනස් කිරීමට 'add' හෝ 'remove' වෙනස් කිරීමට.",
+            "option_c": "C. 'list' සමානයේ දී 'append' හෝ 'pop' භාවිතයට වෙනස් කිරීමට.",
+            "option_d": "D. සෑම 'list' එකම 'element' සමඟ වෙනස් කිරීමට.",
+            "correct_answer": "B",
+            "explanation": "'list' සම්බන්ධයේ වෙනස් කිරීමට 'add' හෝ 'remove' භාවිතය භාවිතා කළ හැකිය."
+        },
+        {
+            "question": "Python හි 'elif' යනු කුමනයක්ද?",
+            "option_a": "A. සමාන ප්‍රකාශයකට 'if' සහිත 'else' යනුවට අදාළව 'if' සහිත කුමක්.",
+            "option_b": "B. 'else' සහිත 'if' යනුවට අදාළව 'if' සහිත කුමක්.",
+            "option_c": "C. ප්‍රකාශයට 'if' සහිත 'else' යනුවට අදාළව 'else' සහිත කුමක්.",
+            "option_d": "D. 'elif' වෙනස් කිරීමට භාවිතය කුමක් නොවේ.",
+            "correct_answer": "A",
+            "explanation": "'elif' යනු සමාන ප්‍රකාශයකට 'if' සහිත 'else' යනුවට අදාළව 'if' සහිත කුමයක් භාවිතයයි."
+        },
+        {
+            "question": "Python හි 'dictionary' භාවිතයේ එක් 'key' සහ එක් 'value' විය සහිත 'key-value' සම්බන්ධය කුමක්ද?",
+            "option_a": "A. 'pair'",
+            "option_b": "B. 'item'",
+            "option_c": "C. 'element'",
+            "option_d": "D. 'set'",
+            "correct_answer": "B",
+            "explanation": "'dictionary' භාවිතයේ එක් 'key' සහ එක් 'value' විය සහිත 'key-value' සම්බන්ධය 'item' කුමයක් භාවිතයයි."
+        },
+        {
+            "question": "Python හි 'module' කුමක්ද?",
+            "option_a": "A. 'class' සහිත ප්රවර්ධන පද්ධතිය.",
+            "option_b": "B. ප්‍රවේශන සහිත පරිපාලක පද්ධතිය.",
+            "option_c": "C. සහාය සහිත නිර්මාණ පද්ධතිය.",
+            "option_d": "D. සාමාන්‍ය ක්‍රමය සහිත පද්ධතිය.",
+            "correct_answer": "B",
+            "explanation": "'module' කුමය ප්‍රවේශන සහිත පරිපාලක පද්ධතියක් භාවිතයයි."
+        },
+        {
+            "question": "Python හි 'range()' සම්බන්ධය කුමක්ද?",
+            "option_a": "A. සංකේත උපාංග නිසා ලබාදෙන සංඛ්‍යාවන් අතරට යෙදීමට.",
+            "option_b": "B. සංකේත උපාංග පිළිතුරු සඳහා සහාය සලකා දැමීමට.",
+            "option_c": "C. සංකේත උපාංග නිසා ලබාදෙන අංක 1 තුනක්ද ඉදිරියේ යෙදීමට.",
+            "option_d": "D. සංකේත උපාංග පිළිතුරු සඳහා සහාය නොවන අංක 1 තුනක්ද ඉදිරියේ යෙදීමට.",
+            "correct_answer": "A",
+            "explanation": "'range()' සම්බන්ධය සංකේත උපාංග නිසා ලබාදෙන සංඛ්‍යාවන් අතරට යෙදීමට භාවිතයයි."
+        },
+        {
+            "question": "Python හි 'break' සහ 'continue' කුමනයක්ද?",
+            "option_a": "A. 'break' පවසන් සිටියාට පැමිණෙන්නේ 'loop' පාලකයේ සිටින 'iteration' ස්ථාපනයයි. 'continue' භාවිතයේ වැඩිපුර ක්රමයක් කුමක්ය.",
+            "option_b": "B. 'break' සහ 'continue' භාවිතය යොදන 'loop' පාලකයේ සිටින 'iteration' ස්ථාපනයයි. 'continue' වැඩිපුර ක්රමයක්ද සහිත කුමක්ය.",
+            "option_c": "C. 'break' සහ 'continue' භාවිතය පාලකයේ සිටින 'iteration' ස්ථාපනයයි. 'continue' වැඩිපුර ක්රමයක්ද සහිත කුමක්ය.",
+            "option_d": "D. 'break' සහ 'continue' පවසන් සිටියාට පැමිණෙන්නේ 'iteration' ස්ථාපනයයි. 'continue' භාවිතයේ වැඩිපුර ක්රමයක්ද සහිත කුමක්ය.",
+            "correct_answer": "B",
+            "explanation": "'break' සහ 'continue' භාවිතය යොදන 'loop' පාලකයේ සිටින 'iteration' ස්ථාපනයයි. 'continue' වැඩිපුර ක්රමයක්ද සහිත කුමක්ය."
+        },
+        {
+            "question": "Python හි 'try', 'except', 'finally' කුමනයක්ද?",
+            "option_a": "A. 'try' කුමක් නොකරන විට 'except' කුමක් නොකර 'finally' කුමක් කරයි.",
+            "option_b": "B. 'try' කුමක් කරන විට 'except' කුමක් කර 'finally' කුමක් නොකරයි.",
+            "option_c": "C. 'try' කුමක් කරන විට 'except' කුමක් නොකර 'finally' කුමක් කරයි.",
+            "option_d": "D. 'try' කුමක් නොකරන විට 'except' කුමක් කර 'finally' කුමක් කරයි.",
+            "correct_answer": "B",
+            "explanation": "'try' කුමක් කරන විට 'except' කුමක් කර 'finally' කුමක් නොකරයි."
+        }
+    ]
+}

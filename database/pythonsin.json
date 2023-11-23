@@ -1,130 +1,94 @@
 {
     "questions": [
         {
-            "question": "Python සමාන 'list' සම්බන්ධයේ කුමනය සහ නිවැරදිය වෙනස් කිරීමට භාවිතා කළ හැකියාවද?",
-            "option_a": "A. මුලු 'list' හෝ අවසන් 'list' සැකසුම් පවතින විට.",
-            "option_b": "B. 'list' භාවිතයේ වෙනස් කිරීමට 'add' හෝ 'remove' වෙනස් කිරීමට.",
-            "option_c": "C. 'list' සමානයේ දී 'append' හෝ 'pop' භාවිතයට වෙනස් කිරීමට.",
-            "option_d": "D. සෑම 'list' එකම 'element' සමඟ වෙනස් කිරීමට.",
+            "question": "'len()' ක්‍රියාව කරන්නේ කුමක්ද?",
+            "option_a": "A. එක් එක් වස්තුවක් භාවිතා කරන මුළු මතකය ලබා දෙයි.",
+            "option_b": "B. ලැයිස්තුවක ඇති මුළු අංශ සංඛ්‍යාව හෝ අකුරු සංඛ්‍යාව ලබා දෙයි.",
+            "option_c": "C. අංකයේ සංකීර්ණ මූලය ලබා දෙයි.",
+            "option_d": "D. අනුපූරක වස්තුවේ විශාලතම අයිතමය ලබා දෙයි.",
             "correct_answer": "B",
-            "explanation": "'list' සම්බන්ධයේ වෙනස් කිරීමට 'add' හෝ 'remove' භාවිතය භාවිතා කළ හැකිය."
+            "explanation": "'len()' ක්‍රියාව ලැයිස්තුවක ඇති මුළු අංශ සංඛ්‍යාව හෝ අකුරු සංඛ්‍යාව ලබා දෙයි."
         },
         {
-            "question": "Python හි 'elif' යනු කුමනයක්ද?",
-            "option_a": "A. සමාන ප්‍රකාශයකට 'if' සහිත 'else' යනුවට අදාළව 'if' සහිත කුමක්.",
-            "option_b": "B. 'else' සහිත 'if' යනුවට අදාළව 'if' සහිත කුමක්.",
-            "option_c": "C. ප්‍රකාශයට 'if' සහිත 'else' යනුවට අදාළව 'else' සහිත කුමක්.",
-            "option_d": "D. 'elif' වෙනස් කිරීමට භාවිතය කුමක් නොවේ.",
+            "question": "පහත කේතයේ ප්‍රතිඵලය කුමක්ද?<br>x = [1, 2, 3]<br>y = x<br>y.append(4)<br>print(x)",
+            "option_a": "A. [1, 2, 3]",
+            "option_b": "B. [1, 2, 3, 4]",
+            "option_c": "C. [4]",
+            "option_d": "D. දෝෂයක්",
+            "correct_answer": "B",
+            "explanation": "'x' සහ 'y' යනු එකම ලැයිස්තු වස්තුවක් සඳහා යොමුව ඉදිරිපත් කරයි, එබැවින් 'y' වෙනස් කරන විට 'x' ද බලපාන්නේය."
+        },
+        {
+            "question": "'type()' ක්‍රියාව කරන්නේ කුමක්ද?",
+            "option_a": "A. එක් එක් වස්තුවක් භාවිතා කරන මුළු මතකය ලබා දෙයි.",
+            "option_b": "B. වස්තුවක වර්ගය ලබා දෙයි.",
+            "option_c": "C. අංකයේ සංකීර්ණ මූලය ලබා දෙයි.",
+            "option_d": "D. අනුපූරක වස්තුවේ විශාලතම අයිතමය ලබා දෙයි.",
+            "correct_answer": "B",
+            "explanation": "'type()' ක්‍රියාව වස්තුවක වර්ගය ලබා දෙයි. මෙම විට, '10' යනු පූර්ණ සංඛ්‍යාවක් බැවින් ප්‍රතිඵලය වනුයේ <class 'int'>."
+        },
+        {
+            "question": "පහත කේතයේ ප්‍රතිඵලය කුමක්ද?<br>print('Hello, World!'.lower())",
+            "option_a": "A. 'HELLO, WORLD!'",
+            "option_b": "B. 'hello, world!'",
+            "option_c": "C. 'Hello, World!'",
+            "option_d": "D. දෝෂයක්",
+            "correct_answer": "B",
+            "explanation": "'lower()' ක්‍රියාව අකුරු සංඛ්‍යාවේ සියලුම ඉහළ අකුරු පහළ අකුරු වලට පරිවර්තනය කර එය ලබා දෙයි. මෙම විට, 'Hello, World!' යනු 'hello, world!' වෙයි."
+        },
+        {
+            "question": "පහත කේතයේ ප්‍රතිඵලය කුමක්ද?<br>print(10 % 3)",
+            "option_a": "A. 3",
+            "option_b": "B. 1",
+            "option_c": "C. 0",
+            "option_d": "D. 10",
+            "correct_answer": "B",
+            "explanation": "'%' ක්‍රියාව බෙදීමේ ශේෂය ලබා දෙයි. මෙම විට, '10 % 3' යනු '1' වෙයි."
+        },
+        {
+            "question": "'len()' ක්‍රියාව කරන්නේ කුමක්ද?",
+            "option_a": "A. එය අයිතමයක් භාවිතා කරන මුළු මතකය ලබා දෙයි.",
+            "option_b": "B. එය ලැයිස්තුවක් තුළ ඇති අංශයන් හෝ වචනයක් තුළ ඇති අක්ෂර ගණන ලබා දෙයි.",
+            "option_c": "C. එය සංඛ්‍යාවක් මූලක් ලබා දෙයි.",
+            "option_d": "D. එය ක්‍රමානුකූල තුළ ඇති ලොකුම අයිතමය ලබා දෙයි.",
+            "correct_answer": "B",
+            "explanation": "'len()' ක්‍රියාව ලැයිස්තුවක් තුළ ඇති අංශයන් හෝ වචනයක් තුළ ඇති අක්ෂර ගණන ලබා දෙයි."
+        },
+        {
+            "question": "පහත කේතයේ ප්‍රතිඵලය කුමක්ද?<br>x = [1, 2, 3]<br>y = x<br>y.append(4)<br>print(x)",
+            "option_a": "A. [1, 2, 3]",
+            "option_b": "B. [1, 2, 3, 4]",
+            "option_c": "C. [4]",
+            "option_d": "D. දෝෂය",
+            "correct_answer": "B",
+            "explanation": "'x' සහ 'y' යන්නෝ එකම ලැයිස්තු වස්තුන් වලට සම්බන්ධ වේ, එමනිස් 'y' වෙනස් කරන විට 'x' ද බලපාන්නේය."
+        },
+        {
+            "question": "'print()' ක්‍රියාව කරන්නේ කුමක්ද?",
+            "option_a": "A. එය අයිතමයක් භාවිතා කරන මුළු මතකය ලබා දෙයි.",
+            "option_b": "B. එය ලැයිස්තුවක් තුළ ඇති අංශයන් හෝ වචනයක් තුළ ඇති අක්ෂර ගණන ලබා දෙයි.",
+            "option_c": "C. එය ප්‍රකාශ කරන්නේ පරිමාණයක් හෝ වචනයක් ය.",
+            "option_d": "D. එය ක්‍රමානුකූල තුළ ඇති ලොකුම අයිතමය ලබා දෙයි.",
+            "correct_answer": "C",
+            "explanation": "'print()' ක්‍රියාව පරිමාණයක් හෝ වචනයක් ප්‍රකාශ කරයි."
+        },
+        {
+            "question": "පහත කේතයේ ප්‍රතිඵලය කුමක්ද?<br>print('Hello, World!')",
+            "option_a": "A. Hello, World!",
+            "option_b": "B. World!",
+            "option_c": "C. Hello,",
+            "option_d": "D. දෝෂය",
             "correct_answer": "A",
-            "explanation": "'elif' යනු සමාන ප්‍රකාශයකට 'if' සහිත 'else' යනුවට අදාළව 'if' සහිත කුමයක් භාවිතයයි."
+            "explanation": "'print()' ක්‍රියාව ප්‍රකාශ කරන්නේ පරිමාණයක් හෝ වචනයක් ය."
         },
         {
-            "question": "Python හි 'dictionary' භාවිතයේ එක් 'key' සහ එක් 'value' විය සහිත 'key-value' සම්බන්ධය කුමක්ද?",
-            "option_a": "A. 'pair'",
-            "option_b": "B. 'item'",
-            "option_c": "C. 'element'",
-            "option_d": "D. 'set'",
+            "question": "පහත කේතයේ ප්‍රතිඵලය කුමක්ද?<br>print(1 + 1)",
+            "option_a": "A. 1",
+            "option_b": "B. 2",
+            "option_c": "C. 11",
+            "option_d": "D. දෝෂය",
             "correct_answer": "B",
-            "explanation": "'dictionary' භාවිතයේ එක් 'key' සහ එක් 'value' විය සහිත 'key-value' සම්බන්ධය 'item' කුමයක් භාවිතයයි."
-        },
-        {
-            "question": "Python හි 'module' කුමක්ද?",
-            "option_a": "A. 'class' සහිත ප්රවර්ධන පද්ධතිය.",
-            "option_b": "B. ප්‍රවේශන සහිත පරිපාලක පද්ධතිය.",
-            "option_c": "C. සහාය සහිත නිර්මාණ පද්ධතිය.",
-            "option_d": "D. සාමාන්‍ය ක්‍රමය සහිත පද්ධතිය.",
-            "correct_answer": "B",
-            "explanation": "'module' කුමය ප්‍රවේශන සහිත පරිපාලක පද්ධතියක් භාවිතයයි."
-        },
-        {
-            "question": "Python හි 'range()' සම්බන්ධය කුමක්ද?",
-            "option_a": "A. සංකේත උපාංග නිසා ලබාදෙන සංඛ්‍යාවන් අතරට යෙදීමට.",
-            "option_b": "B. සංකේත උපාංග පිළිතුරු සඳහා සහාය සලකා දැමීමට.",
-            "option_c": "C. සංකේත උපාංග නිසා ලබාදෙන අංක 1 තුනක්ද ඉදිරියේ යෙදීමට.",
-            "option_d": "D. සංකේත උපාංග පිළිතුරු සඳහා සහාය නොවන අංක 1 තුනක්ද ඉදිරියේ යෙදීමට.",
-            "correct_answer": "A",
-            "explanation": "'range()' සම්බන්ධය සංකේත උපාංග නිසා ලබාදෙන සංඛ්‍යාවන් අතරට යෙදීමට භාවිතයයි."
-        },
-        {
-            "question": "Python හි 'break' සහ 'continue' කුමනයක්ද?",
-            "option_a": "A. 'break' පවසන් සිටියාට පැමිණෙන්නේ 'loop' පාලකයේ සිටින 'iteration' ස්ථාපනයයි. 'continue' භාවිතයේ වැඩිපුර ක්රමයක් කුමක්ය.",
-            "option_b": "B. 'break' සහ 'continue' භාවිතය යොදන 'loop' පාලකයේ සිටින 'iteration' ස්ථාපනයයි. 'continue' වැඩිපුර ක්රමයක්ද සහිත කුමක්ය.",
-            "option_c": "C. 'break' සහ 'continue' භාවිතය පාලකයේ සිටින 'iteration' ස්ථාපනයයි. 'continue' වැඩිපුර ක්රමයක්ද සහිත කුමක්ය.",
-            "option_d": "D. 'break' සහ 'continue' පවසන් සිටියාට පැමිණෙන්නේ 'iteration' ස්ථාපනයයි. 'continue' භාවිතයේ වැඩිපුර ක්රමයක්ද සහිත කුමක්ය.",
-            "correct_answer": "B",
-            "explanation": "'break' සහ 'continue' භාවිතය යොදන 'loop' පාලකයේ සිටින 'iteration' ස්ථාපනයයි. 'continue' වැඩිපුර ක්රමයක්ද සහිත කුමක්ය."
-        },
-        {
-            "question": "Python හි 'try', 'except', 'finally' කුමනයක්ද?",
-            "option_a": "A. 'try' කුමක් නොකරන විට 'except' කුමක් නොකර 'finally' කුමක් කරයි.",
-            "option_b": "B. 'try' කුමක් කරන විට 'except' කුමක් කර 'finally' කුමක් නොකරයි.",
-            "option_c": "C. 'try' කුමක් කරන විට 'except' කුමක් නොකර 'finally' කුමක් කරයි.",
-            "option_d": "D. 'try' කුමක් නොකරන විට 'except' කුමක් කර 'finally' කුමක් කරයි.",
-            "correct_answer": "B",
-            "explanation": "'try' කුමක් කරන විට 'except' කුමක් කර 'finally' කුමක් නොකරයි."
-        },
-        {
-            "question": "Python සමාන 'list' සම්බන්ධයේ කුමනය සහ නිවැරදිය වෙනස් කිරීමට භාවිතා කළ හැකියාවද?",
-            "option_a": "A. මුලු 'list' හෝ අවසන් 'list' සැකසුම් පවතින විට.",
-            "option_b": "B. 'list' භාවිතයේ වෙනස් කිරීමට 'add' හෝ 'remove' වෙනස් කිරීමට.",
-            "option_c": "C. 'list' සමානයේ දී 'append' හෝ 'pop' භාවිතයට වෙනස් කිරීමට.",
-            "option_d": "D. සෑම 'list' එකම 'element' සමඟ වෙනස් කිරීමට.",
-            "correct_answer": "B",
-            "explanation": "'list' සම්බන්ධයේ වෙනස් කිරීමට 'add' හෝ 'remove' භාවිතය භාවිතා කළ හැකිය."
-        },
-        {
-            "question": "Python හි 'elif' යනු කුමනයක්ද?",
-            "option_a": "A. සමාන ප්‍රකාශයකට 'if' සහිත 'else' යනුවට අදාළව 'if' සහිත කුමක්.",
-            "option_b": "B. 'else' සහිත 'if' යනුවට අදාළව 'if' සහිත කුමක්.",
-            "option_c": "C. ප්‍රකාශයට 'if' සහිත 'else' යනුවට අදාළව 'else' සහිත කුමක්.",
-            "option_d": "D. 'elif' වෙනස් කිරීමට භාවිතය කුමක් නොවේ.",
-            "correct_answer": "A",
-            "explanation": "'elif' යනු සමාන ප්‍රකාශයකට 'if' සහිත 'else' යනුවට අදාළව 'if' සහිත කුමයක් භාවිතයයි."
-        },
-        {
-            "question": "Python හි 'dictionary' භාවිතයේ එක් 'key' සහ එක් 'value' විය සහිත 'key-value' සම්බන්ධය කුමක්ද?",
-            "option_a": "A. 'pair'",
-            "option_b": "B. 'item'",
-            "option_c": "C. 'element'",
-            "option_d": "D. 'set'",
-            "correct_answer": "B",
-            "explanation": "'dictionary' භාවිතයේ එක් 'key' සහ එක් 'value' විය සහිත 'key-value' සම්බන්ධය 'item' කුමයක් භාවිතයයි."
-        },
-        {
-            "question": "Python හි 'module' කුමක්ද?",
-            "option_a": "A. 'class' සහිත ප්රවර්ධන පද්ධතිය.",
-            "option_b": "B. ප්‍රවේශන සහිත පරිපාලක පද්ධතිය.",
-            "option_c": "C. සහාය සහිත නිර්මාණ පද්ධතිය.",
-            "option_d": "D. සාමාන්‍ය ක්‍රමය සහිත පද්ධතිය.",
-            "correct_answer": "B",
-            "explanation": "'module' කුමය ප්‍රවේශන සහිත පරිපාලක පද්ධතියක් භාවිතයයි."
-        },
-        {
-            "question": "Python හි 'range()' සම්බන්ධය කුමක්ද?",
-            "option_a": "A. සංකේත උපාංග නිසා ලබාදෙන සංඛ්‍යාවන් අතරට යෙදීමට.",
-            "option_b": "B. සංකේත උපාංග පිළිතුරු සඳහා සහාය සලකා දැමීමට.",
-            "option_c": "C. සංකේත උපාංග නිසා ලබාදෙන අංක 1 තුනක්ද ඉදිරියේ යෙදීමට.",
-            "option_d": "D. සංකේත උපාංග පිළිතුරු සඳහා සහාය නොවන අංක 1 තුනක්ද ඉදිරියේ යෙදීමට.",
-            "correct_answer": "A",
-            "explanation": "'range()' සම්බන්ධය සංකේත උපාංග නිසා ලබාදෙන සංඛ්‍යාවන් අතරට යෙදීමට භාවිතයයි."
-        },
-        {
-            "question": "Python හි 'break' සහ 'continue' කුමනයක්ද?",
-            "option_a": "A. 'break' පවසන් සිටියාට පැමිණෙන්නේ 'loop' පාලකයේ සිටින 'iteration' ස්ථාපනයයි. 'continue' භාවිතයේ වැඩිපුර ක්රමයක් කුමක්ය.",
-            "option_b": "B. 'break' සහ 'continue' භාවිතය යොදන 'loop' පාලකයේ සිටින 'iteration' ස්ථාපනයයි. 'continue' වැඩිපුර ක්රමයක්ද සහිත කුමක්ය.",
-            "option_c": "C. 'break' සහ 'continue' භාවිතය පාලකයේ සිටින 'iteration' ස්ථාපනයයි. 'continue' වැඩිපුර ක්රමයක්ද සහිත කුමක්ය.",
-            "option_d": "D. 'break' සහ 'continue' පවසන් සිටියාට පැමිණෙන්නේ 'iteration' ස්ථාපනයයි. 'continue' භාවිතයේ වැඩිපුර ක්රමයක්ද සහිත කුමක්ය.",
-            "correct_answer": "B",
-            "explanation": "'break' සහ 'continue' භාවිතය යොදන 'loop' පාලකයේ සිටින 'iteration' ස්ථාපනයයි. 'continue' වැඩිපුර ක්රමයක්ද සහිත කුමක්ය."
-        },
-        {
-            "question": "Python හි 'try', 'except', 'finally' කුමනයක්ද?",
-            "option_a": "A. 'try' කුමක් නොකරන විට 'except' කුමක් නොකර 'finally' කුමක් කරයි.",
-            "option_b": "B. 'try' කුමක් කරන විට 'except' කුමක් කර 'finally' කුමක් නොකරයි.",
-            "option_c": "C. 'try' කුමක් කරන විට 'except' කුමක් නොකර 'finally' කුමක් කරයි.",
-            "option_d": "D. 'try' කුමක් නොකරන විට 'except' කුමක් කර 'finally' කුමක් කරයි.",
-            "correct_answer": "B",
-            "explanation": "'try' කුමක් කරන විට 'except' කුමක් කර 'finally' කුමක් නොකරයි."
+            "explanation": "පයිතන් වල '+' ලකුණුව එකතු කිරීම සඳහා භාවිතා කරයි."
         }
     ]
 }

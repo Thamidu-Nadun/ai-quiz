@@ -13,6 +13,8 @@ if(quiz === "./database/ccna.json") {
     heading.textContent = "Hallucinations";
 } else if(quiz === "./database/python.json"){
     heading.textContent = "python";
+} else if(quiz === "./database/hard/python.json"){
+    heading.textContent = "python | Hard";
 }
 
 // Dynamic import of the JSON file using session variables.
