@@ -1,94 +1,94 @@
 {
     "questions": [
         {
-            "question": "What does the 'len()' function do?",
-            "option_a": "A. It returns the total memory used by an object.",
-            "option_b": "B. It returns the number of elements in a list or the number of characters in a string.",
-            "option_c": "C. It returns the square root of a number.",
-            "option_d": "D. It returns the largest item in an iterable.",
-            "correct_answer": "B",
-            "explanation": "The 'len()' function returns the number of elements in a list or the number of characters in a string."
-        },
-        {
-            "question": "What is the output of the following code?<br>x = [1, 2, 3]<br>y = x<br>y.append(4)<br>print(x)",
-            "option_a": "A. [1, 2, 3]",
-            "option_b": "B. [1, 2, 3, 4]",
-            "option_c": "C. [4]",
-            "option_d": "D. Error",
-            "correct_answer": "B",
-            "explanation": "Both 'x' and 'y' reference the same list object, so when 'y' is modified, 'x' is also affected."
-        },
-        {
-            "question": "What is the purpose of 'if __name__ == '__main__':' in a Python script?",
-            "option_a": "A. It checks if the script is running on a mainframe computer.",
-            "option_b": "B. It ensures that the script runs only on the main thread.",
-            "option_c": "C. It prevents the script from running on certain platforms.",
-            "option_d": "D. It allows the script to be used both as an importable module and a standalone script.",
-            "correct_answer": "D",
-            "explanation": "The 'if __name__ == '__main__':' block allows a script to be used both as a standalone program and as an importable module."
-        },
-        {
-            "question": "Which of the following is NOT a valid way to comment in Python?",
-            "option_a": "A. /* This is a comment */",
-            "option_b": "B. # This is a comment",
-            "option_c": "C. ''' This is a comment '''",
-            "option_d": "D. # This is a comment until the end of the line",
+            "question": "What is the output of the following code?<br>print(type(10))",
+            "option_a": "A. <class 'int'>",
+            "option_b": "B. <class 'float'>",
+            "option_c": "C. <class 'str'>",
+            "option_d": "D. <class 'bool'>",
             "correct_answer": "A",
-            "explanation": "Python uses '#' for single-line comments and triple quotes (''' ''') for multi-line comments. '/* */' is not a valid comment syntax in Python."
+            "explanation": "The 'type()' function returns the type of the object. In this case, '10' is an integer, so the output will be <class 'int'>."
         },
         {
-            "question": "What is the result of '3 + 2 * 5'?",
-            "option_a": "A. 15",
-            "option_b": "B. 25",
-            "option_c": "C. 13",
-            "option_d": "D. 23",
-            "correct_answer": "C",
-            "explanation": "The multiplication operation has higher precedence than addition, so 2 * 5 is evaluated first, resulting in 10. Then, 3 + 10 equals 13."
-        },
-        {
-            "question": "What does the 'range()' function return?",
-            "option_a": "A. A list of numbers from 1 to N.",
-            "option_b": "B. A sequence of numbers from 0 to N-1.",
-            "option_c": "C. A tuple of numbers from 1 to N.",
-            "option_d": "D. A list of even numbers from 0 to N.",
-            "correct_answer": "B",
-            "explanation": "The 'range()' function returns a sequence of numbers from 0 to N-1."
-        },
-        {
-            "question": "Which keyword is used to define a function in Python?",
-            "option_a": "A. func",
-            "option_b": "B. method",
-            "option_c": "C. def",
-            "option_d": "D. define",
-            "correct_answer": "C",
-            "explanation": "The 'def' keyword is used to define a function in Python."
-        },
-        {
-            "question": "What is the output of 'print('Hello, World!')[::-1]'?",
-            "option_a": "A. Hello, World!",
-            "option_b": "B. !dlroW ,olleH",
-            "option_c": "C. !dlroW olleH",
+            "question": "What is the output of the following code?<br>print('Hello, World!'.lower())",
+            "option_a": "A. 'HELLO, WORLD!'",
+            "option_b": "B. 'hello, world!'",
+            "option_c": "C. 'Hello, World!'",
             "option_d": "D. Error",
             "correct_answer": "B",
-            "explanation": "The string 'Hello, World!' is reversed using slicing with [::-1], resulting in '!dlroW ,olleH'."
+            "explanation": "The 'lower()' method converts all uppercase characters in a string to lowercase and returns it."
         },
         {
-            "question": "Which of the following data types is mutable?",
-            "option_a": "A. int",
-            "option_b": "B. str",
-            "option_c": "C. tuple",
-            "option_d": "D. list",
-            "correct_answer": "D",
-            "explanation": "Lists are mutable, meaning their elements can be modified after creation. Tuples are immutable."
-        },
-        {
-            "question": "What does the 'import' keyword do in Python?",
-            "option_a": "A. It imports data from a file.",
-            "option_b": "B. It includes external libraries and modules.",
-            "option_c": "C. It exports variables to other scripts.",
-            "option_d": "D. It defines a new class.",
+            "question": "What is the output of the following code?<br>print(10 % 3)",
+            "option_a": "A. 3",
+            "option_b": "B. 1",
+            "option_c": "C. 0",
+            "option_d": "D. 10",
             "correct_answer": "B",
-            "explanation": "The 'import' keyword is used to include external libraries and modules in Python code."
+            "explanation": "The '%' operator returns the remainder of the division. In this case, '10 % 3' returns '1'."
+        },
+        {
+            "question": "What is the output of the following code?<br>print(2 ** 3)",
+            "option_a": "A. 6",
+            "option_b": "B. 8",
+            "option_c": "C. 9",
+            "option_d": "D. 16",
+            "correct_answer": "B",
+            "explanation": "The '**' operator is a power operator. In this case, '2 ** 3' means '2 to the power of 3', which equals '8'."
+        },
+        {
+            "question": "What is the output of the following code?<br>print('Hello, ' + 'World!')",
+            "option_a": "A. 'Hello, World!'",
+            "option_b": "B. 'Hello, ' 'World!'",
+            "option_c": "C. 'Hello, ' + 'World!'",
+            "option_d": "D. Error",
+            "correct_answer": "A",
+            "explanation": "The '+' operator concatenates two strings. In this case, 'Hello, ' + 'World!' returns 'Hello, World!'."
+        },
+        {
+            "question": "What is the output of the following code?<br>print(len('Hello, World!'))",
+            "option_a": "A. 12",
+            "option_b": "B. 13",
+            "option_c": "C. 14",
+            "option_d": "D. 15",
+            "correct_answer": "B",
+            "explanation": "The 'len()' function returns the number of characters in a string, including spaces and punctuation. In this case, 'Hello, World!' has 13 characters."
+        },
+        {
+            "question": "What is the output of the following code?<br>print('Hello, World!'.replace('World', 'Python'))",
+            "option_a": "A. 'Hello, World!'",
+            "option_b": "B. 'Hello, Python!'",
+            "option_c": "C. 'Hello, World!Python'",
+            "option_d": "D. Error",
+            "correct_answer": "B",
+            "explanation": "The 'replace()' method replaces a specified phrase with another specified phrase. In this case, 'World' is replaced with 'Python', so the output is 'Hello, Python!'."
+        },
+        {
+            "question": "What is the output of the following code?<br>print('Hello, World!'[0])",
+            "option_a": "A. 'H'",
+            "option_b": "B. 'e'",
+            "option_c": "C. 'l'",
+            "option_d": "D. 'o'",
+            "correct_answer": "A",
+            "explanation": "In Python, string indexing starts from 0. So, 'Hello, World!'[0] returns the first character of the string, which is 'H'."
+        },
+        {
+            "question": "What is the output of the following code?<br>print('Hello, World!'[-1])",
+            "option_a": "A. 'H'",
+            "option_b": "B. 'o'",
+            "option_c": "C. 'l'",
+            "option_d": "D. '!'",
+            "correct_answer": "D",
+            "explanation": "In Python, negative indexing starts from the end of the string. So, 'Hello, World!'[-1] returns the last character of the string, which is '!'."
+        },
+        {
+            "question": "What is the output of the following code?<br>print('Hello, World!'.split(','))",
+            "option_a": "A. ['Hello', ' World!']",
+            "option_b": "B. ['Hello, World!']",
+            "option_c": "C. ['Hello', 'World!']",
+            "option_d": "D. ['H', 'e', 'l', 'l', 'o', ',', ' ', 'W', 'o', 'r', 'l', 'd', '!']",
+            "correct_answer": "A",
+            "explanation": "The 'split()' method splits a string into a list where each word is a list item. In this case, the string is split at the comma, so the output is ['Hello', ' World!']."
         }
     ]
 }
