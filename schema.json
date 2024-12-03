@@ -1,0 +1,48 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "questions": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "question": {
+              "type": "string",
+              "description": "The text of the question."
+            },
+            "option_a": {
+              "type": "string",
+              "description": "Option A for the question."
+            },
+            "option_b": {
+              "type": "string",
+              "description": "Option B for the question."
+            },
+            "option_c": {
+              "type": "string",
+              "description": "Option C for the question."
+            },
+            "option_d": {
+              "type": "string",
+              "description": "Option D for the question."
+            },
+            "correct_answer": {
+              "type": "string",
+              "enum": ["A", "B", "C", "D"],
+              "description": "The correct answer for the question."
+            },
+            "explanation": {
+              "type": "string",
+              "description": "Explanation for the correct answer."
+            }
+          },
+          "required": ["question", "option_a", "option_b", "option_c", "option_d", "correct_answer", "explanation"],
+          "additionalProperties": false
+        }
+      }
+    },
+    "required": ["questions"],
+    "additionalProperties": false
+  }
+  

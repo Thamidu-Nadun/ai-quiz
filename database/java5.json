@@ -1,0 +1,185 @@
+{
+    "questions": [
+      {
+        "question": "What is the primary purpose of selection statements in programming?",
+        "option_a": "a. To iterate through a sequence of steps",
+        "option_b": "b. To make decisions based on conditions",
+        "option_c": "c. To store data in variables",
+        "option_d": "d. To translate code into machine language",
+        "correct_answer": "b",
+        "explanation": "Selection statements allow programs to make decisions based on specific conditions."
+      },
+      {
+        "question": "What will the following pseudocode output?\n\nIF (a > b)\n  PRINT \"A is greater\"\nELSE\n  PRINT \"B is greater\"\n\nGiven a = 5 and b = 8.",
+        "option_a": "a. A is greater",
+        "option_b": "b. B is greater",
+        "option_c": "c. Compile Error",
+        "option_d": "d. No output",
+        "correct_answer": "b",
+        "explanation": "Since 5 is not greater than 8, the ELSE block executes, printing 'B is greater'."
+      },
+      {
+        "question": "Which of the following represents the correct syntax for a Java IF statement?",
+        "option_a": "a. if condition { statement }",
+        "option_b": "b. if (condition) { statement; }",
+        "option_c": "c. IF condition THEN statement;",
+        "option_d": "d. if {condition}: statement;",
+        "correct_answer": "b",
+        "explanation": "In Java, an IF statement requires the condition in parentheses and the statement inside braces."
+      },
+      {
+        "question": "What is the difference between an IF and an IF-ELSE statement?",
+        "option_a": "a. IF-ELSE executes only when the condition is true.",
+        "option_b": "b. IF-ELSE provides an alternative block when the condition is false.",
+        "option_c": "c. IF cannot handle multiple conditions.",
+        "option_d": "d. IF-ELSE always executes both blocks.",
+        "correct_answer": "b",
+        "explanation": "An IF-ELSE statement executes one block if the condition is true and another block if it's false."
+      },
+      {
+        "question": "Which statement is true about the ELSE-IF ladder in Java?",
+        "option_a": "a. It allows checking a single condition.",
+        "option_b": "b. It terminates after the first true condition.",
+        "option_c": "c. All conditions are evaluated before execution.",
+        "option_d": "d. It executes multiple true blocks.",
+        "correct_answer": "b",
+        "explanation": "In an ELSE-IF ladder, the execution stops after the first true condition is met."
+      },
+      {
+        "question": "Consider the following Java code:\n\nint x = 10;\nif (x > 5) {\n  System.out.println(\"X is greater than 5\");\n}\nSystem.out.println(\"End of program\");\n\nWhat will be the output?",
+        "option_a": "a. X is greater than 5",
+        "option_b": "b. End of program",
+        "option_c": "c. Both a and b",
+        "option_d": "d. No output",
+        "correct_answer": "c",
+        "explanation": "The condition is true, so both 'X is greater than 5' and 'End of program' are printed."
+      },
+      {
+        "question": "What will be the result of the following pseudocode?\n\nIF (x == y)\n  PRINT \"Equal\"\nELSE\n  PRINT \"Not Equal\"\n\nGiven x = 5 and y = 5.",
+        "option_a": "a. Equal",
+        "option_b": "b. Not Equal",
+        "option_c": "c. Error",
+        "option_d": "d. No output",
+        "correct_answer": "a",
+        "explanation": "Since x equals y, the condition is true, and 'Equal' is printed."
+      },
+      {
+        "question": "Which Java statement is used to handle multiple cases of a variable's value?",
+        "option_a": "a. IF",
+        "option_b": "b. SWITCH",
+        "option_c": "c. FOR",
+        "option_d": "d. WHILE",
+        "correct_answer": "b",
+        "explanation": "The SWITCH statement is used to execute code blocks based on the value of a variable."
+      },
+      {
+        "question": "What is the output of the following Java code?\n\nint num = 3;\nswitch (num) {\n  case 1:\n    System.out.println(\"One\");\n    break;\n  case 2:\n    System.out.println(\"Two\");\n    break;\n  case 3:\n    System.out.println(\"Three\");\n    break;\n  default:\n    System.out.println(\"Invalid\");\n}",
+        "option_a": "a. One",
+        "option_b": "b. Two",
+        "option_c": "c. Three",
+        "option_d": "d. Invalid",
+        "correct_answer": "c",
+        "explanation": "The variable num matches case 3, so 'Three' is printed."
+      },
+      {
+        "question": "What is the purpose of a break statement in a SWITCH case?",
+        "option_a": "a. To exit the program",
+        "option_b": "b. To skip the next case",
+        "option_c": "c. To exit the SWITCH block",
+        "option_d": "d. To continue with the next iteration",
+        "correct_answer": "c",
+        "explanation": "The break statement exits the SWITCH block after executing the matching case."
+      },
+      {
+        "question": "What does the following Java code segment demonstrate?\n\nint x = 5;\nString result = (x > 3) ? \"Greater\" : \"Smaller\";\nSystem.out.println(result);",
+        "option_a": "a. IF-ELSE statement",
+        "option_b": "b. SWITCH statement",
+        "option_c": "c. Ternary operator",
+        "option_d": "d. ELSE-IF ladder",
+        "correct_answer": "c",
+        "explanation": "The ternary operator is a compact way to express conditions and their outcomes."
+      },
+      {
+        "question": "What is the output of the following pseudocode?\n\nIF (flavour == \"C\")\n  PRINT \"Chocolate\"\nELSE IF (flavour == \"V\")\n  PRINT \"Vanilla\"\nELSE\n  PRINT \"Strawberry\"\n\nGiven flavour = \"V\".",
+        "option_a": "a. Chocolate",
+        "option_b": "b. Vanilla",
+        "option_c": "c. Strawberry",
+        "option_d": "d. Error",
+        "correct_answer": "b",
+        "explanation": "The variable flavour matches the ELSE-IF condition, so 'Vanilla' is printed."
+      },
+      {
+        "question": "Which statement about SWITCH cases is TRUE?",
+        "option_a": "a. Cases can evaluate boolean expressions.",
+        "option_b": "b. Cases must have unique constant expressions.",
+        "option_c": "c. Cases can have overlapping ranges.",
+        "option_d": "d. Cases execute without a break.",
+        "correct_answer": "b",
+        "explanation": "Each case in a SWITCH statement must have a unique constant expression."
+      },
+      {
+        "question": "What is the ternary operator used for in Java?",
+        "option_a": "a. Iterating through arrays",
+        "option_b": "b. Simplifying conditional expressions",
+        "option_c": "c. Writing SWITCH statements",
+        "option_d": "d. Handling runtime errors",
+        "correct_answer": "b",
+        "explanation": "The ternary operator simplifies conditional expressions into a single line."
+      },
+      {
+        "question": "Which of the following control structures allows choosing between multiple options?",
+        "option_a": "a. IF",
+        "option_b": "b. WHILE",
+        "option_c": "c. SWITCH",
+        "option_d": "d. FOR",
+        "correct_answer": "c",
+        "explanation": "The SWITCH statement allows selecting one block of code from multiple options."
+      },
+      {
+        "question": "What is the key difference between IF-ELSE and SWITCH statements?",
+        "option_a": "a. IF-ELSE handles multiple conditions; SWITCH handles a single value.",
+        "option_b": "b. SWITCH handles conditions; IF-ELSE handles ranges.",
+        "option_c": "c. IF-ELSE is faster than SWITCH.",
+        "option_d": "d. SWITCH supports non-constant values.",
+        "correct_answer": "a",
+        "explanation": "IF-ELSE handles conditions and ranges, while SWITCH works with a single value."
+      },
+      {
+        "question": "What is the purpose of braces `{}` in an IF statement?",
+        "option_a": "a. To denote conditions",
+        "option_b": "b. To group statements into a block",
+        "option_c": "c. To terminate the IF block",
+        "option_d": "d. To handle syntax errors",
+        "correct_answer": "b",
+        "explanation": "Braces group multiple statements into a single block inside an IF statement."
+      },
+      {
+        "question": "What is the output of this pseudocode?\n\nIF (a == b)\n  PRINT \"Equal\"\nELSE\n  PRINT \"Not Equal\"\n\nGiven a = 10 and b = 15.",
+        "option_a": "a. Equal",
+        "option_b": "b. Not Equal",
+        "option_c": "c. Compile Error",
+        "option_d": "d. No output",
+        "correct_answer": "b",
+        "explanation": "Since a is not equal to b, 'Not Equal' is printed."
+      },
+      {
+        "question": "What is the default case in a SWITCH statement?",
+        "option_a": "a. A syntax error",
+        "option_b": "b. A mandatory case",
+        "option_c": "c. The case executed if no match is found",
+        "option_d": "d. The first case in the SWITCH block",
+        "correct_answer": "c",
+        "explanation": "The default case executes when no other case matches."
+      },
+      {
+        "question": "What is the result of the following Java code?\n\nint x = 4;\nString result = (x % 2 == 0) ? \"Even\" : \"Odd\";\nSystem.out.println(result);",
+        "option_a": "a. Even",
+        "option_b": "b. Odd",
+        "option_c": "c. Error",
+        "option_d": "d. Compile Error",
+        "correct_answer": "a",
+        "explanation": "The condition (x % 2 == 0) is true, so the result is 'Even'."
+      }
+    ]
+  }
+  

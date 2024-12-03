@@ -43,6 +43,24 @@ python.addEventListener("click", (e) => {
     location.href="quiz.html";
 });
 
+DCN.addEventListener("click", (e) => {
+    e.preventDefault();
+    sessionStorage.setItem("quiz", "./database/DCN.json");
+    location.href="quiz.html";
+});
+
+java001.addEventListener("click", (e) => {
+    e.preventDefault();
+    sessionStorage.setItem("quiz", "./database/java1.json");
+    location.href="quiz.html";
+});
+
+java002.addEventListener("click", (e) => {
+    e.preventDefault();
+    sessionStorage.setItem("quiz", "./database/java2.json");
+    location.href="quiz.html";
+});
+
 pythonsin.addEventListener("click", (e) => {
     e.preventDefault();
     sessionStorage.setItem("quiz", "./database/pythonsin.json");

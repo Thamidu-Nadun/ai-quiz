@@ -13,6 +13,12 @@ if (quiz === "./database/ccna.json") {
   heading.textContent = "Hallucinations";
 } else if(quiz === "./database/python.json") {
   heading.textContent = "python";
+} else if(quiz === "./database/DCN.json") {
+  heading.textContent = "DCN";
+} else if(quiz === "./database/java1.json") {
+  heading.textContent = "java001";
+} else if(quiz === "./database/java2.json") {
+    heading.textContent = "java002";
 } else if(quiz === "./database/hard/python.json"){
   heading.textContent = "python | Hard";
 }

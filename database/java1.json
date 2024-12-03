@@ -1,0 +1,94 @@
+{
+    "questions": [
+        {
+            "question": "What will be the value of the variable 'sum' after executing the following code?<br><pre>int sum = 5;\nif (sum > 5)\n    sum += 10;\nelse\n    sum -= 5;</pre>",
+            "option_a": "a. 5",
+            "option_b": "b. 10",
+            "option_c": "c. 0",
+            "option_d": "d. -5",
+            "correct_answer": "c",
+            "explanation": "The condition 'sum > 5' is false, so the 'else' block executes, subtracting 5 from 'sum'."
+        },
+        {
+            "question": "Which value of 'X' satisfies the following condition?<br><pre>(X > 5) && (X < 10) && (X % 2 == 0)</pre>",
+            "option_a": "a. 4",
+            "option_b": "b. 6",
+            "option_c": "c. 8",
+            "option_d": "d. 12",
+            "correct_answer": "c",
+            "explanation": "'X' must be even and between 5 and 10, inclusive of 6 and 8. The closest value in the options is 8."
+        },
+        {
+            "question": "What will be the output of the following code?<br><pre>int x = 10;\nSystem.out.println(x++ + ++x);</pre>",
+            "option_a": "a. 21",
+            "option_b": "b. 22",
+            "option_c": "c. 23",
+            "option_d": "d. 24",
+            "correct_answer": "c",
+            "explanation": "'x++' evaluates to 10, '++x' increments and evaluates to 12. The sum is 23."
+        },
+        {
+            "question": "What will be printed by the following code?<br><pre>boolean flag = true;\nSystem.out.println(flag ? \"Yes\" : \"No\");</pre>",
+            "option_a": "a. true",
+            "option_b": "b. false",
+            "option_c": "c. Yes",
+            "option_d": "d. No",
+            "correct_answer": "c",
+            "explanation": "The ternary operator evaluates to 'Yes' since 'flag' is true."
+        },
+        {
+            "question": "What is the output of the following code?<br><pre>int a = 5;\na += a++ + ++a;\nSystem.out.println(a);</pre>",
+            "option_a": "a. 11",
+            "option_b": "b. 17",
+            "option_c": "c. 16",
+            "option_d": "d. Compile Error",
+            "correct_answer": "b",
+            "explanation": "'a++' evaluates to 5, '++a' increments to 7. So 'a += 5 + 7' results in 17."
+        },
+        {
+            "question": "What will be the output of the following code?<br><pre>String str = null;\nSystem.out.println(str == null ? \"Empty\" : str.length());</pre>",
+            "option_a": "a. null",
+            "option_b": "b. Empty",
+            "option_c": "c. 0",
+            "option_d": "d. Runtime Error",
+            "correct_answer": "b",
+            "explanation": "The ternary operator checks if 'str == null' and evaluates to 'Empty'."
+        },
+        {
+            "question": "What is the output of the following code snippet?<br><pre>int x = 10;\nSystem.out.println((x > 5 ? x - 2 : x + 2) * 2);</pre>",
+            "option_a": "a. 16",
+            "option_b": "b. 20",
+            "option_c": "c. 24",
+            "option_d": "d. 14",
+            "correct_answer": "c",
+            "explanation": "'x > 5' is true, so '(x - 2) * 2' results in 16 * 2 = 24."
+        },
+        {
+            "question": "Which statement is correct about the following code?<br><pre>int arr[] = new int[5];\nSystem.out.println(arr[0]);</pre>",
+            "option_a": "a. 0",
+            "option_b": "b. Garbage Value",
+            "option_c": "c. Compile Error",
+            "option_d": "d. Runtime Error",
+            "correct_answer": "a",
+            "explanation": "Array elements are initialized to 0 by default for integers."
+        },
+        {
+            "question": "What will be the result of this expression?<br><pre>(5 + 2) * 3 / 2 % 4</pre>",
+            "option_a": "a. 2",
+            "option_b": "b. 3",
+            "option_c": "c. 1",
+            "option_d": "d. 0",
+            "correct_answer": "b",
+            "explanation": "The expression evaluates as '21 / 2 % 4 = 3'."
+        },
+        {
+            "question": "Which operator has the highest precedence in the following code?<br><pre>int result = 5 + 2 * 3 - 4 / 2;</pre>",
+            "option_a": "a. +",
+            "option_b": "b. *",
+            "option_c": "c. -",
+            "option_d": "d. /",
+            "correct_answer": "b",
+            "explanation": "Multiplication (*) and division (/) have higher precedence over addition and subtraction."
+        }
+    ]
+}

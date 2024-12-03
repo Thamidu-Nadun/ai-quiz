@@ -1,0 +1,85 @@
+{
+    "questions": [
+        {
+            "question": "Which keyword is used to declare a constant in Java?<br>",
+            "option_a": "a. static",
+            "option_b": "b. final",
+            "option_c": "c. const",
+            "option_d": "d. permanent",
+            "correct_answer": "b",
+            "explanation": "The 'final' keyword is used to declare constants in Java. Once assigned, its value cannot be changed."
+        },
+        {
+            "question": "What happens when float or double values are stored with more digits than the type can represent?<br>",
+            "option_a": "a. The extra digits are rounded.",
+            "option_b": "b. The number is stored as an integer.",
+            "option_c": "c. The program throws an error.",
+            "option_d": "d. The extra digits are truncated.",
+            "correct_answer": "d",
+            "explanation": "When float or double values exceed their precision, the extra digits are truncated, which may lead to small inaccuracies."
+        },
+        {
+            "question": "Why is it not recommended to compare float or double values using '==' or '!=' relational operators?<br>",
+            "option_a": "a. They throw a runtime error.",
+            "option_b": "b. Float and double values cannot be compared at all.",
+            "option_c": "c. Precision errors might cause inaccurate results.",
+            "option_d": "d. It is slower than using other operators.",
+            "correct_answer": "c",
+            "explanation": "Due to truncation and rounding errors in float and double types, using '==' or '!=' can lead to inaccurate comparisons."
+        },
+        {
+            "question": "Which of the following is NOT a standard library in Java?<br>",
+            "option_a": "a. java.util",
+            "option_b": "b. java.io",
+            "option_c": "c. javax.swing",
+            "option_d": "d. numpy",
+            "correct_answer": "d",
+            "explanation": "'numpy' is not a Java library; it is a Python library for numerical computations."
+        },
+        {
+            "question": "What is the purpose of the following line of code?<br>\n<pre>import java.util.Scanner;</pre><br>",
+            "option_a": "a. To declare a Scanner object.",
+            "option_b": "b. To create a library file.",
+            "option_c": "c. To allow use of the Scanner class for user input.",
+            "option_d": "d. To save user input in a file.",
+            "correct_answer": "c",
+            "explanation": "The import statement enables the use of the Scanner class from the java.util library to handle user input."
+        },
+        {
+            "question": "Which Scanner method is used to capture an integer input?<br>",
+            "option_a": "a. input.next()",
+            "option_b": "b. input.nextInt()",
+            "option_c": "c. input.readInt()",
+            "option_d": "d. input.getInt()",
+            "correct_answer": "b",
+            "explanation": "The 'nextInt()' method from the Scanner class is used to capture integer inputs from the user."
+        },
+        {
+            "question": "What will the following code output if the user enters 'Hello'?<br>\n<pre>import java.util.Scanner;\n\npublic class Main {\n  public static void main(String[] args) {\n    Scanner input = new Scanner(System.in);\n    System.out.print(\"Enter a string: \");\n    String str = input.next();\n    System.out.println(\"You entered: \" + str);\n  }\n}</pre><br>",
+            "option_a": "a. Enter a string: Hello<br>You entered: Hello",
+            "option_b": "b. Enter a string: Hello<br>You entered: H",
+            "option_c": "c. Compile Error",
+            "option_d": "d. Runtime Error",
+            "correct_answer": "a",
+            "explanation": "The 'next()' method captures the next token (a word delimited by whitespace). Here, 'Hello' is captured and displayed."
+        },
+        {
+            "question": "What is the result of the following code segment?<br>\n<pre>char ch = 'B';\nint num = ch - 'A';\nSystem.out.println(num);</pre><br>",
+            "option_a": "a. 1",
+            "option_b": "b. 2",
+            "option_c": "c. 3",
+            "option_d": "d. Compile Error",
+            "correct_answer": "b",
+            "explanation": "In ASCII, 'B' is 66 and 'A' is 65. Subtracting their values results in 66 - 65 = 1."
+        },
+        {
+            "question": "Write a Java program to calculate the area of a circle based on the given pseudocode:<br>\n1. Import the Scanner class.<br>\n2. Create a Scanner object.<br>\n3. Prompt the user for the radius.<br>\n4. Calculate area = π * radius * radius.<br>\n5. Print the result.<br>",
+            "option_a": "a. Compile Error",
+            "option_b": "b. Runtime Error",
+            "option_c": "c. A correctly functioning program",
+            "option_d": "d. Missing logic for radius",
+            "correct_answer": "c",
+            "explanation": "The given steps correspond to a valid program structure for calculating the circle's area."
+        }
+    ]
+}

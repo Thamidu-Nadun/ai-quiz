@@ -1,0 +1,185 @@
+{
+    "questions": [
+      {
+        "question": "What are the main operations performed by a computer?",
+        "option_a": "a. Process data and protect resources",
+        "option_b": "b. Store data, process it, and enable communication",
+        "option_c": "c. Analyze data only",
+        "option_d": "d. Store data only",
+        "correct_answer": "b",
+        "explanation": "A computer stores data, processes it quickly, protects resources, analyzes data, and enables communication."
+      },
+      {
+        "question": "Which step of the Software Development Life Cycle involves compiling and debugging?",
+        "option_a": "a. Analysis",
+        "option_b": "b. Design",
+        "option_c": "c. Implementation",
+        "option_d": "d. Testing",
+        "correct_answer": "d",
+        "explanation": "Testing involves compiling, debugging, and checking the software for errors."
+      },
+      {
+        "question": "What is a programming language?",
+        "option_a": "a. A tool for designing hardware",
+        "option_b": "b. A set of rules to instruct a computer",
+        "option_c": "c. A translator for converting code",
+        "option_d": "d. A collection of software utilities",
+        "correct_answer": "b",
+        "explanation": "Programming languages provide a set of rules to tell a computer what operations to perform."
+      },
+      {
+        "question": "Which of the following is TRUE about algorithms?",
+        "option_a": "a. They are written in a specific programming language.",
+        "option_b": "b. They contain ambiguous instructions.",
+        "option_c": "c. They provide a clear, step-by-step process to solve a problem.",
+        "option_d": "d. They must be executed without testing.",
+        "correct_answer": "c",
+        "explanation": "Algorithms clearly define a step-by-step process to solve problems."
+      },
+      {
+        "question": "What is pseudocode?",
+        "option_a": "a. A high-level programming language",
+        "option_b": "b. A formal representation of an algorithm",
+        "option_c": "c. A simplified way of describing algorithms in plain English",
+        "option_d": "d. A machine code representation",
+        "correct_answer": "c",
+        "explanation": "Pseudocode is an informal, language-independent way to describe an algorithm."
+      },
+      {
+        "question": "Which control structure allows repeating a block of code?",
+        "option_a": "a. Sequence",
+        "option_b": "b. Selection",
+        "option_c": "c. Iteration",
+        "option_d": "d. Compilation",
+        "correct_answer": "c",
+        "explanation": "Iteration is used to repeat a block of code until a condition is met."
+      },
+      {
+        "question": "What will the following Java code print?\n\nint a = 5;\nint b = 3;\nint c = a * b - a;\nSystem.out.println(c);",
+        "option_a": "a. 8",
+        "option_b": "b. 12",
+        "option_c": "c. 15",
+        "option_d": "d. Compile Error",
+        "correct_answer": "b",
+        "explanation": "The result of 5 * 3 - 5 is 15 - 5 = 12."
+      },
+      {
+        "question": "Which of the following is a low-level programming language?",
+        "option_a": "a. Python",
+        "option_b": "b. Assembly",
+        "option_c": "c. Java",
+        "option_d": "d. Visual Basic",
+        "correct_answer": "b",
+        "explanation": "Assembly language is a low-level programming language."
+      },
+      {
+        "question": "What is the result of compiling Java code if syntax errors exist?",
+        "option_a": "a. The program runs with errors.",
+        "option_b": "b. The compiler skips the errors.",
+        "option_c": "c. The compiler halts and displays the errors.",
+        "option_d": "d. The program executes partially.",
+        "correct_answer": "c",
+        "explanation": "Compilation halts if syntax errors are found, and the errors are displayed."
+      },
+      {
+        "question": "Why is Java considered platform-independent?",
+        "option_a": "a. It uses machine code.",
+        "option_b": "b. It uses a translator for each machine.",
+        "option_c": "c. It generates bytecode executed by the JVM.",
+        "option_d": "d. It doesn't require compilation.",
+        "correct_answer": "c",
+        "explanation": "Java's bytecode is platform-independent and executed by the JVM."
+      },
+      {
+        "question": "What does the term 'debugging' refer to?",
+        "option_a": "a. Translating source code into machine code",
+        "option_b": "b. Fixing errors in the program",
+        "option_c": "c. Writing the algorithm",
+        "option_d": "d. Designing test cases",
+        "correct_answer": "b",
+        "explanation": "Debugging involves identifying and fixing errors in the program."
+      },
+      {
+        "question": "Which of the following is an example of a machine language instruction?",
+        "option_a": "a. add bonus",
+        "option_b": "b. load salary",
+        "option_c": "c. 10101010",
+        "option_d": "d. total = salary + bonus;",
+        "correct_answer": "c",
+        "explanation": "Machine language instructions consist of binary digits (0s and 1s)."
+      },
+      {
+        "question": "What is the purpose of the JVM?",
+        "option_a": "a. To compile Java code into machine code",
+        "option_b": "b. To translate Java bytecode into machine code and execute it",
+        "option_c": "c. To write Java source code",
+        "option_d": "d. To debug Java programs",
+        "correct_answer": "b",
+        "explanation": "The JVM interprets bytecode into native machine code and runs the program."
+      },
+      {
+        "question": "What is the primary role of translators in programming?",
+        "option_a": "a. To execute programs",
+        "option_b": "b. To convert code into human-readable format",
+        "option_c": "c. To translate high-level languages into machine language",
+        "option_d": "d. To identify logical errors",
+        "correct_answer": "c",
+        "explanation": "Translators like assemblers, compilers, and interpreters convert high-level or assembly language into machine language."
+      },
+      {
+        "question": "What will be the output of the following code segment?\n\nchar ch = 'F';\nint val = ch - 'C';\nSystem.out.println(val);",
+        "option_a": "a. 3",
+        "option_b": "b. 4",
+        "option_c": "c. 2",
+        "option_d": "d. 5",
+        "correct_answer": "a",
+        "explanation": "The ASCII value difference between 'F' (70) and 'C' (67) is 3."
+      },
+      {
+        "question": "What happens during the deployment phase of the Software Development Life Cycle?",
+        "option_a": "a. Writing algorithms",
+        "option_b": "b. Distributing the software to users",
+        "option_c": "c. Debugging the program",
+        "option_d": "d. Designing test cases",
+        "correct_answer": "b",
+        "explanation": "Deployment involves releasing the software for users to install and use."
+      },
+      {
+        "question": "What is the purpose of using algorithms in programming?",
+        "option_a": "a. To create machine code",
+        "option_b": "b. To design a step-by-step solution",
+        "option_c": "c. To debug programs",
+        "option_d": "d. To write pseudocode",
+        "correct_answer": "b",
+        "explanation": "Algorithms provide a precise step-by-step solution to problems."
+      },
+      {
+        "question": "Which of the following is a characteristic of sequence control structure?",
+        "option_a": "a. Executes statements based on conditions",
+        "option_b": "b. Repeats tasks",
+        "option_c": "c. Executes tasks in a linear order",
+        "option_d": "d. Skips tasks based on conditions",
+        "correct_answer": "c",
+        "explanation": "Sequence control structure performs tasks sequentially in a logical order."
+      },
+      {
+        "question": "Which of the following is an example of a high-level programming language?",
+        "option_a": "a. Assembly",
+        "option_b": "b. C++",
+        "option_c": "c. Machine code",
+        "option_d": "d. Binary",
+        "correct_answer": "b",
+        "explanation": "C++ is a high-level language with syntax closer to English."
+      },
+      {
+        "question": "What is the result of this pseudocode?\n\nMAIN\nDEFINE x AS INTEGER\nx = 10\nx = x - 3\nPRINT x\nENDMAIN",
+        "option_a": "a. 3",
+        "option_b": "b. 7",
+        "option_c": "c. 10",
+        "option_d": "d. Compile Error",
+        "correct_answer": "b",
+        "explanation": "The value of x starts at 10 and decreases by 3, resulting in 7."
+      }
+    ]
+  }
+  

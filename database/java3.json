@@ -1,0 +1,77 @@
+{
+    "questions": [
+        {
+            "question": "What is the correct sequence to execute a Java program?",
+            "option_a": "a. Write pseudocode, save as .java file, compile to bytecode, execute",
+            "option_b": "b. Write code directly, save as .java file, execute",
+            "option_c": "c. Save code as .class file, compile, then execute",
+            "option_d": "d. Compile code directly to .exe file",
+            "correct_answer": "a",
+            "explanation": "The correct process involves writing pseudocode, converting it to Java code, saving it as a .java file, compiling it to bytecode, and then executing the bytecode."
+        },
+        {
+            "question": "Which of the following is an example of a valid Java comment?",
+            "option_a": "a. */ This is a valid comment /*",
+            "option_b": "b. <!-- This is a comment -->",
+            "option_c": "c. /* This is a block-line comment */",
+            "option_d": "d. `# This is a comment`",
+            "correct_answer": "c",
+            "explanation": "In Java, block-line comments are enclosed within /* and */."
+        },
+        {
+            "question": "Which of these variable names is valid in Java?",
+            "option_a": "a. Tax%",
+            "option_b": "b. 2BeOrNot2Be",
+            "option_c": "c. DistanceInFeet",
+            "option_d": "d. Number Of Values",
+            "correct_answer": "c",
+            "explanation": "Valid Java variable names cannot begin with digits or contain spaces or special characters like %. 'DistanceInFeet' is valid."
+        },
+        {
+            "question": "What is the output of the following code?\n\n```java\nint a = 5;\na = a + 3 * 2;\nSystem.out.println(a);\n```",
+            "option_a": "a. 16",
+            "option_b": "b. 21",
+            "option_c": "c. 11",
+            "option_d": "d. Compile Error",
+            "correct_answer": "a",
+            "explanation": "Operator precedence dictates multiplication before addition. The result is 5 + (3 * 2) = 16."
+        },
+        {
+            "question": "What will be the value of 'b' after the following code executes?\n\n```java\nint a = 10, b;\nb = ++a;\n```",
+            "option_a": "a. 10",
+            "option_b": "b. 11",
+            "option_c": "c. 12",
+            "option_d": "d. Compile Error",
+            "correct_answer": "b",
+            "explanation": "The '++a' operator increments the value of 'a' before assignment, so b is assigned 11."
+        },
+        {
+            "question": "Which of the following is a correct use of the cast operator?",
+            "option_a": "a. int x = (double) 5.5;",
+            "option_b": "b. double y = 5;",
+            "option_c": "c. float z = (float) 5.5;",
+            "option_d": "d. char c = (int) 'A';",
+            "correct_answer": "c",
+            "explanation": "The cast operator '(float)' is correctly used to convert a double value to a float."
+        },
+        {
+            "question": "What is the output of the following relational expression?\n\n```java\nint x = 10;\nSystem.out.println(x > 5 && x < 15);\n```",
+            "option_a": "a. true",
+            "option_b": "b. false",
+            "option_c": "c. Compile Error",
+            "option_d": "d. None of the above",
+            "correct_answer": "a",
+            "explanation": "Both conditions in the logical 'AND' expression are true, so the result is 'true'."
+        },
+        {
+            "question": "Which operator is used to assign and add a value in a single step?",
+            "option_a": "a. +=",
+            "option_b": "b. ++",
+            "option_c": "c. =+",
+            "option_d": "d. +=+",
+            "correct_answer": "a",
+            "explanation": "The '+=' operator adds the right-hand value to the variable and assigns the result to the same variable."
+        }
+    ]
+  }
+  

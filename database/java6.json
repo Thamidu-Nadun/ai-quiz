@@ -1,0 +1,76 @@
+{
+    "questions": [
+        {
+            "question": "Which of the following is NOT a repetition statement in Java?<br>",
+            "option_a": "a. while loop",
+            "option_b": "b. for loop",
+            "option_c": "c. if loop",
+            "option_d": "d. do-while loop",
+            "correct_answer": "c",
+            "explanation": "'if' is a conditional statement, not a repetition (looping) statement."
+        },
+        {
+            "question": "What is a key characteristic of counter-controlled repetition?<br>",
+            "option_a": "a. The loop terminates based on a sentinel value.",
+            "option_b": "b. The number of iterations is known before the loop begins.",
+            "option_c": "c. The condition is always true.",
+            "option_d": "d. It doesn't require an increment or decrement statement.",
+            "correct_answer": "b",
+            "explanation": "In counter-controlled repetition, the number of iterations is predetermined and managed by a control variable."
+        },
+        {
+            "question": "What is the output of the following code?<br>\n<pre>int i = 1;\nwhile (i <= 5) {\n  System.out.print(i + \" \");\n  i++;\n}</pre><br>",
+            "option_a": "a. 1 2 3 4 5",
+            "option_b": "b. 1 2 3 4",
+            "option_c": "c. 1 2 3 4 5 6",
+            "option_d": "d. Compile Error",
+            "correct_answer": "a",
+            "explanation": "The loop runs while 'i <= 5', printing values from 1 to 5. After each iteration, 'i' is incremented."
+        },
+        {
+            "question": "How does a sentinel-controlled loop differ from a counter-controlled loop?<br>",
+            "option_a": "a. Sentinel-controlled loops run indefinitely.",
+            "option_b": "b. Sentinel-controlled loops rely on a predefined counter.",
+            "option_c": "c. Sentinel-controlled loops terminate based on a specific input or condition.",
+            "option_d": "d. Sentinel-controlled loops execute a fixed number of times.",
+            "correct_answer": "c",
+            "explanation": "Sentinel-controlled loops continue until a specific value (sentinel) is encountered."
+        },
+        {
+            "question": "What will the following code output if the user inputs the numbers 10, 20, 30, -1?<br>\n<pre>import java.util.Scanner;\n\npublic class Main {\n  public static void main(String[] args) {\n    Scanner input = new Scanner(System.in);\n    int number;\n    System.out.println(\"Enter numbers (-1 to end):\");\n    number = input.nextInt();\n    while (number != -1) {\n      System.out.print(number + \" \");\n      number = input.nextInt();\n    }\n    System.out.println(\"End of Program\");\n  }\n}</pre><br>",
+            "option_a": "a. 10 20 30 End of Program",
+            "option_b": "b. 10 20 30 -1 End of Program",
+            "option_c": "c. Compile Error",
+            "option_d": "d. Runtime Error",
+            "correct_answer": "a",
+            "explanation": "The loop continues to print input numbers until -1 is entered, which terminates the loop."
+        },
+        {
+            "question": "Which part of a while loop determines when it will stop executing?<br>",
+            "option_a": "a. The initialization statement",
+            "option_b": "b. The condition",
+            "option_c": "c. The increment/decrement statement",
+            "option_d": "d. The print statement inside the loop",
+            "correct_answer": "b",
+            "explanation": "The condition in the while loop determines whether the loop will continue or terminate."
+        },
+        {
+            "question": "What will the following code print?<br>\n<pre>int sum = 0;\nfor (int i = 1; i <= 5; i++) {\n  sum += i;\n}\nSystem.out.println(\"Sum: \" + sum);</pre><br>",
+            "option_a": "a. Sum: 15",
+            "option_b": "b. Sum: 10",
+            "option_c": "c. Sum: 5",
+            "option_d": "d. Compile Error",
+            "correct_answer": "a",
+            "explanation": "The loop iterates 5 times, adding 1, 2, 3, 4, and 5 to 'sum'. The final sum is 15."
+        },
+        {
+            "question": "Write a Java program to find the average of five numbers entered by the user.<br>\n1. Use a 'while' loop.<br>\n2. Prompt the user for input during each iteration.<br>\n3. Calculate the average after exiting the loop.<br>",
+            "option_a": "a. Compile Error",
+            "option_b": "b. Runtime Error",
+            "option_c": "c. A program that calculates the average correctly",
+            "option_d": "d. Missing logic for user input",
+            "correct_answer": "c",
+            "explanation": "The steps align with a valid approach to finding the average of numbers using a 'while' loop."
+        }
+    ]
+}
