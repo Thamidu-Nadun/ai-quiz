@@ -61,6 +61,36 @@ java002.addEventListener("click", (e) => {
     location.href="quiz.html";
 });
 
+fc2.addEventListener("click", (e) => {
+    e.preventDefault();
+    sessionStorage.setItem("quiz", "./database/exams/fc2.json");
+    location.href="quiz.html";
+});
+
+fc3.addEventListener("click", (e) => {
+    e.preventDefault();
+    sessionStorage.setItem("quiz", "./database/exams/fc3.json");
+    location.href="quiz.html";
+});
+
+fc4.addEventListener("click", (e) => {
+    e.preventDefault();
+    sessionStorage.setItem("quiz", "./database/exams/fc4.json");
+    location.href="quiz.html";
+});
+
+fc5.addEventListener("click", (e) => {
+    e.preventDefault();
+    sessionStorage.setItem("quiz", "./database/exams/fc5.json");
+    location.href="quiz.html";
+});
+
+fc6.addEventListener("click", (e) => {
+    e.preventDefault();
+    sessionStorage.setItem("quiz", "./database/exams/fc6.json");
+    location.href="quiz.html";
+});
+
 pythonsin.addEventListener("click", (e) => {
     e.preventDefault();
     sessionStorage.setItem("quiz", "./database/pythonsin.json");

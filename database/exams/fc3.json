@@ -1,0 +1,112 @@
+{
+    "questions": [
+        {
+            "question": "What is the fundamental way computers store and process data?",
+            "option_a": "A. Using analog signals",
+            "option_b": "B. Using binary number system (0 and 1)",
+            "option_c": "C. Using decimal numbers",
+            "option_d": "D. Using hexadecimal numbers",
+            "correct_answer": "B",
+            "explanation": "Computers are digital devices that recognize only two discrete states: on or off, which is represented by the binary number system using 0 and 1."
+        },
+        {
+            "question": "How many bits make up one byte?",
+            "option_a": "A. 4 bits",
+            "option_b": "B. 6 bits",
+            "option_c": "C. 8 bits",
+            "option_d": "D. 10 bits",
+            "correct_answer": "C",
+            "explanation": "1 Byte = 8 Bits. This is a standard measurement in computer data storage."
+        },
+        {
+            "question": "What is the purpose of ASCII representation?",
+            "option_a": "A. To represent complex mathematical equations",
+            "option_b": "B. To assign a unique number to each character",
+            "option_c": "C. To create encryption codes",
+            "option_d": "D. To compress image files",
+            "correct_answer": "B",
+            "explanation": "ASCII (American Standard Code for Information Interchange) assigns a unique number to each character, allowing computers to store and process text."
+        },
+        {
+            "question": "What is the advantage of using hexadecimal number system?",
+            "option_a": "A. It uses fewer digits than binary",
+            "option_b": "B. It can represent more complex calculations",
+            "option_c": "C. It eliminates the difficulties of performing arithmetic with 32 and 64-bit values",
+            "option_d": "D. It is easier to read for humans",
+            "correct_answer": "A",
+            "explanation": "Hexadecimal numbers are often used instead of binary because they can represent binary numbers in a more compact form, with each hexadecimal digit representing 4 binary bits."
+        },
+        {
+            "question": "What are the four segment registers in 8086 microprocessor?",
+            "option_a": "A. AX, BX, CX, DX",
+            "option_b": "B. CS, DS, SS, ES",
+            "option_c": "C. SP, BP, SI, DI",
+            "option_d": "D. IP, FLAGS, PC, F",
+            "correct_answer": "B",
+            "explanation": "The 8086 microprocessor has four segment registers: Code Segment (CS), Data Segment (DS), Stack Segment (SS), and Extra Segment (ES)."
+        },
+        {
+            "question": "What is the primary difference between CISC and RISC architectures?",
+            "option_a": "A. CISC uses more complex hardware, RISC uses simpler hardware",
+            "option_b": "B. RISC uses more complex hardware, CISC uses simpler hardware",
+            "option_c": "C. They are exactly the same",
+            "option_d": "D. CISC and RISC only differ in their programming languages",
+            "correct_answer": "A",
+            "explanation": "CISC (Complex Instruction Set Computer) has complex processor hardware and can complete tasks in fewer assembly lines, while RISC (Reduced Instruction Set Computer) uses simpler hardware with more basic instructions."
+        },
+        {
+            "question": "What is digitization?",
+            "option_a": "A. Creating digital art",
+            "option_b": "B. Designing computer hardware",
+            "option_c": "C. Converting information into digital data that can be manipulated by electronic devices",
+            "option_d": "D. Encrypting computer files",
+            "correct_answer": "C",
+            "explanation": "Digitization is the process of converting information like text, numbers, photos, or music into digital data that can be manipulated by electronic devices."
+        },
+        {
+            "question": "What does the Instruction Pointer (IP) do in the 8086 microprocessor?",
+            "option_a": "A. It controls the CPU's arithmetic operations",
+            "option_b": "B. It contains the address of the next instruction of the program",
+            "option_c": "C. It manages input/output operations",
+            "option_d": "D. It stores temporary data during program execution",
+            "correct_answer": "B",
+            "explanation": "The Instruction Pointer (IP) contains the address of the next instruction of the program, also known as the Program Counter (PC)."
+        },
+        {
+            "question": "What are the two main steps in an instruction cycle?",
+            "option_a": "A. Input and Output",
+            "option_b": "B. Compile and Execute",
+            "option_c": "C. Fetch cycle and Execute cycle",
+            "option_d": "D. Load and Store",
+            "correct_answer": "C",
+            "explanation": "The instruction cycle consists of two steps: the Fetch cycle (where the processor fetches the instruction from memory) and the Execute cycle (where the processor reads and executes the instruction)."
+        },
+        {
+            "question": "In Unicode, what makes it unique compared to ASCII?",
+            "option_a": "A. It uses fewer bits",
+            "option_b": "B. It provides a unique number for every character, regardless of platform, program, or language",
+            "option_c": "C. It only works with English characters",
+            "option_d": "D. It is less comprehensive than ASCII",
+            "correct_answer": "B",
+            "explanation": "Unicode provides a unique number for every character, regardless of the platform, program, or language, making it a more universal character encoding system."
+        },
+        {
+            "question": "What is the maximum memory that can be addressed with 32 bits?",
+            "option_a": "A. 2 GB",
+            "option_b": "B. 4 GB",
+            "option_c": "C. 8 GB",
+            "option_d": "D. 16 GB",
+            "correct_answer": "B",
+            "explanation": "With 32 bits, you can have 2^32 = 4 GB of memory. Each bit doubles the possible memory locations."
+        },
+        {
+            "question": "What does the W bit represent in the 8086 instruction format?",
+            "option_a": "A. Word length of the instruction",
+            "option_b": "B. Transfer direction",
+            "option_c": "C. Word or byte transfer",
+            "option_d": "D. Write operation",
+            "correct_answer": "C",
+            "explanation": "In the 8086 instruction format, if W=0, only a byte (8 bits) is being transferred. If W=1, a whole word (16 bits) is being transferred."
+        }
+    ]
+}

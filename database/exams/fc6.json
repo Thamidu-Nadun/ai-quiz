@@ -1,0 +1,49 @@
+{
+    "questions": [
+        {
+            "question": "What is a latch in digital logic circuits?",
+            "option_a": "A. A complex mathematical calculation device",
+            "option_b": "B. A single bit memory device constructed from logic gates",
+            "option_c": "C. A type of computer processor",
+            "option_d": "D. A random signal generator",
+            "correct_answer": "B",
+            "explanation": "According to the lecture notes, a latch is a single bit memory device constructed from logic gates that converts output instantly based on its inputs."
+        },
+        {
+            "question": "What is the primary purpose of clock signals in digital circuits?",
+            "option_a": "A. To generate random pulses",
+            "option_b": "B. To maintain precise timing in circuits",
+            "option_c": "C. To encrypt digital information",
+            "option_d": "D. To increase processing speed",
+            "correct_answer": "B",
+            "explanation": "The lecture notes state that clock signals are used to maintain the desired timing in circuits, emitting pulse trains of precise repetition interval and width."
+        },
+        {
+            "question": "What distinguishes a flip-flop from a latch?",
+            "option_a": "A. Flip-flops cannot store data",
+            "option_b": "B. Flip-flops change output only when a clock signal transitions",
+            "option_c": "C. Flip-flops are always random in their output",
+            "option_d": "D. Flip-flops have no input signals",
+            "correct_answer": "B",
+            "explanation": "The lecture notes define a flip-flop as a device that changes its output state only when a clock signal makes a transition from low to high or high to low."
+        },
+        {
+            "question": "What is a key application of connecting flip-flops in series?",
+            "option_a": "A. Creating complex mathematical equations",
+            "option_b": "B. Creating a shift register for serial-to-parallel or parallel-to-serial conversion",
+            "option_c": "C. Generating random number sequences",
+            "option_d": "D. Encrypting digital data",
+            "correct_answer": "B",
+            "explanation": "The lecture notes explain that flip-flops connected in series form a shift register, which has applications in serial-to-parallel and parallel-to-serial conversions."
+        },
+        {
+            "question": "What are the primary functions of registers in digital systems?",
+            "option_a": "A. To generate random numbers",
+            "option_b": "B. To store data, load data from multiple sources, and perform operations on register contents",
+            "option_c": "C. To encrypt digital information",
+            "option_d": "D. To create complex mathematical algorithms",
+            "correct_answer": "B",
+            "explanation": "According to the lecture notes, registers are used for storing data, loading data from multiple sources, and performing operations on register contents."
+        }
+    ]
+}

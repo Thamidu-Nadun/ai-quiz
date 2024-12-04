@@ -1,0 +1,94 @@
+{
+    "questions": [
+        {
+            "question": "Who invented the Analytical Engine?",
+            "option_a": "A. Alan Turing",
+            "option_b": "B. Charles Babbage",
+            "option_c": "C. Ada Lovelace",
+            "option_d": "D. John von Neumann",
+            "correct_answer": "B",
+            "explanation": "The Analytical Engine was developed by Charles Babbage as a general-purpose programmable computing device that could be programmed using punched cards and supported branching operations and nested loops."
+        },
+        {
+            "question": "What was unique about ENIAC when it was implemented in 1945?",
+            "option_a": "A. It was the first computer with a graphical interface",
+            "option_b": "B. It was the world's first large-scale digital electronic general-purpose computer",
+            "option_c": "C. It used transistors for processing",
+            "option_d": "D. It was portable and lightweight",
+            "correct_answer": "B",
+            "explanation": "ENIAC was the world's first large-scale digital electronic general-purpose computer. It consumed 150 kilowatts of electricity, occupied 1,800 square feet of floor space, and weighed 27 tons."
+        },
+        {
+            "question": "According to von Neumann architecture, what key innovation was proposed?",
+            "option_a": "A. Using color monitors",
+            "option_b": "B. Creating specialized hardware for each task",
+            "option_c": "C. Storing programs and data in memory that can be easily changed",
+            "option_d": "D. Using vacuum tubes for computing",
+            "correct_answer": "C",
+            "explanation": "John von Neumann proposed that programs and data can be stored in a memory device, allowing programs to be changed easily without rewiring the machine."
+        },
+        {
+            "question": "What was the data bus width of the Intel 8086 microprocessor?",
+            "option_a": "A. 8 bits",
+            "option_b": "B. 16 bits",
+            "option_c": "C. 32 bits",
+            "option_d": "D. 64 bits",
+            "correct_answer": "B",
+            "explanation": "The 8086 microprocessor had an external data bus width of 16 bits, which allowed faster data access compared to previous processors."
+        },
+        {
+            "question": "What was a key feature of the 80386 microprocessor?",
+            "option_a": "A. It was an 8-bit processor",
+            "option_b": "B. It was incompatible with previous processors",
+            "option_c": "C. It was a 32-bit processor with backward compatibility",
+            "option_d": "D. It did not support multitasking",
+            "correct_answer": "C",
+            "explanation": "The 80386, introduced in 1985, was a 32-bit processor that maintained backward compatibility with the 80286 and 8088 processors."
+        },
+        {
+            "question": "What processor did the first iPhone use?",
+            "option_a": "A. Intel 8086",
+            "option_b": "B. ARM9",
+            "option_c": "C. 32-bit ARM11",
+            "option_d": "D. x86 processor",
+            "correct_answer": "C",
+            "explanation": "The first iPhone used a 32-bit ARM11 processor manufactured by Samsung, running at 412 MHz with an 8-stage instruction pipeline."
+        },
+        {
+            "question": "What operating system did the first iPhone run?",
+            "option_a": "A. Windows Mobile",
+            "option_b": "B. Android",
+            "option_c": "C. iOS",
+            "option_d": "D. OS X",
+            "correct_answer": "D",
+            "explanation": "The first iPhone ran the OS X operating system, the same OS used on Macintosh computers at the time, which enabled support for a wide range of existing applications."
+        },
+        {
+            "question": "What were the specifications of the first iPhone's screen?",
+            "option_a": "A. 4.7 inches with 640x1136 resolution",
+            "option_b": "B. 3.5 inches with 320x480 resolution",
+            "option_c": "C. 5.5 inches with 1920x1080 resolution",
+            "option_d": "D. 4 inches with 640x960 resolution",
+            "correct_answer": "B",
+            "explanation": "The first iPhone had a 3.5-inch screen with a resolution of 320x480 pixels and was 0.46 inches thick."
+        },
+        {
+            "question": "What type of bus system helps transfer data to and from the CPU?",
+            "option_a": "A. Address Bus",
+            "option_b": "B. Control Bus",
+            "option_c": "C. Data Bus",
+            "option_d": "D. Memory Bus",
+            "correct_answer": "C",
+            "explanation": "The Data Bus transfers data and instructions to and from the CPU, allowing information exchange between different computer components."
+        },
+        {
+            "question": "Which microprocessor was the first member of the x86 family?",
+            "option_a": "A. 8088",
+            "option_b": "B. 80286",
+            "option_c": "C. 8086",
+            "option_d": "D. 80386",
+            "correct_answer": "C",
+            "explanation": "The Intel 8086 microprocessor, released in 1970, was the first member of the x86 family of microprocessors."
+        }
+    ]
+}

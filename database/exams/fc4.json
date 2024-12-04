@@ -1,0 +1,94 @@
+{
+    "questions": [
+        {
+            "question": "What are the three fundamental properties of electrical circuits mentioned in the lecture?",
+            "option_a": "A. Voltage, Current, and Resistance",
+            "option_b": "B. Amperage, Watts, and Ohms",
+            "option_c": "C. Power, Energy, and Conductivity",
+            "option_d": "D. Frequency, Amplitude, and Wavelength",
+            "correct_answer": "A",
+            "explanation": "The lecture specifically lists Voltage, Current, and Resistance as the key properties of electrical circuits."
+        },
+        {
+            "question": "According to the lecture, what makes a transistor a crucial component in digital electronic devices?",
+            "option_a": "A. Its ability to store large amounts of data",
+            "option_b": "B. Its capability to act as a digital switching element with a small current controlling a larger current",
+            "option_c": "C. Its complex mathematical properties",
+            "option_d": "D. Its ability to generate electricity",
+            "correct_answer": "B",
+            "explanation": "The lecture notes that a transistor can use a very small current at the switching input to turn on and off a much larger current passing through it."
+        },
+        {
+            "question": "What are the key characteristics of a Logic Gate?",
+            "option_a": "A. Multiple outputs and complex inputs",
+            "option_b": "B. Analog signal processing",
+            "option_c": "C. One or more inputs and only one output based on a specific logic",
+            "option_d": "D. Random signal generation",
+            "correct_answer": "C",
+            "explanation": "The lecture defines a Logic Gate as an electronic circuit having one or more inputs and only one output, with the relationship between input and output based on a certain logic."
+        },
+        {
+            "question": "What is a key advantage of using Boolean Algebra in digital circuits?",
+            "option_a": "A. To increase power consumption",
+            "option_b": "B. To complicate circuit design",
+            "option_c": "C. To help design, analyze, and simplify Digital Circuits",
+            "option_d": "D. To increase circuit complexity",
+            "correct_answer": "C",
+            "explanation": "The lecture notes that Boolean Algebra provides a mathematical model that can help design, analyze, and simplify digital circuits."
+        },
+        {
+            "question": "What is a primary characteristic of a Combinational Circuit?",
+            "option_a": "A. It has memory and stores previous states",
+            "option_b": "B. Output depends only on current input and has no memory",
+            "option_c": "C. It uses analog signals",
+            "option_d": "D. It requires external power sources",
+            "correct_answer": "B",
+            "explanation": "The lecture describes a combinational circuit as having an output that depends only on current input and having no memory."
+        },
+        {
+            "question": "Why do we need simplification of Digital Logic Circuits?",
+            "option_a": "A. To increase circuit complexity",
+            "option_b": "B. To make circuits more difficult to understand",
+            "option_c": "C. To reduce cost, power consumption, space required, and propagation delay",
+            "option_d": "D. To add more components",
+            "correct_answer": "C",
+            "explanation": "The lecture lists reducing cost, power consumption, space required, and propagation delay as reasons for simplifying digital logic circuits."
+        },
+        {
+            "question": "Who developed the Karnaugh map (K-map)?",
+            "option_a": "A. Albert Einstein",
+            "option_b": "B. Edward W. Veitch and Maurice Karnaugh",
+            "option_c": "C. Isaac Newton",
+            "option_d": "D. Alan Turing",
+            "correct_answer": "B",
+            "explanation": "The lecture notes that the Karnaugh map was invented by Edward W. Veitch in 1952 and further developed by Maurice Karnaugh in 1953 at Bell Labs."
+        },
+        {
+            "question": "What is a minterm in K-map terminology?",
+            "option_a": "A. A random grouping of variables",
+            "option_b": "B. A product term containing all of the function's variables exactly once, either complemented or not complemented",
+            "option_c": "C. A method of circuit design",
+            "option_d": "D. A type of logic gate",
+            "correct_answer": "B",
+            "explanation": "The lecture defines a minterm as a product term that contains all of the function's variables exactly once, either complemented or not complemented."
+        },
+        {
+            "question": "What are the key rules for K-map simplification?",
+            "option_a": "A. Groupings can include 0s, diagonal groups are allowed, and group size doesn't matter",
+            "option_b": "B. Groupings can only contain 1s, groups must be at right angles, group size must be a power of 2, and groups can overlap",
+            "option_c": "C. Only diagonal groups are valid, and 0s must be grouped",
+            "option_d": "D. No specific rules apply",
+            "correct_answer": "B",
+            "explanation": "The lecture outlines specific K-map simplification rules: groupings can only contain 1s, groups must be at right angles, group size must be a power of 2, and groups can overlap and wrap around sides."
+        },
+        {
+            "question": "What is a 'don't care' condition in a K-map?",
+            "option_a": "A. A mandatory input that must be used",
+            "option_b": "B. An input that can be freely included or ignored when creating groups",
+            "option_c": "C. A type of logic gate",
+            "option_d": "D. An error in circuit design",
+            "correct_answer": "B",
+            "explanation": "The lecture describes a 'don't care' condition as an input (marked with X) that can be freely included or ignored when creating groups during K-map simplification."
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+{
+    "questions": [
+        {
+            "question": "What is the key characteristic of a Half Adder?",
+            "option_a": "A. The sum is an AND operation, and the carry is an XOR operation",
+            "option_b": "B. The sum is an XOR operation, and the carry is an AND operation",
+            "option_c": "C. Both sum and carry are OR operations",
+            "option_d": "D. Sum and carry are calculated randomly",
+            "correct_answer": "B",
+            "explanation": "The lecture notes specify that in a Half Adder, the sum is produced by XOR operation and the carry by AND operation."
+        },
+        {
+            "question": "What is the primary function of a Comparator circuit?",
+            "option_a": "A. To perform mathematical calculations",
+            "option_b": "B. To compare two input words and determine if they are equal",
+            "option_c": "C. To generate random binary sequences",
+            "option_d": "D. To convert binary to decimal",
+            "correct_answer": "B",
+            "explanation": "A comparator circuit compares two input words, with an Exclusive NOR gate producing a logic one if bits are equal and zero if unequal."
+        },
+        {
+            "question": "What is a Decoder in digital logic?",
+            "option_a": "A. A circuit that encrypts binary information",
+            "option_b": "B. A combinational circuit that converts binary inputs to unique outputs",
+            "option_c": "C. A device that multiplies binary numbers",
+            "option_d": "D. A circuit that shifts binary bits",
+            "correct_answer": "B",
+            "explanation": "A decoder is a combinational circuit that converts binary information from n coded inputs to a maximum of 2^n unique outputs."
+        },
+        {
+            "question": "What is the primary purpose of a Multiplexer (MUX)?",
+            "option_a": "A. To generate random numbers",
+            "option_b": "B. To route binary information from multiple input lines to a single output line",
+            "option_c": "C. To encrypt data",
+            "option_d": "D. To perform complex mathematical calculations",
+            "correct_answer": "B",
+            "explanation": "A multiplexer is a combinational circuit that receives binary information from one of 2^n input data lines and directs it to a single output line."
+        },
+        {
+            "question": "What is unique about a Programmable Logic Array (PLA)?",
+            "option_a": "A. It cannot be modified after manufacturing",
+            "option_b": "B. It can be programmed by blowing selected fuses to implement desired Boolean functions",
+            "option_c": "C. It only works with analog signals",
+            "option_d": "D. It is a purely mechanical device",
+            "correct_answer": "B",
+            "explanation": "PLAs can be programmed by applying high voltage to blow selected fuses, allowing designers to implement desired Boolean functions rapidly."
+        },
+        {
+            "question": "What is the primary function of an Arithmetic Logic Unit (ALU)?",
+            "option_a": "A. To generate random numbers",
+            "option_b": "B. To perform AND, OR, and sum operations of two input words",
+            "option_c": "C. To encrypt computer data",
+            "option_d": "D. To manage computer memory",
+            "correct_answer": "B",
+            "explanation": "The ALU is a circuit at the heart of a CPU that performs AND, OR, and sum operations of two input words."
+        },
+        {
+            "question": "How does a Shifter circuit work?",
+            "option_a": "A. It randomly moves bits around",
+            "option_b": "B. It shifts bits left or right based on a control signal",
+            "option_c": "C. It only moves bits to the left",
+            "option_d": "D. It cannot change bit positions",
+            "correct_answer": "B",
+            "explanation": "A shifter can perform left or right shifts controlled by a signal, with a logic one enabling right shift and a logic zero enabling left shift."
+        },
+        {
+            "question": "What is an Encoder in digital logic?",
+            "option_a": "A. A device that always increases binary values",
+            "option_b": "B. The inverse operation of a decoder with 2^n inputs and n outputs",
+            "option_c": "C. A circuit that generates random binary codes",
+            "option_d": "D. A device that only works with decimal numbers",
+            "correct_answer": "B",
+            "explanation": "An Encoder is the inverse of a decoder, with 2^n input lines and n output lines, typically implemented using OR gates."
+        },
+        {
+            "question": "How are multiple-bit ALU operations typically handled?",
+            "option_a": "A. By using a single ALU block for all bits",
+            "option_b": "B. By connecting n ALU blocks with carry-in and carry-out signals cascaded",
+            "option_c": "C. By using completely separate ALU units",
+            "option_d": "D. By randomly distributing operations",
+            "correct_answer": "B",
+            "explanation": "For an n-bit machine word, n ALU blocks must be connected, with carry-in and carry-out signals cascaded for sum operations."
+        },
+        {
+            "question": "What is a key characteristic of a Shifter's control signal?",
+            "option_a": "A. It has no effect on bit movement",
+            "option_b": "B. A logic one enables right shift, a logic zero enables left shift",
+            "option_c": "C. It always moves bits to the right",
+            "option_d": "D. It generates random bit movements",
+            "correct_answer": "B",
+            "explanation": "The shifter's control signal determines the shift direction: a logic one enables right shift, while a logic zero enables left shift."
+        }
+    ]
+}

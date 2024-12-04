@@ -21,6 +21,16 @@ if (quiz === "./database/ccna.json") {
     heading.textContent = "java002";
 } else if(quiz === "./database/hard/python.json"){
   heading.textContent = "python | Hard";
+} else if(quiz === "./database/exams/fc2.json"){
+  heading.textContent = "FC 2";
+} else if(quiz === "./database/exams/fc3.json"){
+  heading.textContent = "FC 3";
+} else if(quiz === "./database/exams/fc4.json"){
+  heading.textContent = "FC 4";
+} else if(quiz === "./database/exams/fc5.json"){
+  heading.textContent = "FC 5";
+} else if(quiz === "./database/exams/fc6.json"){
+  heading.textContent = "FC 6";
 }
 
 // Dynamic import of the JSON file using session variables.
