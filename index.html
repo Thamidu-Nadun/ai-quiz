@@ -1,199 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="theme-color" content="#e83e8c">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Quiz Questions</title>
     <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#23f6b3',
+                        secondary: '#e83e8c',
+                    }
+                }
+            }
+        };
+    </script>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            overflow-x: hidden;
-            /*background: linear-gradient(120grad, rgb(100, 57, 134), rgb(152, 174, 213));*/
-            background: #000;
-        }
-        ::-webkit-scrollbar{
-            width: 12px;
-        }
-        ::-webkit-scrollbar-track{
-            background: #fff;
-        }
-        ::-webkit-scrollbar-thumb{
-            background: linear-gradient(120grad, rgb(100, 57, 134), rgb(152, 174, 213));
-            border-radius: 10px;
-            animation: scroll-bar 0.5s;
-        }
-        .title{
-            color: rgb(255, 255, 255);
-            font-size: 1.5em;
-            width: 100vw;
-            font-family: serif;
-            text-align: center;
-            border-radius: 10px;
-            /*background: #c121ed;*/
-        }
-        .title::before{
-            content: '< ';
-        }
-        .title::after{
-            content: ' />';
-        }
-        .navbar {
-            background-color: #111;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 10px 20px;
-            color: #fff;
-        }
-        .navbar img {
-            height: 80px;
-        }
-        .navbar h1 {
-            margin: 0;
-            position: relative;
-            font-size: 24px;
-            color: aliceblue;
-        }
-        .container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: calc(100vh - 70px);
-        }
-        .card {
-            width: 1400px;
-            background-color: transparent;
-            padding: 30px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            border-radius: 8px;
-            position: relative;
-            top: 10rem;
-        }
-        .card h2 {
-            margin: 0;
-            position: absolute;
-            top: -1rem;
-            font-size: 1.5em;
-            margin-bottom: 20px;
-            color: antiquewhite;
-        }
-        .card img {
-            max-width: 100%;
-            height: 300px;
-            margin-bottom: 20px;
-        }
         .btn {
             background-color: #23f6b3;
-            color: rgb(0, 0, 0);
-            border: none;
-            padding: 10px 20px;
-            font-size: 20px;
-            cursor: pointer;
-            margin: 5px;
-            transition: 0.5s;
+            color: #1a202c;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            transition: all 300ms ease-in-out;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
         }
-        .btn:hover{
-            background-color: #5f5b5b;
-            color: aliceblue;
+
+        .btn:hover {
+            background-color: rgba(35, 246, 179, 0.8);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
         }
-        .buttons {
-            display: flex;
-            justify-content: center;
-        }
-        @media screen and (max-width:800px) {
-            .buttons{
-                display: flex;
-                flex-wrap: wrap;
-            }
-        }
-        .language{
-            color: #fff;
-            text-decoration: wavy;
-            text-decoration-line: underline;
-            text-decoration-color: #23f6b3;
+
+        .btn:focus {
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(35, 246, 179, 0.5);
         }
     </style>
 </head>
-<body>
-    <nav class="navbar">
-        <a href="index.html"><img src="logo.png" alt="Logo"></a>
-        <h1>AI Quiz Program</h1>
-    </nav><br><br>
-    <div class="container">
-        <div class="card">
-            <br>
-            <h2>Learn with AI Quiz</h2><br>
-            <img src="developer.gif" alt="Course Photo">
-            <h3 class="title">Cyber Security Quiz</h3>
-            <div class="buttons">
-                <button class="btn" id="ccna">CCNA</button>
-                <button class="btn" id="ccnabard">CCNA Bard</button>
-                <button class="btn" id="secplus">Security+</button>
-                <button class="btn" id="halluci">Hallucinations</button>
-            </div><h3 class="title">Programming Quiz</h3>
-            <div class="buttons">
-                <button class="btn" id="python">Python</button>
+
+<body class="bg-gray-900 text-white min-h-screen">
+    <nav class="bg-gray-800 shadow-lg fixed w-full z-10">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <button id="sidebarToggle" class="text-white mr-4">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+                <a href="index.html" class="flex items-center">
+                    <img src="logo.png" alt="Logo" class="h-12 w-auto">
+                </a>
             </div>
-            <h3 class="title">Computing Quiz</h3>
-            <div class="buttons">
-                <button class="btn" id="fc2">Computing - 002</button>
-                <button class="btn" id="fc3">Computing - 003</button>
-                <button class="btn" id="fc4">Computing - 004</button>
-                <button class="btn" id="fc5">Computing - 005</button>
-                <button class="btn" id="fc6">Computing - 006</button>
-            </div>
-            <h3 class="title">Fundamental Of Computing Quiz</h3>
-            <div class="buttons">
-                <button class="btn" id="FC1">Fundamental Of Computing Quiz1</button>
-                <button class="btn" id="FC2">Fundamental Of Computing Quiz2</button>
-                <button class="btn" id="FC3">Fundamental Of Computing Quiz3</button>
-                <button class="btn" id="FC4">Fundamental Of Computing Quiz4</button>
-                <button class="btn" id="FC5">Fundamental Of Computing Quiz5</button>
-                <button class="btn" id="FC6">Fundamental Of Computing Quiz6</button>
-                <button class="btn" id="FC7">Fundamental Of Computing Quiz7</button>
-                <button class="btn" id="FC8">Fundamental Of Computing Quiz8</button>
-                <button class="btn" id="FC9">Fundamental Of Computing Quiz9</button>
-            </div>
-            <h3 class="title">Programming Quiz</h3>
-            <div class="buttons">
-                <button class="btn" id="java001">JAVA - 001</button>
-                <button class="btn" id="java002">JAVA - 002</button>
-            </div>
-            <h3 class="title">DCN Quiz</h3>
-            <div class="buttons">
-                <button class="btn" id="DCN">DCN</button>
-            </div>
-            <!--easy-->
-            <h3 class="title">Easy</h3>
-            <div class="button">
-                <button class="btn" id="python">Python</button>
-            </div>
-            <!--medimum-->
-            <h3 class="title">Medimum</h3>
-            <div class="button">
-                <button class="btn" id="python">Python</button>
-            </div>
-            <!--hard-->
-            <h3 class="title">Hard</h3>
-            <div class="button">
-                <button class="btn" id="python-hard">Python</button>
-            </div>
-            
-            <h3 class="language">Other Languages</h3>
-            <h3 class="title">Sinhala</h3>
-            <div class="buttons">
-                <button class="btn" id="pythonsin">Python</button>
-            </div>
+            <h1 class="text-2xl font-bold">AI Quiz Program</h1>
+        </div>
+    </nav>
+
+    <div id="sidebar"
+        class="fixed top-0 left-0 h-full w-64 bg-gray-800 transform -translate-x-full transition-transform duration-300 ease-in-out z-20">
+        <div class="p-4 mt-16">
+            <h2 class="text-xl font-semibold mb-4">Quiz Categories</h2>
+            <ul class="space-y-2">
+                <li><a href="#cyber-security" class="block hover:text-primary">Cyber Security</a></li>
+                <li><a href="#programming" class="block hover:text-primary">Programming</a></li>
+                <li><a href="#computing" class="block hover:text-primary">Computing</a></li>
+                <li><a href="#fundamental-computing" class="block hover:text-primary">Fundamental Computing</a></li>
+                <li><a href="#dcn" class="block hover:text-primary">DCN</a></li>
+                <li><a href="#difficulty" class="block hover:text-primary">Difficulty Levels</a></li>
+                <li><a href="#other-languages" class="block hover:text-primary">Other Languages</a></li>
+            </ul>
         </div>
     </div>
+
+    <main class="container mx-auto px-4 py-8 pt-24">
+        <div class="max-w-4xl mx-auto bg-gray-800 rounded-lg shadow-xl overflow-hidden">
+            <div class="p-6">
+                <h2 class="text-3xl font-bold text-center mb-6">Learn with AI Quiz</h2>
+                <img src="developer.gif" alt="Course Photo" class="w-full h-64 object-cover mb-6 rounded-lg">
+
+                <div class="space-y-8">
+                    <section id="cyber-security">
+                        <h3 class="text-2xl font-semibold mb-4 text-primary">Cyber Security Quiz</h3>
+                        <div class="flex flex-wrap gap-2">
+                            <button class="btn" id="ccna">CCNA</button>
+                            <button class="btn" id="ccnabard">CCNA Bard</button>
+                            <button class="btn" id="secplus">Security+</button>
+                            <button class="btn" id="halluci">Hallucinations</button>
+                        </div>
+                    </section>
+
+                    <section id="programming">
+                        <h3 class="text-2xl font-semibold mb-4 text-primary">Programming Quiz</h3>
+                        <div class="flex flex-wrap gap-2">
+                            <button class="btn" id="python">Python</button>
+                            <button class="btn" id="java001">JAVA - 001</button>
+                            <button class="btn" id="java002">JAVA - 002</button>
+                        </div>
+                    </section>
+
+                    <section id="computing">
+                        <h3 class="text-2xl font-semibold mb-4 text-primary">Computing Quiz</h3>
+                        <div class="flex flex-wrap gap-2">
+                            <button class="btn" id="fc2">Computing - 002</button>
+                            <button class="btn" id="fc3">Computing - 003</button>
+                            <button class="btn" id="fc4">Computing - 004</button>
+                            <button class="btn" id="fc5">Computing - 005</button>
+                            <button class="btn" id="fc6">Computing - 006</button>
+                        </div>
+                    </section>
+
+                    <section id="fundamental-computing">
+                        <h3 class="text-2xl font-semibold mb-4 text-primary">Fundamental Of Computing Quiz</h3>
+                        <div class="flex flex-wrap gap-2">
+                            <button class="btn" id="FC1">Quiz 1</button>
+                            <button class="btn" id="FC2">Quiz 2</button>
+                            <button class="btn" id="FC3">Quiz 3</button>
+                            <button class="btn" id="FC4">Quiz 4</button>
+                            <button class="btn" id="FC5">Quiz 5</button>
+                            <button class="btn" id="FC6">Quiz 6</button>
+                            <button class="btn" id="FC7">Quiz 7</button>
+                            <button class="btn" id="FC8">Quiz 8</button>
+                            <button class="btn" id="FC9">Quiz 9</button>
+                        </div>
+                    </section>
+
+                    <section id="dcn">
+                        <h3 class="text-2xl font-semibold mb-4 text-primary">DCN Quiz</h3>
+                        <div class="flex flex-wrap gap-2">
+                            <button class="btn" id="DCN">DCN</button>
+                        </div>
+                    </section>
+
+                    <section id="difficulty">
+                        <h3 class="text-2xl font-semibold mb-4 text-primary">Difficulty Levels</h3>
+                        <div class="space-y-4">
+                            <div>
+                                <h4 class="text-xl font-semibold mb-2">Easy</h4>
+                                <button class="btn" id="python-easy">Python</button>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-semibold mb-2">Medium</h4>
+                                <button class="btn" id="python-medium">Python</button>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-semibold mb-2">Hard</h4>
+                                <button class="btn" id="python-hard">Python</button>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="other-languages">
+                        <h3 class="text-2xl font-semibold mb-4 text-secondary">Other Languages</h3>
+                        <h4 class="text-xl font-semibold mb-2 text-primary">Sinhala</h4>
+                        <div class="flex flex-wrap gap-2">
+                            <button class="btn" id="pythonsin">Python</button>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const sidebarToggle = document.getElementById('sidebarToggle');
+            const sidebar = document.getElementById('sidebar');
+
+            sidebarToggle.addEventListener('click', function () {
+                sidebar.classList.toggle('-translate-x-full');
+            });
+
+            // Close sidebar when clicking outside
+            document.addEventListener('click', function (event) {
+                if (!sidebar.contains(event.target) && !sidebarToggle.contains(event.target)) {
+                    sidebar.classList.add('-translate-x-full');
+                }
+            });
+
+            // Smooth scroll for sidebar links
+            document.querySelectorAll('#sidebar a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                    sidebar.classList.add('-translate-x-full');
+                });
+            });
+        });
+    </script>
+
     <script src="main.js"></script>
-    
 </body>
+
 </html>
+
