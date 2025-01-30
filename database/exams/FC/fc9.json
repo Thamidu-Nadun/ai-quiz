@@ -1,0 +1,130 @@
+{
+    "questions": [
+        {
+            "question": "Who introduced the Von Neumann architecture in 1945?",
+            "option_a": "Alan Turing",
+            "option_b": "John von Neumann",
+            "option_c": "Charles Babbage",
+            "option_d": "Steve Jobs",
+            "correct_answer": "B",
+            "explanation": "John von Neumann introduced this architecture, which became the basis for most computer designs."
+        },
+        {
+            "question": "What is a defining feature of the Von Neumann architecture?",
+            "option_a": "Separate memory for data and instructions",
+            "option_b": "Single memory for both data and instructions",
+            "option_c": "No memory requirement",
+            "option_d": "Specialized processors only",
+            "correct_answer": "B",
+            "explanation": "In Von Neumann architecture, both program instructions and data share the same memory space."
+        },
+        {
+            "question": "What is the primary disadvantage of Von Neumann architecture?",
+            "option_a": "High cost",
+            "option_b": "Limited memory",
+            "option_c": "Von Neumann bottleneck",
+            "option_d": "Complex hardware",
+            "correct_answer": "C",
+            "explanation": "The Von Neumann bottleneck occurs due to shared memory for data and instructions, limiting performance."
+        },
+        {
+            "question": "What does the Harvard architecture primarily use?",
+            "option_a": "A single bus for data and instructions",
+            "option_b": "Separate memory and buses for data and instructions",
+            "option_c": "No memory allocation",
+            "option_d": "Shared cache for all operations",
+            "correct_answer": "B",
+            "explanation": "Harvard architecture separates instruction and data memory, enabling simultaneous access."
+        },
+        {
+            "question": "What is one advantage of the Harvard architecture?",
+            "option_a": "It is simpler to implement",
+            "option_b": "It allows simultaneous access to instructions and data",
+            "option_c": "It uses less power",
+            "option_d": "It does not require a control unit",
+            "correct_answer": "B",
+            "explanation": "The separation of data and instruction buses enables parallel access, improving efficiency."
+        },
+        {
+            "question": "Which of the following is an application of Harvard architecture?",
+            "option_a": "General-purpose computers",
+            "option_b": "Embedded systems",
+            "option_c": "Laptops",
+            "option_d": "Data servers",
+            "correct_answer": "B",
+            "explanation": "Harvard architecture is commonly used in embedded systems and digital signal processing."
+        },
+        {
+            "question": "What does the Modified Harvard Architecture combine?",
+            "option_a": "Multiple processors",
+            "option_b": "Shared address space with separate memories",
+            "option_c": "No memory access",
+            "option_d": "A single control unit",
+            "correct_answer": "B",
+            "explanation": "Modified Harvard Architecture combines the benefits of Harvard and Von Neumann architectures by sharing address space while separating memory types."
+        },
+        {
+            "question": "Which memory technique allows data to be fetched from instruction memory when needed?",
+            "option_a": "Virtual Memory",
+            "option_b": "Cache Memory",
+            "option_c": "Unified Memory",
+            "option_d": "Paging",
+            "correct_answer": "B",
+            "explanation": "Cache memory in Modified Harvard Architecture improves speed by sharing frequently accessed data and instructions."
+        },
+        {
+            "question": "What is virtual memory used for?",
+            "option_a": "To store permanent files",
+            "option_b": "To compensate for shortages in physical memory",
+            "option_c": "To improve GPU performance",
+            "option_d": "To execute cache operations",
+            "correct_answer": "B",
+            "explanation": "Virtual memory temporarily transfers data from RAM to a swap space, allowing larger programs to run."
+        },
+        {
+            "question": "What problem does paging solve in memory management?",
+            "option_a": "Power efficiency",
+            "option_b": "External fragmentation",
+            "option_c": "Virtualization overhead",
+            "option_d": "Data synchronization",
+            "correct_answer": "B",
+            "explanation": "Paging avoids external fragmentation by dividing processes into equal-sized pages."
+        },
+        {
+            "question": "What happens during a swap operation in memory virtualization?",
+            "option_a": "Data is lost",
+            "option_b": "A process is terminated",
+            "option_c": "A process is moved between RAM and backing store",
+            "option_d": "Memory becomes read-only",
+            "correct_answer": "C",
+            "explanation": "Swapping temporarily moves a process out of memory to a backing store and brings it back when needed."
+        },
+        {
+            "question": "Which architecture suffers from a bottleneck due to a shared memory bus?",
+            "option_a": "Harvard Architecture",
+            "option_b": "Von Neumann Architecture",
+            "option_c": "Modified Harvard Architecture",
+            "option_d": "Distributed Architecture",
+            "correct_answer": "B",
+            "explanation": "Von Neumann architecture experiences bottlenecks because instructions and data share the same bus."
+        },
+        {
+            "question": "What causes external fragmentation in memory allocation?",
+            "option_a": "Insufficient memory",
+            "option_b": "Non-contiguous memory space allocation",
+            "option_c": "Excessive cache usage",
+            "option_d": "Low CPU speed",
+            "correct_answer": "B",
+            "explanation": "External fragmentation occurs when memory space is available but not contiguous."
+        },
+        {
+            "question": "What is the main advantage of virtual memory?",
+            "option_a": "Increased power consumption",
+            "option_b": "Efficient use of physical memory",
+            "option_c": "Limited program execution",
+            "option_d": "Fixed memory allocation",
+            "correct_answer": "B",
+            "explanation": "Virtual memory allows efficient utilization by loading only active parts of a program into RAM."
+        }
+    ]
+}

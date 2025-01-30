@@ -1,0 +1,139 @@
+{
+    "questions": [
+        {
+            "question": "What is the main purpose of an Operating System (OS)?",
+            "option_a": "To directly execute user applications",
+            "option_b": "To manage hardware resources and provide services for software",
+            "option_c": "To manufacture hardware components",
+            "option_d": "To replace the BIOS",
+            "correct_answer": "B",
+            "explanation": "The OS acts as an intermediary between users and hardware, managing resources and facilitating software operation."
+        },
+        {
+            "question": "Which type of OS allows multiple programs to be loaded into memory and executed simultaneously?",
+            "option_a": "Real-time OS",
+            "option_b": "Single-tasking OS",
+            "option_c": "Multiprogramming OS",
+            "option_d": "Batch OS",
+            "correct_answer": "C",
+            "explanation": "A multiprogramming OS maximizes CPU utilization by allowing multiple tasks to reside in memory simultaneously."
+        },
+        {
+            "question": "What does BIOS stand for?",
+            "option_a": "Basic Internal Operating System",
+            "option_b": "Basic Input/Output System",
+            "option_c": "Binary Information Operating System",
+            "option_d": "Basic Integrated Output System",
+            "correct_answer": "B",
+            "explanation": "BIOS stands for Basic Input/Output System and is responsible for starting the computer during booting."
+        },
+        {
+            "question": "What is the primary function of a device driver?",
+            "option_a": "To execute all system commands",
+            "option_b": "To manage memory allocation",
+            "option_c": "To provide a software interface to hardware devices",
+            "option_d": "To control file system operations",
+            "correct_answer": "C",
+            "explanation": "Device drivers enable communication between the operating system and hardware devices."
+        },
+        {
+            "question": "What process does BIOS perform after powering on the computer?",
+            "option_a": "Installing drivers",
+            "option_b": "Power-On Self Test (POST)",
+            "option_c": "Launching the task manager",
+            "option_d": "Scanning for viruses",
+            "correct_answer": "B",
+            "explanation": "BIOS performs POST to verify the integrity of essential hardware components during startup."
+        },
+        {
+            "question": "Which memory type is faster and used as cache memory?",
+            "option_a": "DRAM",
+            "option_b": "SRAM",
+            "option_c": "Virtual Memory",
+            "option_d": "Optical Storage",
+            "correct_answer": "B",
+            "explanation": "SRAM is faster and used as cache memory compared to DRAM."
+        },
+        {
+            "question": "What type of memory is used as the main working memory in computers?",
+            "option_a": "RAM",
+            "option_b": "ROM",
+            "option_c": "Flash Memory",
+            "option_d": "Cache Memory",
+            "correct_answer": "A",
+            "explanation": "RAM (Random Access Memory) serves as the main working memory for computers."
+        },
+        {
+            "question": "Which type of OS is designed for time-critical applications?",
+            "option_a": "Multiprogramming OS",
+            "option_b": "Real-time OS",
+            "option_c": "Batch Processing OS",
+            "option_d": "Multitasking OS",
+            "correct_answer": "B",
+            "explanation": "Real-time operating systems are used for time-critical applications like medical imaging systems."
+        },
+        {
+            "question": "What is the purpose of virtual memory?",
+            "option_a": "To increase the physical RAM in a system",
+            "option_b": "To use a portion of the hard drive as an extension of RAM",
+            "option_c": "To improve power efficiency",
+            "option_d": "To store BIOS settings",
+            "correct_answer": "B",
+            "explanation": "Virtual memory allows a portion of the hard drive to act as additional RAM."
+        },
+        {
+            "question": "Which of the following connects the CPU and I/O devices?",
+            "option_a": "BIOS",
+            "option_b": "Network Interface",
+            "option_c": "I/O Bus",
+            "option_d": "Device Drivers",
+            "correct_answer": "C",
+            "explanation": "I/O buses transfer data between the CPU, memory, and I/O devices."
+        },
+        {
+            "question": "Which type of keyboard provides tactile feedback and durability?",
+            "option_a": "Standard Keyboard",
+            "option_b": "Membrane Keyboard",
+            "option_c": "Mechanical Keyboard",
+            "option_d": "Ergonomic Keyboard",
+            "correct_answer": "C",
+            "explanation": "Mechanical keyboards use individual switches for each key, providing tactile feedback and durability."
+        },
+        {
+            "question": "What technology is used in most modern mice to detect movement?",
+            "option_a": "Trackball",
+            "option_b": "Optical LED or Laser",
+            "option_c": "Mechanical Sensors",
+            "option_d": "Infrared Beams",
+            "correct_answer": "B",
+            "explanation": "Modern mice use optical or laser technology to detect movement."
+        },
+        {
+            "question": "What does POST stand for in BIOS operations?",
+            "option_a": "Power-Off System Test",
+            "option_b": "Power-On System Test",
+            "option_c": "Power-On Self Test",
+            "option_d": "Post-Execution System Test",
+            "correct_answer": "C",
+            "explanation": "POST stands for Power-On Self Test, a diagnostic test performed by BIOS."
+        },
+        {
+            "question": "Which port is commonly used to connect displays to computers?",
+            "option_a": "Ethernet",
+            "option_b": "USB",
+            "option_c": "VGA",
+            "option_d": "SATA",
+            "correct_answer": "C",
+            "explanation": "VGA is a common port for connecting displays to computers."
+        },
+        {
+            "question": "Which of the following is a wireless networking interface?",
+            "option_a": "Ethernet",
+            "option_b": "Bluetooth",
+            "option_c": "SATA",
+            "option_d": "VGA",
+            "correct_answer": "B",
+            "explanation": "Bluetooth is a common wireless networking interface."
+        }
+    ]
+}

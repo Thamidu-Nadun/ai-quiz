@@ -23,6 +23,8 @@ const FC4 = document.querySelector("#FC4");
 const FC5 = document.querySelector("#FC5");
 const FC6 = document.querySelector("#FC6");
 const FC7 = document.querySelector("#FC7");
+const FC8 = document.querySelector("#FC8");
+const FC9 = document.querySelector("#FC9");
 
 // We add event listeners to the buttons.
 // Depending on the button clicked we create a session variable called quiz and set it to the JSON file we want to load in hte quiz.html. The sessions variable allows us to share
@@ -147,6 +149,18 @@ FC6.addEventListener("click", (e) => {
 FC7.addEventListener("click", (e) => {
     e.preventDefault();
     sessionStorage.setItem("quiz", "./database/exams/FC/fc7.json");
+    location.href="quiz.html";
+});
+
+FC8.addEventListener("click", (e) => {
+    e.preventDefault();
+    sessionStorage.setItem("quiz", "./database/exams/FC/fc8.json");
+    location.href="quiz.html";
+});
+
+FC9.addEventListener("click", (e) => {
+    e.preventDefault();
+    sessionStorage.setItem("quiz", "./database/exams/FC/fc9.json");
     location.href="quiz.html";
 });
 

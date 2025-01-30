@@ -45,6 +45,10 @@ if(quiz === "./database/ccna.json") {
     heading.textContent = "FC - 6";
 } else if(quiz === "./database/exams/FC/fc7.json"){
     heading.textContent = "FC - 7";
+} else if(quiz === "./database/exams/FC/fc8.json"){
+    heading.textContent = "FC - 8";
+} else if(quiz === "./database/exams/FC/fc9.json"){
+    heading.textContent = "FC - 9";
 }
 
 
