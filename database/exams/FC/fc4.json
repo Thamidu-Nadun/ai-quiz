@@ -1,0 +1,139 @@
+{
+    "questions": [
+      {
+        "question": "What are the three basic properties of electrical circuits?",
+        "option_a": "Voltage, Resistance, Capacitance",
+        "option_b": "Voltage, Current, Resistance",
+        "option_c": "Current, Conductance, Capacitance",
+        "option_d": "Voltage, Impedance, Inductance",
+        "correct_answer": "B",
+        "explanation": "The three basic properties of electrical circuits are voltage, current, and resistance."
+      },
+      {
+        "question": "Which material is an example of a non-conductive material?",
+        "option_a": "Copper",
+        "option_b": "Glass",
+        "option_c": "Aluminum",
+        "option_d": "Gold",
+        "correct_answer": "B",
+        "explanation": "Glass is a non-conductive material and is used as an insulator in electrical circuits."
+      },
+      {
+        "question": "What is Ohm's Law?",
+        "option_a": "Voltage equals resistance divided by current",
+        "option_b": "Current equals voltage times resistance",
+        "option_c": "Voltage equals current times resistance",
+        "option_d": "Resistance equals voltage times current",
+        "correct_answer": "C",
+        "explanation": "Ohm's Law states that the voltage across a resistive circuit element equals the product of the current through the element and its resistance."
+      },
+      {
+        "question": "What does the base terminal of a transistor do?",
+        "option_a": "Emits current",
+        "option_b": "Collects current",
+        "option_c": "Controls the flow of current",
+        "option_d": "Generates voltage",
+        "correct_answer": "C",
+        "explanation": "The base terminal of a transistor controls the flow of current between the collector and emitter."
+      },
+      {
+        "question": "Which component serves as the building block of digital circuits?",
+        "option_a": "Capacitors",
+        "option_b": "Logic Gates",
+        "option_c": "Resistors",
+        "option_d": "Transistors",
+        "correct_answer": "B",
+        "explanation": "Logic gates are the fundamental building blocks of digital circuits."
+      },
+      {
+        "question": "What type of variables represent the inputs and outputs of logic gates?",
+        "option_a": "Analog variables",
+        "option_b": "Integer variables",
+        "option_c": "Boolean variables",
+        "option_d": "Continuous variables",
+        "correct_answer": "C",
+        "explanation": "Boolean variables, which can take the values 0 or 1, are used to represent the inputs and outputs of logic gates."
+      },
+      {
+        "question": "What is a combinational circuit?",
+        "option_a": "A circuit with memory elements",
+        "option_b": "A circuit whose output depends only on the current input",
+        "option_c": "A circuit that uses only capacitors",
+        "option_d": "A circuit that generates continuous signals",
+        "correct_answer": "B",
+        "explanation": "A combinational circuit's output depends only on the current input and does not have memory."
+      },
+      {
+        "question": "Why is the simplification of digital logic circuits necessary?",
+        "option_a": "To increase propagation delay",
+        "option_b": "To increase power consumption",
+        "option_c": "To reduce the cost, power consumption, and space required",
+        "option_d": "To make circuits more complex",
+        "correct_answer": "C",
+        "explanation": "Simplification reduces the number of gates required, lowering cost, power consumption, and space requirements."
+      },
+      {
+        "question": "What is a Karnaugh map (K-map) used for?",
+        "option_a": "Measuring electrical resistance",
+        "option_b": "Simplifying Boolean expressions",
+        "option_c": "Designing capacitive circuits",
+        "option_d": "Analyzing continuous signals",
+        "correct_answer": "B",
+        "explanation": "Karnaugh maps (K-maps) are graphical tools used to simplify Boolean expressions in digital logic."
+      },
+      {
+        "question": "Which rule is true for K-map simplification?",
+        "option_a": "Groups can be formed at any angle",
+        "option_b": "Groups must contain only 0s",
+        "option_c": "Groups must contain a power of 2 number of 1s",
+        "option_d": "Groups must be linear",
+        "correct_answer": "C",
+        "explanation": "Groups in K-maps must contain a power of 2 number of 1s and can overlap or wrap around the map."
+      },
+      {
+        "question": "Who developed the Karnaugh map?",
+        "option_a": "Maurice Karnaugh",
+        "option_b": "George Boolean",
+        "option_c": "Claude Shannon",
+        "option_d": "Edward Veitch",
+        "correct_answer": "A",
+        "explanation": "Maurice Karnaugh developed the Karnaugh map in 1953 based on earlier work by Edward Veitch."
+      },
+      {
+        "question": "What is a don’t care condition in a K-map?",
+        "option_a": "An undefined state in the circuit",
+        "option_b": "A cell that can either be included or ignored during simplification",
+        "option_c": "A group of overlapping zeros",
+        "option_d": "A special Boolean variable",
+        "correct_answer": "B",
+        "explanation": "Don’t care conditions in K-maps are identified by an X and can be included or ignored during simplification."
+      },
+      {
+        "question": "What is the purpose of Boolean algebra in digital circuits?",
+        "option_a": "To measure current in circuits",
+        "option_b": "To simplify and analyze digital circuits",
+        "option_c": "To generate continuous signals",
+        "option_d": "To manage power consumption",
+        "correct_answer": "B",
+        "explanation": "Boolean algebra provides a mathematical model to simplify and analyze digital circuits."
+      },
+      {
+        "question": "Which of the following is an example of a logic gate?",
+        "option_a": "AND gate",
+        "option_b": "Resistance gate",
+        "option_c": "Capacitance gate",
+        "option_d": "Voltage gate",
+        "correct_answer": "A",
+        "explanation": "AND gate is a basic type of logic gate used in digital circuits."
+      },
+      {
+        "question": "What is the significance of grouping adjacent 1s in a K-map?",
+        "option_a": "It increases the complexity of Boolean functions",
+        "option_b": "It simplifies the Boolean expression",
+        "option_c": "It helps measure voltage",
+        "option_d": "It ensures continuous current flow",
+        "correct_answer": "B",
+        "explanation": "Grouping adjacent 1s in a K-map simplifies the Boolean expression for digital circuit design."
+      }
+    ]
+  }

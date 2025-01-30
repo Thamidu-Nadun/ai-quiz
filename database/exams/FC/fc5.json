@@ -1,0 +1,95 @@
+{
+    "questions": [
+      {
+        "question": "What is the primary function of a Half Adder?",
+        "option_a": "Performs XOR and AND operations",
+        "option_b": "Performs OR and AND operations",
+        "option_c": "Performs XOR and NOR operations",
+        "option_d": "Performs NAND and AND operations",
+        "correct_answer": "A",
+        "explanation": "A Half Adder is a combinational circuit that computes the sum using XOR and the carry using AND."
+      },
+      {
+        "question": "Which operation does the sum output of a Full Adder perform?",
+        "option_a": "XOR operation",
+        "option_b": "AND operation",
+        "option_c": "OR operation",
+        "option_d": "NAND operation",
+        "correct_answer": "A",
+        "explanation": "The sum output of a Full Adder is computed using XOR operations."
+      },
+      {
+        "question": "What is the role of a Shifter in digital logic?",
+        "option_a": "Adds two binary numbers",
+        "option_b": "Compares two binary numbers",
+        "option_c": "Shifts bits left or right",
+        "option_d": "Converts binary to decimal",
+        "correct_answer": "C",
+        "explanation": "A shifter moves bits left or right depending on the control signal."
+      },
+      {
+        "question": "What logic gate is primarily used in a comparator circuit to compare two bits?",
+        "option_a": "AND gate",
+        "option_b": "OR gate",
+        "option_c": "XOR gate",
+        "option_d": "NAND gate",
+        "correct_answer": "C",
+        "explanation": "A comparator uses an XOR gate to determine if two bits are equal or different."
+      },
+      {
+        "question": "What is the function of a Decoder?",
+        "option_a": "Encodes multiple inputs into fewer outputs",
+        "option_b": "Converts binary information into a set of unique outputs",
+        "option_c": "Multiplies two binary numbers",
+        "option_d": "Adds two binary numbers",
+        "correct_answer": "B",
+        "explanation": "A decoder takes n binary inputs and converts them into up to 2^n unique outputs."
+      },
+      {
+        "question": "How many outputs does a 3-to-8 decoder have?",
+        "option_a": "3",
+        "option_b": "8",
+        "option_c": "6",
+        "option_d": "12",
+        "correct_answer": "B",
+        "explanation": "A 3-to-8 decoder has 8 outputs since it decodes 3-bit inputs into one of 8 possible outputs."
+      },
+      {
+        "question": "Which component is used to select one input from multiple inputs and route it to output?",
+        "option_a": "Decoder",
+        "option_b": "Multiplexer",
+        "option_c": "Comparator",
+        "option_d": "Adder",
+        "correct_answer": "B",
+        "explanation": "A multiplexer (MUX) selects one of several input signals and forwards it to the output."
+      },
+      {
+        "question": "What does a Programmable Logic Array (PLA) consist of?",
+        "option_a": "AND and OR gates",
+        "option_b": "Only AND gates",
+        "option_c": "Only OR gates",
+        "option_d": "NAND and XOR gates",
+        "correct_answer": "A",
+        "explanation": "A PLA consists of programmable arrays of AND and OR gates to implement Boolean functions."
+      },
+      {
+        "question": "Which of the following is a function of an Arithmetic Logic Unit (ALU)?",
+        "option_a": "Only performs addition",
+        "option_b": "Performs logical and arithmetic operations",
+        "option_c": "Stores data permanently",
+        "option_d": "Decodes instructions",
+        "correct_answer": "B",
+        "explanation": "An ALU performs both arithmetic operations (addition, subtraction) and logical operations (AND, OR, XOR)."
+      },
+      {
+        "question": "How many AND gates are required to implement a 2-to-4 decoder?",
+        "option_a": "2",
+        "option_b": "3",
+        "option_c": "4",
+        "option_d": "5",
+        "correct_answer": "C",
+        "explanation": "A 2-to-4 decoder requires 4 AND gates to produce four unique output combinations."
+      }
+    ]
+  }
+  

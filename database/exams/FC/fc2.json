@@ -1,0 +1,391 @@
+{
+  "questions": [
+    {
+      "question": "Who developed the Analytical Engine?",
+      "option_a": "Ada Lovelace",
+      "option_b": "Charles Babbage",
+      "option_c": "John von Neumann",
+      "option_d": "Alan Turing",
+      "correct_answer": "B",
+      "explanation": "The Analytical Engine was developed by Charles Babbage."
+    },
+    {
+      "question": "What was the primary purpose of the Analytical Engine?",
+      "option_a": "To perform arithmetic calculations",
+      "option_b": "To serve as a general-purpose programmable computing device",
+      "option_c": "To process data for scientific research",
+      "option_d": "To automate industrial processes",
+      "correct_answer": "B",
+      "explanation": "The Analytical Engine was designed to be a general-purpose programmable computing device."
+    },
+    {
+      "question": "Which of the following was used to program the Analytical Engine?",
+      "option_a": "Punched cards",
+      "option_b": "Magnetic tape",
+      "option_c": "Binary code",
+      "option_d": "Vacuum tubes",
+      "correct_answer": "A",
+      "explanation": "The Analytical Engine was programmed using punched cards."
+    },
+    {
+      "question": "What was the most complex program intended for the Analytical Engine developed by?",
+      "option_a": "Charles Babbage",
+      "option_b": "Ada Lovelace",
+      "option_c": "John von Neumann",
+      "option_d": "Alan Turing",
+      "correct_answer": "B",
+      "explanation": "Ada Lovelace developed the most complex program intended for the Analytical Engine."
+    },
+    {
+      "question": "When was ENIAC implemented?",
+      "option_a": "1935",
+      "option_b": "1945",
+      "option_c": "1955",
+      "option_d": "1965",
+      "correct_answer": "B",
+      "explanation": "ENIAC was implemented in 1945."
+    },
+    {
+      "question": "What was the primary technology used in ENIAC?",
+      "option_a": "Transistors",
+      "option_b": "Vacuum tubes",
+      "option_c": "Integrated circuits",
+      "option_d": "Microprocessors",
+      "correct_answer": "B",
+      "explanation": "ENIAC was based on vacuum tubes, diodes, and relays."
+    },
+    {
+      "question": "How much electricity did ENIAC consume?",
+      "option_a": "50 kilowatts",
+      "option_b": "100 kilowatts",
+      "option_c": "150 kilowatts",
+      "option_d": "200 kilowatts",
+      "correct_answer": "C",
+      "explanation": "ENIAC consumed 150 kilowatts of electricity."
+    },
+    {
+      "question": "What was the weight of ENIAC?",
+      "option_a": "10 tons",
+      "option_b": "20 tons",
+      "option_c": "27 tons",
+      "option_d": "35 tons",
+      "correct_answer": "C",
+      "explanation": "ENIAC weighed 27 tons."
+    },
+    {
+      "question": "Who invented the transistor?",
+      "option_a": "John Bardeen, Walter Brattain, and William Shockley",
+      "option_b": "Charles Babbage",
+      "option_c": "John von Neumann",
+      "option_d": "Alan Turing",
+      "correct_answer": "A",
+      "explanation": "The transistor was invented by John Bardeen, Walter Brattain, and William Shockley."
+    },
+    {
+      "question": "What year was the transistor invented?",
+      "option_a": "1937",
+      "option_b": "1947",
+      "option_c": "1957",
+      "option_d": "1967",
+      "correct_answer": "B",
+      "explanation": "The transistor was invented in 1947."
+    },
+    {
+      "question": "Who invented the integrated circuit (IC)?",
+      "option_a": "John Bardeen",
+      "option_b": "Jack Kilby",
+      "option_c": "William Shockley",
+      "option_d": "Alan Turing",
+      "correct_answer": "B",
+      "explanation": "The integrated circuit (IC) was invented by Jack Kilby."
+    },
+    {
+      "question": "What year was the integrated circuit (IC) invented?",
+      "option_a": "1948",
+      "option_b": "1958",
+      "option_c": "1968",
+      "option_d": "1978",
+      "correct_answer": "B",
+      "explanation": "The integrated circuit (IC) was invented in 1958."
+    },
+    {
+      "question": "What was the first commercially available microprocessor?",
+      "option_a": "Intel 4004",
+      "option_b": "Intel 8086",
+      "option_c": "Intel 80286",
+      "option_d": "Intel 80386",
+      "correct_answer": "A",
+      "explanation": "The Intel 4004 was the first commercially available microprocessor."
+    },
+    {
+      "question": "What was the Intel 4004 designed for?",
+      "option_a": "Personal computers",
+      "option_b": "Electronic calculators",
+      "option_c": "Scientific research",
+      "option_d": "Industrial automation",
+      "correct_answer": "B",
+      "explanation": "The Intel 4004 was designed for use in electronic calculators."
+    },
+    {
+      "question": "Who proposed the von Neumann architecture?",
+      "option_a": "Charles Babbage",
+      "option_b": "John von Neumann",
+      "option_c": "Alan Turing",
+      "option_d": "Ada Lovelace",
+      "correct_answer": "B",
+      "explanation": "The von Neumann architecture was proposed by John von Neumann."
+    },
+    {
+      "question": "What is the key feature of the von Neumann architecture?",
+      "option_a": "Separate memory for data and instructions",
+      "option_b": "Storing programs and data in the same memory",
+      "option_c": "Using vacuum tubes for processing",
+      "option_d": "Parallel processing",
+      "correct_answer": "B",
+      "explanation": "The von Neumann architecture stores programs and data in the same memory."
+    },
+    {
+      "question": "What is the function of the address bus in a computer?",
+      "option_a": "Transfer data between CPU and memory",
+      "option_b": "Specify the address of memory or I/O",
+      "option_c": "Carry commands from the CPU",
+      "option_d": "Control the clock speed",
+      "correct_answer": "B",
+      "explanation": "The address bus is used to specify the address of memory or I/O."
+    },
+    {
+      "question": "What is the function of the data bus in a computer?",
+      "option_a": "Transfer data between CPU and memory",
+      "option_b": "Specify the address of memory or I/O",
+      "option_c": "Carry commands from the CPU",
+      "option_d": "Control the clock speed",
+      "correct_answer": "A",
+      "explanation": "The data bus transfers data between the CPU and memory."
+    },
+    {
+      "question": "What is the function of the control bus in a computer?",
+      "option_a": "Transfer data between CPU and memory",
+      "option_b": "Specify the address of memory or I/O",
+      "option_c": "Carry commands from the CPU",
+      "option_d": "Control the clock speed",
+      "correct_answer": "C",
+      "explanation": "The control bus carries commands from the CPU."
+    },
+    {
+      "question": "What was the first member of the x86 family of microprocessors?",
+      "option_a": "Intel 8086",
+      "option_b": "Intel 8088",
+      "option_c": "Intel 80286",
+      "option_d": "Intel 80386",
+      "correct_answer": "A",
+      "explanation": "The Intel 8086 was the first member of the x86 family of microprocessors."
+    },
+    {
+      "question": "What was the external data bus width of the Intel 8086?",
+      "option_a": "8 bits",
+      "option_b": "16 bits",
+      "option_c": "32 bits",
+      "option_d": "64 bits",
+      "correct_answer": "B",
+      "explanation": "The Intel 8086 had a 16-bit external data bus width."
+    },
+    {
+      "question": "What was the clock frequency of the Intel 8088?",
+      "option_a": "2.77 MHz",
+      "option_b": "4.77 MHz",
+      "option_c": "6.77 MHz",
+      "option_d": "8.77 MHz",
+      "correct_answer": "B",
+      "explanation": "The Intel 8088 could run at a clock frequency of 4.77 MHz."
+    },
+    {
+      "question": "What was the external data bus width of the Intel 8088?",
+      "option_a": "8 bits",
+      "option_b": "16 bits",
+      "option_c": "32 bits",
+      "option_d": "64 bits",
+      "correct_answer": "A",
+      "explanation": "The Intel 8088 had an 8-bit external data bus width."
+    },
+    {
+      "question": "What was the main improvement in the Intel 80286 over the 8088?",
+      "option_a": "Increased clock speed",
+      "option_b": "16-bit external data bus",
+      "option_c": "32-bit processing",
+      "option_d": "Integrated graphics",
+      "correct_answer": "B",
+      "explanation": "The Intel 80286 had a 16-bit external data bus, improving performance over the 8088."
+    },
+    {
+      "question": "What year was the Intel 80386 introduced?",
+      "option_a": "1985",
+      "option_b": "1986",
+      "option_c": "1987",
+      "option_d": "1988",
+      "correct_answer": "A",
+      "explanation": "The Intel 80386 was introduced in 1985."
+    },
+    {
+      "question": "What was the bit-width of the Intel 80386?",
+      "option_a": "8 bits",
+      "option_b": "16 bits",
+      "option_c": "32 bits",
+      "option_d": "64 bits",
+      "correct_answer": "C",
+      "explanation": "The Intel 80386 was a 32-bit processor."
+    },
+    {
+      "question": "What was the first iPhone powered by?",
+      "option_a": "ARM11 processor",
+      "option_b": "Intel 8086",
+      "option_c": "Intel 80286",
+      "option_d": "Intel 80386",
+      "correct_answer": "A",
+      "explanation": "The first iPhone was powered by a 32-bit ARM11 processor."
+    },
+    {
+      "question": "What was the clock speed of the ARM11 processor in the first iPhone?",
+      "option_a": "312 MHz",
+      "option_b": "412 MHz",
+      "option_c": "512 MHz",
+      "option_d": "612 MHz",
+      "correct_answer": "B",
+      "explanation": "The ARM11 processor in the first iPhone ran at 412 MHz."
+    },
+    {
+      "question": "What operating system did the first iPhone run?",
+      "option_a": "Windows Mobile",
+      "option_b": "Android",
+      "option_c": "OS X",
+      "option_d": "Linux",
+      "correct_answer": "C",
+      "explanation": "The first iPhone ran the OS X operating system."
+    },
+    {
+      "question": "What was the screen resolution of the first iPhone?",
+      "option_a": "320x480 pixels",
+      "option_b": "480x800 pixels",
+      "option_c": "640x960 pixels",
+      "option_d": "720x1280 pixels",
+      "correct_answer": "A",
+      "explanation": "The first iPhone had a screen resolution of 320x480 pixels."
+    },
+    {
+      "question": "What was the thickness of the first iPhone?",
+      "option_a": "0.46 inches",
+      "option_b": "0.56 inches",
+      "option_c": "0.66 inches",
+      "option_d": "0.76 inches",
+      "correct_answer": "A",
+      "explanation": "The first iPhone was 0.46 inches thick."
+    },
+    {
+      "question": "What was the battery type used in the first iPhone?",
+      "option_a": "Lithium-ion polymer",
+      "option_b": "Nickel-cadmium",
+      "option_c": "Nickel-metal hydride",
+      "option_d": "Alkaline",
+      "correct_answer": "A",
+      "explanation": "The first iPhone used a 3.7V lithium-ion polymer battery."
+    },
+    {
+      "question": "What was the primary advantage of transistors over vacuum tubes?",
+      "option_a": "Larger size",
+      "option_b": "Higher power consumption",
+      "option_c": "Greater reliability",
+      "option_d": "Slower processing speed",
+      "correct_answer": "C",
+      "explanation": "Transistors were more reliable than vacuum tubes."
+    },
+    {
+      "question": "What was the primary advantage of integrated circuits (ICs)?",
+      "option_a": "Higher cost",
+      "option_b": "Larger size",
+      "option_c": "Lower power consumption",
+      "option_d": "Slower processing speed",
+      "correct_answer": "C",
+      "explanation": "Integrated circuits (ICs) had lower power consumption compared to discrete components."
+    },
+    {
+      "question": "What was the primary purpose of the Intel 4004 microprocessor?",
+      "option_a": "To power personal computers",
+      "option_b": "To power electronic calculators",
+      "option_c": "To power scientific instruments",
+      "option_d": "To power industrial machines",
+      "correct_answer": "B",
+      "explanation": "The Intel 4004 was designed to power electronic calculators."
+    },
+    {
+      "question": "What was the primary innovation of the von Neumann architecture?",
+      "option_a": "Parallel processing",
+      "option_b": "Storing programs and data in the same memory",
+      "option_c": "Using vacuum tubes",
+      "option_d": "Separate memory for data and instructions",
+      "correct_answer": "B",
+      "explanation": "The von Neumann architecture introduced the concept of storing programs and data in the same memory."
+    },
+    {
+      "question": "What was the primary function of the Analytical Engine?",
+      "option_a": "To perform arithmetic calculations",
+      "option_b": "To serve as a general-purpose programmable computing device",
+      "option_c": "To process data for scientific research",
+      "option_d": "To automate industrial processes",
+      "correct_answer": "B",
+      "explanation": "The Analytical Engine was designed to be a general-purpose programmable computing device."
+    },
+    {
+      "question": "What was the primary technology used in ENIAC?",
+      "option_a": "Transistors",
+      "option_b": "Vacuum tubes",
+      "option_c": "Integrated circuits",
+      "option_d": "Microprocessors",
+      "correct_answer": "B",
+      "explanation": "ENIAC was based on vacuum tubes, diodes, and relays."
+    },
+    {
+      "question": "What was the primary advantage of the Intel 8086 over the 8088?",
+      "option_a": "Higher clock speed",
+      "option_b": "16-bit external data bus",
+      "option_c": "32-bit processing",
+      "option_d": "Integrated graphics",
+      "correct_answer": "B",
+      "explanation": "The Intel 8086 had a 16-bit external data bus, which improved performance over the 8088."
+    },
+    {
+      "question": "What was the primary advantage of the Intel 80286 over the 8088?",
+      "option_a": "Higher clock speed",
+      "option_b": "16-bit external data bus",
+      "option_c": "32-bit processing",
+      "option_d": "Integrated graphics",
+      "correct_answer": "B",
+      "explanation": "The Intel 80286 had a 16-bit external data bus, which improved performance over the 8088."
+    },
+    {
+      "question": "What was the primary advantage of the Intel 80386 over the 80286?",
+      "option_a": "Higher clock speed",
+      "option_b": "16-bit external data bus",
+      "option_c": "32-bit processing",
+      "option_d": "Integrated graphics",
+      "correct_answer": "C",
+      "explanation": "The Intel 80386 was a 32-bit processor, which improved performance over the 80286."
+    },
+    {
+      "question": "What was the primary advantage of the ARM11 processor in the first iPhone?",
+      "option_a": "Higher clock speed",
+      "option_b": "Lower power consumption",
+      "option_c": "32-bit processing",
+      "option_d": "Integrated graphics",
+      "correct_answer": "B",
+      "explanation": "The ARM11 processor in the first iPhone had lower power consumption, making it suitable for mobile devices."
+    },
+    {
+      "question": "What was the primary advantage of the OS X operating system in the first iPhone?",
+      "option_a": "Compatibility with Windows applications",
+      "option_b": "Support for a vast range of applications",
+      "option_c": "Lower power consumption",
+      "option_d": "Faster processing speed",
+      "correct_answer": "B",
+      "explanation": "The OS X operating system in the first iPhone supported a vast range of applications, enabling rapid development of new apps."
+    }
+  ]
+}

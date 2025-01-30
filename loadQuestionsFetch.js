@@ -31,6 +31,20 @@ if (quiz === "./database/ccna.json") {
   heading.textContent = "FC 5";
 } else if(quiz === "./database/exams/fc6.json"){
   heading.textContent = "FC 6";
+} else if(quiz === "./database/exams/FC/fc1.json"){
+  heading.textContent = "FC - 1";
+} else if(quiz === "./database/exams/FC/fc2.json"){
+  heading.textContent = "FC - 2";
+} else if(quiz === "./database/exams/FC/fc3.json"){
+  heading.textContent = "FC - 3";
+} else if(quiz === "./database/exams/FC/fc4.json"){
+  heading.textContent = "FC - 4";
+} else if(quiz === "./database/exams/FC/fc5.json"){
+  heading.textContent = "FC - 5";
+} else if(quiz === "./database/exams/FC/fc6.json"){
+  heading.textContent = "FC - 6";
+} else if(quiz === "./database/exams/FC/fc7.json"){
+  heading.textContent = "FC - 7";
 }
 
 // Dynamic import of the JSON file using session variables.

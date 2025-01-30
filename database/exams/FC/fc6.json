@@ -1,0 +1,499 @@
+{
+    "questions": [
+      {
+        "question": "What is a latch?",
+        "option_a": "A multi-bit memory device",
+        "option_b": "A single-bit memory device constructed from logic gates",
+        "option_c": "A type of flip-flop",
+        "option_d": "A clock signal generator",
+        "correct_answer": "B",
+        "explanation": "A latch is a single-bit memory device constructed from logic gates, which converts the output according to its inputs instantly."
+      },
+      {
+        "question": "Which of the following gates can be used to implement latches?",
+        "option_a": "AND, OR, NOT",
+        "option_b": "NAND, NOR",
+        "option_c": "XOR, XNOR",
+        "option_d": "Both A and B",
+        "correct_answer": "D",
+        "explanation": "Latches can be implemented using various digital logic gates, such as AND, OR, NOT, NAND, and NOR gates."
+      },
+      {
+        "question": "What is the primary function of a clock signal in digital circuits?",
+        "option_a": "To generate random signals",
+        "option_b": "To maintain desired timing in the circuits",
+        "option_c": "To increase the speed of the circuit",
+        "option_d": "To reduce power consumption",
+        "correct_answer": "B",
+        "explanation": "Clock signals are used to maintain the desired timing in the circuits by emitting pulse trains of precise repetition interval and width."
+      },
+      {
+        "question": "What is the characteristic of a D latch?",
+        "option_a": "It has two inputs, S and R",
+        "option_b": "It has one input, D, and changes output based on D",
+        "option_c": "It changes output only on the clock's rising edge",
+        "option_d": "It is used only in asynchronous circuits",
+        "correct_answer": "B",
+        "explanation": "A D latch has one input, D, and changes its output based on the value of D."
+      },
+      {
+        "question": "What is the main difference between a latch and a flip-flop?",
+        "option_a": "Latches are faster than flip-flops",
+        "option_b": "Flip-flops are edge-triggered, while latches are level-triggered",
+        "option_c": "Latches have more inputs than flip-flops",
+        "option_d": "Flip-flops are used only in combinational circuits",
+        "correct_answer": "B",
+        "explanation": "Flip-flops are edge-triggered devices, meaning they change state only on the rising or falling edge of a clock signal, while latches are level-triggered."
+      },
+      {
+        "question": "What is the setup time in edge-triggered flip-flops?",
+        "option_a": "The time between the clock input and the response in Q",
+        "option_b": "The minimum time that D input must remain constant before the clock transition",
+        "option_c": "The minimum time that D input must not change after the clock transition",
+        "option_d": "The time it takes for the flip-flop to reset",
+        "correct_answer": "B",
+        "explanation": "Setup time is the minimum time that the D input must remain at a constant value before the clock transition."
+      },
+      {
+        "question": "What is the hold time in edge-triggered flip-flops?",
+        "option_a": "The time between the clock input and the response in Q",
+        "option_b": "The minimum time that D input must remain constant before the clock transition",
+        "option_c": "The minimum time that D input must not change after the clock transition",
+        "option_d": "The time it takes for the flip-flop to reset",
+        "correct_answer": "C",
+        "explanation": "Hold time is the minimum time that the D input must not change after the clock transition."
+      },
+      {
+        "question": "What is the propagation delay in flip-flops?",
+        "option_a": "The time between the clock input and the response in Q",
+        "option_b": "The minimum time that D input must remain constant before the clock transition",
+        "option_c": "The minimum time that D input must not change after the clock transition",
+        "option_d": "The time it takes for the flip-flop to reset",
+        "correct_answer": "A",
+        "explanation": "Propagation delay is the time between the clock input and the response in Q."
+      },
+      {
+        "question": "What is a sequential circuit?",
+        "option_a": "A circuit that uses only combinational logic",
+        "option_b": "A circuit that uses flip-flops and gates",
+        "option_c": "A circuit that does not use clock signals",
+        "option_d": "A circuit that operates only in parallel",
+        "correct_answer": "B",
+        "explanation": "A sequential circuit is an interconnection of flip-flops and gates, and it uses clock signals to synchronize operations."
+      },
+      {
+        "question": "What is the purpose of a shift register?",
+        "option_a": "To store data temporarily",
+        "option_b": "To convert serial data to parallel data and vice versa",
+        "option_c": "To generate clock signals",
+        "option_d": "To perform arithmetic operations",
+        "correct_answer": "B",
+        "explanation": "A shift register is used for serial-to-parallel and parallel-to-serial conversion by shifting data bits through flip-flops."
+      },
+      {
+        "question": "What is a ring counter?",
+        "option_a": "A counter that counts in a linear sequence",
+        "option_b": "A counter that counts in a circular sequence",
+        "option_c": "A counter that uses only combinational logic",
+        "option_d": "A counter that does not use flip-flops",
+        "correct_answer": "B",
+        "explanation": "A ring counter is a type of counter where the output of the last flip-flop is connected back to the input of the first flip-flop, creating a circular sequence."
+      },
+      {
+        "question": "What is the primary use of registers in digital systems?",
+        "option_a": "To generate clock signals",
+        "option_b": "To store data temporarily",
+        "option_c": "To perform arithmetic operations",
+        "option_d": "To convert analog signals to digital signals",
+        "correct_answer": "B",
+        "explanation": "Registers are primarily used to store data temporarily in digital systems."
+      },
+      {
+        "question": "What is the characteristic of a D flip-flop?",
+        "option_a": "It changes state only on the rising edge of the clock",
+        "option_b": "It changes state only on the falling edge of the clock",
+        "option_c": "It changes state on both rising and falling edges of the clock",
+        "option_d": "It does not use a clock signal",
+        "correct_answer": "A",
+        "explanation": "A D flip-flop typically changes state only on the rising edge of the clock signal."
+      },
+      {
+        "question": "What is the function of the S and R inputs in a D flip-flop?",
+        "option_a": "To set and reset the flip-flop",
+        "option_b": "To control the clock signal",
+        "option_c": "To provide data input",
+        "option_d": "To control the output directly",
+        "correct_answer": "A",
+        "explanation": "The S (Set) and R (Reset) inputs in a D flip-flop are used to set and reset the flip-flop, overriding the D input when active."
+      },
+      {
+        "question": "What is the main application of a ring counter?",
+        "option_a": "To count in a linear sequence",
+        "option_b": "To construct finite state machines",
+        "option_c": "To perform arithmetic operations",
+        "option_d": "To generate random numbers",
+        "correct_answer": "B",
+        "explanation": "Ring counters are often used to construct finite state machines due to their circular counting sequence."
+      },
+      {
+        "question": "What is the purpose of a clock circuit?",
+        "option_a": "To generate random signals",
+        "option_b": "To maintain precise timing in digital circuits",
+        "option_c": "To increase the speed of the circuit",
+        "option_d": "To reduce power consumption",
+        "correct_answer": "B",
+        "explanation": "A clock circuit is used to maintain precise timing in digital circuits by generating clock signals with precise repetition intervals."
+      },
+      {
+        "question": "What is the difference between a positive-edge-triggered and a negative-edge-triggered flip-flop?",
+        "option_a": "Positive-edge-triggered flip-flops change state on the rising edge, while negative-edge-triggered flip-flops change state on the falling edge",
+        "option_b": "Positive-edge-triggered flip-flops change state on the falling edge, while negative-edge-triggered flip-flops change state on the rising edge",
+        "option_c": "Positive-edge-triggered flip-flops are faster than negative-edge-triggered flip-flops",
+        "option_d": "There is no difference between them",
+        "correct_answer": "A",
+        "explanation": "Positive-edge-triggered flip-flops change state on the rising edge of the clock, while negative-edge-triggered flip-flops change state on the falling edge."
+      },
+      {
+        "question": "What is the primary function of a flip-flop in a sequential circuit?",
+        "option_a": "To generate clock signals",
+        "option_b": "To store a single bit of data",
+        "option_c": "To perform arithmetic operations",
+        "option_d": "To convert analog signals to digital signals",
+        "correct_answer": "B",
+        "explanation": "The primary function of a flip-flop in a sequential circuit is to store a single bit of data."
+      },
+      {
+        "question": "What is the characteristic table of a D flip-flop?",
+        "option_a": "It shows the output based on the D input and clock signal",
+        "option_b": "It shows the output based on the S and R inputs",
+        "option_c": "It shows the output based on the clock signal only",
+        "option_d": "It shows the output based on the D input only",
+        "correct_answer": "A",
+        "explanation": "The characteristic table of a D flip-flop shows the output based on the D input and the clock signal."
+      },
+      {
+        "question": "What is the purpose of a shift register in digital systems?",
+        "option_a": "To store data temporarily",
+        "option_b": "To convert serial data to parallel data and vice versa",
+        "option_c": "To generate clock signals",
+        "option_d": "To perform arithmetic operations",
+        "correct_answer": "B",
+        "explanation": "A shift register is used to convert serial data to parallel data and vice versa by shifting data bits through flip-flops."
+      },
+      {
+        "question": "What is the main difference between a latch and a flip-flop?",
+        "option_a": "Latches are faster than flip-flops",
+        "option_b": "Flip-flops are edge-triggered, while latches are level-triggered",
+        "option_c": "Latches have more inputs than flip-flops",
+        "option_d": "Flip-flops are used only in combinational circuits",
+        "correct_answer": "B",
+        "explanation": "The main difference between a latch and a flip-flop is that flip-flops are edge-triggered, while latches are level-triggered."
+      },
+      {
+        "question": "What is the primary use of a ring counter?",
+        "option_a": "To count in a linear sequence",
+        "option_b": "To construct finite state machines",
+        "option_c": "To perform arithmetic operations",
+        "option_d": "To generate random numbers",
+        "correct_answer": "B",
+        "explanation": "A ring counter is primarily used to construct finite state machines due to its circular counting sequence."
+      },
+      {
+        "question": "What is the function of the clock signal in a flip-flop?",
+        "option_a": "To generate random signals",
+        "option_b": "To synchronize the state change of the flip-flop",
+        "option_c": "To increase the speed of the circuit",
+        "option_d": "To reduce power consumption",
+        "correct_answer": "B",
+        "explanation": "The clock signal in a flip-flop is used to synchronize the state change of the flip-flop, ensuring it changes state only on the rising or falling edge of the clock."
+      },
+      {
+        "question": "What is the characteristic of a D latch?",
+        "option_a": "It has two inputs, S and R",
+        "option_b": "It has one input, D, and changes output based on D",
+        "option_c": "It changes output only on the clock's rising edge",
+        "option_d": "It is used only in asynchronous circuits",
+        "correct_answer": "B",
+        "explanation": "A D latch has one input, D, and changes its output based on the value of D."
+      },
+      {
+        "question": "What is the primary function of a register in a processor?",
+        "option_a": "To generate clock signals",
+        "option_b": "To store data temporarily",
+        "option_c": "To perform arithmetic operations",
+        "option_d": "To convert analog signals to digital signals",
+        "correct_answer": "B",
+        "explanation": "The primary function of a register in a processor is to store data temporarily."
+      },
+      {
+        "question": "What is the difference between a positive-edge-triggered and a negative-edge-triggered flip-flop?",
+        "option_a": "Positive-edge-triggered flip-flops change state on the rising edge, while negative-edge-triggered flip-flops change state on the falling edge",
+        "option_b": "Positive-edge-triggered flip-flops change state on the falling edge, while negative-edge-triggered flip-flops change state on the rising edge",
+        "option_c": "Positive-edge-triggered flip-flops are faster than negative-edge-triggered flip-flops",
+        "option_d": "There is no difference between them",
+        "correct_answer": "A",
+        "explanation": "Positive-edge-triggered flip-flops change state on the rising edge of the clock, while negative-edge-triggered flip-flops change state on the falling edge."
+      },
+      {
+        "question": "What is the primary use of a shift register?",
+        "option_a": "To store data temporarily",
+        "option_b": "To convert serial data to parallel data and vice versa",
+        "option_c": "To generate clock signals",
+        "option_d": "To perform arithmetic operations",
+        "correct_answer": "B",
+        "explanation": "A shift register is primarily used to convert serial data to parallel data and vice versa by shifting data bits through flip-flops."
+      },
+      {
+        "question": "What is the characteristic of a D flip-flop?",
+        "option_a": "It changes state only on the rising edge of the clock",
+        "option_b": "It changes state only on the falling edge of the clock",
+        "option_c": "It changes state on both rising and falling edges of the clock",
+        "option_d": "It does not use a clock signal",
+        "correct_answer": "A",
+        "explanation": "A D flip-flop typically changes state only on the rising edge of the clock signal."
+      },
+      {
+        "question": "What is the function of the S and R inputs in a D flip-flop?",
+        "option_a": "To set and reset the flip-flop",
+        "option_b": "To control the clock signal",
+        "option_c": "To provide data input",
+        "option_d": "To control the output directly",
+        "correct_answer": "A",
+        "explanation": "The S (Set) and R (Reset) inputs in a D flip-flop are used to set and reset the flip-flop, overriding the D input when active."
+      },
+      {
+        "question": "What is the main application of a ring counter?",
+        "option_a": "To count in a linear sequence",
+        "option_b": "To construct finite state machines",
+        "option_c": "To perform arithmetic operations",
+        "option_d": "To generate random numbers",
+        "correct_answer": "B",
+        "explanation": "Ring counters are often used to construct finite state machines due to their circular counting sequence."
+      },
+      {
+        "question": "What is the purpose of a clock circuit?",
+        "option_a": "To generate random signals",
+        "option_b": "To maintain precise timing in digital circuits",
+        "option_c": "To increase the speed of the circuit",
+        "option_d": "To reduce power consumption",
+        "correct_answer": "B",
+        "explanation": "A clock circuit is used to maintain precise timing in digital circuits by generating clock signals with precise repetition intervals."
+      },
+      {
+        "question": "What is the difference between a positive-edge-triggered and a negative-edge-triggered flip-flop?",
+        "option_a": "Positive-edge-triggered flip-flops change state on the rising edge, while negative-edge-triggered flip-flops change state on the falling edge",
+        "option_b": "Positive-edge-triggered flip-flops change state on the falling edge, while negative-edge-triggered flip-flops change state on the rising edge",
+        "option_c": "Positive-edge-triggered flip-flops are faster than negative-edge-triggered flip-flops",
+        "option_d": "There is no difference between them",
+        "correct_answer": "A",
+        "explanation": "Positive-edge-triggered flip-flops change state on the rising edge of the clock, while negative-edge-triggered flip-flops change state on the falling edge."
+      },
+      {
+        "question": "What is the primary function of a flip-flop in a sequential circuit?",
+        "option_a": "To generate clock signals",
+        "option_b": "To store a single bit of data",
+        "option_c": "To perform arithmetic operations",
+        "option_d": "To convert analog signals to digital signals",
+        "correct_answer": "B",
+        "explanation": "The primary function of a flip-flop in a sequential circuit is to store a single bit of data."
+      },
+      {
+        "question": "What is the characteristic table of a D flip-flop?",
+        "option_a": "It shows the output based on the D input and clock signal",
+        "option_b": "It shows the output based on the S and R inputs",
+        "option_c": "It shows the output based on the clock signal only",
+        "option_d": "It shows the output based on the D input only",
+        "correct_answer": "A",
+        "explanation": "The characteristic table of a D flip-flop shows the output based on the D input and the clock signal."
+      },
+      {
+        "question": "What is the purpose of a shift register in digital systems?",
+        "option_a": "To store data temporarily",
+        "option_b": "To convert serial data to parallel data and vice versa",
+        "option_c": "To generate clock signals",
+        "option_d": "To perform arithmetic operations",
+        "correct_answer": "B",
+        "explanation": "A shift register is used to convert serial data to parallel data and vice versa by shifting data bits through flip-flops."
+      },
+      {
+        "question": "What is the main difference between a latch and a flip-flop?",
+        "option_a": "Latches are faster than flip-flops",
+        "option_b": "Flip-flops are edge-triggered, while latches are level-triggered",
+        "option_c": "Latches have more inputs than flip-flops",
+        "option_d": "Flip-flops are used only in combinational circuits",
+        "correct_answer": "B",
+        "explanation": "The main difference between a latch and a flip-flop is that flip-flops are edge-triggered, while latches are level-triggered."
+      },
+      {
+        "question": "What is the primary use of a ring counter?",
+        "option_a": "To count in a linear sequence",
+        "option_b": "To construct finite state machines",
+        "option_c": "To perform arithmetic operations",
+        "option_d": "To generate random numbers",
+        "correct_answer": "B",
+        "explanation": "A ring counter is primarily used to construct finite state machines due to its circular counting sequence."
+      },
+      {
+        "question": "What is the function of the clock signal in a flip-flop?",
+        "option_a": "To generate random signals",
+        "option_b": "To synchronize the state change of the flip-flop",
+        "option_c": "To increase the speed of the circuit",
+        "option_d": "To reduce power consumption",
+        "correct_answer": "B",
+        "explanation": "The clock signal in a flip-flop is used to synchronize the state change of the flip-flop, ensuring it changes state only on the rising or falling edge of the clock."
+      },
+      {
+        "question": "What is the characteristic of a D latch?",
+        "option_a": "It has two inputs, S and R",
+        "option_b": "It has one input, D, and changes output based on D",
+        "option_c": "It changes output only on the clock's rising edge",
+        "option_d": "It is used only in asynchronous circuits",
+        "correct_answer": "B",
+        "explanation": "A D latch has one input, D, and changes its output based on the value of D."
+      },
+      {
+        "question": "What is the primary function of a register in a processor?",
+        "option_a": "To generate clock signals",
+        "option_b": "To store data temporarily",
+        "option_c": "To perform arithmetic operations",
+        "option_d": "To convert analog signals to digital signals",
+        "correct_answer": "B",
+        "explanation": "The primary function of a register in a processor is to store data temporarily."
+      },
+      {
+        "question": "What is the difference between a positive-edge-triggered and a negative-edge-triggered flip-flop?",
+        "option_a": "Positive-edge-triggered flip-flops change state on the rising edge, while negative-edge-triggered flip-flops change state on the falling edge",
+        "option_b": "Positive-edge-triggered flip-flops change state on the falling edge, while negative-edge-triggered flip-flops change state on the rising edge",
+        "option_c": "Positive-edge-triggered flip-flops are faster than negative-edge-triggered flip-flops",
+        "option_d": "There is no difference between them",
+        "correct_answer": "A",
+        "explanation": "Positive-edge-triggered flip-flops change state on the rising edge of the clock, while negative-edge-triggered flip-flops change state on the falling edge."
+      },
+      {
+        "question": "What is the primary use of a shift register?",
+        "option_a": "To store data temporarily",
+        "option_b": "To convert serial data to parallel data and vice versa",
+        "option_c": "To generate clock signals",
+        "option_d": "To perform arithmetic operations",
+        "correct_answer": "B",
+        "explanation": "A shift register is primarily used to convert serial data to parallel data and vice versa by shifting data bits through flip-flops."
+      },
+      {
+        "question": "What is the characteristic of a D flip-flop?",
+        "option_a": "It changes state only on the rising edge of the clock",
+        "option_b": "It changes state only on the falling edge of the clock",
+        "option_c": "It changes state on both rising and falling edges of the clock",
+        "option_d": "It does not use a clock signal",
+        "correct_answer": "A",
+        "explanation": "A D flip-flop typically changes state only on the rising edge of the clock signal."
+      },
+      {
+        "question": "What is the function of the S and R inputs in a D flip-flop?",
+        "option_a": "To set and reset the flip-flop",
+        "option_b": "To control the clock signal",
+        "option_c": "To provide data input",
+        "option_d": "To control the output directly",
+        "correct_answer": "A",
+        "explanation": "The S (Set) and R (Reset) inputs in a D flip-flop are used to set and reset the flip-flop, overriding the D input when active."
+      },
+      {
+        "question": "What is the main application of a ring counter?",
+        "option_a": "To count in a linear sequence",
+        "option_b": "To construct finite state machines",
+        "option_c": "To perform arithmetic operations",
+        "option_d": "To generate random numbers",
+        "correct_answer": "B",
+        "explanation": "Ring counters are often used to construct finite state machines due to their circular counting sequence."
+      },
+      {
+        "question": "What is the purpose of a clock circuit?",
+        "option_a": "To generate random signals",
+        "option_b": "To maintain precise timing in digital circuits",
+        "option_c": "To increase the speed of the circuit",
+        "option_d": "To reduce power consumption",
+        "correct_answer": "B",
+        "explanation": "A clock circuit is used to maintain precise timing in digital circuits by generating clock signals with precise repetition intervals."
+      },
+      {
+        "question": "What is the difference between a positive-edge-triggered and a negative-edge-triggered flip-flop?",
+        "option_a": "Positive-edge-triggered flip-flops change state on the rising edge, while negative-edge-triggered flip-flops change state on the falling edge",
+        "option_b": "Positive-edge-triggered flip-flops change state on the falling edge, while negative-edge-triggered flip-flops change state on the rising edge",
+        "option_c": "Positive-edge-triggered flip-flops are faster than negative-edge-triggered flip-flops",
+        "option_d": "There is no difference between them",
+        "correct_answer": "A",
+        "explanation": "Positive-edge-triggered flip-flops change state on the rising edge of the clock, while negative-edge-triggered flip-flops change state on the falling edge."
+      },
+      {
+        "question": "What is the primary function of a flip-flop in a sequential circuit?",
+        "option_a": "To generate clock signals",
+        "option_b": "To store a single bit of data",
+        "option_c": "To perform arithmetic operations",
+        "option_d": "To convert analog signals to digital signals",
+        "correct_answer": "B",
+        "explanation": "The primary function of a flip-flop in a sequential circuit is to store a single bit of data."
+      },
+      {
+        "question": "What is the characteristic table of a D flip-flop?",
+        "option_a": "It shows the output based on the D input and clock signal",
+        "option_b": "It shows the output based on the S and R inputs",
+        "option_c": "It shows the output based on the clock signal only",
+        "option_d": "It shows the output based on the D input only",
+        "correct_answer": "A",
+        "explanation": "The characteristic table of a D flip-flop shows the output based on the D input and the clock signal."
+      },
+      {
+        "question": "What is the purpose of a shift register in digital systems?",
+        "option_a": "To store data temporarily",
+        "option_b": "To convert serial data to parallel data and vice versa",
+        "option_c": "To generate clock signals",
+        "option_d": "To perform arithmetic operations",
+        "correct_answer": "B",
+        "explanation": "A shift register is used to convert serial data to parallel data and vice versa by shifting data bits through flip-flops."
+      },
+      {
+        "question": "What is the main difference between a latch and a flip-flop?",
+        "option_a": "Latches are faster than flip-flops",
+        "option_b": "Flip-flops are edge-triggered, while latches are level-triggered",
+        "option_c": "Latches have more inputs than flip-flops",
+        "option_d": "Flip-flops are used only in combinational circuits",
+        "correct_answer": "B",
+        "explanation": "The main difference between a latch and a flip-flop is that flip-flops are edge-triggered, while latches are level-triggered."
+      },
+      {
+        "question": "What is the primary use of a ring counter?",
+        "option_a": "To count in a linear sequence",
+        "option_b": "To construct finite state machines",
+        "option_c": "To perform arithmetic operations",
+        "option_d": "To generate random numbers",
+        "correct_answer": "B",
+        "explanation": "A ring counter is primarily used to construct finite state machines due to its circular counting sequence."
+      },
+      {
+        "question": "What is the function of the clock signal in a flip-flop?",
+        "option_a": "To generate random signals",
+        "option_b": "To synchronize the state change of the flip-flop",
+        "option_c": "To increase the speed of the circuit",
+        "option_d": "To reduce power consumption",
+        "correct_answer": "B",
+        "explanation": "The clock signal in a flip-flop is used to synchronize the state change of the flip-flop, ensuring it changes state only on the rising or falling edge of the clock."
+      },
+      {
+        "question": "What is the characteristic of a D latch?",
+        "option_a": "It has two inputs, S and R",
+        "option_b": "It has one input, D, and changes output based on D",
+        "option_c": "It changes output only on the clock's rising edge",
+        "option_d": "It is used only in asynchronous circuits",
+        "correct_answer": "B",
+        "explanation": "A D latch has one input, D, and changes its output based on the value of D."
+      },
+      {
+        "question": "What is the primary function of a register in a processor?",
+        "option_a": "To generate clock signals",
+        "option_b": "To store data temporarily",
+        "option_c": "To perform arithmetic operations",
+        "option_d": "To convert analog signals to digital signals",
+        "correct_answer": "B",
+        "explanation": "The primary function of a register in a processor is to store data temporarily."
+      }
+    ]
+  }

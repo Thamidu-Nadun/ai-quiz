@@ -1,0 +1,472 @@
+{
+    "questions": [
+      {
+        "question": "What is the primary function of the Control Unit in a processor?",
+        "option_a": "Perform arithmetic operations",
+        "option_b": "Manage the overall operation of the computer",
+        "option_c": "Store data temporarily",
+        "option_d": "Handle input/output operations",
+        "correct_answer": "B",
+        "explanation": "The Control Unit manages the overall operation of the computer, including fetching, decoding, and executing instructions."
+      },
+      {
+        "question": "Which component of the processor is often referred to as the 'brain within the brain'?",
+        "option_a": "Control Unit",
+        "option_b": "Arithmetic Logic Unit (ALU)",
+        "option_c": "Registers",
+        "option_d": "Cache Memory",
+        "correct_answer": "B",
+        "explanation": "The ALU is often considered the 'brain within the brain' of the CPU, as it handles core computational tasks."
+      },
+      {
+        "question": "What are operands in the context of the ALU?",
+        "option_a": "Control signals from the Control Unit",
+        "option_b": "Input data values that the ALU processes",
+        "option_c": "Status flags produced by the ALU",
+        "option_d": "Memory addresses",
+        "correct_answer": "B",
+        "explanation": "Operands are the input data values that the ALU processes, typically fetched from CPU registers or memory."
+      },
+      {
+        "question": "Which of the following is NOT a type of processor register?",
+        "option_a": "Data Registers",
+        "option_b": "Address Registers",
+        "option_c": "Control Registers",
+        "option_d": "Cache Registers",
+        "correct_answer": "D",
+        "explanation": "Cache Registers are not a type of processor register. The main types are Data Registers, Address Registers, and Control Registers."
+      },
+      {
+        "question": "What is the function of the Program Counter (PC) register?",
+        "option_a": "Store the result of computations",
+        "option_b": "Hold the address of the next instruction to be executed",
+        "option_c": "Manage control information for program execution",
+        "option_d": "Store data temporarily",
+        "correct_answer": "B",
+        "explanation": "The Program Counter (PC) holds the address of the next instruction to be executed."
+      },
+      {
+        "question": "Which addressing mode specifies the operand directly in the instruction?",
+        "option_a": "Immediate Addressing Mode",
+        "option_b": "Register Addressing Mode",
+        "option_c": "Direct Addressing Mode",
+        "option_d": "Indirect Addressing Mode",
+        "correct_answer": "A",
+        "explanation": "Immediate Addressing Mode specifies the operand directly in the instruction itself."
+      },
+      {
+        "question": "In which addressing mode is the operand located in a processor register?",
+        "option_a": "Immediate Addressing Mode",
+        "option_b": "Register Addressing Mode",
+        "option_c": "Direct Addressing Mode",
+        "option_d": "Indirect Addressing Mode",
+        "correct_answer": "B",
+        "explanation": "Register Addressing Mode specifies that the operand is located in a processor register."
+      },
+      {
+        "question": "Which of the following is an example of Direct Addressing Mode?",
+        "option_a": "MOV R1, #5",
+        "option_b": "ADD R1, R2",
+        "option_c": "MOV R1, [1000]",
+        "option_d": "MOV R1, [R2]",
+        "correct_answer": "C",
+        "explanation": "Direct Addressing Mode specifies the memory address of the operand directly in the instruction, as in 'MOV R1, [1000]'."
+      },
+      {
+        "question": "What is the purpose of the Instruction Register (IR)?",
+        "option_a": "Hold the address of the next instruction",
+        "option_b": "Store the result of computations",
+        "option_c": "Hold the current instruction being executed",
+        "option_d": "Manage control information for program execution",
+        "correct_answer": "C",
+        "explanation": "The Instruction Register (IR) holds the current instruction being executed."
+      },
+      {
+        "question": "Which of the following is a logical operation performed by the ALU?",
+        "option_a": "Addition",
+        "option_b": "Subtraction",
+        "option_c": "AND",
+        "option_d": "Multiplication",
+        "correct_answer": "C",
+        "explanation": "The ALU performs logical operations such as AND, OR, and XOR."
+      },
+      {
+        "question": "What is the function of the Status Register?",
+        "option_a": "Hold the address of the next instruction",
+        "option_b": "Store the result of computations",
+        "option_c": "Indicate conditions such as zero result or overflow",
+        "option_d": "Manage control information for program execution",
+        "correct_answer": "C",
+        "explanation": "The Status Register holds various bits that indicate the state of the processor after executing an instruction, such as zero result or overflow."
+      },
+      {
+        "question": "Which of the following is a type of interrupt?",
+        "option_a": "Hardware Interrupt",
+        "option_b": "Software Interrupt",
+        "option_c": "Trap",
+        "option_d": "All of the above",
+        "correct_answer": "D",
+        "explanation": "There are three types of interrupts: Hardware Interrupts, Software Interrupts, and Traps."
+      },
+      {
+        "question": "What is the purpose of the No Operation (NOP) instruction?",
+        "option_a": "Perform a complex calculation",
+        "option_b": "Move data between registers",
+        "option_c": "Do nothing and move to the next instruction",
+        "option_d": "Handle an interrupt",
+        "correct_answer": "C",
+        "explanation": "The NOP instruction does nothing and simply moves the program counter to the next instruction."
+      },
+      {
+        "question": "Which of the following is an example of a branching instruction?",
+        "option_a": "ADD",
+        "option_b": "JMP",
+        "option_c": "MOV",
+        "option_d": "NOP",
+        "correct_answer": "B",
+        "explanation": "Branching instructions, such as JMP, allow the CPU to jump to a different part of the program."
+      },
+      {
+        "question": "What is the primary function of the Arithmetic Logic Unit (ALU)?",
+        "option_a": "Manage the overall operation of the computer",
+        "option_b": "Perform arithmetic and logical operations",
+        "option_c": "Store data temporarily",
+        "option_d": "Handle input/output operations",
+        "correct_answer": "B",
+        "explanation": "The ALU performs arithmetic and logical operations, such as addition, subtraction, AND, OR, etc."
+      },
+      {
+        "question": "Which of the following is a key component of the ALU?",
+        "option_a": "Operands",
+        "option_b": "Control Signals",
+        "option_c": "Flags and Status Registers",
+        "option_d": "All of the above",
+        "correct_answer": "D",
+        "explanation": "The key components of the ALU include operands, control signals, and flags and status registers."
+      },
+      {
+        "question": "What is the purpose of the Memory Address Register (MAR)?",
+        "option_a": "Hold the address of the next instruction",
+        "option_b": "Store the result of computations",
+        "option_c": "Hold the memory address of data being accessed",
+        "option_d": "Manage control information for program execution",
+        "correct_answer": "C",
+        "explanation": "The Memory Address Register (MAR) holds the memory address of data being accessed."
+      },
+      {
+        "question": "Which of the following is an example of a stack instruction?",
+        "option_a": "PUSH",
+        "option_b": "POP",
+        "option_c": "Both A and B",
+        "option_d": "None of the above",
+        "correct_answer": "C",
+        "explanation": "Stack instructions include PUSH (to add data to the stack) and POP (to remove data from the stack)."
+      },
+      {
+        "question": "What is the purpose of the Instruction Cycle?",
+        "option_a": "Fetch, Decode, Execute, Write-back",
+        "option_b": "Load, Store, Move, Jump",
+        "option_c": "Add, Subtract, Multiply, Divide",
+        "option_d": "Input, Output, Process, Control",
+        "correct_answer": "A",
+        "explanation": "The Instruction Cycle consists of Fetch, Decode, Execute, and Write-back stages."
+      },
+      {
+        "question": "Which of the following is an example of a logical instruction?",
+        "option_a": "ADD",
+        "option_b": "SUB",
+        "option_c": "AND",
+        "option_d": "MUL",
+        "correct_answer": "C",
+        "explanation": "Logical instructions include AND, OR, XOR, and NOT."
+      },
+      {
+        "question": "What is the purpose of the Stack Pointer (SP) register?",
+        "option_a": "Hold the address of the next instruction",
+        "option_b": "Store the result of computations",
+        "option_c": "Point to the top of the stack",
+        "option_d": "Manage control information for program execution",
+        "correct_answer": "C",
+        "explanation": "The Stack Pointer (SP) points to the top of the stack, which is used for managing function calls and local variables."
+      },
+      {
+        "question": "Which of the following is an example of a subroutine call instruction?",
+        "option_a": "JMP",
+        "option_b": "CALL",
+        "option_c": "RET",
+        "option_d": "NOP",
+        "correct_answer": "B",
+        "explanation": "The CALL instruction is used to call a subroutine or function."
+      },
+      {
+        "question": "What is the purpose of the Interrupt Vector Table?",
+        "option_a": "Store the addresses of interrupt handlers",
+        "option_b": "Hold the address of the next instruction",
+        "option_c": "Store the result of computations",
+        "option_d": "Manage control information for program execution",
+        "correct_answer": "A",
+        "explanation": "The Interrupt Vector Table stores the addresses of interrupt handlers, which are executed when an interrupt occurs."
+      },
+      {
+        "question": "Which of the following is an example of a hardware interrupt?",
+        "option_a": "Division by zero",
+        "option_b": "Keyboard input",
+        "option_c": "System call",
+        "option_d": "Trap",
+        "correct_answer": "B",
+        "explanation": "Hardware interrupts are generated by hardware devices, such as a keyboard input."
+      },
+      {
+        "question": "What is the purpose of the Direct Memory Access (DMA) controller?",
+        "option_a": "Transfer data between CPU and memory",
+        "option_b": "Transfer data directly between I/O devices and memory",
+        "option_c": "Manage control information for program execution",
+        "option_d": "Handle arithmetic operations",
+        "correct_answer": "B",
+        "explanation": "The DMA controller allows I/O devices to transfer data directly to or from memory without involving the CPU."
+      },
+      {
+        "question": "Which of the following is an example of a memory-mapped I/O?",
+        "option_a": "Using specific port numbers for I/O devices",
+        "option_b": "Mapping I/O devices into the regular memory address space",
+        "option_c": "Using interrupts for I/O operations",
+        "option_d": "Using DMA for I/O operations",
+        "correct_answer": "B",
+        "explanation": "Memory-mapped I/O maps I/O devices directly into the regular memory address space, allowing the CPU to access them using standard memory instructions."
+      },
+      {
+        "question": "What is the purpose of the Indexed Addressing Mode?",
+        "option_a": "Specify the operand directly in the instruction",
+        "option_b": "Use a register to hold the operand",
+        "option_c": "Calculate the effective address by adding an index to a base address",
+        "option_d": "Use a memory address to hold the operand",
+        "correct_answer": "C",
+        "explanation": "Indexed Addressing Mode calculates the effective address by adding a constant value (index) to a base address held in a register."
+      },
+      {
+        "question": "Which of the following is an example of a bitwise operation?",
+        "option_a": "ADD",
+        "option_b": "SUB",
+        "option_c": "AND",
+        "option_d": "MUL",
+        "correct_answer": "C",
+        "explanation": "Bitwise operations include AND, OR, XOR, and NOT, which operate on individual bits of data."
+      },
+      {
+        "question": "What is the purpose of the Floating-Point Registers?",
+        "option_a": "Handle integer operations",
+        "option_b": "Handle floating-point operations",
+        "option_c": "Store memory addresses",
+        "option_d": "Manage control information for program execution",
+        "correct_answer": "B",
+        "explanation": "Floating-Point Registers are specialized registers designed to handle floating-point operations, which involve decimal and exponential values."
+      },
+      {
+        "question": "Which of the following is an example of a control register?",
+        "option_a": "Program Counter (PC)",
+        "option_b": "Instruction Register (IR)",
+        "option_c": "Status Register",
+        "option_d": "All of the above",
+        "correct_answer": "D",
+        "explanation": "Control registers include the Program Counter (PC), Instruction Register (IR), and Status Register."
+      },
+      {
+        "question": "What is the purpose of the Segment Registers?",
+        "option_a": "Handle floating-point operations",
+        "option_b": "Hold the base addresses of memory segments",
+        "option_c": "Store the result of computations",
+        "option_d": "Manage control information for program execution",
+        "correct_answer": "B",
+        "explanation": "Segment Registers hold the base addresses of segments in memory, allowing the CPU to access larger amounts of memory."
+      },
+      {
+        "question": "Which of the following is an example of a shift operation?",
+        "option_a": "ADD",
+        "option_b": "SUB",
+        "option_c": "SHL",
+        "option_d": "MUL",
+        "correct_answer": "C",
+        "explanation": "Shift operations, such as SHL (Shift Left) and SHR (Shift Right), move bits within a register."
+      },
+      {
+        "question": "What is the purpose of the Programmed I/O (PIO)?",
+        "option_a": "Transfer data directly between I/O devices and memory",
+        "option_b": "Allow the CPU to actively manage data transfer with I/O devices",
+        "option_c": "Use interrupts for I/O operations",
+        "option_d": "Use DMA for I/O operations",
+        "correct_answer": "B",
+        "explanation": "Programmed I/O (PIO) involves the CPU actively managing data transfer between the processor and I/O devices."
+      },
+      {
+        "question": "Which of the following is an example of a comparison operation?",
+        "option_a": "ADD",
+        "option_b": "SUB",
+        "option_c": "CMP",
+        "option_d": "MUL",
+        "correct_answer": "C",
+        "explanation": "Comparison operations, such as CMP, compare two values and set status flags based on the result."
+      },
+      {
+        "question": "What is the purpose of the Interrupt-Driven I/O?",
+        "option_a": "Transfer data directly between I/O devices and memory",
+        "option_b": "Allow the CPU to handle I/O operations asynchronously",
+        "option_c": "Use DMA for I/O operations",
+        "option_d": "Use specific port numbers for I/O devices",
+        "correct_answer": "B",
+        "explanation": "Interrupt-Driven I/O allows the CPU to handle I/O operations asynchronously by using interrupts to signal when data is ready."
+      },
+      {
+        "question": "Which of the following is an example of a register-to-register data transfer instruction?",
+        "option_a": "MOV R1, R2",
+        "option_b": "ADD R1, R2",
+        "option_c": "CMP R1, R2",
+        "option_d": "JMP R1",
+        "correct_answer": "A",
+        "explanation": "Register-to-register data transfer instructions, such as MOV, move data from one register to another."
+      },
+      {
+        "question": "What is the purpose of the Instruction Decode stage in the Instruction Cycle?",
+        "option_a": "Fetch the instruction from memory",
+        "option_b": "Decode the instruction to determine the operation to perform",
+        "option_c": "Execute the instruction using the ALU",
+        "option_d": "Write the result back to memory or a register",
+        "correct_answer": "B",
+        "explanation": "The Instruction Decode stage decodes the instruction to determine the operation to perform."
+      },
+      {
+        "question": "Which of the following is an example of a trap?",
+        "option_a": "Division by zero",
+        "option_b": "Keyboard input",
+        "option_c": "System call",
+        "option_d": "Hardware failure",
+        "correct_answer": "A",
+        "explanation": "Traps are generated by the CPU itself to indicate errors or conditions that require OS intervention, such as division by zero."
+      },
+      {
+        "question": "What is the purpose of the Write-back stage in the Instruction Cycle?",
+        "option_a": "Fetch the instruction from memory",
+        "option_b": "Decode the instruction to determine the operation to perform",
+        "option_c": "Execute the instruction using the ALU",
+        "option_d": "Write the result back to memory or a register",
+        "correct_answer": "D",
+        "explanation": "The Write-back stage writes the result of the instruction back to memory or a register."
+      },
+      {
+        "question": "Which of the following is an example of a software interrupt?",
+        "option_a": "Division by zero",
+        "option_b": "Keyboard input",
+        "option_c": "System call",
+        "option_d": "Hardware failure",
+        "correct_answer": "C",
+        "explanation": "Software interrupts are generated by programs to request services from the operating system, such as system calls."
+      },
+      {
+        "question": "What is the purpose of the Index Register?",
+        "option_a": "Hold the address of the next instruction",
+        "option_b": "Store the result of computations",
+        "option_c": "Hold an index value for addressing calculations",
+        "option_d": "Manage control information for program execution",
+        "correct_answer": "C",
+        "explanation": "The Index Register holds an index value that is used in addressing calculations, such as in Indexed Addressing Mode."
+      },
+      {
+        "question": "Which of the following is an example of a branching instruction?",
+        "option_a": "ADD",
+        "option_b": "SUB",
+        "option_c": "JMP",
+        "option_d": "MUL",
+        "correct_answer": "C",
+        "explanation": "Branching instructions, such as JMP, allow the CPU to jump to a different part of the program."
+      },
+      {
+        "question": "What is the purpose of the Instruction Fetch stage in the Instruction Cycle?",
+        "option_a": "Fetch the instruction from memory",
+        "option_b": "Decode the instruction to determine the operation to perform",
+        "option_c": "Execute the instruction using the ALU",
+        "option_d": "Write the result back to memory or a register",
+        "correct_answer": "A",
+        "explanation": "The Instruction Fetch stage fetches the instruction from memory using the Program Counter (PC)."
+      },
+      {
+        "question": "Which of the following is an example of a logical shift operation?",
+        "option_a": "SHL",
+        "option_b": "SHR",
+        "option_c": "Both A and B",
+        "option_d": "None of the above",
+        "correct_answer": "C",
+        "explanation": "Logical shift operations include SHL (Shift Left) and SHR (Shift Right), which move bits within a register."
+      },
+      {
+        "question": "What is the purpose of the Control Signals in the ALU?",
+        "option_a": "Specify the operation to be performed",
+        "option_b": "Hold the input data values",
+        "option_c": "Store the result of computations",
+        "option_d": "Manage control information for program execution",
+        "correct_answer": "A",
+        "explanation": "Control Signals in the ALU specify the operation to be performed, such as addition, subtraction, or logical operations."
+      },
+      {
+        "question": "Which of the following is an example of a memory load instruction?",
+        "option_a": "LOAD R1, [address]",
+        "option_b": "STORE [address], R1",
+        "option_c": "MOV R1, R2",
+        "option_d": "ADD R1, R2",
+        "correct_answer": "A",
+        "explanation": "Memory load instructions, such as LOAD, retrieve data from memory and place it in a register."
+      },
+      {
+        "question": "What is the purpose of the Instruction Execute stage in the Instruction Cycle?",
+        "option_a": "Fetch the instruction from memory",
+        "option_b": "Decode the instruction to determine the operation to perform",
+        "option_c": "Execute the instruction using the ALU",
+        "option_d": "Write the result back to memory or a register",
+        "correct_answer": "C",
+        "explanation": "The Instruction Execute stage executes the instruction using the ALU or another processing unit."
+      },
+      {
+        "question": "Which of the following is an example of a memory store instruction?",
+        "option_a": "LOAD R1, [address]",
+        "option_b": "STORE [address], R1",
+        "option_c": "MOV R1, R2",
+        "option_d": "ADD R1, R2",
+        "correct_answer": "B",
+        "explanation": "Memory store instructions, such as STORE, save data from a register back to memory."
+      },
+      {
+        "question": "What is the purpose of the Flags Register?",
+        "option_a": "Hold the address of the next instruction",
+        "option_b": "Store the result of computations",
+        "option_c": "Indicate conditions such as zero result or overflow",
+        "option_d": "Manage control information for program execution",
+        "correct_answer": "C",
+        "explanation": "The Flags Register holds status flags that indicate conditions such as zero result, overflow, or carry."
+      },
+      {
+        "question": "Which of the following is an example of a subroutine return instruction?",
+        "option_a": "JMP",
+        "option_b": "CALL",
+        "option_c": "RET",
+        "option_d": "NOP",
+        "correct_answer": "C",
+        "explanation": "The RET instruction is used to return from a subroutine or function."
+      },
+      {
+        "question": "What is the purpose of the Instruction Register (IR)?",
+        "option_a": "Hold the address of the next instruction",
+        "option_b": "Store the result of computations",
+        "option_c": "Hold the current instruction being executed",
+        "option_d": "Manage control information for program execution",
+        "correct_answer": "C",
+        "explanation": "The Instruction Register (IR) holds the current instruction being executed."
+      },
+      {
+        "question": "Which of the following is an example of a bitwise logical operation?",
+        "option_a": "ADD",
+        "option_b": "SUB",
+        "option_c": "AND",
+        "option_d": "MUL",
+        "correct_answer": "C",
+        "explanation": "Bitwise logical operations include AND, OR, XOR, and NOT, which operate on individual bits of data."
+      }
+    ]
+  }

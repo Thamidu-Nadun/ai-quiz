@@ -1,0 +1,355 @@
+{
+    "questions": [
+      {
+        "question": "What is the primary focus of the IT1140 module?",
+        "option_a": "Advanced programming techniques",
+        "option_b": "Fundamental concepts of computer systems and their real-world applications",
+        "option_c": "Networking and cybersecurity",
+        "option_d": "Data science and machine learning",
+        "correct_answer": "B",
+        "explanation": "The IT1140 module focuses on fundamental concepts of computer systems and how they are applied to solve real-world problems."
+      },
+      {
+        "question": "Which of the following is NOT a learning outcome of the IT1140 module?",
+        "option_a": "Describe how different components of a computer system function",
+        "option_b": "Apply Boolean algebra to simplify circuits",
+        "option_c": "Design computer systems to solve real-world problems",
+        "option_d": "Develop advanced machine learning algorithms",
+        "correct_answer": "D",
+        "explanation": "The module does not focus on developing advanced machine learning algorithms; it covers fundamental concepts and practical applications."
+      },
+      {
+        "question": "How are course materials primarily shared in the IT1140 module?",
+        "option_a": "Through email",
+        "option_b": "Through a learning management system (CourseWeb)",
+        "option_c": "Through physical handouts",
+        "option_d": "Through social media platforms",
+        "correct_answer": "B",
+        "explanation": "Course materials are primarily shared through CourseWeb, the learning management system."
+      },
+      {
+        "question": "What is the weightage of the final exam in the IT1140 module?",
+        "option_a": "30%",
+        "option_b": "40%",
+        "option_c": "50%",
+        "option_d": "60%",
+        "correct_answer": "C",
+        "explanation": "The final exam carries a weightage of 50% in the IT1140 module."
+      },
+      {
+        "question": "Which of the following is a computing discipline?",
+        "option_a": "Computer Engineering",
+        "option_b": "Data Science",
+        "option_c": "Cyber Security",
+        "option_d": "All of the above",
+        "correct_answer": "D",
+        "explanation": "Computer Engineering, Data Science, and Cyber Security are all computing disciplines."
+      },
+      {
+        "question": "What is the primary focus of Computer Engineering?",
+        "option_a": "Design and construction of computers and computer-based systems",
+        "option_b": "Developing software applications",
+        "option_c": "Analyzing business processes",
+        "option_d": "Protecting digital assets from cyber threats",
+        "correct_answer": "A",
+        "explanation": "Computer Engineering focuses on the design and construction of computers and computer-based systems."
+      },
+      {
+        "question": "Which of the following roles is associated with Computer Engineering?",
+        "option_a": "Software Engineer",
+        "option_b": "Hardware Engineer",
+        "option_c": "Data Scientist",
+        "option_d": "Business Analyst",
+        "correct_answer": "B",
+        "explanation": "Hardware Engineer is a role associated with Computer Engineering."
+      },
+      {
+        "question": "What is the primary focus of Computer Science?",
+        "option_a": "Designing and implementing software",
+        "option_b": "Managing business processes",
+        "option_c": "Protecting digital assets",
+        "option_d": "Analyzing large datasets",
+        "correct_answer": "A",
+        "explanation": "Computer Science focuses on designing and implementing software and solving computing problems."
+      },
+      {
+        "question": "Which of the following is NOT a role associated with Computer Science?",
+        "option_a": "Software Developer",
+        "option_b": "Data Analyst",
+        "option_c": "Network Engineer",
+        "option_d": "Business Analyst",
+        "correct_answer": "D",
+        "explanation": "Business Analyst is not typically a role associated with Computer Science."
+      },
+      {
+        "question": "What is the primary focus of Information Systems?",
+        "option_a": "Integrating IT solutions with business processes",
+        "option_b": "Designing computer hardware",
+        "option_c": "Developing machine learning algorithms",
+        "option_d": "Protecting networks from cyber threats",
+        "correct_answer": "A",
+        "explanation": "Information Systems focuses on integrating IT solutions with business processes to meet organizational needs."
+      },
+      {
+        "question": "Which of the following roles is associated with Information Systems?",
+        "option_a": "Systems Analyst",
+        "option_b": "Hardware Engineer",
+        "option_c": "Data Scientist",
+        "option_d": "Cybersecurity Analyst",
+        "correct_answer": "A",
+        "explanation": "Systems Analyst is a role associated with Information Systems."
+      },
+      {
+        "question": "What is the primary focus of Information Technology?",
+        "option_a": "Meeting the computer technology needs of organizations",
+        "option_b": "Designing computer hardware",
+        "option_c": "Developing machine learning algorithms",
+        "option_d": "Protecting networks from cyber threats",
+        "correct_answer": "A",
+        "explanation": "Information Technology focuses on meeting the computer technology needs of businesses and organizations."
+      },
+      {
+        "question": "Which of the following roles is associated with Information Technology?",
+        "option_a": "Database Administrator",
+        "option_b": "Hardware Engineer",
+        "option_c": "Data Scientist",
+        "option_d": "Cybersecurity Analyst",
+        "correct_answer": "A",
+        "explanation": "Database Administrator is a role associated with Information Technology."
+      },
+      {
+        "question": "What is the primary focus of Software Engineering?",
+        "option_a": "Developing reliable and efficient software systems",
+        "option_b": "Designing computer hardware",
+        "option_c": "Analyzing business processes",
+        "option_d": "Protecting digital assets from cyber threats",
+        "correct_answer": "A",
+        "explanation": "Software Engineering focuses on developing reliable and efficient software systems."
+      },
+      {
+        "question": "Which of the following roles is associated with Software Engineering?",
+        "option_a": "Software Architect",
+        "option_b": "Hardware Engineer",
+        "option_c": "Data Scientist",
+        "option_d": "Business Analyst",
+        "correct_answer": "A",
+        "explanation": "Software Architect is a role associated with Software Engineering."
+      },
+      {
+        "question": "What is the primary focus of Cyber Security?",
+        "option_a": "Protecting digital assets and mitigating cyber risks",
+        "option_b": "Designing computer hardware",
+        "option_c": "Developing machine learning algorithms",
+        "option_d": "Analyzing business processes",
+        "correct_answer": "A",
+        "explanation": "Cyber Security focuses on protecting digital assets and mitigating cyber risks."
+      },
+      {
+        "question": "Which of the following roles is associated with Cyber Security?",
+        "option_a": "Cybersecurity Analyst",
+        "option_b": "Hardware Engineer",
+        "option_c": "Data Scientist",
+        "option_d": "Business Analyst",
+        "correct_answer": "A",
+        "explanation": "Cybersecurity Analyst is a role associated with Cyber Security."
+      },
+      {
+        "question": "What is the primary focus of Data Science?",
+        "option_a": "Analyzing large datasets to extract insights",
+        "option_b": "Designing computer hardware",
+        "option_c": "Developing software applications",
+        "option_d": "Protecting networks from cyber threats",
+        "correct_answer": "A",
+        "explanation": "Data Science focuses on analyzing large datasets to extract valuable insights."
+      },
+      {
+        "question": "Which of the following roles is associated with Data Science?",
+        "option_a": "Data Scientist",
+        "option_b": "Hardware Engineer",
+        "option_c": "Software Engineer",
+        "option_d": "Business Analyst",
+        "correct_answer": "A",
+        "explanation": "Data Scientist is a role associated with Data Science."
+      },
+      {
+        "question": "What is the primary focus of Interactive Media?",
+        "option_a": "Producing creative computing professionals",
+        "option_b": "Designing computer hardware",
+        "option_c": "Developing machine learning algorithms",
+        "option_d": "Protecting networks from cyber threats",
+        "correct_answer": "A",
+        "explanation": "Interactive Media focuses on producing creative computing professionals for media-based industries."
+      },
+      {
+        "question": "Which of the following roles is associated with Interactive Media?",
+        "option_a": "UI/UX Designer",
+        "option_b": "Hardware Engineer",
+        "option_c": "Data Scientist",
+        "option_d": "Business Analyst",
+        "correct_answer": "A",
+        "explanation": "UI/UX Designer is a role associated with Interactive Media."
+      },
+      {
+        "question": "Which computing discipline focuses on the interaction between hardware, software, and communications?",
+        "option_a": "Computer Engineering",
+        "option_b": "Computer Science",
+        "option_c": "Information Systems",
+        "option_d": "Software Engineering",
+        "correct_answer": "A",
+        "explanation": "Computer Engineering focuses on the interaction between hardware, software, and communications."
+      },
+      {
+        "question": "Which computing discipline is most concerned with the relationship between information systems and organizations?",
+        "option_a": "Information Systems",
+        "option_b": "Computer Science",
+        "option_c": "Software Engineering",
+        "option_d": "Data Science",
+        "correct_answer": "A",
+        "explanation": "Information Systems is most concerned with the relationship between information systems and organizations."
+      },
+      {
+        "question": "Which computing discipline focuses on developing systematic models for producing high-quality software?",
+        "option_a": "Software Engineering",
+        "option_b": "Computer Science",
+        "option_c": "Information Systems",
+        "option_d": "Data Science",
+        "correct_answer": "A",
+        "explanation": "Software Engineering focuses on developing systematic models for producing high-quality software."
+      },
+      {
+        "question": "Which computing discipline is most concerned with safeguarding digital assets and mitigating cyber risks?",
+        "option_a": "Cyber Security",
+        "option_b": "Computer Science",
+        "option_c": "Information Systems",
+        "option_d": "Data Science",
+        "correct_answer": "A",
+        "explanation": "Cyber Security is most concerned with safeguarding digital assets and mitigating cyber risks."
+      },
+      {
+        "question": "Which computing discipline focuses on analyzing large datasets to drive business decisions?",
+        "option_a": "Data Science",
+        "option_b": "Computer Science",
+        "option_c": "Information Systems",
+        "option_d": "Software Engineering",
+        "correct_answer": "A",
+        "explanation": "Data Science focuses on analyzing large datasets to drive business decisions."
+      },
+      {
+        "question": "Which computing discipline focuses on producing creative computing professionals for media-based industries?",
+        "option_a": "Interactive Media",
+        "option_b": "Computer Science",
+        "option_c": "Information Systems",
+        "option_d": "Software Engineering",
+        "correct_answer": "A",
+        "explanation": "Interactive Media focuses on producing creative computing professionals for media-based industries."
+      },
+      {
+        "question": "Which of the following is a real-world application of computing technologies?",
+        "option_a": "Smart car",
+        "option_b": "Smart airport system",
+        "option_c": "Smart shopping mall",
+        "option_d": "All of the above",
+        "correct_answer": "D",
+        "explanation": "Smart car, smart airport system, and smart shopping mall are all real-world applications of computing technologies."
+      },
+      {
+        "question": "Which of the following is a key role in Information Systems?",
+        "option_a": "Business Analyst",
+        "option_b": "Hardware Engineer",
+        "option_c": "Data Scientist",
+        "option_d": "Cybersecurity Analyst",
+        "correct_answer": "A",
+        "explanation": "Business Analyst is a key role in Information Systems."
+      },
+      {
+        "question": "Which of the following is a key role in Software Engineering?",
+        "option_a": "Software Architect",
+        "option_b": "Hardware Engineer",
+        "option_c": "Data Scientist",
+        "option_d": "Business Analyst",
+        "correct_answer": "A",
+        "explanation": "Software Architect is a key role in Software Engineering."
+      },
+      {
+        "question": "Which of the following is a key role in Cyber Security?",
+        "option_a": "Cybersecurity Analyst",
+        "option_b": "Hardware Engineer",
+        "option_c": "Data Scientist",
+        "option_d": "Business Analyst",
+        "correct_answer": "A",
+        "explanation": "Cybersecurity Analyst is a key role in Cyber Security."
+      },
+      {
+        "question": "Which of the following is a key role in Data Science?",
+        "option_a": "Data Scientist",
+        "option_b": "Hardware Engineer",
+        "option_c": "Software Engineer",
+        "option_d": "Business Analyst",
+        "correct_answer": "A",
+        "explanation": "Data Scientist is a key role in Data Science."
+      },
+      {
+        "question": "Which of the following is a key role in Interactive Media?",
+        "option_a": "UI/UX Designer",
+        "option_b": "Hardware Engineer",
+        "option_c": "Data Scientist",
+        "option_d": "Business Analyst",
+        "correct_answer": "A",
+        "explanation": "UI/UX Designer is a key role in Interactive Media."
+      },
+      {
+        "question": "Which computing discipline is most concerned with the design and implementation of software?",
+        "option_a": "Software Engineering",
+        "option_b": "Computer Science",
+        "option_c": "Information Systems",
+        "option_d": "Data Science",
+        "correct_answer": "A",
+        "explanation": "Software Engineering is most concerned with the design and implementation of software."
+      },
+      {
+        "question": "Which computing discipline is most concerned with the integration of IT solutions and business processes?",
+        "option_a": "Information Systems",
+        "option_b": "Computer Science",
+        "option_c": "Software Engineering",
+        "option_d": "Data Science",
+        "correct_answer": "A",
+        "explanation": "Information Systems is most concerned with the integration of IT solutions and business processes."
+      },
+      {
+        "question": "Which computing discipline is most concerned with the development of reliable and efficient software systems?",
+        "option_a": "Software Engineering",
+        "option_b": "Computer Science",
+        "option_c": "Information Systems",
+        "option_d": "Data Science",
+        "correct_answer": "A",
+        "explanation": "Software Engineering is most concerned with the development of reliable and efficient software systems."
+      },
+      {
+        "question": "Which computing discipline is most concerned with the protection of digital assets from cyber threats?",
+        "option_a": "Cyber Security",
+        "option_b": "Computer Science",
+        "option_c": "Information Systems",
+        "option_d": "Data Science",
+        "correct_answer": "A",
+        "explanation": "Cyber Security is most concerned with the protection of digital assets from cyber threats."
+      },
+      {
+        "question": "Which computing discipline is most concerned with the analysis of large datasets to extract insights?",
+        "option_a": "Data Science",
+        "option_b": "Computer Science",
+        "option_c": "Information Systems",
+        "option_d": "Software Engineering",
+        "correct_answer": "A",
+        "explanation": "Data Science is most concerned with the analysis of large datasets to extract insights."
+      },
+      {
+        "question": "Which computing discipline is most concerned with the production of creative computing professionals for media-based industries?",
+        "option_a": "Interactive Media",
+        "option_b": "Computer Science",
+        "option_c": "Information Systems",
+        "option_d": "Software Engineering",
+        "correct_answer": "A",
+        "explanation": "Interactive Media is most concerned with the production of creative computing professionals for media-based industries."
+      }
+    ]
+  }

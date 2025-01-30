@@ -1,0 +1,193 @@
+{
+    "questions": [
+        {
+            "question": "What does data representation in computers refer to?",
+            "option_a": "How data is shared across networks",
+            "option_b": "The way data is visualized on a computer screen",
+            "option_c": "The form in which data is stored, processed, and transmitted in computers",
+            "option_d": "The process of backing up computer data",
+            "correct_answer": "C",
+            "explanation": "Data representation refers to the format used to store, process, and transmit data in computers."
+        },
+        {
+            "question": "Which data type represents descriptive information?",
+            "option_a": "Quantitative data",
+            "option_b": "Qualitative data",
+            "option_c": "Integer data",
+            "option_d": "Binary data",
+            "correct_answer": "B",
+            "explanation": "Qualitative data provides descriptive information, as opposed to numerical information."
+        },
+        {
+            "question": "What is the binary number system used for in computing?",
+            "option_a": "Performing arithmetic operations only",
+            "option_b": "Displaying characters on the screen",
+            "option_c": "Processing and storing digital information",
+            "option_d": "Backing up files",
+            "correct_answer": "C",
+            "explanation": "Computers use the binary number system to process and store digital data efficiently."
+        },
+        {
+            "question": "How many bits are in a byte?",
+            "option_a": "4",
+            "option_b": "8",
+            "option_c": "16",
+            "option_d": "32",
+            "correct_answer": "B",
+            "explanation": "A byte consists of 8 bits in computing."
+        },
+        {
+            "question": "What does ASCII stand for?",
+            "option_a": "American Standard Code for Interfacing Information",
+            "option_b": "Automated System Code for International Integration",
+            "option_c": "American Standard Code for Information Interchange",
+            "option_d": "Advanced System Communication for Internet",
+            "correct_answer": "C",
+            "explanation": "ASCII stands for American Standard Code for Information Interchange, used to encode characters in digital systems."
+        },
+        {
+            "question": "What is the hexadecimal number system often used for in computing?",
+            "option_a": "Reducing storage space",
+            "option_b": "Simplifying arithmetic operations",
+            "option_c": "Replacing binary numbers for readability",
+            "option_d": "Encoding multimedia files",
+            "correct_answer": "C",
+            "explanation": "The hexadecimal number system is often used to represent binary numbers in a more human-readable form."
+        },
+        {
+            "question": "How many bits are needed to represent a hexadecimal digit?",
+            "option_a": "2",
+            "option_b": "4",
+            "option_c": "8",
+            "option_d": "16",
+            "correct_answer": "B",
+            "explanation": "Each hexadecimal digit corresponds to 4 binary bits."
+        },
+        {
+            "question": "What does ALU stand for in computer architecture?",
+            "option_a": "Advanced Logical Unit",
+            "option_b": "Arithmetic and Logic Unit",
+            "option_c": "Application Layer Utility",
+            "option_d": "Algorithm Level Unit",
+            "correct_answer": "B",
+            "explanation": "The ALU (Arithmetic and Logic Unit) performs arithmetic and logic operations in a computer."
+        },
+        {
+            "question": "What is the function of the Instruction Pointer (IP) in the 8086 architecture?",
+            "option_a": "To store data permanently",
+            "option_b": "To indicate the address of the next instruction to be executed",
+            "option_c": "To manage input and output operations",
+            "option_d": "To regulate system voltage levels",
+            "correct_answer": "B",
+            "explanation": "The Instruction Pointer (IP) contains the address of the next instruction to be executed in the 8086 architecture."
+        },
+        {
+            "question": "What is the purpose of the segment registers in the 8086 architecture?",
+            "option_a": "To store floating-point numbers",
+            "option_b": "To execute instructions sequentially",
+            "option_c": "To address specific memory segments",
+            "option_d": "To control power distribution",
+            "correct_answer": "C",
+            "explanation": "Segment registers are used to reference specific areas of memory in the 8086 architecture."
+        },
+        {
+            "question": "What are the two steps involved in the instruction cycle?",
+            "option_a": "Read and write",
+            "option_b": "Load and execute",
+            "option_c": "Fetch and execute",
+            "option_d": "Compile and debug",
+            "correct_answer": "C",
+            "explanation": "The instruction cycle consists of fetching the instruction and executing it."
+        },
+        {
+            "question": "What distinguishes RISC from CISC architectures?",
+            "option_a": "RISC uses complex instructions, while CISC uses simple instructions",
+            "option_b": "RISC executes simple instructions within one clock cycle, whereas CISC uses more complex instructions",
+            "option_c": "RISC has more hardware components than CISC",
+            "option_d": "RISC uses less memory than CISC",
+            "correct_answer": "B",
+            "explanation": "RISC architectures execute simple instructions within a single clock cycle, whereas CISC uses complex instructions."
+        },
+        {
+            "question": "Which register in the 8086 architecture holds a collection of 16 different conditions?",
+            "option_a": "Data Segment Register",
+            "option_b": "Stack Pointer",
+            "option_c": "Flag Register",
+            "option_d": "Instruction Register",
+            "correct_answer": "C",
+            "explanation": "The flag register holds a collection of 16 different conditions such as whether the result is zero or whether there is a carry."
+        },
+        {
+            "question": "What does the term 'digitization' refer to?",
+            "option_a": "Storing data in magnetic format",
+            "option_b": "Converting analog information into digital data",
+            "option_c": "Running applications on cloud systems",
+            "option_d": "Deleting unnecessary data from storage",
+            "correct_answer": "B",
+            "explanation": "Digitization is the process of converting information, such as text or music, into digital data that can be manipulated by electronic devices."
+        },
+        {
+            "question": "How many general-purpose registers are there in the 8086 architecture?",
+            "option_a": "2",
+            "option_b": "4",
+            "option_c": "8",
+            "option_d": "16",
+            "correct_answer": "B",
+            "explanation": "The 8086 architecture has four general-purpose registers: AX, BX, CX, and DX."
+        },
+        {
+            "question": "What does the opcode field in an 8086 instruction format specify?",
+            "option_a": "The size of the data transfer",
+            "option_b": "The address of the next instruction",
+            "option_c": "The type of operation performed by the CPU",
+            "option_d": "The memory location for input/output",
+            "correct_answer": "C",
+            "explanation": "The opcode field specifies the operation type to be performed by the CPU."
+        },
+        {
+            "question": "What is the size of the instruction pointer in the 8086 architecture?",
+            "option_a": "8 bits",
+            "option_b": "16 bits",
+            "option_c": "32 bits",
+            "option_d": "64 bits",
+            "correct_answer": "B",
+            "explanation": "The instruction pointer (IP) in the 8086 architecture is a 16-bit register."
+        },
+        {
+            "question": "What is a key feature of the CISC architecture?",
+            "option_a": "Simple hardware design",
+            "option_b": "Reduced compiler workload",
+            "option_c": "High number of registers",
+            "option_d": "Instructions executed in one clock cycle",
+            "correct_answer": "B",
+            "explanation": "In CISC (Complex Instruction Set Computer) architectures, the instruction set is high-level, resulting in reduced compiler workload."
+        },
+        {
+            "question": "Which register in the 8086 architecture contains the address of the top of the stack?",
+            "option_a": "Base Pointer",
+            "option_b": "Stack Pointer",
+            "option_c": "Instruction Register",
+            "option_d": "Data Segment Register",
+            "correct_answer": "B",
+            "explanation": "The Stack Pointer (SP) contains the address of the top of the stack."
+        },
+        {
+            "question": "What is the memory capacity addressable by a 32-bit system?",
+            "option_a": "4 MB",
+            "option_b": "4 GB",
+            "option_c": "8 GB",
+            "option_d": "16 GB",
+            "correct_answer": "B",
+            "explanation": "A 32-bit system can address up to 4 GB of memory (2^32)."
+        },
+        {
+            "question": "What distinguishes extended ASCII from standard ASCII?",
+            "option_a": "Extended ASCII uses fewer bits",
+            "option_b": "Extended ASCII supports up to 256 characters",
+            "option_c": "Extended ASCII supports only numeric values",
+            "option_d": "Extended ASCII uses 5-bit codes",
+            "correct_answer": "B",
+            "explanation": "Extended ASCII is an 8-bit system that allows the encoding of up to 256 different characters."
+        }
+    ]
+}
