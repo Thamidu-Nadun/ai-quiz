@@ -1,0 +1,661 @@
+{
+    "questions": [
+        {
+            "question": "According to the sources, plagiarism is defined as:",
+            "option_a": "Using the work of others with proper citation.",
+            "option_b": "Using the work of others without acknowledgment of the source [1].",
+            "option_c": "Summarizing information from various sources.",
+            "option_d": "Expressing someone else's ideas in your own words with citation.",
+            "correct_answer": "B",
+            "explanation": "Plagiarism is the use of the work of others without acknowledgment of your source of information or inspiration [1]."
+        },
+        {
+            "question": "Which of the following constitutes plagiarism according to the sources?",
+            "option_a": "Providing a reference list at the end of your work [2].",
+            "option_b": "Using direct quotations with citation [3].",
+            "option_c": "Paraphrasing without stating where the information comes from [3].",
+            "option_d": "Writing all your notes in your own words [3].",
+            "correct_answer": "C",
+            "explanation": "Paraphrasing what you read or hear without stating where it comes from is considered plagiarism [3]."
+        },
+        {
+            "question": "To avoid plagiarism when paraphrasing, you should:",
+            "option_a": "Change only a few words while keeping the original sentence structure.",
+            "option_b": "Write in your own words while giving credit to the original author [3].",
+            "option_c": "Copy and paste the original text and then add citations.",
+            "option_d": "Only cite direct quotations.",
+            "correct_answer": "B",
+            "explanation": "To avoid plagiarism through paraphrasing, you should write in your own words while giving credit to the original author [3]."
+        },
+        {
+            "question": "Referencing in academic work involves the appropriate acknowledgment of:",
+            "option_a": "Only direct quotations from other sources.",
+            "option_b": "Ideas and work that originate from another person [2].",
+            "option_c": "Common knowledge.",
+            "option_d": "Widely accepted information.",
+            "correct_answer": "B",
+            "explanation": "Referencing is the appropriate acknowledgment of ideas and work that originate from another person [2]."
+        },
+        {
+            "question": "One of the reasons why referencing is important is that it:",
+            "option_a": "Makes your assignment longer.",
+            "option_b": "Indicates what material is your original work [4].",
+            "option_c": "Restricts the reader from accessing external material.",
+            "option_d": "Always indicates that the material is from a popular online website.",
+            "correct_answer": "B",
+            "explanation": "Referencing indicates what material is your original work since you have provided a citation for work that is not your own [4]."
+        },
+        {
+            "question": "The two main elements used in referencing are:",
+            "option_a": "A bibliography and an abstract.",
+            "option_b": "An introduction and a conclusion.",
+            "option_c": "A citation in the text and an entry in a reference list [5].",
+            "option_d": "Footnotes and endnotes.",
+            "correct_answer": "C",
+            "explanation": "The two elements used in referencing are a citation in the text of the assignment (in-text citation) and an entry in a reference list at the end [5]."
+        },
+        {
+            "question": "In the IEEE citation style, in-text references are:",
+            "option_a": "Given with author names and year of publication.",
+            "option_b": "Numbered in the order of appearance in the article [6].",
+            "option_c": "Listed alphabetically by author's last name.",
+            "option_d": "Placed as footnotes at the bottom of each page.",
+            "correct_answer": "B",
+            "explanation": "In the IEEE citation style, in-text references are numbered [1] in the order of appearance in the article [6]."
+        },
+        {
+            "question": "The reference list in the IEEE style is:",
+            "option_a": "Alphabetical by author's last name.",
+            "option_b": "Ordered as they appear in the in-text references [6].",
+            "option_c": "Organized by publication year.",
+            "option_d": "Not required if in-text citations are used.",
+            "correct_answer": "B",
+            "explanation": "The reference list in the IEEE style is displayed at the end of the article and the references are ordered as they appear in the in-text references (in order of citation) [6]."
+        },
+        {
+            "question": "Paraphrasing is defined as:",
+            "option_a": "Shortening a text to its main points.",
+            "option_b": "Expressing a statement or text in different words, while maintaining the original meaning [7].",
+            "option_c": "Copying a text verbatim and citing it.",
+            "option_d": "Providing a critical analysis of a text.",
+            "correct_answer": "B",
+            "explanation": "Paraphrasing is expressing a statement or text in different words, while maintaining the original meaning [7]."
+        },
+        {
+            "question": "One important reason to paraphrase is to:",
+            "option_a": "Increase the word count of your assignment.",
+            "option_b": "Avoid plagiarism [7].",
+            "option_c": "Make the text more complex.",
+            "option_d": "Directly quote every idea.",
+            "correct_answer": "B",
+            "explanation": "We need to paraphrase to avoid plagiarism [7]."
+        },
+        {
+            "question": "Which of the following is a paraphrasing technique mentioned in the sources?",
+            "option_a": "Using the same word order as the original text.",
+            "option_b": "Using synonyms appropriately [8].",
+            "option_c": "Keeping the sentence structure identical.",
+            "option_d": "Only changing a few words.",
+            "correct_answer": "B",
+            "explanation": "Using synonyms appropriately is a paraphrasing technique [8]."
+        },
+        {
+            "question": "Summarizing involves:",
+            "option_a": "Expanding on the original text with additional details.",
+            "option_b": "Expressing the main ideas of a text in your own words [9].",
+            "option_c": "Translating the text into another language.",
+            "option_d": "Analyzing the author's background.",
+            "correct_answer": "B",
+            "explanation": "Summarizing involves identifying main ideas and using your own words [9]."
+        },
+        {
+            "question": "When summarizing, it is important to:",
+            "option_a": "Include every detail from the original text.",
+            "option_b": "Remove unnecessary details [9].",
+            "option_c": "Add your personal opinions [10].",
+            "option_d": "Keep the same sentence structure as the original.",
+            "correct_answer": "B",
+            "explanation": "When summarizing, you should remove unnecessary details [9]."
+        },
+        {
+            "question": "To maintain coherence in a summary, you can:",
+            "option_a": "Use long and complex sentences.",
+            "option_b": "Use conjunctions [10].",
+            "option_c": "Repeat the same words and phrases.",
+            "option_d": "Avoid citing sources.",
+            "correct_answer": "B",
+            "explanation": "You can use conjunctions for coherence when summarizing [10]."
+        },
+        {
+            "question": "When describing a process, understanding the process involves considering whether it is:",
+            "option_a": "Always complex.",
+            "option_b": "Man-made or natural [11].",
+            "option_c": "Always short.",
+            "option_d": "Difficult to understand.",
+            "correct_answer": "B",
+            "explanation": "Understanding the process involves considering if it is a man-made or a natural process [11]."
+        },
+        {
+            "question": "When describing a process using a diagram, you should first:",
+            "option_a": "Give all the detailed information.",
+            "option_b": "Introduce the diagram [12].",
+            "option_c": "Use only complex language.",
+            "option_d": "Avoid mentioning the main points.",
+            "correct_answer": "B",
+            "explanation": "When describing a process using a diagram, you should first introduce the diagram [12]."
+        },
+        {
+            "question": "In describing each stage of a process, you should:",
+            "option_a": "Only focus on the materials added.",
+            "option_b": "Say what each stage does [13].",
+            "option_c": "Use only past tense verbs.",
+            "option_d": "Avoid discussing relationships between stages.",
+            "correct_answer": "B",
+            "explanation": "In detailing each stage of the process, you should say what each stage does [13]."
+        },
+        {
+            "question": "When describing a process, the sources suggest using:",
+            "option_a": "Complex sentence structures.",
+            "option_b": "Simple present and simple present passive voice [13].",
+            "option_c": "Only technical jargon.",
+            "option_d": "A lot of personal opinions.",
+            "correct_answer": "B",
+            "explanation": "When describing a process, use simple present and simple present passive [13]."
+        },
+        {
+            "question": "Features of academic writing style include:",
+            "option_a": "Colloquial words and expressions [14].",
+            "option_b": "Slang [14].",
+            "option_c": "Precision [14].",
+            "option_d": "Contractions [14].",
+            "correct_answer": "C",
+            "explanation": "Features of academic writing include precision [14]."
+        },
+        {
+            "question": "In academic writing, you should generally avoid:",
+            "option_a": "Using acronyms correctly [15].",
+            "option_b": "Using formal language.",
+            "option_c": "Using precise vocabulary.",
+            "option_d": "Using colloquial words and expressions [14].",
+            "correct_answer": "D",
+            "explanation": "In academic writing, avoid colloquial words and expressions [14]."
+        },
+        {
+            "question": "To achieve objectivity in academic writing, you can:",
+            "option_a": "Use personal pronouns like 'I' and 'we'.",
+            "option_b": "Include your personal opinions and biases.",
+            "option_c": "Use passive voice [16].",
+            "option_d": "Use rhetorical questions [15].",
+            "correct_answer": "C",
+            "explanation": "To achieve objectivity, use passive voice [16]."
+        },
+        {
+            "question": "An example of a phrase to avoid in formal academic writing is:",
+            "option_a": "In conclusion,",
+            "option_b": "Furthermore,",
+            "option_c": "Sort of [14].",
+            "option_d": "Consequently,",
+            "correct_answer": "C",
+            "explanation": "'Sort of' is a colloquial expression to avoid in academic writing [14]."
+        },
+        {
+            "question": "When using acronyms in academic writing, you should:",
+            "option_a": "Only use them if the audience is familiar with them.",
+            "option_b": "Write the name in full the first time with the acronym in brackets [15].",
+            "option_c": "Use them frequently without explanation.",
+            "option_d": "Avoid using them altogether.",
+            "correct_answer": "B",
+            "explanation": "Write the name in full the first time with the acronym in brackets immediately after [15]."
+        },
+        {
+            "question": "The passive voice is formed by using:",
+            "option_a": "The base form of the verb.",
+            "option_b": "The verb 'to be' followed by the past participle [17].",
+            "option_c": "The present participle of the verb.",
+            "option_d": "The verb 'to have' followed by the past participle.",
+            "correct_answer": "B",
+            "explanation": "We form the passive by using the verb to be followed by the past participle [17]."
+        },
+        {
+            "question": "The passive voice is often used when:",
+            "option_a": "The subject performing the action is the main focus.",
+            "option_b": "Who or what causes the action is unknown or unimportant [18].",
+            "option_c": "Making informal statements.",
+            "option_d": "In narrative writing to emphasize the actor.",
+            "correct_answer": "B",
+            "explanation": "We use the passive voice when who or what causes the action is unknown or unimportant [18]."
+        },
+        {
+            "question": "In the sentence 'The room is cleaned by the students,' the voice is:",
+            "option_a": "Active.",
+            "option_b": "Passive [18].",
+            "option_c": "Imperative.",
+            "option_d": "Interrogative.",
+            "correct_answer": "B",
+            "explanation": "The sentence 'The room is cleaned by the students' is in the passive voice [18]."
+        },
+        {
+            "question": "To change the active sentence 'Somebody cleans these rooms everyday' to passive, it becomes:",
+            "option_a": "Somebody is cleaning these rooms everyday.",
+            "option_b": "These rooms clean somebody everyday.",
+            "option_c": "These rooms are cleaned everyday by somebody [17].",
+            "option_d": "Everyday these rooms are cleaned.",
+            "correct_answer": "C",
+            "explanation": "The passive form of 'Somebody cleans these rooms everyday' is 'These rooms are cleaned everyday by somebody' [17]."
+        },
+        {
+            "question": "Transitive verbs are action verbs that:",
+            "option_a": "Do not require an object to complete their meaning [19].",
+            "option_b": "Require an object to complete their meaning [19].",
+            "option_c": "Cannot be used in the passive voice.",
+            "option_d": "Are always followed by a preposition.",
+            "correct_answer": "B",
+            "explanation": "Transitive verbs are action verbs that require an object to complete their meaning. Without an object the sentence will not be clear [19]."
+        },
+        {
+            "question": "Intransitive verbs are action verbs that:",
+            "option_a": "Require an object to complete their meaning [19].",
+            "option_b": "Do not require an object to complete their meaning [19].",
+            "option_c": "Are always used in the passive voice.",
+            "option_d": "Must be followed by an adverb.",
+            "correct_answer": "B",
+            "explanation": "Intransitive verbs are action verbs that do not require an object to complete their meaning [19]."
+        },
+        {
+            "question": "Which of the following verbs cannot be used in the passive voice according to the sources?",
+            "option_a": "Give [20].",
+            "option_b": "Tell [20].",
+            "option_c": "Occur [21].",
+            "option_d": "Send [20].",
+            "correct_answer": "C",
+            "explanation": "Following verbs cannot be used in Passive: Occur, resemble, rise, look like, happen, equal, arise, agree with, fall, exist, mean, consist (of), contain, depend (on), hold, result (from), become, lack, suit, fit, comprise [21, 22]."
+        },
+        {
+            "question": "Academic vocabulary is the vocabulary used in:",
+            "option_a": "Casual conversations with friends.",
+            "option_b": "University writing assignments [23].",
+            "option_c": "Informal emails.",
+            "option_d": "Social media posts.",
+            "correct_answer": "B",
+            "explanation": "Academic vocabulary is the vocabulary which can be used in academic contexts such as writing assignments [23]."
+        },
+        {
+            "question": "A feature to avoid in academic vocabulary is:",
+            "option_a": "Formal language.",
+            "option_b": "Precise terms.",
+            "option_c": "Contractions [24].",
+            "option_d": "Specialized terminology.",
+            "correct_answer": "C",
+            "explanation": "Avoid contractions in academic vocabulary [24]."
+        },
+        {
+            "question": "'Dude' is an example of:",
+            "option_a": "Academic vocabulary.",
+            "option_b": "A formal term.",
+            "option_c": "Slang [24].",
+            "option_d": "An abbreviation.",
+            "correct_answer": "C",
+            "explanation": "'Dude' is a slang word from casual conversation [24]."
+        },
+        {
+            "question": "Instead of 'set up' (a phrasal verb), a more academic alternative could be:",
+            "option_a": "Continue.",
+            "option_b": "Establish [25].",
+            "option_c": "Delay.",
+            "option_d": "Examine.",
+            "correct_answer": "B",
+            "explanation": "A more formal vocabulary for 'set up' could be 'established' [25]."
+        },
+        {
+            "question": "Instead of 'gone up' in 'Cost of living has gone up,' a more academic alternative is:",
+            "option_a": "Reduced.",
+            "option_b": "Decreased.",
+            "option_c": "Increased [26].",
+            "option_d": "Fluctuated.",
+            "correct_answer": "C",
+            "explanation": "A more formal vocabulary for 'gone up' is 'increased' [26]."
+        },
+        {
+            "question": "Critical reading is described as a more ______ way of reading.",
+            "option_a": "Passive.",
+            "option_b": "Superficial.",
+            "option_c": "Active [27].",
+            "option_d": "Quick.",
+            "correct_answer": "C",
+            "explanation": "Critical reading is a more ACTIVE way of reading [27]."
+        },
+        {
+            "question": "Critical reading involves:",
+            "option_a": "Simply accepting what the text says.",
+            "option_b": "Memorizing all the facts in the text.",
+            "option_c": "Analyzing, interpreting, and sometimes evaluating the text [27].",
+            "option_d": "Reading as quickly as possible.",
+            "correct_answer": "C",
+            "explanation": "Critical reading is a process of analyzing, interpreting and, sometimes, evaluating [27]."
+        },
+        {
+            "question": "Skimming is a reading technique used to:",
+            "option_a": "Find specific information.",
+            "option_b": "Get a detailed understanding of every word.",
+            "option_c": "Get a general idea of what the text is about [28].",
+            "option_d": "Analyze the author's writing style in depth.",
+            "correct_answer": "C",
+            "explanation": "The main purpose of skimming is to get a general idea/sense of what the text is about [28]."
+        },
+        {
+            "question": "When skimming, you typically read:",
+            "option_a": "Every single word.",
+            "option_b": "Only the conclusion.",
+            "option_c": "The title, introduction, first sentences of paragraphs, and conclusion [28, 29].",
+            "option_d": "Only italicized or highlighted words.",
+            "correct_answer": "C",
+            "explanation": "How to Skim: Read the title, introduction, first sentence of each paragraph, headings, and the summary or last paragraph [28, 29]."
+        },
+        {
+            "question": "Scanning is a reading method used to:",
+            "option_a": "Understand the overall theme of a text.",
+            "option_b": "Read quickly for pleasure.",
+            "option_c": "Find a specific piece of information [29].",
+            "option_d": "Critically analyze the author's arguments.",
+            "correct_answer": "C",
+            "explanation": "Scanning is a quick reading to find a specific piece of information [29]."
+        },
+        {
+            "question": "Context clues are:",
+            "option_a": "Hints found outside the text to understand its meaning.",
+            "option_b": "Hints found within a sentence, paragraph, or passage to understand unfamiliar words [30].",
+            "option_c": "The dictionary definition of a word.",
+            "option_d": "The author's personal background.",
+            "correct_answer": "B",
+            "explanation": "Context clues are hints found within a sentence, paragraph, or passage [30]."
+        },
+        {
+            "question": "Examples, synonyms, and antonyms are types of:",
+            "option_a": "Grammatical structures.",
+            "option_b": "Context clues [31].",
+            "option_c": "Figurative language.",
+            "option_d": "Rhetorical devices.",
+            "correct_answer": "B",
+            "explanation": "Examples, Synonyms, and Antonyms are types of Context Clues [31]."
+        },
+        {
+            "question": "Making inferences while reading involves:",
+            "option_a": "Directly stating information from the text.",
+            "option_b": "Finding information explicitly written in the text.",
+            "option_c": "Drawing conclusions based on evidence and reasoning [32].",
+            "option_d": "Ignoring your background knowledge.",
+            "correct_answer": "C",
+            "explanation": "An inference is an idea or conclusion that’s drawn from evidence and reasoning [32]."
+        },
+        {
+            "question": "The SQ3R method of critical reading involves which steps in order?",
+            "option_a": "Survey, Question, Read, Recall, Review [33].",
+            "option_b": "Scan, Question, Read, Respond, Reflect.",
+            "option_c": "Skim, Quote, Read, Recite, Rewrite.",
+            "option_d": "Summarize, Question, Research, Relate, Reassess.",
+            "correct_answer": "A",
+            "explanation": "The SQ3R method involves Skim, Question, Read, Remember (Test your memory), and Review [33]."
+        },
+        {
+            "question": "A paragraph is defined as:",
+            "option_a": "A single sentence that conveys a main idea.",
+            "option_b": "A group of related sentences that develops one central idea [34].",
+            "option_c": "A long section of text with multiple ideas.",
+            "option_d": "A collection of loosely connected sentences.",
+            "correct_answer": "B",
+            "explanation": "A paragraph is a group of sentences that develops and supports one central/main idea [34]."
+        },
+        {
+            "question": "The most important sentence in a paragraph is usually the:",
+            "option_a": "Concluding sentence.",
+            "option_b": "Supporting sentence.",
+            "option_c": "Topic sentence [35].",
+            "option_d": "Transitional sentence.",
+            "correct_answer": "C",
+            "explanation": "The most important sentence in a paragraph is the topic sentence [35]."
+        },
+        {
+            "question": "A topic sentence has two main parts:",
+            "option_a": "A subject and a verb.",
+            "option_b": "An introduction and a body.",
+            "option_c": "A topic and a controlling idea [35].",
+            "option_d": "A problem and a solution.",
+            "correct_answer": "C",
+            "explanation": "A topic sentence has two parts: a topic and a controlling idea [35]."
+        },
+        {
+            "question": "Supporting sentences in a paragraph:",
+            "option_a": "Introduce a new topic.",
+            "option_b": "Explain or prove the idea in the topic sentence [36].",
+            "option_c": "Summarize the main point of the paragraph.",
+            "option_d": "Connect one paragraph to the next.",
+            "correct_answer": "B",
+            "explanation": "Supporting sentences explain or prove the idea in the topic sentence [36]."
+        },
+        {
+            "question": "A concluding sentence:",
+            "option_a": "Introduces the main idea of the next paragraph.",
+            "option_b": "Provides additional supporting details.",
+            "option_c": "Closes the paragraph and summarizes the main points [37].",
+            "option_d": "Must always be a direct restatement of the topic sentence.",
+            "correct_answer": "C",
+            "explanation": "A concluding sentence closes the paragraph so that the reader is not left expecting more and often summarizes the main points [37]."
+        },
+        {
+            "question": "Transitional signals are used to:",
+            "option_a": "Introduce a new paragraph.",
+            "option_b": "Connect ideas smoothly within and between paragraphs [34].",
+            "option_c": "State the main topic of the paragraph.",
+            "option_d": "Provide evidence and examples.",
+            "correct_answer": "B",
+            "explanation": "Transitional signals help in recognizing the usage of transitions in writing passages [34]."
+        },
+        {
+            "question": "'For example' is a transitional signal used to:",
+            "option_a": "Show contrast.",
+            "option_b": "Introduce an additional idea.",
+            "option_c": "Introduce an example [38].",
+            "option_d": "Indicate a result.",
+            "correct_answer": "C",
+            "explanation": "'For example' is used to introduce an example [38]."
+        },
+        {
+            "question": "'However' is a transitional signal used to:",
+            "option_a": "Show a result.",
+            "option_b": "Introduce an opposite idea [38].",
+            "option_c": "Add more information.",
+            "option_d": "Indicate a sequence of events.",
+            "correct_answer": "B",
+            "explanation": "'However' is used to introduce an opposite idea [38]."
+        },
+        {
+            "question": "Logical order in paragraph writing depends on:",
+            "option_a": "The length of the paragraph.",
+            "option_b": "Your topic and your purpose [39].",
+            "option_c": "The number of supporting sentences.",
+            "option_d": "The complexity of the vocabulary.",
+            "correct_answer": "B",
+            "explanation": "Logical order depends on your topic and your purpose [39]."
+        },
+        {
+            "question": "Chronological order in a paragraph is used to present:",
+            "option_a": "Similarities and differences.",
+            "option_b": "A sequence of events or steps in a process [39].",
+            "option_c": "Different categories of information.",
+            "option_d": "Arguments for and against a topic.",
+            "correct_answer": "B",
+            "explanation": "Order by time or chronological order presents a sequence of events or steps in a process [39]."
+        },
+        {
+            "question": "In a technical presentation, the primary goal should be to:",
+            "option_a": "Impress the audience with technical jargon.",
+            "option_b": "Convey your message to the audience [40].",
+            "option_c": "Fill the allotted time slot.",
+            "option_d": "Present as much information as possible.",
+            "correct_answer": "B",
+            "explanation": "The primary goal of a technical presentation is what you wish to convey to the audience [40]."
+        },
+        {
+            "question": "Analyzing your audience for a technical presentation helps you to:",
+            "option_a": "Make the presentation more complex.",
+            "option_b": "Understand their backgrounds and interests [41, 42].",
+            "option_c": "Use highly specialized jargon.",
+            "option_d": "Prepare for a completely silent and unresponsive audience.",
+            "correct_answer": "B",
+            "explanation": "Analyze your audience to understand them [41]."
+        },
+        {
+            "question": "Each slide in a technical presentation should ideally convey:",
+            "option_a": "As much information as possible.",
+            "option_b": "Multiple complex ideas.",
+            "option_c": "A single point [43].",
+            "option_d": "Detailed paragraphs of text.",
+            "correct_answer": "C",
+            "explanation": "Keep your message streamlined—make a single point per slide [43]."
+        },
+        {
+            "question": "Strong titles for slides in a technical presentation should:",
+            "option_a": "Be vague and open to interpretation.",
+            "option_b": "Identify where you are on your roadmap [44].",
+            "option_c": "Contain as much detail as possible.",
+            "option_d": "Use complex and academic language.",
+            "correct_answer": "B",
+            "explanation": "The slide title should identify where you are on your roadmap [44]."
+        },
+        {
+            "question": "When using visuals in a technical presentation, it is important to:",
+            "option_a": "Include as much detail as possible in figures.",
+            "option_b": "Use slides primarily for large amounts of text.",
+            "option_c": "Simplify figures to convey a clear message [45].",
+            "option_d": "Avoid introducing your data to the audience.",
+            "correct_answer": "C",
+            "explanation": "The purpose of a figure is to convey a message visually. If you show too much detail, your audience will get distracted [45]."
+        },
+        {
+            "question": "Basic rules for slide design in technical presentations include:",
+            "option_a": "Using paragraphs of text [46].",
+            "option_b": "Avoiding the use of key words and phrases.",
+            "option_c": "Writing in point form [46].",
+            "option_d": "Using distracting animations frequently.",
+            "correct_answer": "C",
+            "explanation": "Basic rules for slide design include writing in point form and avoiding paragraphs [46]."
+        },
+        {
+            "question": "Wordiness in technical presentations should be avoided because it:",
+            "option_a": "Helps to make slides look more professional.",
+            "option_b": "Increases the audience's engagement with the speaker.",
+            "option_c": "Reduces your control over the audience's attention [45].",
+            "option_d": "Allows for more detailed explanations on each slide.",
+            "correct_answer": "C",
+            "explanation": "The more words on the slide, the less control you have over your audience’s attention [45]."
+        },
+        {
+            "question": "When presenting data in a technical presentation, you should:",
+            "option_a": "Assume the audience already understands it completely.",
+            "option_b": "Show the data immediately without introduction.",
+            "option_c": "Make sure your audience will be able to understand your data before you show it [47].",
+            "option_d": "Use highly complex and unexplained visuals.",
+            "correct_answer": "C",
+            "explanation": "Make sure your audience will be able to understand your data before you show it [47]."
+        },
+        {
+            "question": "An assumption made by the speaker in the knitting passage is that:",
+            "option_a": "All community center instructors are narrow-minded.",
+            "option_b": "A craft's value can be judged by the instructor's personality [48].",
+            "option_c": "Knitting is a difficult craft to learn.",
+            "option_d": "Everyone enjoys learning new crafts.",
+            "correct_answer": "B",
+            "explanation": "The assumption made by the speaker is that a craft can be judged based on the personality of the instructor [48]."
+        },
+        {
+            "question": "The speaker's reasoning about knitting is an example of:",
+            "option_a": "Logical deduction.",
+            "option_b": "Reasoning from explicitly stated assumptions.",
+            "option_c": "Over-generalizing from one specific case [49].",
+            "option_d": "Providing strong evidence.",
+            "correct_answer": "C",
+            "explanation": "The speaker's reasoning is an example of over-generalizing from one specific case (their experience with one instructor) [49]."
+        },
+        {
+            "question": "The governor's statement about his bill implies that voting against it means:",
+            "option_a": "You support private schools.",
+            "option_b": "You don't care about the quality of children's education [49].",
+            "option_c": "You have a better educational reform plan.",
+            "option_d": "You are against any form of change.",
+            "correct_answer": "B",
+            "explanation": "The governor's statement implies that voting against the bill can only mean that you don't care about the quality of the education received by your children [49]."
+        },
+        {
+            "question": "The television commercial saying 'Buy a Krups—the superior coffee maker' primarily wants the listener to be impressed with the word:",
+            "option_a": "Buy.",
+            "option_b": "Krups.",
+            "option_c": "Coffee maker.",
+            "option_d": "Superior [50].",
+            "correct_answer": "D",
+            "explanation": "The writer of the commercial wants the listener to be impressed with the word 'superior' [50]."
+        },
+        {
+            "question": "In the dialogue between the father and son, the son's question about 'several' aims to:",
+            "option_a": "Argue for going to the ski lodge.",
+            "option_b": "Show his mathematical skills.",
+            "option_c": "Make his father be more specific [51].",
+            "option_d": "Confuse his father.",
+            "correct_answer": "C",
+            "explanation": "In this dialogue the son is trying to make his father be more specific about the number 'several' [51]."
+        },
+        {
+            "question": "The argument 'Supporters of the Kinley Bill are college students, farmers, and small businessmen. Vote for the bright future—yes on Kinley' involves the fallacy of:",
+            "option_a": "Presenting relevant facts.",
+            "option_b": "Using neutral language.",
+            "option_c": "Loading with emotional words ['bright future'] [51].",
+            "option_d": "Logical reasoning.",
+            "correct_answer": "C",
+            "explanation": "The argument involves the fallacy of being loaded with emotional words ['bright future'] [51]."
+        },
+        {
+            "question": "Based on the supporters mentioned (college students, farmers, small businessmen), the purpose of the Kinley Bill would most likely be:",
+            "option_a": "Legalizing drug trafficking.",
+            "option_b": "Abolishing the state income tax.",
+            "option_c": "Providing government assistance to hard-working Americans [52].",
+            "option_d": "Lowering interest rates on loans (though this is less directly implied).",
+            "correct_answer": "C",
+            "explanation": "Providing government assistance to hard-working Americans is the most likely purpose that would appeal to college students, farmers, and small businessmen [52]."
+        },
+        {
+            "question": "The passage about Papa's soda shop implies reasons for:",
+            "option_a": "The high prices at the soda shop.",
+            "option_b": "The principal's popularity.",
+            "option_c": "The popularity of the soda shop [53].",
+            "option_d": "The students disliking Papa.",
+            "correct_answer": "C",
+            "explanation": "The passage implies reasons for the popularity of the soda shop due to Papa's personality and tolerance [53]."
+        },
+        {
+            "question": "In the passage about Papa, the writer primarily:",
+            "option_a": "Compares the soda shop to other places in town.",
+            "option_b": "Explains why people like sodas.",
+            "option_c": "Contrasts the personality of Papa and the principal [53].",
+            "option_d": "Suggests that Papa was insincere.",
+            "correct_answer": "C",
+            "explanation": "The writer contrasts the personality of the two men, Papa and the principal [53]."
+        },
+        {
+            "question": "The writer's observations about Papa are apparently based on:",
+            "option_a": "Scholarly research.",
+            "option_b": "Gossip.",
+            "option_c": "Reports from neighborhood friends.",
+            "option_d": "First hand experience [54].",
+            "correct_answer": "D",
+            "explanation": "The writer's observations seem to be based on first hand experience, being someone who knew Papa and the town [54]."
+        },
+        {
+            "question": "If Papa and the principal found a hundred dollar bill, the most logical outcome based on their described personalities would be:",
+            "option_a": "They would fight over it.",
+            "option_b": "Papa would let the principal keep it (due to Papa's generosity) [54].",
+            "option_c": "Neither would want it.",
+            "option_d": "The principal would share it grudgingly.",
+            "correct_answer": "B",
+            "explanation": "Given Papa's generous and kind nature, it is most logical that he would let the stricter principal keep the money [54]."
+        }
+    ]
+}

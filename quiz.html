@@ -1,13 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
     <meta charset="UTF-8">
-    <meta name="theme-color" content="#1f2937"> <!-- Dark theme color -->
+    <meta name="theme-color" content="#1f2937">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exam Website</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Add Highlight.js CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
     <link rel="shortcut icon" href="logo.png" type="image/x-icon">
     <style>
+        /* Theme transition */
+        html {
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        
+        /* Dark mode styles */
+        html.dark {
+            background-color: #1a1a1a;
+            color: #ffffff;
+        }
+        
+        /* Light mode styles */
+        html.light {
+            background-color: #ffffff;
+            color: #1a1a1a;
+        }
+
+        /* Code block styles */
+        .code-block {
+            @apply rounded-lg my-2 overflow-hidden;
+            background-color: #282c34 !important;
+        }
+        
+        .code-header {
+            @apply flex items-center justify-between px-4 py-2 text-sm;
+            background-color: #21252b;
+        }
+        
+        .code-content {
+            @apply p-4 overflow-x-auto;
+        }
+        
+        pre {
+            @apply m-0;
+        }
+        
+        code {
+            @apply font-mono text-sm;
+        }
+
+        /* Language indicator styles */
+        .language-indicator {
+            @apply px-2 py-1 rounded text-xs font-medium;
+        }
+        
+        .language-python { @apply bg-blue-500 text-white; }
+        .language-javascript { @apply bg-yellow-500 text-black; }
+        .language-java { @apply bg-red-500 text-white; }
+        .language-cpp { @apply bg-purple-500 text-white; }
+        .language-html { @apply bg-orange-500 text-white; }
+        .language-css { @apply bg-pink-500 text-white; }
+        .language-sql { @apply bg-green-500 text-white; }
+
         /* Disable text selection and right-click */
         body {
             user-select: none;
@@ -15,6 +70,7 @@
             -moz-user-select: none;
             -ms-user-select: none;
         }
+
         /* Loading bar animation */
         @keyframes loading {
             0% { width: 0%; }
@@ -25,10 +81,10 @@
             background: linear-gradient(90deg, #ec4899, #f472b6);
             animation: loading 2s ease-in-out infinite;
         }
-        /* Hide loading bar when questions are loaded */
         .loading-container.loaded .loading-bar {
             display: none;
         }
+
         /* Toast message animation */
         @keyframes slideIn {
             from { transform: translateX(100%); }
@@ -41,10 +97,61 @@
         .toast {
             animation: slideIn 0.5s ease-in-out, slideOut 0.5s ease-in-out 4.5s;
         }
+
+        /* Theme toggle button */
+        .theme-toggle {
+            transition: transform 0.3s ease;
+        }
+        .theme-toggle:hover {
+            transform: rotate(180deg);
+        }
+
+        /* Question styles */
+        .question {
+            @apply p-4 rounded-lg transition-colors duration-200;
+        }
+        html.dark .question {
+            @apply bg-gray-800;
+        }
+        html.light .question {
+            @apply bg-gray-100;
+        }
+
+        /* Option styles */
+        .option {
+            @apply p-2 rounded-md transition-colors duration-200 cursor-pointer;
+        }
+        html.dark .option:hover {
+            @apply bg-gray-700;
+        }
+        html.light .option:hover {
+            @apply bg-gray-200;
+        }
+
+        /* Submit button styles */
+        .submit-button {
+            @apply px-6 py-2 rounded-lg font-semibold transition-all duration-200;
+        }
+        html.dark .submit-button {
+            @apply bg-pink-600 hover:bg-pink-700 text-white;
+        }
+        html.light .submit-button {
+            @apply bg-pink-500 hover:bg-pink-600 text-white;
+        }
+
+        /* Header styles */
+        header {
+            @apply bg-gray-800 dark:bg-gray-900;
+        }
+
+        /* Toast styles */
+        #toast {
+            @apply bg-gray-800 dark:bg-gray-900 text-white;
+        }
     </style>
 </head>
-<body class="bg-gray-900 text-gray-100 font-sans">
-    <header class="bg-gray-800 shadow-lg">
+<body class="min-h-screen">
+    <header class="sticky top-0 z-50 shadow-lg transition-colors duration-200">
         <nav class="container mx-auto px-4 py-3 flex justify-between items-center">
             <div class="flex items-center">
                 <a href="index.html" class="flex items-center">
@@ -62,6 +169,12 @@
                 <div class="text-sm text-gray-300">
                     Time Left: <span id="countdown" class="font-medium text-pink-400">60:00</span>
                 </div>
+                <button id="theme-toggle" class="theme-toggle p-2 rounded-full hover:bg-gray-700 text-gray-300">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path class="dark:hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path>
+                        <path class="hidden dark:block" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path>
+                    </svg>
+                </button>
             </div>
         </nav>
     </header>
@@ -70,19 +183,47 @@
         <div class="loading-bar"></div>
     </div>
     <!-- Toast Message -->
-    <div id="toast" class="hidden fixed bottom-4 right-4 bg-gray-800 border-l-4 border-pink-500 text-gray-100 p-4 rounded-lg shadow-lg">
+    <div id="toast" class="hidden fixed bottom-4 right-4 p-4 rounded-lg shadow-lg transition-colors duration-200">
         <span>Time's up! All answers have been reset.</span>
     </div>
     <main class="container mx-auto px-4 py-8">
-        <div class="bg-gray-800 rounded-lg shadow-md p-6">
+        <div class="rounded-lg shadow-md p-6 transition-colors duration-200 bg-gray-800 dark:bg-gray-900">
             <h2 class="text-2xl font-bold text-pink-400 mb-6">Questions</h2>
             <form class="options space-y-4">
                 <!-- Questions and options will be loaded here -->
             </form>
         </div>
     </main>
+    <!-- Add Highlight.js script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/javascript.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/python.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/java.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/cpp.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/html.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/css.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/sql.min.js"></script>
     <script src="loadQuestionsFetch.js" type="module"></script>
     <script>
+        // Theme handling
+        const themeToggle = document.getElementById('theme-toggle');
+        const html = document.documentElement;
+        
+        // Set dark mode as default
+        if (!localStorage.getItem('theme')) {
+            localStorage.setItem('theme', 'dark');
+        }
+        
+        // Apply saved theme or default to dark
+        const savedTheme = localStorage.getItem('theme') || 'dark';
+        html.classList.toggle('dark', savedTheme === 'dark');
+        
+        // Theme toggle handler
+        themeToggle.addEventListener('click', () => {
+            const isDark = html.classList.toggle('dark');
+            localStorage.setItem('theme', isDark ? 'dark' : 'light');
+        });
+
         // Disable right-click
         document.addEventListener('contextmenu', event => event.preventDefault());
 
@@ -96,17 +237,16 @@
                 mutations.forEach((mutation) => {
                     if (mutation.type === 'childList' && form.children.length > 0) {
                         loadingContainer.classList.add('loaded');
-                        observer.disconnect(); // Stop observing once questions are loaded
+                        observer.disconnect();
                     }
                 });
             });
 
-            // Start observing the form for changes
             observer.observe(form, { childList: true });
         });
 
         // Countdown Timer
-        let timeLeft = 60 * 60; // 60 minutes in seconds
+        let timeLeft = 60 * 60;
         const countdownElement = document.getElementById('countdown');
         const form = document.querySelector('form');
         const toast = document.getElementById('toast');
@@ -116,8 +256,8 @@
                 if (timeLeft <= 0) {
                     clearInterval(timer);
                     countdownElement.textContent = "00:00";
-                    resetForm(); // Reset the form when time is up
-                    showToast(); // Show toast message
+                    resetForm();
+                    showToast();
                 } else {
                     timeLeft--;
                     const minutes = Math.floor(timeLeft / 60);
@@ -130,7 +270,7 @@
         function resetForm() {
             const radioInputs = form.querySelectorAll('input[type="radio"]');
             radioInputs.forEach(input => {
-                input.checked = false; // Uncheck all radio inputs
+                input.checked = false;
             });
         }
 
@@ -140,10 +280,9 @@
             setTimeout(() => {
                 toast.classList.add('hidden');
                 toast.classList.remove('toast');
-            }, 5000); // Hide toast after 5 seconds
+            }, 5000);
         }
 
-        // Start the countdown when the page loads
         startCountdown();
     </script>
 </body>

@@ -3,52 +3,54 @@ let quiz = sessionStorage.getItem("quiz");
 
 // We use the quiz variable to change the heading of the page. If it says ./ccna.json it'll be CCNA, else it is Security+.
 const heading = document.querySelector("#exam-type");
-if(quiz === "./database/ccna.json") {
+if (quiz === "./database/ccna.json") {
     heading.textContent = "CCNA";
-} else if(quiz === "./database/secplus.json") {
+} else if (quiz === "./database/secplus.json") {
     heading.textContent = "Security+";
-}else if(quiz === "./database/ccna_bard.json") {
+} else if (quiz === "./database/ccna_bard.json") {
     heading.textContent = "CCNA";
-} else if(quiz === "./database/hallucinations.json"){
+} else if (quiz === "./database/hallucinations.json") {
     heading.textContent = "Hallucinations";
-} else if(quiz === "./database/python.json"){
+} else if (quiz === "./database/python.json") {
     heading.textContent = "python";
-} else if(quiz === "./database/DCN.json"){
+} else if (quiz === "./database/DCN.json") {
     heading.textContent = "DCN";
-} else if(quiz === "./database/java1.json"){
+} else if (quiz === "./database/java1.json") {
     heading.textContent = "java001";
-} else if(quiz === "./database/java2.json"){
+} else if (quiz === "./database/java2.json") {
     heading.textContent = "java002";
-} else if(quiz === "./database/hard/python.json"){
+} else if (quiz === "./database/hard/python.json") {
     heading.textContent = "python | Hard";
-} else if(quiz === "./database/exams/fc2.json"){
+} else if (quiz === "./database/exams/fc2.json") {
     heading.textContent = "FC 2";
-} else if(quiz === "./database/exams/fc3.json"){
+} else if (quiz === "./database/exams/fc3.json") {
     heading.textContent = "FC 3";
-} else if(quiz === "./database/exams/fc4.json"){
+} else if (quiz === "./database/exams/fc4.json") {
     heading.textContent = "FC 4";
-} else if(quiz === "./database/exams/fc5.json"){
+} else if (quiz === "./database/exams/fc5.json") {
     heading.textContent = "FC 5";
-} else if(quiz === "./database/exams/fc6.json"){
+} else if (quiz === "./database/exams/fc6.json") {
     heading.textContent = "FC 6";
-} else if(quiz === "./database/exams/FC/fc1.json"){
+} else if (quiz === "./database/exams/FC/fc1.json") {
     heading.textContent = "FC - 1";
-} else if(quiz === "./database/exams/FC/fc2.json"){
+} else if (quiz === "./database/exams/FC/fc2.json") {
     heading.textContent = "FC - 2";
-} else if(quiz === "./database/exams/FC/fc3.json"){
+} else if (quiz === "./database/exams/FC/fc3.json") {
     heading.textContent = "FC - 3";
-} else if(quiz === "./database/exams/FC/fc4.json"){
+} else if (quiz === "./database/exams/FC/fc4.json") {
     heading.textContent = "FC - 4";
-} else if(quiz === "./database/exams/FC/fc5.json"){
+} else if (quiz === "./database/exams/FC/fc5.json") {
     heading.textContent = "FC - 5";
-} else if(quiz === "./database/exams/FC/fc6.json"){
+} else if (quiz === "./database/exams/FC/fc6.json") {
     heading.textContent = "FC - 6";
-} else if(quiz === "./database/exams/FC/fc7.json"){
+} else if (quiz === "./database/exams/FC/fc7.json") {
     heading.textContent = "FC - 7";
-} else if(quiz === "./database/exams/FC/fc8.json"){
+} else if (quiz === "./database/exams/FC/fc8.json") {
     heading.textContent = "FC - 8";
-} else if(quiz === "./database/exams/FC/fc9.json"){
+} else if (quiz === "./database/exams/FC/fc9.json") {
     heading.textContent = "FC - 9";
+} else if (quiz === "./database/exams/TR/tr1.json") {
+    heading.textContent = "TR - 1";
 }
 
 
@@ -56,9 +58,9 @@ if(quiz === "./database/ccna.json") {
 let filePath = quiz;
 
 let quizImport = await import(filePath, {
-  assert: { type: "json" },
+    assert: { type: "json" },
 });
-const questions = quizImport.default 
+const questions = quizImport.default
 
 // We get a reference to the form element.
 const form = document.querySelector('form');
@@ -68,7 +70,7 @@ let state = 0;
 form.addEventListener('submit', (event) => {
     console.log(state);
     event.preventDefault();
-    if(state === 1) {
+    if (state === 1) {
         location.reload();
     } else {
         state = 1;
@@ -85,7 +87,7 @@ form.addEventListener('submit', (event) => {
 
             // We push the answer to the answers array.
             answers.push(answer);
-            
+
             // We check if the answer is correct.
             if (answer === question.correct_answer) {
                 score++;
@@ -103,8 +105,8 @@ form.addEventListener('submit', (event) => {
 
             // Change score on submit.
             let scoreEl = document.querySelector('.score');
-            scoreEl.textContent = `You scored ${(score/answers.length * 100).toFixed(2)}%`;
-            
+            scoreEl.textContent = `You scored ${(score / answers.length * 100).toFixed(2)}%`;
+
             // Change submit button text to say reset.
             submit.value = "Reset";
         });
