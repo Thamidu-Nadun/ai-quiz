@@ -33,9 +33,14 @@ const TR1 = document.querySelector("#tr1");
 const DSA1 = document.querySelector("#dsa1");
 const DSA2 = document.querySelector("#dsa2");
 
+// Object Oriented Programming
+const OOP1 = document.querySelector("#oop1");
+const OOP2 = document.querySelector("#oop2");
+
 // We add event listeners to the buttons.
 // Depending on the button clicked we create a session variable called quiz and set it to the JSON file we want to load in hte quiz.html. The sessions variable allows us to share
 // data between pages. We then redirect the user to the quiz.html page.
+
 
 ccnaBtn.addEventListener("click", (e) => {
     e.preventDefault();
@@ -198,5 +203,17 @@ DSA1.addEventListener("click", (e) => {
 DSA2.addEventListener("click", (e) => {
     e.preventDefault();
     sessionStorage.setItem("quiz", "./database/exams/DSA/dsa2.json");
+    location.href = "quiz.html";
+});
+
+OOP1.addEventListener("click", (e) => {
+    e.preventDefault();
+    sessionStorage.setItem("quiz", "./database/exams/OOP/oop1.json");
+    location.href = "quiz.html";
+});
+
+OOP2.addEventListener("click", (e) => {
+    e.preventDefault();
+    sessionStorage.setItem("quiz", "./database/exams/OOP/oop2.json");
     location.href = "quiz.html";
 });

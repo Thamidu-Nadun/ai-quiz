@@ -1,0 +1,265 @@
+{
+    "questions": [
+        {
+            "question": "What is the purpose of the Software Development Life Cycle (SDLC) in an Object-Oriented context?",
+            "option_a": "a. To test applications only",
+            "option_b": "b. To gather hardware requirements",
+            "option_c": "c. To guide the complete process of software development",
+            "option_d": "d. To write code only",
+            "correct_answer": "C",
+            "explanation": "The SDLC outlines all stages from requirements gathering to maintenance in an object-oriented context."
+        },
+        {
+            "question": "What diagram is used to describe requirements in SDLC?",
+            "option_a": "a. Class diagram",
+            "option_b": "b. Deployment diagram",
+            "option_c": "c. Use case diagram",
+            "option_d": "d. Object diagram",
+            "correct_answer": "C",
+            "explanation": "Use case diagrams represent software requirements in the SDLC process."
+        },
+        {
+            "question": "Which of the following is NOT part of the SDLC phases?",
+            "option_a": "a. Implementation",
+            "option_b": "b. Termination",
+            "option_c": "c. Testing",
+            "option_d": "d. Deployment",
+            "correct_answer": "B",
+            "explanation": "'Termination' is not a phase in SDLC; typical phases include requirements, analysis, design, implementation, testing, deployment, and maintenance."
+        },
+        {
+            "question": "What principle is applied during the design phase of OOP?",
+            "option_a": "a. Inheritance",
+            "option_b": "b. Compilation",
+            "option_c": "c. Encryption",
+            "option_d": "d. Parsing",
+            "correct_answer": "A",
+            "explanation": "Inheritance is a key principle considered during object-oriented design."
+        },
+        {
+            "question": "Which of the following is a technique for identifying classes in OOA?",
+            "option_a": "a. UML analysis",
+            "option_b": "b. Function analysis",
+            "option_c": "c. Noun/Verb analysis",
+            "option_d": "d. Token analysis",
+            "correct_answer": "C",
+            "explanation": "Noun/Verb analysis helps identify classes and responsibilities in object-oriented analysis."
+        },
+        {
+            "question": "In noun/verb analysis, which part identifies potential classes?",
+            "option_a": "a. Verbs",
+            "option_b": "b. Adjectives",
+            "option_c": "c. Nouns",
+            "option_d": "d. Adverbs",
+            "correct_answer": "C",
+            "explanation": "Nouns and noun phrases indicate potential classes in the system."
+        },
+        {
+            "question": "Which of the following is an invalid candidate for a class in noun/verb analysis?",
+            "option_a": "a. Book",
+            "option_b": "b. ISBN",
+            "option_c": "c. Member",
+            "option_d": "d. DVD",
+            "correct_answer": "B",
+            "explanation": "ISBN is an attribute, not a class."
+        },
+        {
+            "question": "What is the purpose of CRC cards?",
+            "option_a": "a. To store code",
+            "option_b": "b. To print reports",
+            "option_c": "c. To define class responsibilities and collaborations",
+            "option_d": "d. To calculate memory usage",
+            "correct_answer": "C",
+            "explanation": "CRC cards are used to define Class, Responsibility, and Collaboration."
+        },
+        {
+            "question": "Which section is NOT included in a CRC card?",
+            "option_a": "a. Class name",
+            "option_b": "b. Attributes",
+            "option_c": "c. Responsibilities",
+            "option_d": "d. Collaborators",
+            "correct_answer": "B",
+            "explanation": "CRC cards focus on class name, responsibilities, and collaborators, not attributes."
+        },
+        {
+            "question": "What type of class controls the flow of activity in the system?",
+            "option_a": "a. Entity class",
+            "option_b": "b. Boundary class",
+            "option_c": "c. Control class",
+            "option_d": "d. Abstract class",
+            "correct_answer": "C",
+            "explanation": "Control classes manage the sequence and logic of system operations."
+        },
+        {
+            "question": "Which of the following is an entity class in an e-commerce system?",
+            "option_a": "a. LoginForm",
+            "option_b": "b. Product",
+            "option_c": "c. PaymentGateway",
+            "option_d": "d. InventoryManager",
+            "correct_answer": "B",
+            "explanation": "Entity classes represent core data, like 'Product' in an e-commerce system."
+        },
+        {
+            "question": "Which class handles interaction with users or systems?",
+            "option_a": "a. Entity class",
+            "option_b": "b. Control class",
+            "option_c": "c. Boundary class",
+            "option_d": "d. Static class",
+            "correct_answer": "C",
+            "explanation": "Boundary classes manage system interactions with the outside world."
+        },
+        {
+            "question": "Which of the following is a boundary class?",
+            "option_a": "a. PrintReport",
+            "option_b": "b. Order",
+            "option_c": "c. Customer",
+            "option_d": "d. Book",
+            "correct_answer": "A",
+            "explanation": "PrintReport is an interface element, making it a boundary class."
+        },
+        {
+            "question": "Which of these is a control class in a library system?",
+            "option_a": "a. Book",
+            "option_b": "b. OverdueNoticeGenerator",
+            "option_c": "c. Member",
+            "option_d": "d. ISBN",
+            "correct_answer": "B",
+            "explanation": "Control classes handle logic; OverdueNoticeGenerator manages overdue logic."
+        },
+        {
+            "question": "Which of the following is a valid class in a library system?",
+            "option_a": "a. Member",
+            "option_b": "b. Library",
+            "option_c": "c. Department",
+            "option_d": "d. Faculty",
+            "correct_answer": "A",
+            "explanation": "Member is a valid entity class; the rest are out of scope for the library system."
+        },
+        {
+            "question": "In the DVD rental system, which of the following is considered an attribute?",
+            "option_a": "a. Registered member",
+            "option_b": "b. Unregistered member",
+            "option_c": "c. Fine",
+            "option_d": "d. DVD",
+            "correct_answer": "C",
+            "explanation": "Fine is an attribute related to a transaction, not a class."
+        },
+        {
+            "question": "In the online order system, what class is responsible for payment method?",
+            "option_a": "a. Customer",
+            "option_b": "b. Payment",
+            "option_c": "c. Order",
+            "option_d": "d. Item",
+            "correct_answer": "B",
+            "explanation": "The 'Payment' class handles details related to payment methods."
+        },
+        {
+            "question": "Which class stores customer information in the online order system?",
+            "option_a": "a. Order",
+            "option_b": "b. Payment",
+            "option_c": "c. Customer",
+            "option_d": "d. Item",
+            "correct_answer": "C",
+            "explanation": "'Customer' class stores user details such as name, address, etc."
+        },
+        {
+            "question": "What is the role of the 'Order' class in the online system?",
+            "option_a": "a. To display products",
+            "option_b": "b. To store login details",
+            "option_c": "c. To manage customer support",
+            "option_d": "d. To store and manage placed orders",
+            "correct_answer": "D",
+            "explanation": "'Order' class keeps track of customer purchases and associated items."
+        },
+        {
+            "question": "What action is considered a responsibility for the 'Book' class?",
+            "option_a": "a. GenerateReport",
+            "option_b": "b. AddBookDetails",
+            "option_c": "c. NotifyUser",
+            "option_d": "d. Login",
+            "correct_answer": "B",
+            "explanation": "One of the core responsibilities of the 'Book' class is adding book details."
+        },
+        {
+            "question": "What action indicates collaboration between Book and Member classes?",
+            "option_a": "a. BorrowBook",
+            "option_b": "b. GenerateBarcode",
+            "option_c": "c. CalculateFine",
+            "option_d": "d. PrintReceipt",
+            "correct_answer": "A",
+            "explanation": "Borrowing involves interaction between a Book and a Member, showing collaboration."
+        },
+        {
+            "question": "What is the goal of identifying responsibilities in CRC cards?",
+            "option_a": "a. To improve syntax",
+            "option_b": "b. To find collaborators",
+            "option_c": "c. To define what each class should do",
+            "option_d": "d. To create attributes",
+            "correct_answer": "C",
+            "explanation": "Responsibilities define the core actions of each class."
+        },
+        {
+            "question": "How are verbs used in noun/verb analysis?",
+            "option_a": "a. To reject classes",
+            "option_b": "b. To create use case diagrams",
+            "option_c": "c. To identify operations or responsibilities",
+            "option_d": "d. To identify actors",
+            "correct_answer": "C",
+            "explanation": "Verbs represent behaviors or operations a class might need to perform."
+        },
+        {
+            "question": "What happens during the 'Implementation' phase of SDLC?",
+            "option_a": "a. Requirements are gathered",
+            "option_b": "b. Code is written based on design",
+            "option_c": "c. Testing of software",
+            "option_d": "d. Collaboration diagrams are drawn",
+            "correct_answer": "B",
+            "explanation": "In the implementation phase, the design is translated into code."
+        },
+        {
+            "question": "Which activity ensures individual parts of code work correctly?",
+            "option_a": "a. Deployment",
+            "option_b": "b. Unit testing",
+            "option_c": "c. Maintenance",
+            "option_d": "d. Requirement gathering",
+            "correct_answer": "B",
+            "explanation": "Unit testing checks individual classes or methods for correctness."
+        },
+        {
+            "question": "What ensures maintainability of object-oriented systems?",
+            "option_a": "a. Procedural coding",
+            "option_b": "b. Centralized logic",
+            "option_c": "c. Modularity and encapsulation",
+            "option_d": "d. Use of arrays",
+            "correct_answer": "C",
+            "explanation": "Encapsulation and modularity help isolate changes and simplify maintenance."
+        },
+        {
+            "question": "Which of the following is an example of a redundant noun?",
+            "option_a": "a. Member and user",
+            "option_b": "b. Book and ISBN",
+            "option_c": "c. Faculty and Department",
+            "option_d": "d. Member and DVD",
+            "correct_answer": "A",
+            "explanation": "If 'member' and 'user' refer to the same thing, one is considered redundant."
+        },
+        {
+            "question": "Which of the following is outside the system scope in the DVD rental example?",
+            "option_a": "a. DVD",
+            "option_b": "b. Fine",
+            "option_c": "c. DVD rental store",
+            "option_d": "d. Deposit",
+            "correct_answer": "C",
+            "explanation": "DVD rental store is part of the real world but not part of the system scope."
+        },
+        {
+            "question": "What is the main focus of an analysis class?",
+            "option_a": "a. How a class is implemented",
+            "option_b": "b. What a class does",
+            "option_c": "c. When the class loads",
+            "option_d": "d. Where the class resides",
+            "correct_answer": "B",
+            "explanation": "Analysis classes focus on what an entity does, not how it is implemented."
+        }
+    ]
+}

@@ -1,0 +1,895 @@
+{
+    "questions": [
+        {
+            "question": "Which keyword in Java establishes an inheritance relationship between classes?",
+            "option_a": "a. implements",
+            "option_b": "b. extends",
+            "option_c": "c. inherits",
+            "option_d": "d. imports",
+            "correct_answer": "B",
+            "explanation": "The `extends` keyword is used in Java for a subclass to inherit from a superclass."
+        },
+        {
+            "question": "In UML class diagrams, which symbol represents inheritance?",
+            "option_a": "a. Filled diamond",
+            "option_b": "b. Unfilled diamond",
+            "option_c": "c. Solid line",
+            "option_d": "d. Empty arrow",
+            "correct_answer": "D",
+            "explanation": "An empty (hollow) arrow points from subclass to superclass to denote inheritance."
+        },
+        {
+            "question": "Inheritance describes an “is-a” relationship. Which of these is an example?",
+            "option_a": "a. Engine–Car",
+            "option_b": "b. Manager–Employee",
+            "option_c": "c. Order–Item",
+            "option_d": "d. Batch–Student",
+            "correct_answer": "B",
+            "explanation": "A Manager is a kind of Employee, illustrating an “is-a” relationship."
+        },
+        {
+            "question": "Which access modifier allows subclass access but not public exposure?",
+            "option_a": "a. private",
+            "option_b": "b. public",
+            "option_c": "c. protected",
+            "option_d": "d. default",
+            "correct_answer": "C",
+            "explanation": "`protected` allows access within the same package and by subclasses."
+        },
+        {
+            "question": "What does constructor chaining do in inheritance?",
+            "option_a": "a. Calls subclass constructor only",
+            "option_b": "b. Calls superclass constructor before subclass’s",
+            "option_c": "c. Skips superclass constructor",
+            "option_d": "d. Calls sibling class constructor",
+            "correct_answer": "B",
+            "explanation": "Constructor chaining ensures the superclass constructor runs before the subclass’s."
+        },
+        {
+            "question": "Which keyword is used to call a superclass’s constructor from a subclass?",
+            "option_a": "a. super()",
+            "option_b": "b. this()",
+            "option_c": "c. parent()",
+            "option_d": "d. base()",
+            "correct_answer": "A",
+            "explanation": "`super()` invokes the parent class’s constructor."
+        },
+        {
+            "question": "Method overriding requires the subclass method to have:",
+            "option_a": "a. Different name",
+            "option_b": "b. Different return type",
+            "option_c": "c. Same signature",
+            "option_d": "d. More parameters",
+            "correct_answer": "C",
+            "explanation": "Overridden methods must have the same name, return type, and parameter list."
+        },
+        {
+            "question": "Polymorphism in Java is primarily achieved through:",
+            "option_a": "a. Interfaces only",
+            "option_b": "b. Method overloading and overriding",
+            "option_c": "c. Static methods",
+            "option_d": "d. Enumerations",
+            "correct_answer": "B",
+            "explanation": "Both compile-time (overloading) and runtime (overriding) polymorphism are used."
+        },
+        {
+            "question": "Which type of polymorphism is determined at compile time?",
+            "option_a": "a. Method overriding",
+            "option_b": "b. Runtime polymorphism",
+            "option_c": "c. Method overloading",
+            "option_d": "d. Interface polymorphism",
+            "correct_answer": "C",
+            "explanation": "Method overloading is resolved during compilation."
+        },
+        {
+            "question": "Which type of UML diamond denotes composition?",
+            "option_a": "a. Hollow diamond",
+            "option_b": "b. Filled diamond",
+            "option_c": "c. Empty arrow",
+            "option_d": "d. Dashed arrow",
+            "correct_answer": "B",
+            "explanation": "A filled diamond at the whole class end indicates composition."
+        },
+        {
+            "question": "Composition implies a part cannot exist without its whole. Which example fits?",
+            "option_a": "a. Student–Batch",
+            "option_b": "b. Car–Engine",
+            "option_c": "c. Library–Book",
+            "option_d": "d. Order–Payment",
+            "correct_answer": "B",
+            "explanation": "An Engine (part) cannot exist independently of its Car (whole)."
+        },
+        {
+            "question": "In code, composition is implemented by:",
+            "option_a": "a. Extending classes",
+            "option_b": "b. Using instance variables of other objects",
+            "option_c": "c. Static methods",
+            "option_d": "d. Interface references",
+            "correct_answer": "B",
+            "explanation": "Composition uses object fields to hold part instances."
+        },
+        {
+            "question": "Which UML symbol denotes aggregation?",
+            "option_a": "a. Filled diamond",
+            "option_b": "b. Unfilled diamond",
+            "option_c": "c. Solid arrow",
+            "option_d": "d. Dashed line",
+            "correct_answer": "B",
+            "explanation": "An unfilled (hollow) diamond indicates aggregation."
+        },
+        {
+            "question": "How does aggregation differ from composition?",
+            "option_a": "a. Part is destroyed with whole",
+            "option_b": "b. Part can exist independently",
+            "option_c": "c. Uses extends keyword",
+            "option_d": "d. Uses interfaces",
+            "correct_answer": "B",
+            "explanation": "Aggregated parts can outlive their container objects."
+        },
+        {
+            "question": "Aggregation is coded by:",
+            "option_a": "a. Creating parts inside the container",
+            "option_b": "b. Passing part objects into the container’s constructor",
+            "option_c": "c. Using inheritance",
+            "option_d": "d. Static imports",
+            "correct_answer": "B",
+            "explanation": "Aggregated objects are created elsewhere and passed in."
+        },
+        {
+            "question": "What does a dashed arrow in UML represent?",
+            "option_a": "a. Composition",
+            "option_b": "b. Aggregation",
+            "option_c": "c. Inheritance",
+            "option_d": "d. Dependency",
+            "correct_answer": "D",
+            "explanation": "A dashed directed line shows a dependency relationship."
+        },
+        {
+            "question": "Dependency indicates:",
+            "option_a": "a. Long-term ownership",
+            "option_b": "b. Temporary use within a method",
+            "option_c": "c. Inheritance",
+            "option_d": "d. Bidirectional link",
+            "correct_answer": "B",
+            "explanation": "Dependency is a short-lived relationship used inside methods."
+        },
+        {
+            "question": "An example of dependency is a Printer using a Document in its print method. What’s true?",
+            "option_a": "a. Printer stores Document field",
+            "option_b": "b. Document destroyed with Printer",
+            "option_c": "c. Printer only uses Document inside print()",
+            "option_d": "d. Printer extends Document",
+            "correct_answer": "C",
+            "explanation": "Printer depends on Document temporarily without storing it."
+        },
+        {
+            "question": "Association between classes implies:",
+            "option_a": "a. Whole-part strong binding",
+            "option_b": "b. Inheritance relationship",
+            "option_c": "c. A general “knows-a” link",
+            "option_d": "d. Temporary use in methods",
+            "correct_answer": "C",
+            "explanation": "Association is a general link showing one class uses or knows another."
+        },
+        {
+            "question": "What distinguishes unidirectional from bidirectional association?",
+            "option_a": "a. Number of arrows",
+            "option_b": "b. Filled vs unfilled diamond",
+            "option_c": "c. Direction of awareness",
+            "option_d": "d. Use of extends",
+            "correct_answer": "C",
+            "explanation": "Unidirectional: only one class knows the other; bidirectional: both know each other."
+        },
+        {
+            "question": "Which example shows unidirectional association?",
+            "option_a": "a. Student–Course (both lists)",
+            "option_b": "b. Order–Item (only Order references Item)",
+            "option_c": "c. Department–Employee (both ways)",
+            "option_d": "d. Author–Book (both ways)",
+            "correct_answer": "B",
+            "explanation": "Order knows Item, but Item doesn’t reference Order."
+        },
+        {
+            "question": "A bidirectional association is implemented by:",
+            "option_a": "a. extends keyword",
+            "option_b": "b. Filled diamond",
+            "option_c": "c. Mutual object references in both classes",
+            "option_d": "d. Passing parameters",
+            "correct_answer": "C",
+            "explanation": "Both classes hold references to each other."
+        },
+        {
+            "question": "Multiplicity “1..*” means:",
+            "option_a": "a. Zero or one",
+            "option_b": "b. Exactly one",
+            "option_c": "c. One or many",
+            "option_d": "d. Zero or many",
+            "correct_answer": "C",
+            "explanation": "`1..*` indicates at least one and possibly many instances."
+        },
+        {
+            "question": "Multiplicity “0..1” indicates:",
+            "option_a": "a. Zero or one",
+            "option_b": "b. One or many",
+            "option_c": "c. Exactly one",
+            "option_d": "d. Zero or many",
+            "correct_answer": "A",
+            "explanation": "`0..1` allows either no instance or one instance."
+        },
+        {
+            "question": "Multiplicity “*” stands for:",
+            "option_a": "a. Exactly one",
+            "option_b": "b. Zero or many",
+            "option_c": "c. One or many",
+            "option_d": "d. Zero or one",
+            "correct_answer": "B",
+            "explanation": "`*` means any number of instances, including zero."
+        },
+        {
+            "question": "Which relationship is the strongest form of whole–part?",
+            "option_a": "a. Aggregation",
+            "option_b": "b. Composition",
+            "option_c": "c. Association",
+            "option_d": "d. Dependency",
+            "correct_answer": "B",
+            "explanation": "Composition is a strong whole–part tie where parts cannot exist independently."
+        },
+        {
+            "question": "Which relationship allows parts to be shared among different wholes?",
+            "option_a": "a. Composition",
+            "option_b": "b. Aggregation",
+            "option_c": "c. Inheritance",
+            "option_d": "d. Dependency",
+            "correct_answer": "B",
+            "explanation": "Aggregation allows loose coupling; parts can exist on their own."
+        },
+        {
+            "question": "In the Computer–Processor example, what is the ‘whole’?",
+            "option_a": "a. Processor",
+            "option_b": "b. Memory",
+            "option_c": "c. Computer",
+            "option_d": "d. CPU",
+            "correct_answer": "C",
+            "explanation": "Computer is the containing class in composition with Processor and Memory."
+        },
+        {
+            "question": "In Employee–Manager–Developer hierarchy, Employee is the:",
+            "option_a": "a. Subclass",
+            "option_b": "b. Interface",
+            "option_c": "c. Superclass",
+            "option_d": "d. Abstract class",
+            "correct_answer": "C",
+            "explanation": "Employee is the general superclass of Manager and Developer."
+        },
+        {
+            "question": "Which relationship uses an unfilled diamond in UML?",
+            "option_a": "a. Composition",
+            "option_b": "b. Aggregation",
+            "option_c": "c. Inheritance",
+            "option_d": "d. Dependency",
+            "correct_answer": "B",
+            "explanation": "Aggregation is shown with a hollow (unfilled) diamond."
+        },
+        {
+            "question": "Which relationship uses a filled diamond in UML?",
+            "option_a": "a. Aggregation",
+            "option_b": "b. Composition",
+            "option_c": "c. Association",
+            "option_d": "d. Dependency",
+            "correct_answer": "B",
+            "explanation": "Composition is represented by a filled diamond."
+        },
+        {
+            "question": "Which keyword is NOT related to relationships in Java?",
+            "option_a": "a. extends",
+            "option_b": "b. implements",
+            "option_c": "c. super",
+            "option_d": "d. import",
+            "correct_answer": "D",
+            "explanation": "`import` is for packages, not class relationships."
+        },
+        {
+            "question": "Constructor chaining requires that `super()` be the:",
+            "option_a": "a. Last statement",
+            "option_b": "b. First statement",
+            "option_c": "c. Middle statement",
+            "option_d": "d. Optional statement",
+            "correct_answer": "B",
+            "explanation": "`super()` must be the first line in a subclass constructor if used."
+        },
+        {
+            "question": "When overriding a method, you may call the parent version via:",
+            "option_a": "a. this.method()",
+            "option_b": "b. super.method()",
+            "option_c": "c. parent.method()",
+            "option_d": "d. base.method()",
+            "correct_answer": "B",
+            "explanation": "`super.method()` invokes the superclass’s implementation."
+        },
+        {
+            "question": "Which relationship does NOT imply ownership?",
+            "option_a": "a. Composition",
+            "option_b": "b. Aggregation",
+            "option_c": "c. Association",
+            "option_d": "d. Inheritance",
+            "correct_answer": "C",
+            "explanation": "Association indicates use or linkage without ownership semantics."
+        },
+        {
+            "question": "Which relationship can be reflexive (self-reference)?",
+            "option_a": "a. Inheritance",
+            "option_b": "b. Composition",
+            "option_c": "c. Association",
+            "option_d": "d. Dependency",
+            "correct_answer": "C",
+            "explanation": "Association can link a class to itself (e.g., Node–Node)."
+        },
+        {
+            "question": "In a University system, Student–Course bidirectional means each:",
+            "option_a": "a. Student knows courses, but Course doesn’t know students",
+            "option_b": "b. Course knows students, but Student doesn’t know courses",
+            "option_c": "c. Both maintain lists of each other",
+            "option_d": "d. Neither knows the other",
+            "correct_answer": "C",
+            "explanation": "Bidirectional association has both classes referencing each other."
+        },
+        {
+            "question": "Which relationship would you model with a list of parts inside the whole class?",
+            "option_a": "a. Dependency",
+            "option_b": "b. Composition",
+            "option_c": "c. Aggregation",
+            "option_d": "d. Inheritance",
+            "correct_answer": "B",
+            "explanation": "Composition often uses a collection of part objects owned by the whole."
+        },
+        {
+            "question": "Which relationship is most appropriate for a temporary helper object?",
+            "option_a": "a. Composition",
+            "option_b": "b. Aggregation",
+            "option_c": "c. Association",
+            "option_d": "d. Dependency",
+            "correct_answer": "D",
+            "explanation": "Dependency models short-lived use inside a method."
+        },
+        {
+            "question": "In UML, a solid line without arrows typically denotes:",
+            "option_a": "a. Dependency",
+            "option_b": "b. Association",
+            "option_c": "c. Composition",
+            "option_d": "d. Inheritance",
+            "correct_answer": "B",
+            "explanation": "A plain solid line shows an association link."
+        },
+        {
+            "question": "Which relationship type supports polymorphic method calls?",
+            "option_a": "a. Association",
+            "option_b": "b. Composition",
+            "option_c": "c. Inheritance",
+            "option_d": "d. Dependency",
+            "correct_answer": "C",
+            "explanation": "Inheritance enables method overriding and runtime polymorphism."
+        },
+        {
+            "question": "Which of these is NOT a UML relationship type covered?",
+            "option_a": "a. Inheritance",
+            "option_b": "b. Sequence",
+            "option_c": "c. Aggregation",
+            "option_d": "d. Dependency",
+            "correct_answer": "B",
+            "explanation": "Sequence is a diagram type, not a relationship in class diagrams."
+        },
+        {
+            "question": "Which relationship uses no diamond symbol?",
+            "option_a": "a. Composition",
+            "option_b": "b. Aggregation",
+            "option_c": "c. Association",
+            "option_d": "d. Both a and b",
+            "correct_answer": "C",
+            "explanation": "Association uses a simple solid line without diamond."
+        },
+        {
+            "question": "What UML notation shows multiplicity on an association end?",
+            "option_a": "a. Arrowhead",
+            "option_b": "b. Number range near the class",
+            "option_c": "c. Diamond shape",
+            "option_d": "d. Dashed line",
+            "correct_answer": "B",
+            "explanation": "Multiplicity is shown as numbers or ranges (e.g., 1..*, *) near association ends."
+        },
+        {
+            "question": "Which of these is an example of compile-time polymorphism?",
+            "option_a": "a. Method overriding",
+            "option_b": "b. Method overloading",
+            "option_c": "c. Interface implementation",
+            "option_d": "d. Composition",
+            "correct_answer": "B",
+            "explanation": "Overloading selects methods at compile time."
+        },
+        {
+            "question": "In Java, when invoking `obj.method()`, which polymorphism applies?",
+            "option_a": "a. Compile-time only",
+            "option_b": "b. Runtime only",
+            "option_c": "c. Runtime if overridden, compile-time if overloaded",
+            "option_d": "d. Neither",
+            "correct_answer": "C",
+            "explanation": "Overloaded methods are resolved at compile time; overridden at runtime."
+        },
+        {
+            "question": "Which relationship would you use for a GUI form class interacting with a listener?",
+            "option_a": "a. Composition",
+            "option_b": "b. Aggregation",
+            "option_c": "c. Dependency",
+            "option_d": "d. Inheritance",
+            "correct_answer": "C",
+            "explanation": "A listener is often used temporarily or registered, fitting dependency or association."
+        },
+        {
+            "question": "When a subclass does not override a method, which version runs?",
+            "option_a": "a. Subclass’s default",
+            "option_b": "b. Superclass’s version",
+            "option_c": "c. Compiler error",
+            "option_d": "d. Runtime error",
+            "correct_answer": "B",
+            "explanation": "If not overridden, the inherited superclass method is executed."
+        },
+        {
+            "question": "Which relationship would model a User’s address where addresses exist independently?",
+            "option_a": "a. Composition",
+            "option_b": "b. Aggregation",
+            "option_c": "c. Inheritance",
+            "option_d": "d. Dependency",
+            "correct_answer": "B",
+            "explanation": "Addresses can exist without a particular User, fitting aggregation."
+        },
+        {
+            "question": "A Teacher class uses a Whiteboard inside teach() method. What applies?",
+            "option_a": "a. Composition",
+            "option_b": "b. Aggregation",
+            "option_c": "c. Dependency",
+            "option_d": "d. Association",
+            "correct_answer": "C",
+            "explanation": "The Whiteboard is used temporarily inside a method."
+        },
+        {
+            "question": "Which relationship best describes Author–Book where each Book has exactly one Author but Authors write many Books?",
+            "option_a": "a. One-to-one association",
+            "option_b": "b. One-to-many aggregation",
+            "option_c": "c. One-to-many composition",
+            "option_d": "d. Inheritance",
+            "correct_answer": "B",
+            "explanation": "Books can exist if an Author is removed? Depends—usually modeled as aggregation."
+        },
+        {
+            "question": "Which statement about aggregation and composition is TRUE?",
+            "option_a": "a. Both destroy parts with whole",
+            "option_b": "b. Only aggregation destroys parts",
+            "option_c": "c. Only composition destroys parts",
+            "option_d": "d. Neither destroys parts",
+            "correct_answer": "C",
+            "explanation": "In composition, destroying the whole also destroys its parts."
+        },
+        {
+            "question": "How is a one-to-many association typically represented in code?",
+            "option_a": "a. Single object field",
+            "option_b": "b. Array or Collection field",
+            "option_c": "c. extends keyword",
+            "option_d": "d. super() call",
+            "correct_answer": "B",
+            "explanation": "Collections (e.g., List<Item>) represent multiple associated objects."
+        },
+        {
+            "question": "Which relationship would you use to model a library’s catalog that references books but does not own them?",
+            "option_a": "a. Composition",
+            "option_b": "b. Aggregation",
+            "option_c": "c. Inheritance",
+            "option_d": "d. Dependency",
+            "correct_answer": "B",
+            "explanation": "Library catalog refers to books without controlling their lifecycle."
+        },
+        {
+            "question": "Which Java construct directly supports polymorphism?",
+            "option_a": "a. switch statements",
+            "option_b": "b. method overriding",
+            "option_c": "c. arrays",
+            "option_d": "d. enums",
+            "correct_answer": "B",
+            "explanation": "Overriding allows different implementations to be invoked at runtime."
+        },
+        {
+            "question": "In UML, how would you show that a Customer can place zero or more Orders?",
+            "option_a": "a. 1..* near Customer",
+            "option_b": "b. * near Order",
+            "option_c": "c. 0..* near Order",
+            "option_d": "d. 0..1 near Customer",
+            "correct_answer": "C",
+            "explanation": "`0..*` near the Order end indicates a Customer may have none or many Orders."
+        },
+        {
+            "question": "Which relationship is used when one class’s method parameter is an instance of another class?",
+            "option_a": "a. Aggregation",
+            "option_b": "b. Composition",
+            "option_c": "c. Dependency",
+            "option_d": "d. Inheritance",
+            "correct_answer": "C",
+            "explanation": "Using another class as a method parameter is a form of dependency."
+        },
+        {
+            "question": "Which of these relationships involves the ‘implements’ keyword?",
+            "option_a": "a. Inheritance",
+            "option_b": "b. Interface realization",
+            "option_c": "c. Association",
+            "option_d": "d. Dependency",
+            "correct_answer": "B",
+            "explanation": "`implements` is used when a class realizes (implements) an interface."
+        },
+        {
+            "question": "Which relationship type would you choose for a PaymentGateway used by Order to process payments?",
+            "option_a": "a. Composition",
+            "option_b": "b. Aggregation",
+            "option_c": "c. Dependency",
+            "option_d": "d. Inheritance",
+            "correct_answer": "C",
+            "explanation": "Order uses PaymentGateway temporarily or by reference, fitting dependency or association."
+        },
+        {
+            "question": "What does an open arrowhead with a dashed line usually denote in UML?",
+            "option_a": "a. Composition",
+            "option_b": "b. Inheritance",
+            "option_c": "c. Dependency",
+            "option_d": "d. Aggregation",
+            "correct_answer": "C",
+            "explanation": "A dashed line with open arrowhead indicates dependency."
+        },
+        {
+            "question": "Which relationship type is most appropriate for modeling a logging utility that classes call occasionally?",
+            "option_a": "a. Composition",
+            "option_b": "b. Aggregation",
+            "option_c": "c. Dependency",
+            "option_d": "d. Inheritance",
+            "correct_answer": "C",
+            "explanation": "A logging utility is typically used temporarily, making it a dependency."
+        },
+        {
+            "question": "Which of the following best describes a weak coupling relationship?",
+            "option_a": "a. Composition",
+            "option_b": "b. Aggregation",
+            "option_c": "c. Dependency",
+            "option_d": "d. Inheritance",
+            "correct_answer": "B",
+            "explanation": "Aggregation represents a weaker coupling than composition but stronger than dependency."
+        },
+        {
+            "question": "In Java, which mechanism enforces that a subclass must provide certain methods?",
+            "option_a": "a. Composition",
+            "option_b": "b. Abstract classes or interfaces",
+            "option_c": "c. Aggregation",
+            "option_d": "d. Dependency",
+            "correct_answer": "B",
+            "explanation": "Abstract classes and interfaces define methods that subclasses must implement."
+        },
+        {
+            "question": "Which relationship would you use if destroying the container should NOT destroy the contained objects?",
+            "option_a": "a. Composition",
+            "option_b": "b. Aggregation",
+            "option_c": "c. Association",
+            "option_d": "d. Dependency",
+            "correct_answer": "B",
+            "explanation": "Aggregation allows parts to outlive their container."
+        },
+        {
+            "question": "Which relationship uses no special UML adornment other than a plain line?",
+            "option_a": "a. Composition",
+            "option_b": "b. Aggregation",
+            "option_c": "c. Association",
+            "option_d": "d. Dependency",
+            "correct_answer": "C",
+            "explanation": "Association is shown simply as a solid line with optional arrowheads."
+        },
+        {
+            "question": "What is the term for using one class inside the method of another without storing it as a field?",
+            "option_a": "a. Inheritance",
+            "option_b": "b. Dependency",
+            "option_c": "c. Aggregation",
+            "option_d": "d. Composition",
+            "correct_answer": "B",
+            "explanation": "Dependency describes temporary use inside methods without long-term storage."
+        },
+        {
+            "question": "Which of these is NOT a form of polymorphism in Java?",
+            "option_a": "a. Method overloading",
+            "option_b": "b. Method overriding",
+            "option_c": "c. Operator overloading",
+            "option_d": "d. Interface implementation",
+            "correct_answer": "C",
+            "explanation": "Java does not support operator overloading; others are valid polymorphic mechanisms."
+        },
+        {
+            "question": "When modeling a Course enrollment system, Course–Student is best as:",
+            "option_a": "a. Composition",
+            "option_b": "b. Aggregation",
+            "option_c": "c. Bidirectional Association",
+            "option_d": "d. Dependency",
+            "correct_answer": "C",
+            "explanation": "Both Course and Student maintain references to each other."
+        },
+        {
+            "question": "Which relationship involves an arrowhead but no diamond?",
+            "option_a": "a. Composition",
+            "option_b": "b. Inheritance",
+            "option_c": "c. Aggregation",
+            "option_d": "d. Dependency",
+            "correct_answer": "D",
+            "explanation": "Dependency uses a dashed arrow, not a diamond."
+        },
+        {
+            "question": "Which relationship would you use to model a shopping cart containing items but not owning them?",
+            "option_a": "a. Composition",
+            "option_b": "b. Aggregation",
+            "option_c": "c. Association",
+            "option_d": "d. Inheritance",
+            "correct_answer": "B",
+            "explanation": "Items may exist even if a cart is discarded, fitting aggregation."
+        },
+        {
+            "question": "Which relationship type ensures the part’s lifecycle is bound to the whole’s?",
+            "option_a": "a. Aggregation",
+            "option_b": "b. Composition",
+            "option_c": "c. Association",
+            "option_d": "d. Dependency",
+            "correct_answer": "B",
+            "explanation": "Composition ties the lifecycles of parts and whole together."
+        },
+        {
+            "question": "Which UML relationship is most often depicted with a simple solid arrowhead at one end?",
+            "option_a": "a. Unidirectional association",
+            "option_b": "b. Composition",
+            "option_c": "c. Aggregation",
+            "option_d": "d. Dependency",
+            "correct_answer": "A",
+            "explanation": "Unidirectional association uses a solid arrowhead to show one-way knowledge."
+        },
+        {
+            "question": "In UML class diagrams, what does a multiplicity of “3..5” at the association end indicate?",
+            "option_a": "a. At least 3 and at most 5 instances",
+            "option_b": "b. Exactly 3 instances",
+            "option_c": "c. At most 5 instances",
+            "option_d": "d. Zero to 5 instances",
+            "correct_answer": "A",
+            "explanation": "“3..5” specifies a minimum of 3 and a maximum of 5 associated instances."
+        },
+        {
+            "question": "What is the default multiplicity if none is shown on an association end?",
+            "option_a": "a. 0..*",
+            "option_b": "b. 1",
+            "option_c": "c. 1..*",
+            "option_d": "d. 0..1",
+            "correct_answer": "B",
+            "explanation": "If unspecified, multiplicity defaults to exactly one (1)."
+        },
+        {
+            "question": "Which Java collection is best suited to represent a one-to-many association in code?",
+            "option_a": "a. Map<Key,Value>",
+            "option_b": "b. List<Element>",
+            "option_c": "c. Set<Element>",
+            "option_d": "d. Queue<Element>",
+            "correct_answer": "B",
+            "explanation": "A List<Element> models an ordered one-to-many relationship in Java."
+        },
+        {
+            "question": "In composition code, part fields are often declared as:",
+            "option_a": "a. public static",
+            "option_b": "b. protected",
+            "option_c": "c. private final",
+            "option_d": "d. default",
+            "correct_answer": "C",
+            "explanation": "Declaring parts private final enforces ownership and immutability post-construction."
+        },
+        {
+            "question": "Which relationship is demonstrated when a Library class has a constructor parameter List<Book> books?",
+            "option_a": "a. Composition",
+            "option_b": "b. Aggregation",
+            "option_c": "c. Inheritance",
+            "option_d": "d. Dependency",
+            "correct_answer": "B",
+            "explanation": "Passing external Book objects into Library constructor models aggregation."
+        },
+        {
+            "question": "In the Order–Item unidirectional association, which class creates the Item instances?",
+            "option_a": "a. Item class itself",
+            "option_b": "b. Order class or external code",
+            "option_c": "c. UML tool",
+            "option_d": "d. ItemFactory via inheritance",
+            "correct_answer": "B",
+            "explanation": "Order or calling code creates Items and passes them to Order, showing one-way association."
+        },
+        {
+            "question": "What keyword in Java refers to the current object instance?",
+            "option_a": "a. super",
+            "option_b": "b. this",
+            "option_c": "c. self",
+            "option_d": "d. me",
+            "correct_answer": "B",
+            "explanation": "`this` references the current object within its own class."
+        },
+        {
+            "question": "Which keyword refers to the superclass instance in Java?",
+            "option_a": "a. that",
+            "option_b": "b. parent",
+            "option_c": "c. super",
+            "option_d": "d. this",
+            "correct_answer": "C",
+            "explanation": "`super` refers to the immediate parent class’s members or constructor."
+        },
+        {
+            "question": "Which access modifier is commonly used for attributes in aggregation to enforce encapsulation?",
+            "option_a": "a. public",
+            "option_b": "b. protected",
+            "option_c": "c. private",
+            "option_d": "d. default",
+            "correct_answer": "C",
+            "explanation": "Private attributes hide implementation details, even in aggregation."
+        },
+        {
+            "question": "To prevent infinite loops in bidirectional toString() methods, you should:",
+            "option_a": "a. Omit one side’s reference in the string",
+            "option_b": "b. Use recursion",
+            "option_c": "c. Always include both sides",
+            "option_d": "d. Rely on default toString()",
+            "correct_answer": "A",
+            "explanation": "Omitting or limiting one direction avoids circular references in output."
+        },
+        {
+            "question": "Which UML diagram primarily shows class relationships like inheritance and association?",
+            "option_a": "a. Sequence diagram",
+            "option_b": "b. Class diagram",
+            "option_c": "c. Activity diagram",
+            "option_d": "d. State diagram",
+            "correct_answer": "B",
+            "explanation": "Class diagrams depict structural relationships between classes."
+        },
+        {
+            "question": "What shape denotes navigability in an association?",
+            "option_a": "a. Arrowhead on the line",
+            "option_b": "b. Diamond at end",
+            "option_c": "c. Dashed line",
+            "option_d": "d. Circle at end",
+            "correct_answer": "A",
+            "explanation": "An arrowhead indicates which direction the association is navigable."
+        },
+        {
+            "question": "Which relationship allows a part to be shared by multiple wholes?",
+            "option_a": "a. Composition",
+            "option_b": "b. Aggregation",
+            "option_c": "c. Association",
+            "option_d": "d. Dependency",
+            "correct_answer": "B",
+            "explanation": "Aggregation’s weak ownership lets a part be reused by different containers."
+        },
+        {
+            "question": "In Java, method overloading differs from overriding by:",
+            "option_a": "a. Using same signature",
+            "option_b": "b. Changing return type only",
+            "option_c": "c. Different parameter lists",
+            "option_d": "d. Occurring in different classes",
+            "correct_answer": "C",
+            "explanation": "Overloading requires different parameters; overriding requires same signature."
+        },
+        {
+            "question": "Which relationship type is best for a Logger utility used across many classes?",
+            "option_a": "a. Composition",
+            "option_b": "b. Aggregation",
+            "option_c": "c. Dependency",
+            "option_d": "d. Inheritance",
+            "correct_answer": "C",
+            "explanation": "A Logger is typically used temporarily inside methods, indicating dependency."
+        },
+        {
+            "question": "Which Java interface would you use for a mutable ordered collection of parts?",
+            "option_a": "a. Set",
+            "option_b": "b. List",
+            "option_c": "c. Map",
+            "option_d": "d. Queue",
+            "correct_answer": "B",
+            "explanation": "List allows indexed access and ordering of elements."
+        },
+        {
+            "question": "What is the primary benefit of modeling relationships in UML before coding?",
+            "option_a": "a. Faster compilation",
+            "option_b": "b. Clear design and communication",
+            "option_c": "c. Automated code generation",
+            "option_d": "d. Improved testing speed",
+            "correct_answer": "B",
+            "explanation": "UML diagrams help teams understand and agree on system structure early."
+        },
+        {
+            "question": "Which relationship is minimal and indicates a one-time use of another class?",
+            "option_a": "a. Dependency",
+            "option_b": "b. Aggregation",
+            "option_c": "c. Composition",
+            "option_d": "d. Association",
+            "correct_answer": "A",
+            "explanation": "Dependency shows temporary, minimal use of a class, such as a method parameter."
+        },
+        {
+            "question": "Which UML notation shows a dependency?",
+            "option_a": "a. Solid line with triangle arrowhead",
+            "option_b": "b. Dashed line with open arrowhead",
+            "option_c": "c. Filled diamond",
+            "option_d": "d. Unfilled diamond",
+            "correct_answer": "B",
+            "explanation": "Dependencies are depicted as dashed lines with open arrowheads."
+        },
+        {
+            "question": "What role do control classes play in object-oriented analysis?",
+            "option_a": "a. Store data",
+            "option_b": "b. Manage interactions and workflow",
+            "option_c": "c. Render UI elements",
+            "option_d": "d. Define database schema",
+            "correct_answer": "B",
+            "explanation": "Control classes coordinate use cases and business logic flow."
+        },
+        {
+            "question": "Which relationship should you choose if destroying A should also destroy B?",
+            "option_a": "a. Aggregation",
+            "option_b": "b. Composition",
+            "option_c": "c. Association",
+            "option_d": "d. Dependency",
+            "correct_answer": "B",
+            "explanation": "Composition binds the lifecycles of whole and part together."
+        },
+        {
+            "question": "In a Student–Course bidirectional association, which must be maintained?",
+            "option_a": "a. Only Student updates Course list",
+            "option_b": "b. Both update each other’s lists",
+            "option_c": "c. Only Course updates Student list",
+            "option_d": "d. Neither maintains a list",
+            "correct_answer": "B",
+            "explanation": "Mutual updates ensure consistency in a bidirectional association."
+        },
+        {
+            "question": "Which relationship type is most tightly coupled?",
+            "option_a": "a. Dependency",
+            "option_b": "b. Association",
+            "option_c": "c. Aggregation",
+            "option_d": "d. Composition",
+            "correct_answer": "D",
+            "explanation": "Composition exhibits the strongest coupling between classes."
+        },
+        {
+            "question": "When implementing aggregation, where are part objects usually created?",
+            "option_a": "a. Inside the whole class",
+            "option_b": "b. Outside and passed in",
+            "option_c": "c. By the JVM",
+            "option_d": "d. Inherited from parent",
+            "correct_answer": "B",
+            "explanation": "Aggregated parts are instantiated externally and injected into the container."
+        },
+        {
+            "question": "Which UML adornment indicates navigability only from A to B?",
+            "option_a": "a. Diamond at A",
+            "option_b": "b. Arrow at B pointing to A",
+            "option_c": "c. Arrow at A pointing to B",
+            "option_d": "d. No adornment",
+            "correct_answer": "C",
+            "explanation": "An arrow at A’s end shows A can navigate to B but not vice versa."
+        },
+        {
+            "question": "Which relationship is suitable for modeling a configuration object used once at startup?",
+            "option_a": "a. Composition",
+            "option_b": "b. Aggregation",
+            "option_c": "c. Dependency",
+            "option_d": "d. Inheritance",
+            "correct_answer": "C",
+            "explanation": "A configuration object often serves as a temporary dependency during initialization."
+        },
+        {
+            "question": "Which term describes multiple classes sharing a common superclass?",
+            "option_a": "a. Composition",
+            "option_b": "b. Aggregation",
+            "option_c": "c. Polymorphism",
+            "option_d": "d. Inheritance hierarchy",
+            "correct_answer": "D",
+            "explanation": "An inheritance hierarchy organizes classes under a common parent."
+        }
+    ]
+}
