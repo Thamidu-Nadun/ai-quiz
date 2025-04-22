@@ -59,6 +59,10 @@ if (quiz === "./database/ccna.json") {
   heading.textContent = "OOP - 1";
 } else if (quiz === "./database/exams/OOP/oop2.json") {
   heading.textContent = "OOP - 2";
+} else if (quiz === "./database/exams/OOP/oop3.json") {
+  heading.textContent = "OOP - 3";
+} else if (quiz === "./database/exams/OOP/oop4.json") {
+  heading.textContent = "OOP - 4";
 }
 
 // Dynamic import of the JSON file using session variables.

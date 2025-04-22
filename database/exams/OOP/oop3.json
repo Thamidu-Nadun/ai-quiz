@@ -1,0 +1,404 @@
+{
+    "questions": [
+        {
+            "question": "What does SDLC stand for in software development?",
+            "option_a": "a. Software Development Language Core",
+            "option_b": "b. System Design Logic Cycle",
+            "option_c": "c. Software Design Level Components",
+            "option_d": "d. Software Development Life Cycle",
+            "option_e": "e. System Deployment Logic Course",
+            "correct_answer": "D",
+            "explanation": "SDLC is the acronym for Software Development Life Cycle."
+        },
+        {
+            "question": "Which is the first step in the Object-Oriented SDLC process?",
+            "option_a": "a. Design",
+            "option_b": "b. Testing",
+            "option_c": "c. Implementation",
+            "option_d": "d. Requirements Gathering",
+            "option_e": "e. Deployment",
+            "correct_answer": "D",
+            "explanation": "The starting phase of SDLC is Requirements Gathering."
+        },
+        {
+            "question": "Which of the following represents object-oriented analysis output?",
+            "option_a": "a. Use case diagram",
+            "option_b": "b. Class diagram",
+            "option_c": "c. Noun-verb list",
+            "option_d": "d. CRC cards",
+            "option_e": "e. ER diagram",
+            "correct_answer": "D",
+            "explanation": "CRC cards capture classes, responsibilities, and collaborations during OO analysis."
+        },
+        {
+            "question": "What does CRC stand for in CRC cards?",
+            "option_a": "a. Create, Read, Compile",
+            "option_b": "b. Class, Responsibility, Collaboration",
+            "option_c": "c. Class, Record, Connect",
+            "option_d": "d. Collaboration, Responsibility, Card",
+            "option_e": "e. Code, Reference, Class",
+            "correct_answer": "B",
+            "explanation": "CRC stands for Class, Responsibility, Collaboration."
+        },
+        {
+            "question": "Which phase includes drawing class diagrams in SDLC?",
+            "option_a": "a. Implementation",
+            "option_b": "b. Testing",
+            "option_c": "c. Design",
+            "option_d": "d. Deployment",
+            "option_e": "e. Analysis",
+            "correct_answer": "C",
+            "explanation": "Class diagrams are produced during the Design phase."
+        },
+        {
+            "question": "Which of these is not a valid diagram used in object-oriented design?",
+            "option_a": "a. Class Diagram",
+            "option_b": "b. Sequence Diagram",
+            "option_c": "c. Pie Diagram",
+            "option_d": "d. Object Diagram",
+            "option_e": "e. State Diagram",
+            "correct_answer": "C",
+            "explanation": "Pie Diagram is not used in OO design."
+        },
+        {
+            "question": "What technique is used to identify objects and responsibilities from requirements?",
+            "option_a": "a. Component analysis",
+            "option_b": "b. Use-case modeling",
+            "option_c": "c. Noun/Verb analysis",
+            "option_d": "d. UML analysis",
+            "option_e": "e. Dependency injection",
+            "correct_answer": "C",
+            "explanation": "Noun/Verb analysis extracts candidate classes (nouns) and responsibilities (verbs)."
+        },
+        {
+            "question": "In noun/verb analysis, nouns usually become:",
+            "option_a": "a. Attributes",
+            "option_b": "b. Methods",
+            "option_c": "c. Interfaces",
+            "option_d": "d. Classes",
+            "option_e": "e. Constructors",
+            "correct_answer": "D",
+            "explanation": "Nouns and noun phrases typically map to classes."
+        },
+        {
+            "question": "Which of these is a rule for eliminating a noun in noun/verb analysis?",
+            "option_a": "a. Noun is used twice",
+            "option_b": "b. Noun is a method",
+            "option_c": "c. Noun represents meta-language",
+            "option_d": "d. Noun is descriptive",
+            "option_e": "e. Noun is repeated in verbs",
+            "correct_answer": "C",
+            "explanation": "Meta-language terms are outside the system and are eliminated."
+        },
+        {
+            "question": "Which one of these is outside the system scope in a library system?",
+            "option_a": "a. Book",
+            "option_b": "b. Member",
+            "option_c": "c. ISBN",
+            "option_d": "d. Librarian",
+            "option_e": "e. Borrow",
+            "correct_answer": "D",
+            "explanation": "Librarian represents an external actor, not an internal class."
+        },
+        {
+            "question": "In a DVD rental system, which of the following is an attribute?",
+            "option_a": "a. DVD",
+            "option_b": "b. Fine",
+            "option_c": "c. Unregistered member",
+            "option_d": "d. Registered member",
+            "option_e": "e. Borrow",
+            "correct_answer": "B",
+            "explanation": "Fine is a property describing a penalty and thus an attribute."
+        },
+        {
+            "question": "What is the purpose of CRC cards?",
+            "option_a": "a. Representing SQL schema",
+            "option_b": "b. Identifying database relationships",
+            "option_c": "c. Defining class behaviors and collaborators",
+            "option_d": "d. Running unit tests",
+            "option_e": "e. Rewriting requirements",
+            "correct_answer": "C",
+            "explanation": "CRC cards define Class, Responsibilities, and Collaborations."
+        },
+        {
+            "question": "Where is the class name written in a CRC card?",
+            "option_a": "a. Bottom-left",
+            "option_b": "b. Bottom-right",
+            "option_c": "c. Center",
+            "option_d": "d. Top of the card",
+            "option_e": "e. Under collaborators",
+            "correct_answer": "D",
+            "explanation": "The top of the card is reserved for the class name."
+        },
+        {
+            "question": "What part of CRC card explains the actions a class performs?",
+            "option_a": "a. Class name",
+            "option_b": "b. Responsibility",
+            "option_c": "c. Collaborators",
+            "option_d": "d. Attributes",
+            "option_e": "e. Constructors",
+            "correct_answer": "B",
+            "explanation": "Responsibilities list the actions a class can perform."
+        },
+        {
+            "question": "A collaborator in a CRC card is:",
+            "option_a": "a. A superclass of the class",
+            "option_b": "b. A method of the class",
+            "option_c": "c. A class that helps complete responsibilities",
+            "option_d": "d. A synonym of the class",
+            "option_e": "e. A constructor call",
+            "correct_answer": "C",
+            "explanation": "Collaborators are other classes that a class interacts with to fulfill its responsibilities."
+        },
+        {
+            "question": "Which type of class handles communication with the user or system boundary?",
+            "option_a": "a. Entity Class",
+            "option_b": "b. Control Class",
+            "option_c": "c. Boundary Class",
+            "option_d": "d. Service Class",
+            "option_e": "e. Interface Class",
+            "correct_answer": "C",
+            "explanation": "Boundary classes manage interactions between the system and external actors."
+        },
+        {
+            "question": "Which of the following is an example of an Entity class in a library system?",
+            "option_a": "a. LoginForm",
+            "option_b": "b. Book",
+            "option_c": "c. ReservationHandler",
+            "option_d": "d. PrintReport",
+            "option_e": "e. PaymentGateway",
+            "correct_answer": "B",
+            "explanation": "Book represents core data and is thus an entity class."
+        },
+        {
+            "question": "Which class controls how other classes interact and handles business logic?",
+            "option_a": "a. Boundary class",
+            "option_b": "b. Abstract class",
+            "option_c": "c. Entity class",
+            "option_d": "d. Interface class",
+            "option_e": "e. Control class",
+            "correct_answer": "e",
+            "explanation": "Control classes coordinate workflows and enforce business rules."
+        },
+        {
+            "question": "Which of the following is not a class type in analysis classes?",
+            "option_a": "a. Entity class",
+            "option_b": "b. Boundary class",
+            "option_c": "c. Control class",
+            "option_d": "d. Abstract class",
+            "option_e": "e. All of the above are valid",
+            "correct_answer": "D",
+            "explanation": "Abstract classes are an implementation detail, not an analysis-class category."
+        },
+        {
+            "question": "What is the main function of control classes?",
+            "option_a": "a. Store data",
+            "option_b": "b. Represent external systems",
+            "option_c": "c. Enforce logic and handle flow",
+            "option_d": "d. Provide default constructors",
+            "option_e": "e. Print reports",
+            "correct_answer": "C",
+            "explanation": "Control classes implement use-case logic and coordinate interactions."
+        },
+        {
+            "question": "Which of the following responsibilities is most likely found in a Book class?",
+            "option_a": "a. Print fine",
+            "option_b": "b. Return borrowed date",
+            "option_c": "c. Borrow book",
+            "option_d": "d. Register user",
+            "option_e": "e. Generate payment",
+            "correct_answer": "C",
+            "explanation": "Borrow book is a behavior directly associated with a Book entity."
+        },
+        {
+            "question": "Which of the following is most likely a collaborator of a Book class?",
+            "option_a": "a. DVD",
+            "option_b": "b. Member",
+            "option_c": "c. Fine",
+            "option_d": "d. Library",
+            "option_e": "e. ISBN",
+            "correct_answer": "B",
+            "explanation": "Member collaborates with Book when borrowing or returning."
+        },
+        {
+            "question": "In the online order system, which of the following is not a valid class?",
+            "option_a": "a. Item",
+            "option_b": "b. Payment",
+            "option_c": "c. Order",
+            "option_d": "d. Address",
+            "option_e": "e. Customer",
+            "correct_answer": "D",
+            "explanation": "Address is an attribute of Customer, not a separate analysis class."
+        },
+        {
+            "question": "In CRC, which of the following is least likely to be a responsibility of the Customer class?",
+            "option_a": "a. Register with contact details",
+            "option_b": "b. Confirm an order",
+            "option_c": "c. Validate payment",
+            "option_d": "d. View previous orders",
+            "option_e": "e. Place an order",
+            "correct_answer": "C",
+            "explanation": "Payment validation is a concern of a control or payment class, not Customer."
+        },
+        {
+            "question": "What would be the best boundary class for handling user login?",
+            "option_a": "a. LoginForm",
+            "option_b": "b. User",
+            "option_c": "c. Password",
+            "option_d": "d. Profile",
+            "option_e": "e. LoginChecker",
+            "correct_answer": "A",
+            "explanation": "LoginForm is an interface element for user authentication."
+        },
+        {
+            "question": "In noun-verb analysis, what kind of word typically becomes a method?",
+            "option_a": "a. Adjective",
+            "option_b": "b. Verb",
+            "option_c": "c. Noun",
+            "option_d": "d. Pronoun",
+            "option_e": "e. Article",
+            "correct_answer": "B",
+            "explanation": "Verbs describe actions and map to methods."
+        },
+        {
+            "question": "Which rule applies when \"Faculty\" is eliminated during noun filtering?",
+            "option_a": "a. Redundant noun",
+            "option_b": "b. Outside system scope",
+            "option_c": "c. Verb instead of noun",
+            "option_d": "d. Attribute instead of class",
+            "option_e": "e. Collaborator class",
+            "correct_answer": "B",
+            "explanation": "Faculty is part of the real world context but not within system scope."
+        },
+        {
+            "question": "In the DVD rental system, which of these is a valid class?",
+            "option_a": "a. Deposit",
+            "option_b": "b. Fine",
+            "option_c": "c. ID card",
+            "option_d": "d. Unregistered member",
+            "option_e": "e. Borrow",
+            "correct_answer": "D",
+            "explanation": "Unregistered member is an actor with distinct behaviors."
+        },
+        {
+            "question": "In a CRC card, who should be listed under \"Collaborators\" for the class Order?",
+            "option_a": "a. Item",
+            "option_b": "b. User",
+            "option_c": "c. Payment",
+            "option_d": "d. All of the above",
+            "option_e": "e. None of the above",
+            "correct_answer": "D",
+            "explanation": "Order collaborates with Item, User, and Payment to process an order."
+        },
+        {
+            "question": "What is the main responsibility of a control class like ReservationHandler?",
+            "option_a": "a. Handle UI for reservation",
+            "option_b": "b. Print member details",
+            "option_c": "c. Store reservation data",
+            "option_d": "d. Coordinate reservation logic",
+            "option_e": "e. Save user payment",
+            "correct_answer": "D",
+            "explanation": "Control classes coordinate business logic such as reservations."
+        },
+        {
+            "question": "Which of the following is not a suitable CRC collaborator for Payment?",
+            "option_a": "a. Order",
+            "option_b": "b. Item",
+            "option_c": "c. CreditCard",
+            "option_d": "d. Customer",
+            "option_e": "e. DeliveryService",
+            "correct_answer": "e",
+            "explanation": "DeliveryService is unrelated to payment processing."
+        },
+        {
+            "question": "In CRC analysis, which action is associated with a RegisteredMember?",
+            "option_a": "a. Add DVD to store",
+            "option_b": "b. Restock DVD",
+            "option_c": "c. Borrow DVDs",
+            "option_d": "d. Create CRC card",
+            "option_e": "e. Validate payment",
+            "correct_answer": "C",
+            "explanation": "Registered members can borrow DVDs under specified rules."
+        },
+        {
+            "question": "In the CRC card layout, which section would contain “Return Book”?",
+            "option_a": "a. Class name",
+            "option_b": "b. Attribute section",
+            "option_c": "c. Responsibilities",
+            "option_d": "d. Collaborators",
+            "option_e": "e. Constructor",
+            "correct_answer": "C",
+            "explanation": "Return Book is an action, so it goes under Responsibilities."
+        },
+        {
+            "question": "Why are CRC cards useful in early stages of system design?",
+            "option_a": "a. They replace code",
+            "option_b": "b. They help identify responsibilities and collaborations",
+            "option_c": "c. They are used to write SQL",
+            "option_d": "d. They define method syntax",
+            "option_e": "e. They help debug code",
+            "correct_answer": "B",
+            "explanation": "CRC cards clarify class roles and interactions before coding."
+        },
+        {
+            "question": "Which is an example of a control class in an online store?",
+            "option_a": "a. ShoppingCartPage",
+            "option_b": "b. Customer",
+            "option_c": "c. PaymentVerifier",
+            "option_d": "d. LoginForm",
+            "option_e": "e. Order",
+            "correct_answer": "C",
+            "explanation": "PaymentVerifier coordinates payment processing logic."
+        },
+        {
+            "question": "In noun-verb analysis, which of these is a valid class and not an attribute or operation?",
+            "option_a": "a. ID Number",
+            "option_b": "b. ISBN",
+            "option_c": "c. Deposit",
+            "option_d": "d. Book",
+            "option_e": "e. Fine",
+            "correct_answer": "D",
+            "explanation": "Book represents an entity, whereas the others are attributes or operations."
+        },
+        {
+            "question": "How are entity classes different from control classes?",
+            "option_a": "a. They store UI data",
+            "option_b": "b. They manage logic",
+            "option_c": "c. They store core system data",
+            "option_d": "d. They act as collaborators",
+            "option_e": "e. They only validate input",
+            "correct_answer": "C",
+            "explanation": "Entity classes represent core domain data."
+        },
+        {
+            "question": "What is the purpose of boundary classes in OOA?",
+            "option_a": "a. Connect users to the system",
+            "option_b": "b. Store data in files",
+            "option_c": "c. Manage constructors",
+            "option_d": "d. Replace entity classes",
+            "option_e": "e. Control business logic",
+            "correct_answer": "A",
+            "explanation": "Boundary classes handle interactions with external actors."
+        },
+        {
+            "question": "In an e-commerce system, which of the following is an entity class?",
+            "option_a": "a. PaymentGateway",
+            "option_b": "b. PrintReport",
+            "option_c": "c. Product",
+            "option_d": "d. ReservationHandler",
+            "option_e": "e. AdminForm",
+            "correct_answer": "C",
+            "explanation": "Product represents a core item of the domain model."
+        },
+        {
+            "question": "Which of the following statements is true about analysis classes?",
+            "option_a": "a. Entity classes always interact with users",
+            "option_b": "b. Control classes store transaction data",
+            "option_c": "c. Boundary classes control object behavior",
+            "option_d": "d. Entity classes focus on core system data",
+            "option_e": "e. Control classes represent real-world objects",
+            "correct_answer": "D",
+            "explanation": "Entity classes encapsulate the domain’s core information."
+        }
+    ]
+}

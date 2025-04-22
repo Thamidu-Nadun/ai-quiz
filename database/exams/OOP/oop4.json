@@ -1,0 +1,404 @@
+{
+    "questions": [
+        {
+            "question": "Which of the following best defines inheritance in Java?",
+            "option_a": "a. One object containing another object",
+            "option_b": "b. One class calling another class",
+            "option_c": "c. One method performing different tasks",
+            "option_d": "d. One class acquiring features of another class",
+            "option_e": "e. Objects sharing the same memory",
+            "correct_answer": "D",
+            "explanation": "Inheritance means one class acquires attributes and methods from another class."
+        },
+        {
+            "question": "What keyword is used in Java to inherit a class?",
+            "option_a": "a. this",
+            "option_b": "b. super",
+            "option_c": "c. implements",
+            "option_d": "d. extends",
+            "option_e": "e. inherits",
+            "correct_answer": "D",
+            "explanation": "The `extends` keyword establishes an inheritance relationship."
+        },
+        {
+            "question": "In UML class diagrams, how is inheritance represented?",
+            "option_a": "a. Solid line with arrow pointing to subclass",
+            "option_b": "b. Dotted line between objects",
+            "option_c": "c. Arrow with a filled diamond",
+            "option_d": "d. Empty arrow pointing to superclass",
+            "option_e": "e. Circle connected to parent class",
+            "correct_answer": "D",
+            "explanation": "An empty (hollow) arrow points from the subclass to the superclass."
+        },
+        {
+            "question": "What type of relationship does inheritance represent?",
+            "option_a": "a. has-a",
+            "option_b": "b. is-a",
+            "option_c": "c. uses-a",
+            "option_d": "d. part-of",
+            "option_e": "e. builds-a",
+            "correct_answer": "B",
+            "explanation": "Inheritance models an “is‑a” relationship between subclass and superclass."
+        },
+        {
+            "question": "What is the superclass in the relationship: class Manager extends Employee?",
+            "option_a": "a. Manager",
+            "option_b": "b. Worker",
+            "option_c": "c. Employee",
+            "option_d": "d. Object",
+            "option_e": "e. Admin",
+            "correct_answer": "C",
+            "explanation": "Employee is the parent (super) class in that declaration."
+        },
+        {
+            "question": "What is constructor chaining?",
+            "option_a": "a. Calling a static method from another class",
+            "option_b": "b. Passing object from one class to another",
+            "option_c": "c. Automatically calling parent constructor before child constructor",
+            "option_d": "d. Connecting multiple objects in one class",
+            "option_e": "e. Overriding a constructor",
+            "correct_answer": "C",
+            "explanation": "Constructor chaining invokes the superclass constructor first using `super()`."
+        },
+        {
+            "question": "Which access modifier allows child classes to access parent attributes?",
+            "option_a": "a. private",
+            "option_b": "b. public",
+            "option_c": "c. protected",
+            "option_d": "d. default",
+            "option_e": "e. static",
+            "correct_answer": "C",
+            "explanation": "`protected` members are accessible within subclasses."
+        },
+        {
+            "question": "What happens when a subclass defines a method with the same name and parameters as the superclass?",
+            "option_a": "a. Constructor chaining",
+            "option_b": "b. Method overloading",
+            "option_c": "c. Method hiding",
+            "option_d": "d. Method overriding",
+            "option_e": "e. Method referencing",
+            "correct_answer": "D",
+            "explanation": "Defining the same signature in a subclass overrides the superclass method."
+        },
+        {
+            "question": "What is polymorphism?",
+            "option_a": "a. Accessing protected members",
+            "option_b": "b. Using composition in classes",
+            "option_c": "c. One object changing into another",
+            "option_d": "d. One method acting differently depending on object",
+            "option_e": "e. Overloading constructors only",
+            "correct_answer": "D",
+            "explanation": "Polymorphism allows methods to behave differently based on the calling object."
+        },
+        {
+            "question": "When is the method to be executed decided in runtime polymorphism?",
+            "option_a": "a. During coding",
+            "option_b": "b. During object declaration",
+            "option_c": "c. During compiling",
+            "option_d": "d. During program execution",
+            "option_e": "e. At constructor call",
+            "correct_answer": "D",
+            "explanation": "Runtime polymorphism selects the method implementation during execution."
+        },
+        {
+            "question": "What is method overloading?",
+            "option_a": "a. Calling multiple methods from another class",
+            "option_b": "b. Rewriting a method in a subclass",
+            "option_c": "c. Same method name, different parameters",
+            "option_d": "d. Returning different data types",
+            "option_e": "e. Accessing multiple classes",
+            "correct_answer": "C",
+            "explanation": "Overloading defines multiple methods with the same name but different parameter lists."
+        },
+        {
+            "question": "Which of the following is not true about inheritance?",
+            "option_a": "a. Subclass can inherit private members",
+            "option_b": "b. Subclass can override methods",
+            "option_c": "c. Subclass can add new methods",
+            "option_d": "d. Inheritance promotes code reuse",
+            "option_e": "e. Subclass can access protected members",
+            "correct_answer": "A",
+            "explanation": "Private members of a superclass are not inherited by subclasses."
+        },
+        {
+            "question": "What does the super keyword do in Java?",
+            "option_a": "a. Calls another method",
+            "option_b": "b. Refers to the object itself",
+            "option_c": "c. Refers to subclass constructor",
+            "option_d": "d. Refers to parent class constructor",
+            "option_e": "e. Returns an object",
+            "correct_answer": "D",
+            "explanation": "`super` refers to the immediate parent class’s constructor or members."
+        },
+        {
+            "question": "What is the output if a Developer class overrides calculateSalary() and an object of Developer is used?",
+            "option_a": "a. Employee method is executed",
+            "option_b": "b. An error is shown",
+            "option_c": "c. Developer method is executed",
+            "option_d": "d. Both methods are executed",
+            "option_e": "e. No output",
+            "correct_answer": "C",
+            "explanation": "The overridden calculateSalary() in Developer runs at runtime."
+        },
+        {
+            "question": "What is the main benefit of polymorphism?",
+            "option_a": "a. Reduces memory usage",
+            "option_b": "b. Improves object visibility",
+            "option_c": "c. Allows flexible and reusable code",
+            "option_d": "d. Improves file handling",
+            "option_e": "e. Increases inheritance",
+            "correct_answer": "C",
+            "explanation": "Polymorphism promotes flexibility and code reuse."
+        },
+        {
+            "question": "Which of these is a real-world example of polymorphism?",
+            "option_a": "a. Car has wheels",
+            "option_b": "b. Knife, scissors, and axe all “cut”",
+            "option_c": "c. House has a kitchen",
+            "option_d": "d. Teacher is a person",
+            "option_e": "e. Student enrolls in a course",
+            "correct_answer": "B",
+            "explanation": "Different tools ‘cut’ in context‑specific ways, illustrating polymorphism."
+        },
+        {
+            "question": "What does composition represent?",
+            "option_a": "a. Reusing code from another class",
+            "option_b": "b. One method performing many functions",
+            "option_c": "c. One class made up of other class objects",
+            "option_d": "d. One class creating another class",
+            "option_e": "e. Class having same method names",
+            "correct_answer": "C",
+            "explanation": "Composition models a strong whole‑part relationship between classes."
+        },
+        {
+            "question": "What symbol represents composition in UML?",
+            "option_a": "a. Empty arrow",
+            "option_b": "b. Dashed arrow",
+            "option_c": "c. Filled diamond",
+            "option_d": "d. Hollow circle",
+            "option_e": "e. Crossed line",
+            "correct_answer": "C",
+            "explanation": "A filled diamond at the whole end denotes composition."
+        },
+        {
+            "question": "Which is an example of composition?",
+            "option_a": "a. A Student is a Person",
+            "option_b": "b. A Printer prints documents",
+            "option_c": "c. A House has a Door",
+            "option_d": "d. A Vehicle drives on roads",
+            "option_e": "e. A Developer is an Employee",
+            "correct_answer": "C",
+            "explanation": "A Door cannot exist independently of its House in composition."
+        },
+        {
+            "question": "What happens to parts when the whole is destroyed in composition?",
+            "option_a": "a. Parts remain",
+            "option_b": "b. Parts are moved to another class",
+            "option_c": "c. Parts are copied",
+            "option_d": "d. Parts are also destroyed",
+            "option_e": "e. Parts are stored",
+            "correct_answer": "D",
+            "explanation": "In composition, destroying the whole also destroys its parts."
+        },
+        {
+            "question": "Which of the following is true about a subclass?",
+            "option_a": "a. It must define all methods from the superclass",
+            "option_b": "b. It cannot override the parent constructor",
+            "option_c": "c. It inherits public and protected members of the parent class",
+            "option_d": "d. It cannot define its own methods",
+            "option_e": "e. It can only be abstract",
+            "correct_answer": "C",
+            "explanation": "Subclasses inherit public and protected members from their superclasses."
+        },
+        {
+            "question": "Which concept allows multiple classes to share a common method name but behave differently?",
+            "option_a": "a. Aggregation",
+            "option_b": "b. Composition",
+            "option_c": "c. Polymorphism",
+            "option_d": "d. Association",
+            "option_e": "e. Inheritance",
+            "correct_answer": "C",
+            "explanation": "Polymorphism enables one method signature to have multiple behaviors."
+        },
+        {
+            "question": "What is required for a method to be overridden?",
+            "option_a": "a. Different return type",
+            "option_b": "b. Same method name but different parameters",
+            "option_c": "c. Same method name, parameters, and return type",
+            "option_d": "d. Static keyword",
+            "option_e": "e. Same constructor",
+            "correct_answer": "C",
+            "explanation": "Overridden methods must match name, parameter list, and return type."
+        },
+        {
+            "question": "What keyword is used to call a parent class method or constructor from a child class?",
+            "option_a": "a. this",
+            "option_b": "b. parent",
+            "option_c": "c. super",
+            "option_d": "d. base",
+            "option_e": "e. override",
+            "correct_answer": "C",
+            "explanation": "`super` invokes the parent class’s constructor or members."
+        },
+        {
+            "question": "Which method is called when you use a superclass reference to a subclass object?",
+            "option_a": "a. Always superclass method",
+            "option_b": "b. Always subclass method",
+            "option_c": "c. Depends on compile-time decision",
+            "option_d": "d. Depends on runtime object type",
+            "option_e": "e. None of the above",
+            "correct_answer": "D",
+            "explanation": "Runtime type of the object determines which overridden method is executed."
+        },
+        {
+            "question": "Identify the type of polymorphism: “Overloaded constructors with different parameters in the same class.”",
+            "option_a": "a. Runtime",
+            "option_b": "b. Method Overriding",
+            "option_c": "c. Compile-time",
+            "option_d": "d. Late binding",
+            "option_e": "e. Dynamic",
+            "correct_answer": "C",
+            "explanation": "Constructor overloading is resolved at compile time (compile-time polymorphism)."
+        },
+        {
+            "question": "In the statement class Computer, which relationship fits if it contains Processor and Memory objects?",
+            "option_a": "a. Inheritance",
+            "option_b": "b. Association",
+            "option_c": "c. Aggregation",
+            "option_d": "d. Composition",
+            "option_e": "e. Polymorphism",
+            "correct_answer": "D",
+            "explanation": "Composition models a strong whole‑part relationship inside Computer."
+        },
+        {
+            "question": "What is the most appropriate \"whole-part\" relationship?",
+            "option_a": "a. Bike and Rider",
+            "option_b": "b. Book and Page",
+            "option_c": "c. Teacher and Student",
+            "option_d": "d. Developer and Code",
+            "option_e": "e. Chef and Recipe",
+            "correct_answer": "B",
+            "explanation": "A Page is part of a Book and cannot exist independently in composition."
+        },
+        {
+            "question": "Why is composition considered a strong relationship?",
+            "option_a": "a. The part is reusable in other classes",
+            "option_b": "b. The part belongs to many objects",
+            "option_c": "c. The part can exist without the whole",
+            "option_d": "d. The part is destroyed with the whole",
+            "option_e": "e. The part can override methods",
+            "correct_answer": "D",
+            "explanation": "In composition, parts have their lifecycle bound to the whole."
+        },
+        {
+            "question": "Which one of the following is not related to composition?",
+            "option_a": "a. A Page cannot exist without a Book",
+            "option_b": "b. A Car has an Engine",
+            "option_c": "c. A Manager extends Employee",
+            "option_d": "d. A Computer contains a Memory",
+            "option_e": "e. Destroying a whole destroys its parts",
+            "correct_answer": "C",
+            "explanation": "Extending classes is inheritance, not composition."
+        },
+        {
+            "question": "Which of these best describes runtime polymorphism?",
+            "option_a": "a. Deciding method to run at compile time",
+            "option_b": "b. Method name changing during execution",
+            "option_c": "c. Overriding a method in a child class",
+            "option_d": "d. Creating objects of multiple classes",
+            "option_e": "e. Static method execution",
+            "correct_answer": "C",
+            "explanation": "Runtime polymorphism is achieved through method overriding."
+        },
+        {
+            "question": "Which of the following can be achieved using polymorphism?",
+            "option_a": "a. Code duplication",
+            "option_b": "b. More constructors",
+            "option_c": "c. Flexible method behavior",
+            "option_d": "d. Single class definition",
+            "option_e": "e. Data hiding",
+            "correct_answer": "C",
+            "explanation": "Polymorphism allows methods to adapt behavior to different objects."
+        },
+        {
+            "question": "Which statement is true about method overriding?",
+            "option_a": "a. It allows multiple return types",
+            "option_b": "b. Overridden method must be private",
+            "option_c": "c. Only constructors can be overridden",
+            "option_d": "d. Method must have same signature",
+            "option_e": "e. It uses different method names",
+            "correct_answer": "D",
+            "explanation": "Overridden methods require identical name, parameters, and return type."
+        },
+        {
+            "question": "In a class diagram, the filled diamond symbol indicates:",
+            "option_a": "a. Aggregation",
+            "option_b": "b. Inheritance",
+            "option_c": "c. Polymorphism",
+            "option_d": "d. Composition",
+            "option_e": "e. Association",
+            "correct_answer": "D",
+            "explanation": "A filled diamond represents composition."
+        },
+        {
+            "question": "A filled diamond in a UML diagram points from:",
+            "option_a": "a. Subclass to superclass",
+            "option_b": "b. Part to whole",
+            "option_c": "c. Whole to part",
+            "option_d": "d. Parent to child",
+            "option_e": "e. Overridden to base method",
+            "correct_answer": "C",
+            "explanation": "The filled diamond is attached to the whole and points to its parts."
+        },
+        {
+            "question": "What is the main purpose of inheritance in OOP?",
+            "option_a": "a. Hiding data",
+            "option_b": "b. Improving performance",
+            "option_c": "c. Sharing functionality across classes",
+            "option_d": "d. Adding constructors",
+            "option_e": "e. Restricting access",
+            "correct_answer": "C",
+            "explanation": "Inheritance promotes code reuse and sharing of behavior."
+        },
+        {
+            "question": "Which of the following is not required for method overloading?",
+            "option_a": "a. Same method name",
+            "option_b": "b. Different parameter types",
+            "option_c": "c. Different return types",
+            "option_d": "d. Defined in the same class",
+            "option_e": "e. Different parameter counts",
+            "correct_answer": "C",
+            "explanation": "Return types can differ but are not used to distinguish overloads."
+        },
+        {
+            "question": "Which of the following demonstrates inheritance?",
+            "option_a": "a. A Phone class having Battery object",
+            "option_b": "b. A Printer class using Paper",
+            "option_c": "c. A Dog class extending Animal",
+            "option_d": "d. A Car containing Tyres",
+            "option_e": "e. A Book having Title",
+            "correct_answer": "C",
+            "explanation": "Extending Animal shows a Dog is a type of Animal (inheritance)."
+        },
+        {
+            "question": "Which is the best advantage of using composition?",
+            "option_a": "a. Increases program size",
+            "option_b": "b. Enforces strict inheritance",
+            "option_c": "c. Promotes modular design",
+            "option_d": "d. Requires multiple constructors",
+            "option_e": "e. Supports only static methods",
+            "correct_answer": "C",
+            "explanation": "Composition enables building complex types from simpler parts."
+        },
+        {
+            "question": "What is the major difference between inheritance and composition?",
+            "option_a": "a. Inheritance cannot reuse code",
+            "option_b": "b. Composition is weaker than inheritance",
+            "option_c": "c. In composition, parts can’t exist without the whole",
+            "option_d": "d. In inheritance, class contains object",
+            "option_e": "e. In composition, subclass inherits superclass",
+            "correct_answer": "C",
+            "explanation": "Composition binds part lifecycles to the whole, unlike inheritance."
+        }
+    ]
+}

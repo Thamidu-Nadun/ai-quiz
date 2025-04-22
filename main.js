@@ -36,6 +36,8 @@ const DSA2 = document.querySelector("#dsa2");
 // Object Oriented Programming
 const OOP1 = document.querySelector("#oop1");
 const OOP2 = document.querySelector("#oop2");
+const OOP3 = document.querySelector("#oop3");
+const OOP4 = document.querySelector("#oop4");
 
 // We add event listeners to the buttons.
 // Depending on the button clicked we create a session variable called quiz and set it to the JSON file we want to load in hte quiz.html. The sessions variable allows us to share
@@ -215,5 +217,17 @@ OOP1.addEventListener("click", (e) => {
 OOP2.addEventListener("click", (e) => {
     e.preventDefault();
     sessionStorage.setItem("quiz", "./database/exams/OOP/oop2.json");
+    location.href = "quiz.html";
+});
+
+OOP3.addEventListener("click", (e) => {
+    e.preventDefault();
+    sessionStorage.setItem("quiz", "./database/exams/OOP/oop3.json");
+    location.href = "quiz.html";
+});
+
+OOP4.addEventListener("click", (e) => {
+    e.preventDefault();
+    sessionStorage.setItem("quiz", "./database/exams/OOP/oop4.json");
     location.href = "quiz.html";
 });
