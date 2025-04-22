@@ -29,6 +29,10 @@ const FC9 = document.querySelector("#FC9");
 // Technical Writing
 const TR1 = document.querySelector("#tr1");
 
+// Data Structures and Algorithms
+const DSA1 = document.querySelector("#dsa1");
+const DSA2 = document.querySelector("#dsa2");
+
 // We add event listeners to the buttons.
 // Depending on the button clicked we create a session variable called quiz and set it to the JSON file we want to load in hte quiz.html. The sessions variable allows us to share
 // data between pages. We then redirect the user to the quiz.html page.
@@ -182,5 +186,17 @@ pythonHard.addEventListener("click", (e) => {
 TR1.addEventListener("click", (e) => {
     e.preventDefault();
     sessionStorage.setItem("quiz", "./database/exams/TR/tr1.json");
+    location.href = "quiz.html";
+});
+
+DSA1.addEventListener("click", (e) => {
+    e.preventDefault();
+    sessionStorage.setItem("quiz", "./database/exams/DSA/dsa1.json");
+    location.href = "quiz.html";
+});
+
+DSA2.addEventListener("click", (e) => {
+    e.preventDefault();
+    sessionStorage.setItem("quiz", "./database/exams/DSA/dsa2.json");
     location.href = "quiz.html";
 });

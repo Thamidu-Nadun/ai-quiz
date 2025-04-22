@@ -51,6 +51,10 @@ if (quiz === "./database/ccna.json") {
     heading.textContent = "FC - 9";
 } else if (quiz === "./database/exams/TR/tr1.json") {
     heading.textContent = "TR - 1";
+} else if (quiz === "./database/exams/DSA/dsa1.json") {
+    heading.textContent = "DSA - 1";
+} else if (quiz === "./database/exams/DSA/dsa2.json") {
+    heading.textContent = "DSA - 2";
 }
 
 

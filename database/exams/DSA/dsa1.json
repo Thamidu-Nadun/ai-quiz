@@ -1,0 +1,1030 @@
+{
+    "questions": [
+        {
+            "question": "According to the RAM model of computation, how many steps does the operation `n = n + 100` take? [1]",
+            "option_a": "1 step",
+            "option_b": "2 steps",
+            "option_c": "3 steps",
+            "option_d": "4 steps",
+            "correct_answer": "B",
+            "explanation": "In the RAM model, an addition and an assignment each take one step. Therefore, `n = n + 100` involves one addition and one assignment, totaling 2 steps [1]."
+        },
+        {
+            "question": "In algorithm analysis, what is the purpose of predicting resource usage? [2]",
+            "option_a": "To make the algorithm more complex.",
+            "option_b": "To understand the implementation details.",
+            "option_c": "To compare algorithms and predict the growth of run time.",
+            "option_d": "To optimize the code for a specific processor.",
+            "correct_answer": "C",
+            "explanation": "The idea of analyzing algorithms is to predict the resource usage, such as memory and computational time, which helps in comparing different algorithms and predicting how their run time will grow with the input size [2]."
+        },
+        {
+            "question": "What is the best-case running time of an algorithm defined as? [2]",
+            "option_a": "The average number of steps taken on any instance of size n.",
+            "option_b": "The minimum number of steps taken on any instance of size n.",
+            "option_c": "The maximum number of steps taken on any instance of size n.",
+            "option_d": "The typical number of steps taken on a specific instance.",
+            "correct_answer": "B",
+            "explanation": "The best case running time is the minimum number of steps taken on any input instance of a given size `n` [2]."
+        },
+        {
+            "question": "Which of the following is NOT listed as a property of an algorithm? [3]",
+            "option_a": "Be correct.",
+            "option_b": "It must terminate.",
+            "option_c": "Be unambiguous.",
+            "option_d": "Be object-oriented.",
+            "correct_answer": "D",
+            "explanation": "The properties of an algorithm listed are to be correct, unambiguous, give the correct solution for all cases, be simple, and it must terminate [3]."
+        },
+        {
+            "question": "What does the pseudocode convention `//` indicate? [4]",
+            "option_a": "An assignment.",
+            "option_b": "A comment line.",
+            "option_c": "A loop.",
+            "option_d": "A conditional construct.",
+            "correct_answer": "B",
+            "explanation": "In pseudocode conventions, `//` is used to indicate a comment line [4]."
+        },
+        {
+            "question": "In the context of algorithm analysis, what are the two main analysis methods mentioned? [5]",
+            "option_a": "Step Count and Big O Notation.",
+            "option_b": "Exact Analysis and Pseudocode.",
+            "option_c": "Operation Count Methods and Step Count Method (RAM Model).",
+            "option_d": "Best Case Analysis and Worst Case Analysis.",
+            "correct_answer": "C",
+            "explanation": "The two main analysis methods mentioned are Operation Count Methods and Step Count Method (RAM Model) [5]."
+        },
+        {
+            "question": "According to the RAM model, how many steps does a memory access take? [1]",
+            "option_a": "0 steps",
+            "option_b": "1 step",
+            "option_c": "2 steps",
+            "option_d": "Depends on the memory location.",
+            "correct_answer": "B",
+            "explanation": "In the RAM model, each memory access takes exactly 1 step [1]."
+        },
+        {
+            "question": "What is the total number of steps for the following code fragment according to the RAM model? `n = 100` (1 step), `n = n + 100` (2 steps), `Print n` (1 step) [1]",
+            "option_a": "2 steps",
+            "option_b": "3 steps",
+            "option_c": "4 steps",
+            "option_d": "5 steps",
+            "correct_answer": "C",
+            "explanation": "The total number of steps is the sum of the steps for each line: 1 + 2 + 1 = 4 steps [1]."
+        },
+        {
+            "question": "What is the Big O notation for the function T(n) = 3 + 5n + 3n²? [6, 7]",
+            "option_a": "O(n)",
+            "option_b": "O(n log n)",
+            "option_c": "O(n²)",
+            "option_d": "O(n³)",
+            "correct_answer": "C",
+            "explanation": "When determining Big O notation, we focus on the dominant term as `n` becomes large. In T(n) = 3 + 5n + 3n², the n² term grows the fastest, so the Big O notation is O(n²) [6, 7]."
+        },
+        {
+            "question": "In the context of Big O notation, what does it provide? [8]",
+            "option_a": "An exact measure of the algorithm's running time.",
+            "option_b": "The best-case running time of an algorithm.",
+            "option_c": "The average-case running time of an algorithm.",
+            "option_d": "An upper bound on a function's growth rate.",
+            "correct_answer": "D",
+            "explanation": "Big O notation is used to give an upper bound on a function, describing the limiting behavior of a function when the argument tends towards infinity [8, 9]."
+        },
+        {
+            "question": "What is the Big O value of the following code fragment? <pre><code class=\"language-java\">for (int i = 1; i <= n; i++) {\n    for (int j = 1; j <= i; j++) {\n        System.out.println(j);\n    }\n}</code></pre> [7]",
+            "option_a": "O(n)",
+            "option_b": "O(n²)",
+            "option_c": "O(log n)",
+            "option_d": "O(n log n)",
+            "correct_answer": "B",
+            "explanation": "The outer loop runs `n` times, and the inner loop runs `i` times, where `i` goes from 1 to `n`. The total number of iterations is 1 + 2 + ... + n, which is n(n+1)/2. The dominant term is n², so the Big O value is O(n²) [7]."
+        },
+        {
+            "question": "What is the Big O value of the function f(n) = 2ⁿ + n² + 8n + 7? [7]",
+            "option_a": "O(n²)",
+            "option_b": "O(n)",
+            "option_c": "O(n log n)",
+            "option_d": "O(2ⁿ)",
+            "correct_answer": "D",
+            "explanation": "In the function f(n) = 2ⁿ + n² + 8n + 7, the term 2ⁿ grows the fastest as `n` increases. Therefore, the Big O value is O(2ⁿ) [7]."
+        },
+        {
+            "question": "What is the primary purpose of Insertion Sort? [10]",
+            "option_a": "To divide and conquer an array for sorting.",
+            "option_b": "To repeatedly swap adjacent elements if they are in the wrong order.",
+            "option_c": "To build a final sorted array one item at a time.",
+            "option_d": "To efficiently sort large, randomly ordered arrays.",
+            "correct_answer": "C",
+            "explanation": "Insertion sort works by building a final sorted array (or list) one item at a time. It iterates through the input elements and inserts each element into its correct position within the already sorted portion of the array [10]."
+        },
+        {
+            "question": "In the pseudocode for Insertion Sort, which part represents inserting the key into the sorted sequence A[1..j-1]? [10]",
+            "option_a": "Lines 1-2",
+            "option_b": "Line 4",
+            "option_c": "Lines 5-8",
+            "option_d": "Line 1",
+            "correct_answer": "C",
+            "explanation": "Lines 5-8 of the Insertion Sort pseudocode (the `while` loop and the final assignment to `A[i+1]`) are responsible for finding the correct position and inserting the key into the sorted subarray `A[1..j-1]` [10, 11]."
+        },
+        {
+            "question": "In the exact analysis of Insertion Sort, what does `tj` represent? [12, 13]",
+            "option_a": "The cost of the j-th iteration of the outer loop.",
+            "option_b": "The number of times the while loop is executed for a particular value of j.",
+            "option_c": "The index of the key being inserted.",
+            "option_d": "The total running time for an input size j.",
+            "correct_answer": "B",
+            "explanation": "In the running time analysis of Insertion Sort, `tj` represents the number of times the while loop (lines 5-7) is executed for that value of j in the outer `for` loop [12, 13]."
+        },
+        {
+            "question": "What is the best-case time complexity of Insertion Sort in Big O notation? [13, 14]",
+            "option_a": "O(n²)",
+            "option_b": "O(n)",
+            "option_c": "O(log n)",
+            "option_d": "O(n log n)",
+            "correct_answer": "B",
+            "explanation": "The best case for Insertion Sort occurs when the input array is already sorted. In this scenario, the `while` loop condition in lines 5 is never true, resulting in a running time that is linear in the size of the input, hence O(n) [13, 14]."
+        },
+        {
+            "question": "What is the worst-case time complexity of Insertion Sort in Big O notation? [13, 14]",
+            "option_a": "O(n²)",
+            "option_b": "O(n)",
+            "option_c": "O(log n)",
+            "option_d": "O(n log n)",
+            "correct_answer": "A",
+            "explanation": "The worst case for Insertion Sort occurs when the input array is in reverse sorted order. In this case, for each element, the `while` loop iterates through the entire sorted portion of the array, leading to a quadratic running time, hence O(n²) [13, 14]."
+        },
+        {
+            "question": "What is the main restriction on where insertions and deletions can be made in a stack data structure? [15, 16]",
+            "option_a": "Insertions only at the beginning, deletions only at the end.",
+            "option_b": "Insertions only at the end, deletions only at the beginning.",
+            "option_c": "All insertions and deletions are made at one end (Top).",
+            "option_d": "Insertions and deletions can be made at any position.",
+            "correct_answer": "C",
+            "explanation": "In a stack, all insertions (push) and deletions (pop) are made at one end, which is called the Top of the stack [15, 16]."
+        },
+        {
+            "question": "What principle do stacks operate on? [16]",
+            "option_a": "First-In-First-Out (FIFO)",
+            "option_b": "Last-In-First-Out (LIFO)",
+            "option_c": "Random Access",
+            "option_d": "Priority Based",
+            "correct_answer": "B",
+            "explanation": "Stacks operate on the Last-In-First-Out (LIFO) principle, meaning the last element inserted is the first one to be removed [16]."
+        },
+        {
+            "question": "Which of the following is an application of stacks? [15]",
+            "option_a": "Printer queue management.",
+            "option_b": "Network routing algorithms.",
+            "option_c": "Undo sequence of a text editor.",
+            "option_d": "Shortest paths in a graph.",
+            "correct_answer": "C",
+            "explanation": "The undo sequence of a text editor is a common application of stacks, where each action is pushed onto the stack and can be reversed by popping the last action [15]."
+        },
+        {
+            "question": "What is the operation of adding an item to a stack called? [16]",
+            "option_a": "Pop",
+            "option_b": "Peek",
+            "option_c": "Push",
+            "option_d": "Insert",
+            "correct_answer": "C",
+            "explanation": "Push is the operation used to add an item to the top of a stack [16]."
+        },
+        {
+            "question": "What is the operation of removing an item from a stack called? [16]",
+            "option_a": "Push",
+            "option_b": "Peek",
+            "option_c": "Insert",
+            "option_d": "Pop",
+            "correct_answer": "D",
+            "explanation": "Pop is the operation used to remove the top item from a stack [16]."
+        },
+        {
+            "question": "What is the purpose of the 'peek' operation in a stack? [16]",
+            "option_a": "To remove and return the top element.",
+            "option_b": "To insert an element at the top.",
+            "option_c": "To read the value from the top of the stack without removing it.",
+            "option_d": "To check if the stack is empty.",
+            "correct_answer": "C",
+            "explanation": "Peek is used to read the value from the top of the stack without modifying the stack (i.e., without removing the element) [16]."
+        },
+        {
+            "question": "In an array-based implementation of a stack, what does the 'top' variable typically store? [17]",
+            "option_a": "The size of the stack.",
+            "option_b": "The index of the first element.",
+            "option_c": "The index of the item on the top of the stack.",
+            "option_d": "The total number of items in the stack.",
+            "correct_answer": "C",
+            "explanation": "In an array-based stack implementation, the 'top' variable usually stores the index of the item that is currently at the top of the stack [17]."
+        },
+        {
+            "question": "What is the initial value of 'top' typically set to in an empty array-based stack? [17]",
+            "option_a": "0",
+            "option_b": "1",
+            "option_c": "maxSize",
+            "option_d": "-1",
+            "correct_answer": "D",
+            "explanation": "In an array-based stack, when the stack is initialized and empty, the 'top' variable is typically set to -1, indicating that there are no items in the stack [17]."
+        },
+        {
+            "question": "What condition checks if a stack implemented with an array of size 'maxSize' is full, assuming 'top' is the index of the top element and starts at -1? [18]",
+            "option_a": "top == 0",
+            "option_b": "top == maxSize",
+            "option_c": "top == maxSize – 1",
+            "option_d": "top > maxSize",
+            "correct_answer": "C",
+            "explanation": "A stack of size 'maxSize' is full when the 'top' index reaches the last valid index of the array, which is maxSize – 1 (since the indices are 0-based) [18]."
+        },
+        {
+            "question": "What condition checks if a stack is empty, assuming 'top' is the index of the top element and starts at -1? [19]",
+            "option_a": "top == 0",
+            "option_b": "top > -1",
+            "option_c": "top == maxSize – 1",
+            "option_d": "top == -1",
+            "correct_answer": "D",
+            "explanation": "A stack is considered empty when the 'top' index is at its initial value, which is -1 [19]."
+        },
+        {
+            "question": "What is the time complexity of the push and pop operations in a typical stack implementation? [20]",
+            "option_a": "push - O(n), pop - O(n)",
+            "option_b": "push - O(log n), pop - O(log n)",
+            "option_c": "push - O(1), pop - O(1)",
+            "option_d": "push - O(n), pop - O(1)",
+            "correct_answer": "C",
+            "explanation": "The push and pop operations in a standard stack implementation have a time complexity of O(1) because they involve accessing and modifying only the top element, which takes constant time [20]."
+        },
+        {
+            "question": "What is the main restriction on where insertions and deletions can be made in a queue data structure? [21]",
+            "option_a": "All operations at the front.",
+            "option_b": "All operations at the rear.",
+            "option_c": "Insertions at the rear, deletions at the front.",
+            "option_d": "Insertions at the front, deletions at the rear.",
+            "correct_answer": "C",
+            "explanation": "In a queue, insertions are made at the Rear end, and deletions are made at the Front end [21]."
+        },
+        {
+            "question": "What principle do queues operate on? [21]",
+            "option_a": "First-In-First-Out (FIFO)",
+            "option_b": "Last-In-First-Out (LIFO)",
+            "option_c": "Random Access",
+            "option_d": "Priority Based",
+            "correct_answer": "A",
+            "explanation": "Queues operate on the First-In-First-Out (FIFO) principle, meaning the first element inserted is the first one to be removed [21]."
+        },
+        {
+            "question": "Which of the following is an application of queues in a computer's operating system? [22]",
+            "option_a": "Managing recursive function calls.",
+            "option_b": "Reversing a string.",
+            "option_c": "Printer queue.",
+            "option_d": "Maintaining the history of visited web pages.",
+            "correct_answer": "C",
+            "explanation": "A printer queue is a common application of queues in operating systems, where print jobs are processed in the order they are received [22]."
+        },
+        {
+            "question": "What is the operation of adding an item to a queue called? [21]",
+            "option_a": "Remove",
+            "option_b": "PeekFront",
+            "option_c": "Insert",
+            "option_d": "Pop",
+            "correct_answer": "C",
+            "explanation": "Insert is the operation used to add an item to the rear of a queue [21]."
+        },
+        {
+            "question": "What is the operation of removing an item from a queue called? [21]",
+            "option_a": "Push",
+            "option_b": "PeekFront",
+            "option_c": "Insert",
+            "option_d": "Remove",
+            "correct_answer": "D",
+            "explanation": "Remove is the operation used to remove the front item from a queue [21]."
+        },
+        {
+            "question": "What is the purpose of the 'peekFront' operation in a queue? [23]",
+            "option_a": "To remove and return the rear element.",
+            "option_b": "To insert an element at the front.",
+            "option_c": "To read the value from the front of the queue without removing it.",
+            "option_d": "To check if the queue is full.",
+            "correct_answer": "C",
+            "explanation": "PeekFront is used to read the value from the front of the queue without modifying the queue (i.e., without removing the element) [23]."
+        },
+        {
+            "question": "In an array-based implementation of a queue, what does the 'front' variable typically store? [24, 25]",
+            "option_a": "The size of the queue.",
+            "option_b": "The index of the item at the front of the queue.",
+            "option_c": "The index of the item at the rear of the queue.",
+            "option_d": "The total number of items in the queue.",
+            "correct_answer": "B",
+            "explanation": "In an array-based queue implementation, the 'front' variable typically stores the index of the item that is currently at the front of the queue [24, 25]."
+        },
+        {
+            "question": "In an array-based implementation of a queue, what does the 'rear' variable typically store? [24, 25]",
+            "option_a": "The size of the queue.",
+            "option_b": "The index of the first empty slot at the front.",
+            "option_c": "The index of the item at the rear of the queue.",
+            "option_d": "The total number of items in the queue.",
+            "correct_answer": "C",
+            "explanation": "In an array-based queue implementation, the 'rear' variable typically stores the index of the item that was last inserted at the rear of the queue [24, 25]."
+        },
+        {
+            "question": "What is one advantage of having a circular queue instead of a linear queue? [26, 27]",
+            "option_a": "Simpler implementation.",
+            "option_b": "Faster insertion at the beginning.",
+            "option_c": "More efficient use of the allocated memory by wrapping around.",
+            "option_d": "Faster deletion at the end.",
+            "correct_answer": "C",
+            "explanation": "One advantage of a circular queue is that it can overcome the limitation of a linear queue by wrapping around, allowing for more efficient use of the allocated memory when elements are removed from the front [26, 27]."
+        },
+        {
+            "question": "How do you typically determine if a linear queue implemented with an array is full, assuming 'rear' points to the last inserted element and 'maxSize' is the size of the array? [28, 29]",
+            "option_a": "front == rear",
+            "option_b": "rear == 0",
+            "option_c": "rear == maxSize – 1",
+            "option_d": "front == maxSize – 1",
+            "correct_answer": "C",
+            "explanation": "A linear queue implemented with an array of size 'maxSize' is considered full when the 'rear' pointer reaches the last index of the array, which is maxSize – 1 [28, 29]."
+        },
+        {
+            "question": "How do you typically determine if a linear queue implemented with an array is empty, assuming 'nItems' keeps track of the number of items? [28, 30]",
+            "option_a": "front == rear",
+            "option_b": "rear == -1",
+            "option_c": "front == 0",
+            "option_d": "nItems == 0",
+            "correct_answer": "D",
+            "explanation": "A linear queue is considered empty when the number of items ('nItems') in the queue is 0 [28, 30]."
+        },
+        {
+            "question": "In a circular queue, what happens to the 'rear' pointer when it reaches the end of the array and a new element needs to be inserted, assuming the queue is not full? [27, 31]",
+            "option_a": "It remains at the last index.",
+            "option_b": "It is set to 'maxSize – 1'.",
+            "option_c": "It wraps around to the beginning of the array (index 0).",
+            "option_d": "It is decremented to 'maxSize – 2'.",
+            "correct_answer": "C",
+            "explanation": "In a circular queue, when the 'rear' pointer reaches the end of the array ('maxSize - 1') and there is space at the beginning of the queue (due to previous removals), the 'rear' pointer wraps around to the beginning of the array (index 0) for the next insertion [27, 31]."
+        },
+        {
+            "question": "What is the role of the 'nItems' variable in a queue implementation? [24, 25]",
+            "option_a": "To store the index of the front element.",
+            "option_b": "To store the index of the rear element.",
+            "option_c": "To keep track of the total number of items in the queue.",
+            "option_d": "To define the maximum size of the queue.",
+            "correct_answer": "C",
+            "explanation": "The 'nItems' variable in a queue implementation is used to store the count of the total number of items currently present in the queue [24, 25]."
+        },
+        {
+            "question": "What is a key difference between arrays and linked lists in terms of accessing a particular element? [32]",
+            "option_a": "Arrays can store more data than linked lists.",
+            "option_b": "Linked lists use contiguous memory locations, while arrays do not.",
+            "option_c": "Arrays allow direct access using an index, while linked lists require traversing the chain of elements.",
+            "option_d": "Linked lists are fixed in size, while arrays can be dynamic.",
+            "correct_answer": "C",
+            "explanation": "Arrays allow direct access to any element using its index, whereas in a linked list, you need to follow the chain of 'next' references from the beginning to reach a specific element [32]."
+        },
+        {
+            "question": "Which of the following is an application of linked lists? [33, 34]",
+            "option_a": "Implementing binary search on sorted data.",
+            "option_b": "Storing elements in contiguous memory locations.",
+            "option_c": "Implementation of stacks and queues.",
+            "option_d": "Direct access to elements using an index.",
+            "correct_answer": "C",
+            "explanation": "Linked lists are commonly used in the implementation of other data structures such as stacks and queues [33]."
+        },
+        {
+            "question": "In a singly linked list, each link contains a data item and a reference to what? [34, 35]",
+            "option_a": "The previous link in the list.",
+            "option_b": "The first link in the list.",
+            "option_c": "The next link in the list.",
+            "option_d": "The last link in the list.",
+            "correct_answer": "C",
+            "explanation": "In a singly linked list, each link (or node) typically contains a data item and a reference (pointer) to the next link in the sequence [34, 35]."
+        },
+        {
+            "question": "What is the purpose of the 'first' reference in a linked list class? [36]",
+            "option_a": "To point to the last link in the list.",
+            "option_b": "To keep track of the number of links in the list.",
+            "option_c": "To point to the first link in the list.",
+            "option_d": "To indicate if the list is empty.",
+            "correct_answer": "C",
+            "explanation": "The 'first' reference in a linked list class is crucial as it points to the very first link (or head) of the list, providing an entry point to traverse the entire list [36]."
+        },
+        {
+            "question": "What is the time complexity to insert a new link at the beginning of a singly linked list? [37, 38]",
+            "option_a": "O(n)",
+            "option_b": "O(log n)",
+            "option_c": "O(1)",
+            "option_d": "O(n log n)",
+            "correct_answer": "C",
+            "explanation": "Inserting a new link at the beginning of a singly linked list involves creating the new link and updating the 'first' reference and the new link's 'next' reference, both of which take constant time, hence O(1) [37, 38]."
+        },
+        {
+            "question": "What is the time complexity to find a link with a specified key in the worst case in a singly linked list of size n? [35, 37]",
+            "option_a": "O(1)",
+            "option_b": "O(log n)",
+            "option_c": "O(n)",
+            "option_d": "O(n log n)",
+            "correct_answer": "C",
+            "explanation": "In the worst case, the link with the specified key might be the last link in the singly linked list, or it might not be present at all. In either scenario, you might need to traverse all `n` links, resulting in a time complexity of O(n) [35, 37]."
+        },
+        {
+            "question": "What is the purpose of the `insertAfter(int key, int newData)` method in a linked list? [39]",
+            "option_a": "To insert a new link at the beginning of the list.",
+            "option_b": "To insert a new link at the end of the list.",
+            "option_c": "To find the link with the given key and insert a new link immediately after it.",
+            "option_d": "To insert a new link before the link with the given key.",
+            "correct_answer": "C",
+            "explanation": "The `insertAfter(int key, int newData)` method is designed to locate the link containing the specified 'key' and then insert a new link with 'newData' value right after that link [39]."
+        },
+        {
+            "question": "What is the primary difference between a singly linked list and a doubly linked list? [40]",
+            "option_a": "Doubly linked lists can only store integer data.",
+            "option_b": "Singly linked lists have a reference to the last link.",
+            "option_c": "Each link in a doubly linked list has two references: one to the next link and one to the previous link.",
+            "option_d": "Singly linked lists allow traversal in both forward and backward directions.",
+            "correct_answer": "C",
+            "explanation": "The main difference is that each link in a doubly linked list contains two pointers: one to the next link and another to the previous link, allowing for traversal in both directions. A singly linked list only has a pointer to the next link [40]."
+        },
+        {
+            "question": "What additional reference does a double-ended list have compared to an ordinary singly linked list? [40]",
+            "option_a": "A reference to the link before the first link.",
+            "option_b": "A reference to the middle link.",
+            "option_c": "A reference to the last link.",
+            "option_d": "A reference to a specific link based on a key value.",
+            "correct_answer": "C",
+            "explanation": "A double-ended list is similar to a singly linked list but includes an additional reference to the last link in the list, making it efficient to append elements at the end [40]."
+        },
+        {
+            "question": "In the context of a doubly linked list, what does the 'previous' reference in each link point to? [40]",
+            "option_a": "The link that comes after the current link.",
+            "option_b": "The first link in the list.",
+            "option_c": "The last link in the list.",
+            "option_d": "The link that comes before the current link.",
+            "correct_answer": "D",
+            "explanation": "In a doubly linked list, each link has a 'next' reference pointing to the subsequent link and a 'previous' reference pointing to the link that precedes it, enabling bidirectional traversal [40]."
+        },
+        {
+            "question": "What is the root of a tree? [41]",
+            "option_a": "Any node with no children.",
+            "option_b": "Any node with one or more children.",
+            "option_c": "The node at the top of the tree.",
+            "option_d": "Any node at the lowest level.",
+            "correct_answer": "C",
+            "explanation": "The root of a tree is defined as the node located at the very top of the hierarchical structure [41]."
+        },
+        {
+            "question": "In a tree, what is a parent node? [42]",
+            "option_a": "A node at the bottom of the tree.",
+            "option_b": "Any node which has one or more lines running downwards to other nodes.",
+            "option_c": "A node with exactly one child.",
+            "option_d": "The node at the top of the tree.",
+            "correct_answer": "B",
+            "explanation": "A parent node in a tree is any node that has one or more children, connected by edges running downwards [42]."
+        },
+        {
+            "question": "In a binary tree, what is the maximum number of children a node can have? [41, 43]",
+            "option_a": "1",
+            "option_b": "2",
+            "option_c": "3",
+            "option_d": "Unlimited",
+            "correct_answer": "B",
+            "explanation": "By definition, a binary tree is a tree structure where each node can have at most two children, typically referred to as the left child and the right child [41, 43]."
+        },
+        {
+            "question": "What is a leaf node in a tree? [42]",
+            "option_a": "The root node.",
+            "option_b": "A node with exactly one child.",
+            "option_c": "A node that has no children.",
+            "option_d": "A node at the second level of the tree.",
+            "correct_answer": "C",
+            "explanation": "A leaf node, also sometimes called a terminal node, is a node in a tree that does not have any children [42]."
+        },
+        {
+            "question": "What is a path in a tree? [44]",
+            "option_a": "A node that has no children.",
+            "option_b": "A subtree rooted at a particular node.",
+            "option_c": "A sequence of nodes from one node to another along the edges.",
+            "option_d": "The distance between the root and a node.",
+            "correct_answer": "C",
+            "explanation": "A path in a tree is defined as a sequence of nodes connected by edges, leading from one node to another [44]."
+        },
+        {
+            "question": "What is a subtree in a tree? [44]",
+            "option_a": "The node at the top of the tree.",
+            "option_b": "A node with no children.",
+            "option_c": "Any node which consists of its children and its children’s children and so on.",
+            "option_d": "A sequence of nodes connected by edges.",
+            "correct_answer": "C",
+            "explanation": "A subtree rooted at a particular node includes that node and all of its descendants (its children, their children, and so on) along with the edges connecting them [44]."
+        },
+        {
+            "question": "In a binary search tree, what is the relationship between the key of a left child and its parent? [43]",
+            "option_a": "The left child's key must be greater than its parent's key.",
+            "option_b": "The left child's key must be greater than or equal to its parent's key.",
+            "option_c": "The left child's key must be less than its parent's key.",
+            "option_d": "There is no specific relationship between the keys of a left child and its parent.",
+            "correct_answer": "C",
+            "explanation": "In a binary search tree, a fundamental property is that for any given node, the key of its left child must be strictly less than the key of its parent [43]."
+        },
+        {
+            "question": "In a binary search tree, what is the relationship between the key of a right child and its parent? [43]",
+            "option_a": "The right child's key must be less than its parent's key.",
+            "option_b": "The right child's key must be greater than or equal to its parent's key.",
+            "option_c": "The right child's key must be strictly greater than its parent's key.",
+            "option_d": "There is no specific relationship between the keys of a right child and its parent.",
+            "correct_answer": "B",
+            "explanation": "Another fundamental property of a binary search tree is that for any given node, the key of its right child must be greater than or equal to the key of its parent [43]."
+        },
+        {
+            "question": "Which of the following is a main operation performed on a binary search tree? [43]",
+            "option_a": "Sorting the elements in the tree.",
+            "option_b": "Reversing the order of elements.",
+            "option_c": "Finding a node with a given key.",
+            "option_d": "Merging two binary search trees.",
+            "correct_answer": "C",
+            "explanation": "Finding a node with a specific key is one of the main operations performed on a binary search tree, leveraging its ordered structure for efficient searching [43]."
+        },
+        {
+            "question": "When searching for a key in a binary search tree, where do you always start the search? [43]",
+            "option_a": "The leftmost leaf node.",
+            "option_b": "The rightmost leaf node.",
+            "option_c": "The root.",
+            "option_d": "A randomly selected node.",
+            "correct_answer": "C",
+            "explanation": "The process of searching for a key in a binary search tree always begins at the root node and then proceeds down the tree based on comparisons with the key value [43]."
+        },
+        {
+            "question": "If the key value you are searching for in a binary search tree is less than the key of the current node, where do you proceed next in your search? [45]",
+            "option_a": "To the right child.",
+            "option_b": "To the parent node.",
+            "option_c": "To the left child.",
+            "option_d": "The search is unsuccessful.",
+            "correct_answer": "C",
+            "explanation": "If the search key is less than the current node's key, you should proceed to the left child because, according to the binary search tree property, all keys in the left subtree are less than the parent's key [45]."
+        },
+        {
+            "question": "If the key value you are searching for in a binary search tree is greater than the key of the current node, where do you proceed next in your search? [45]",
+            "option_a": "To the left child.",
+            "option_b": "To the parent node.",
+            "option_c": "To the right child.",
+            "option_d": "The search is unsuccessful.",
+            "correct_answer": "C",
+            "explanation": "If the search key is greater than the current node's key, you should proceed to the right child because, according to the binary search tree property, all keys in the right subtree are greater than or equal to the parent's key [45]."
+        },
+        {
+            "question": "What are the two main ways a binary tree is typically traversed? [46]",
+            "option_a": "Linear and Circular.",
+            "option_b": "Sequential and Random.",
+            "option_c": "Breadth First and Depth First.",
+            "option_d": "Top-Down and Bottom-Up.",
+            "correct_answer": "C",
+            "explanation": "A binary tree is commonly traversed using two main approaches: Breadth First Traversal (or Level Order Traversal) and Depth First Traversals [46]."
+        },
+        {
+            "question": "Which of the following is NOT a type of Depth First Traversal for a binary tree mentioned in the sources? [46]",
+            "option_a": "Inorder Traversal.",
+            "option_b": "Preorder Traversal.",
+            "option_c": "Postorder Traversal.",
+            "option_d": "Level Order Traversal.",
+            "correct_answer": "D",
+            "explanation": "Level Order Traversal is a Breadth First Traversal, not a Depth First Traversal. The three types of Depth First Traversal mentioned are Inorder, Preorder, and Postorder [46]."
+        },
+        {
+            "question": "In an Inorder Traversal of a binary tree, what is the order in which the nodes are visited? [46, 47]",
+            "option_a": "Root, Left subtree, Right subtree.",
+            "option_b": "Root, Right subtree, Left subtree.",
+            "option_c": "Left subtree, Root, Right subtree.",
+            "option_d": "Right subtree, Root, Left subtree.",
+            "correct_answer": "C",
+            "explanation": "In an Inorder Traversal, the nodes of a binary tree are visited in the order: Left subtree, then the Root, and finally the Right subtree [46, 47]."
+        },
+        {
+            "question": "In a Preorder Traversal of a binary tree, what is the order in which the nodes are visited? [46, 47]",
+            "option_a": "Left subtree, Root, Right subtree.",
+            "option_b": "Right subtree, Left subtree, Root.",
+            "option_c": "Root, Left subtree, Right subtree.",
+            "option_d": "Left subtree, Right subtree, Root.",
+            "correct_answer": "C",
+            "explanation": "In a Preorder Traversal, the nodes of a binary tree are visited in the order: Root, then the Left subtree, and finally the Right subtree [46, 47]."
+        },
+        {
+            "question": "In a Postorder Traversal of a binary tree, what is the order in which the nodes are visited? [46, 48]",
+            "option_a": "Root, Left subtree, Right subtree.",
+            "option_b": "Left subtree, Right subtree, Root.",
+            "option_c": "Root, Right subtree, Left subtree.",
+            "option_d": "Right subtree, Root, Left subtree.",
+            "correct_answer": "B",
+            "explanation": "In a Postorder Traversal, the nodes of a binary tree are visited in the order: Left subtree, then the Right subtree, and finally the Root [46, 48]."
+        },
+        {
+            "question": "What is the purpose of the `displayNode()` method in the `Node` class of a binary search tree implementation? [49]",
+            "option_a": "To create a new node.",
+            "option_b": "To display the data stored in a node.",
+            "option_c": "To link the node to its children.",
+            "option_d": "To delete the node from the tree.",
+            "correct_answer": "B",
+            "explanation": "The `displayNode()` method in the `Node` class is used to display the information (like iData and dData) stored within a particular node of the binary search tree [49]."
+        },
+        {
+            "question": "In the `Tree` class implementation of a binary search tree, what is the role of the `root` variable? [49, 50]",
+            "option_a": "To store the number of nodes in the tree.",
+            "option_b": "To point to the currently focused node during operations.",
+            "option_c": "To point to the first node (root) of the tree.",
+            "option_d": "To indicate whether the tree is empty.",
+            "correct_answer": "C",
+            "explanation": "In the `Tree` class, the `root` variable is a reference to the very first node of the binary search tree, serving as the entry point for many tree operations [49, 50]."
+        },
+        {
+            "question": "In the `find(int key)` method of a binary search tree, where does the search always begin? [50]",
+            "option_a": "The leftmost leaf.",
+            "option_b": "The rightmost leaf.",
+            "option_c": "The root.",
+            "option_d": "A node with the smallest key.",
+            "correct_answer": "C",
+            "explanation": "The `find(int key)` operation in a binary search tree always starts its search from the `root` node [50]."
+        },
+        {
+            "question": "What value is returned by the `find(int key)` method in the `Tree` class if the key is not found in the binary search tree? [50]",
+            "option_a": "0",
+            "option_b": "-1",
+            "option_c": "The key itself.",
+            "option_d": "null.",
+            "correct_answer": "D",
+            "explanation": "If the `find(int key)` method traverses the tree and reaches a point where there is no further node to check (i.e., `current` becomes `null`), it indicates that the key was not found in the tree, and hence it returns `null` [50]."
+        },
+        {
+            "question": "When inserting a new node into a binary search tree, where does the search for the insertion point begin? [51]",
+            "option_a": "The leftmost leaf.",
+            "option_b": "The rightmost leaf.",
+            "option_c": "The root.",
+            "option_d": "A randomly selected node.",
+            "correct_answer": "C",
+            "explanation": "The process of inserting a new node into a binary search tree begins by traversing the tree from the root to find the appropriate parent node where the new node should be inserted as a left or right child [51]."
+        },
+        {
+            "question": "When inserting a new node with a key smaller than the current node's key in a binary search tree, in which direction do you typically move? [52]",
+            "option_a": "Right.",
+            "option_b": "Up to the parent.",
+            "option_c": "Left.",
+            "option_d": "Stay at the current node.",
+            "correct_answer": "C",
+            "explanation": "When inserting a node with a key that is less than the current node's key, you should move to the left child of the current node to continue searching for the insertion point [52]."
+        },
+        {
+            "question": "When inserting a new node with a key greater than or equal to the current node's key in a binary search tree, in which direction do you typically move? [52]",
+            "option_a": "Left.",
+            "option_b": "Up to the parent.",
+            "option_c": "Right.",
+            "option_d": "Stay at the current node.",
+            "correct_answer": "C",
+            "explanation": "When inserting a node with a key that is greater than or equal to the current node's key, you should move to the right child of the current node to continue searching for the insertion point [52]."
+        },
+        {
+            "question": "In the `inOrder(Node localRoot)` method for binary search tree traversal, what is the order of operations? [53]",
+            "option_a": "Visit node, traverse left, traverse right.",
+            "option_b": "Visit node, traverse right, traverse left.",
+            "option_c": "Traverse left, visit node, traverse right.",
+            "option_d": "Traverse right, visit node, traverse left.",
+            "correct_answer": "C",
+            "explanation": "The `inOrder` traversal method follows the order: first recursively traverse the left subtree, then visit the current node, and finally recursively traverse the right subtree [53]."
+        },
+        {
+            "question": "In the `preOrder(Node localRoot)` method for binary search tree traversal, what is the order of operations? [53]",
+            "option_a": "Traverse left, visit node, traverse right.",
+            "option_b": "Traverse right, visit node, traverse left.",
+            "option_c": "Visit node, traverse left, traverse right.",
+            "option_d": "Traverse left, traverse right, visit node.",
+            "correct_answer": "C",
+            "explanation": "The `preOrder` traversal method follows the order: first visit the current node, then recursively traverse the left subtree, and finally recursively traverse the right subtree [53]."
+        },
+        {
+            "question": "In the `postOrder(Node localRoot)` method for binary search tree traversal, what is the order of operations? [54]",
+            "option_a": "Visit node, traverse left, traverse right.",
+            "option_b": "Traverse right, visit node, traverse left.",
+            "option_c": "Visit node, traverse right, traverse left.",
+            "option_d": "Traverse left, traverse right, visit node.",
+            "correct_answer": "D",
+            "explanation": "The `postOrder` traversal method follows the order: first recursively traverse the left subtree, then recursively traverse the right subtree, and finally visit the current node [54]."
+        },
+        {
+            "question": "When deleting a node from a binary search tree, what is the first step mentioned after finding the node to be deleted? [54]",
+            "option_a": "Rebalancing the tree.",
+            "option_b": "Considering the number of children the node has.",
+            "option_c": "Finding the inorder successor.",
+            "option_d": "Setting the parent's child pointer to null.",
+            "correct_answer": "B",
+            "explanation": "After finding the node to be deleted, the next step is to consider the number of children it has, as the deletion process differs based on whether the node is a leaf, has one child, or has two children [54]."
+        },
+        {
+            "question": "What is considered the simplest case when deleting a node from a binary search tree? [54, 55]",
+            "option_a": "When the node has two children.",
+            "option_b": "When the node has one left child.",
+            "option_c": "When the node has one right child.",
+            "option_d": "When the node to be deleted is a leaf (has no children).",
+            "correct_answer": "D",
+            "explanation": "The simplest case for deletion in a binary search tree is when the node to be deleted is a leaf node, as it simply involves removing the reference to it from its parent [54, 55]."
+        },
+        {
+            "question": "What needs to be done when deleting a leaf node from a binary search tree? [54]",
+            "option_a": "Promote one of its ancestors.",
+            "option_b": "Replace it with its inorder successor.",
+            "option_c": "Make its parent point to its only child.",
+            "option_d": "Update its parent's child pointer to null.",
+            "correct_answer": "D",
+            "explanation": "When deleting a leaf node (a node with no children) from a binary search tree, you simply need to update the child pointer of its parent node to null, effectively removing the leaf node from the tree [54]."
+        },
+        {
+            "question": "When deleting a node with one child from a binary search tree, what is the general approach? [54, 55]",
+            "option_a": "Replace it with its inorder predecessor.",
+            "option_b": "Make its parent point to a null reference.",
+            "option_c": "Make its parent directly point to its only child.",
+            "option_d": "Convert the child into a leaf node.",
+            "correct_answer": "C",
+            "explanation": "When deleting a node that has only one child, the approach is to make the parent of the deleted node directly point to the child of the deleted node, effectively bypassing the deleted node in the tree structure [54, 55]."
+        },
+        {
+            "question": "What is a successor of a node in a Binary Search Tree? [55]",
+            "option_a": "A node with the smallest key in the tree.",
+            "option_b": "A node with a key less than the given node's key.",
+            "option_c": "A node with the next-highest key.",
+            "option_d": "A node with a key equal to the given node's key.",
+            "correct_answer": "C",
+            "explanation": "In a Binary Search Tree, the successor of a node is the node that has the next-highest key value in the tree's sorted order [55]."
+        },
+        {
+            "question": "What is the first step in finding the successor of a node in a Binary Search Tree? [56]",
+            "option_a": "Go to the left child.",
+            "option_b": "Go to the right child.",
+            "option_c": "Go to the parent.",
+            "option_d": "The node itself is the successor.",
+            "correct_answer": "B",
+            "explanation": "To find the successor of a node in a Binary Search Tree, the first step is to go to its right child [56]."
+        },
+        {
+            "question": "After going to the right child of a node when looking for its successor, what is the next step? [56]",
+            "option_a": "Go to the right child again.",
+            "option_b": "Go to the parent.",
+            "option_c": "Go to the left child repeatedly until there is no left child.",
+            "option_d": "The right child is the successor.",
+            "correct_answer": "C",
+            "explanation": "After moving to the right child of the original node, you then repeatedly move to the left child until you reach a node that has no left child. This node with no left child is the successor [56]."
+        },
+        {
+            "question": "What is the degree of a node in a tree? [56]",
+            "option_a": "The length of the path from the root to the node.",
+            "option_b": "The largest depth of any node in the subtree rooted at that node.",
+            "option_c": "The number of children it has.",
+            "option_d": "The level of the node in the tree.",
+            "correct_answer": "C",
+            "explanation": "The degree of a node in a tree is defined as the number of children that node has [56]."
+        },
+        {
+            "question": "What is the depth of a node 'x' in a tree? [56]",
+            "option_a": "The number of descendants of 'x'.",
+            "option_b": "The length of the path from the root to node 'x'.",
+            "option_c": "The maximum number of children of any node in the subtree of 'x'.",
+            "option_d": "The number of edges in the subtree rooted at 'x'.",
+            "correct_answer": "B",
+            "explanation": "The depth of a node 'x' in a tree is measured by the length of the unique path from the root of the tree to that node 'x', typically counted in the number of edges [56]."
+        },
+        {
+            "question": "What is the height of a tree? [56]",
+            "option_a": "The depth of the root node.",
+            "option_b": "The average depth of all nodes.",
+            "option_c": "The minimum depth of any leaf node.",
+            "option_d": "The largest depth of any node in the tree.",
+            "correct_answer": "D",
+            "explanation": "The height of a tree is determined by the largest depth among all the nodes in the tree, essentially the distance from the root to the deepest leaf node [56]."
+        },
+        {
+            "question": "What is a Full Binary Tree of height 'h' defined as? [56]",
+            "option_a": "A binary tree where each node has exactly two children.",
+            "option_b": "A binary tree where all leaf nodes are at the same depth.",
+            "option_c": "A binary tree of height 'h' that contains exactly 2^(h+1) - 1 nodes.",
+            "option_d": "A binary tree where each node has either zero or two children.",
+            "correct_answer": "C",
+            "explanation": "A Full binary tree of height 'h' is a binary tree that is completely filled with nodes, having exactly 2^(h+1) - 1 nodes [56]."
+        },
+        {
+            "question": "What is a Complete Binary Tree? [56, 57]",
+            "option_a": "A binary tree where every level, except possibly the last, is completely filled, and all nodes are as far left as possible.",
+            "option_b": "A binary tree where each internal node has exactly two children.",
+            "option_c": "A binary tree where all leaf nodes are at the same level.",
+            "option_d": "A binary tree that is also a Full binary tree.",
+            "correct_answer": "A",
+            "explanation": "A Complete Binary Tree is a binary tree where every level, except possibly the last, is completely filled, and all nodes in the last level are as far to the left as possible [56, 57]."
+        },
+        {
+            "question": "Is a Full binary tree also considered a complete binary tree? [57]",
+            "option_a": "No, they are mutually exclusive.",
+            "option_b": "Only if the height is less than 3.",
+            "option_c": "Only if the number of nodes is a power of 2 minus 1.",
+            "option_d": "Yes.",
+            "correct_answer": "D",
+            "explanation": "A Full binary tree satisfies all the conditions of a complete binary tree; therefore, a Full binary tree is also a complete binary tree [57]."
+        },
+        {
+            "question": "What is the height of a complete binary tree that contains 'n' elements? [57]",
+            "option_a": "ceil(log2(n))",
+            "option_b": "n - 1",
+            "option_c": "floor(log2(n)) + 1",
+            "option_d": "floor(log2(n))",
+            "correct_answer": "D",
+            "explanation": "The height of a complete binary tree that contains 'n' elements is given by the formula floor(log2(n)) [57]."
+        },
+        {
+            "question": "Consider the stack operations: `theStack.push(2); theStack.push(a); theStack.push(a + b); theStack.pop(); theStack.push(b); theStack.push(a – b);` given `int a = 22, b = 44;`. What would be the top element of the stack after these operations? [58, 59]",
+            "option_a": "44",
+            "option_b": "-22",
+            "option_c": "22",
+            "option_d": "66",
+            "correct_answer": "B",
+            "explanation": "Initially the stack is empty. `push(2)` adds 2. `push(a)` adds 22. `push(a+b)` adds 66. `pop()` removes 66. `push(b)` adds 44. `push(a-b)` adds 22 - 44 = -22. So, the top element is -22 [58, 59]."
+        },
+        {
+            "question": "Which method should be implemented in a stack class to check if the stack contains any items? [19, 59]",
+            "option_a": "isFull()",
+            "option_b": "getCount()",
+            "option_c": "peek()",
+            "option_d": "isEmpty()",
+            "correct_answer": "D",
+            "explanation": "The `isEmpty()` method is used to determine if a stack is empty, typically by checking if the `top` pointer indicates an empty stack (e.g., `top == -1` in an array implementation) [19, 59]."
+        },
+        {
+            "question": "Which method should be implemented in a stack class to determine if the stack has reached its maximum capacity? [18, 59]",
+            "option_a": "isEmpty()",
+            "option_b": "getCount()",
+            "option_c": "peek()",
+            "option_d": "isFull()",
+            "correct_answer": "D",
+            "explanation": "The `isFull()` method is used to check if a stack has reached its maximum size, typically by comparing the `top` pointer with the maximum allowed index (e.g., `top == maxSize - 1` in an array implementation) [18, 59]."
+        },
+        {
+            "question": "Which method can be implemented in a stack class to return the total number of items currently stored in the stack? [59]",
+            "option_a": "isEmpty()",
+            "option_b": "getCount()",
+            "option_c": "peek()",
+            "option_d": "isFull()",
+            "correct_answer": "B",
+            "explanation": "The `getCount()` method can be implemented to return the number of items currently present in the stack, often by returning `top + 1` in an array-based implementation where `top` starts at -1 [59]."
+        },
+        {
+            "question": "Consider a stack class constructor implemented as: <pre><code class=\"language-java\">public StackX() {\n    stArr = new double[20];\n    maxSize = 10;\n    top = -1;\n}</code></pre> What is one disadvantage of this constructor? [60]",
+            "option_a": "It initializes the top pointer to an incorrect value.",
+            "option_b": "It uses a fixed size for the stack.",
+            "option_c": "It does not initialize the stack array.",
+            "option_d": "It allows negative sizes for the stack.",
+            "correct_answer": "B",
+            "explanation": "One disadvantage of this constructor is that it creates a stack with a fixed maximum size of 10, which might not be suitable for all use cases where the required size is unknown or may vary [60]."
+        },
+        {
+            "question": "If a stack is used to store characters and you push 'g', then 't', then 'o', then 'p', what would be the result of popping all values? [60, 61]",
+            "option_a": "g, t, o, p",
+            "option_b": "p, o, t, g",
+            "option_c": "g, o, t, p",
+            "option_d": "p, g, o, t",
+            "correct_answer": "B",
+            "explanation": "Due to the LIFO (Last-In-First-Out) principle of stacks, the characters will be popped in the reverse order they were pushed. Therefore, the result would be p, o, t, g [60, 61]."
+        },
+        {
+            "question": "In a stack, if the 'top' pointer is equal to -1, what is the state of the stack? [61]",
+            "option_a": "Full",
+            "option_b": "Partially full",
+            "option_c": "Empty",
+            "option_d": "Overflow",
+            "correct_answer": "C",
+            "explanation": "In a typical array-based stack implementation where the 'top' pointer indicates the index of the top element (starting from -1 for an empty stack), a 'top' value of -1 signifies that the stack is empty [61]."
+        },
+        {
+            "question": "What is the process of retrieving the element at the top of a stack without removing it called? [16, 61]",
+            "option_a": "Pop",
+            "option_b": "Push",
+            "option_c": "Peek",
+            "option_d": "Top",
+            "correct_answer": "C",
+            "explanation": "The operation of retrieving the element at the top of a stack without removing it is called peek [16, 61]."
+        },
+        {
+            "question": "A stack can be implemented using which of the following data structures? [33, 61, 62]",
+            "option_a": "Queue only",
+            "option_b": "Tree only",
+            "option_c": "Array or Linked List",
+            "option_d": "Graph only",
+            "correct_answer": "C",
+            "explanation": "A stack is an abstract data type that can be implemented using concrete data structures like an array [61, 62] or a linked list [33, 61]."
+        },
+        {
+            "question": "Consider a circular queue. What happens to the front pointer when an element is removed and it is currently pointing to the last index of the array? [63]",
+            "option_a": "It remains at the last index.",
+            "option_b": "It is set to -1.",
+            "option_c": "It wraps around to the beginning of the array (index 0).",
+            "option_d": "It is decremented.",
+            "correct_answer": "C",
+            "explanation": "In the `remove()` method of a circular queue, after incrementing the `front` pointer, if it becomes equal to the `maxSize` (the size of the array), it is reset to 0 to wrap around to the beginning of the queue [63]."
+        },
+        {
+            "question": "In the provided erroneous `remove()` method for a circular queue (Question 4, Tutorial 4), what is the incorrect return type when the queue is empty? [64]",
+            "option_a": "int",
+            "option_b": "String",
+            "option_c": "boolean",
+            "option_d": "void",
+            "correct_answer": "C",
+            "explanation": "In the given `remove()` method, when the queue is empty, it prints a message and then incorrectly returns `false`, while it should return an `int` as per the method signature [64]."
+        },
+        {
+            "question": "Consider a linear queue. The statement \"front - rear + 1 can be used to find the no of items in a linear queue\" is: [65, 66]",
+            "option_a": "Always true.",
+            "option_b": "Generally false; the correct answer is usually 'rear - front + 1' when rear >= front, or a different calculation considering wraparound if implemented circularly.",
+            "option_c": "True only when the queue is full.",
+            "option_d": "True only when the queue is empty.",
+            "correct_answer": "B",
+            "explanation": "The statement is generally false for a linear queue. The number of items in a linear queue is typically `rear - front + 1` when `rear` is greater than or equal to `front`. If the queue has wrapped around (in a circular implementation, though the question specifies a linear queue), the calculation would be different. The provided statement is not a reliable way to find the number of items in a standard linear queue [65, 66]."
+        },
+        {
+            "question": "In a circular queue implementation, what is one way to check if the queue is full, assuming `front` and `rear` pointers and a `maxSize`? [28, 31]",
+            "option_a": "front == rear",
+            "option_b": "rear == maxSize - 1",
+            "option_c": "(rear + 1) % maxSize == front",
+            "option_d": "front == 0 and rear == maxSize - 1",
+            "correct_answer": "C",
+            "explanation": "One common way to check if a circular queue is full is to see if the next position of the `rear` pointer (calculated as `(rear + 1) % maxSize`) is equal to the `front` pointer [28, 31]."
+        },
+        {
+            "question": "In a circular queue implementation, what is a common way to check if the queue is empty, using `front` and `rear` pointers? [28]",
+            "option_a": "rear == maxSize - 1",
+            "option_b": "front == maxSize - 1",
+            "option_c": "(rear + 1) % maxSize == front",
+            "option_d": "front == rear",
+            "correct_answer": "D",
+            "explanation": "A common condition to check if a circular queue is empty is when the `front` and `rear` pointers are pointing to the same location [28]."
+        },
+        {
+            "question": "Consider the linked list operations in Question 2 (Tutorial 5). What will be the output after executing the first code segment? <pre><code class=\"language-java\">Link temp = first;\nwhile (temp != NULL) {\n    System.out.print(temp.ID);\n    temp = temp.next;\n}</code></pre> given the initial list `null 8 10 32 88 first` (where 'first' points to the node with ID 88)? [67]",
+            "option_a": "8 10 32",
+            "option_b": "88 32 10 8",
+            "option_c": "8832108",
+            "option_d": "8321088",
+            "correct_answer": "C",
+            "explanation": "The code starts from the `first` link (ID 88) and iterates through the list as long as `temp` is not `NULL`, printing the `ID` of each link. Thus, it will print 8832108 [67]."
+        },
+        {
+            "question": "Consider the linked list operations in Question 2 (Tutorial 5). What will be the output after executing the second code segment? <pre><code class=\"language-java\">Link temp = first;\nwhile (temp.next != NULL) {\n    System.out.print(temp.ID);\n    temp = temp.next;\n}</code></pre> given the initial list `null 8 10 32 88 first`? [67, 68]",
+            "option_a": "8 10 32 88",
+            "option_b": "883210",
+            "option_c": "8321088",
+            "option_d": "8 10 32",
+            "correct_answer": "B",
+            "explanation": "The code starts from the `first` link (ID 88) and iterates as long as the `next` link of `temp` is not `NULL`. It prints the `ID` of the current `temp`. Therefore, it will print the IDs of 88, 32, and 10, resulting in 883210 [67, 68]."
+        },
+        {
+            "question": "Consider the linked list operations in Question 2 (Tutorial 5). What will be the output after executing the third code segment? <pre><code class=\"language-java\">first = first.next;\nSystem.out.print(first.next.ID);</code></pre> given the initial list `null 8 10 32 88 first`? [68]",
+            "option_a": "88",
+            "option_b": "10",
+            "option_c": "32",
+            "option_d": "8",
+            "correct_answer": "B",
+            "explanation": "First, `first = first.next;` makes `first` point to the node with ID 32. Then, `first.next` refers to the node with ID 10, and `first.next.ID` accesses its ID, so the output will be 10 [68]."
+        },
+        {
+            "question": "What is the purpose of the `deleteAllLinks()` method added to the `LinkList` class in Question 4 (Tutorial 5)? [69]",
+            "option_a": "To delete the first link.",
+            "option_b": "To delete the last link.",
+            "option_c": "To delete all the links in the linked list and display their IDs.",
+            "option_d": "To delete links based on a given key.",
+            "correct_answer": "C",
+            "explanation": "The `deleteAllLinks()` method is designed to traverse the entire linked list, delete each link, and display the ID of each deleted link [69]."
+        },
+        {
+            "question": "What data structure can be used to implement a Stack? [33, 70]",
+            "option_a": "Queue",
+            "option_b": "Tree",
+            "option_c": "Graph",
+            "option_d": "Linked List",
+            "correct_answer": "D",
+            "explanation": "A Stack can be effectively implemented using a Linked List [33, 70]. The push operation can correspond to inserting at the head of the list, and the pop operation to deleting from the head."
+        },
+        {
+            "question": "When implementing a Stack using a singly linked list, which end of the list is most efficient to use for push and pop operations? [37, 38, 71]",
+            "option_a": "The end of the list (tail).",
+            "option_b": "The beginning of the list (head).",
+            "option_c": "The middle of the list.",
+            "option_d": "Anywhere in the list with equal efficiency.",
+            "correct_answer": "B",
+            "explanation": "When implementing a stack using a singly linked list, using the beginning of the list (head) for push (insertFirst) and pop (deleteFirst) operations is the most efficient. These operations take O(1) time at the head, whereas operations at the tail would require traversing the list, resulting in O(n) time [37, 38, 71]."
+        },
+        {
+            "question": "Consider a doubly linked list. To delete a link 'P0', what general step involving 'P0's previous and next links needs to occur? [72]",
+            "option_a": "Set P0's next to null.",
+            "option_b": "Set P0's previous to null.",
+            "option_c": "The 'next' pointer of P0's previous link should point to P0's next link, and the 'previous' pointer of P0's next link should point to P0's previous link.",
+            "option_d": "No changes are needed to the previous and next links.",
+            "correct_answer": "C",
+            "explanation": "To delete a link 'P0' from a doubly linked list, you need to update the 'next' pointer of the link before 'P0' to point to the link after 'P0', and update the 'previous' pointer of the link after 'P0' to point to the link before 'P0', effectively removing 'P0' from the chain [72]."
+        },
+        {
+            "question": "When inserting a new link as the first link in a doubly linked list, what should the 'previous' pointer of the original first link be updated to point to? [73]",
+            "option_a": "null",
+            "option_b": "The last link.",
+            "option_c": "The new first link.",
+            "option_d": "Itself.",
+            "correct_answer": "C",
+            "explanation": "When inserting a new link as the first link in a doubly linked list, the 'previous' pointer of what was originally the first link needs to be updated to point to the newly inserted first link [73]."
+        }
+    ]
+}

@@ -51,6 +51,10 @@ if (quiz === "./database/ccna.json") {
   heading.textContent = "FC - 9";
 } else if (quiz === "./database/exams/TR/tr1.json") {
   heading.textContent = "TR - 1";
+} else if (quiz === "./database/exams/DSA/dsa1.json") {
+  heading.textContent = "DSA - 1";
+} else if (quiz === "./database/exams/DSA/dsa2.json") {
+  heading.textContent = "DSA - 2";
 }
 
 // Dynamic import of the JSON file using session variables.
@@ -125,7 +129,7 @@ submit.classList.add("submit-button");
     // Process question text to handle code blocks
     let questionText = question.question;
     if (questionText.includes('<pre>')) {
-      questionText = questionText.replace(/<pre><code class="language-(\w+)">([\s\S]*?)<\/code><\/pre>/g, 
+      questionText = questionText.replace(/<pre><code class="language-(\w+)">([\s\S]*?)<\/code><\/pre>/g,
         (match, lang, code) => {
           const languageName = getLanguageName(lang);
           return `

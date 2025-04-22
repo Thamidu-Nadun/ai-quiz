@@ -1,0 +1,184 @@
+{
+    "questions": [
+        {
+            "question": "What is the primary principle of a stack data structure?",
+            "option_a": "A. First-In-First-Out (FIFO)",
+            "option_b": "B. Last-In-First-Out (LIFO)",
+            "option_c": "C. Random Access",
+            "option_d": "D. Priority-Based",
+            "correct_answer": "B",
+            "explanation": "Stacks follow the Last-In-First-Out (LIFO) principle, meaning the last item inserted is the first one to be removed."
+        },
+        {
+            "question": "Which of the following is NOT a valid application of stacks?",
+            "option_a": "A. Undo functionality in text editors",
+            "option_b": "B. Page-visited history in web browsers",
+            "option_c": "C. Process scheduling in operating systems",
+            "option_d": "D. Function call management in recursion",
+            "correct_answer": "C",
+            "explanation": "Process scheduling typically uses queues (FIFO), not stacks (LIFO)."
+        },
+        {
+            "question": "In a stack implemented using an array, how is underflow typically checked?",
+            "option_a": "A. top == -1",
+            "option_b": "B. top == 0",
+            "option_c": "C. stack.length == 0",
+            "option_d": "D. top > stack.length",
+            "correct_answer": "A",
+            "explanation": "Underflow occurs when the stack is empty, which is indicated by 'top == -1' in an array-based stack implementation."
+        },
+        {
+            "question": "What is the time complexity of the pop operation in a stack implemented using a linked list?",
+            "option_a": "A. O(1)",
+            "option_b": "B. O(n)",
+            "option_c": "C. O(log n)",
+            "option_d": "D. O(n log n)",
+            "correct_answer": "A",
+            "explanation": "The pop operation in a linked list-based stack is O(1) because it only involves removing the head node."
+        },
+        {
+            "question": "Which of the following operations is NOT typically supported by a stack?",
+            "option_a": "A. Push",
+            "option_b": "B. Pop",
+            "option_c": "C. Peek",
+            "option_d": "D. Insert at the middle",
+            "correct_answer": "D",
+            "explanation": "Stacks only allow insertion and deletion at the top (LIFO principle), so inserting at the middle is not supported."
+        },
+        {
+            "question": "What is the primary principle of a queue data structure?",
+            "option_a": "A. First-In-First-Out (FIFO)",
+            "option_b": "B. Last-In-First-Out (LIFO)",
+            "option_c": "C. Random Access",
+            "option_d": "D. Priority-Based",
+            "correct_answer": "A",
+            "explanation": "Queues follow the First-In-First-Out (FIFO) principle, meaning the first item inserted is the first one to be removed."
+        },
+        {
+            "question": "Which of the following is a valid application of queues?",
+            "option_a": "A. Reversing a string",
+            "option_b": "B. Managing printer jobs",
+            "option_c": "C. Implementing recursion",
+            "option_d": "D. Evaluating postfix expressions",
+            "correct_answer": "B",
+            "explanation": "Printer job management uses queues to ensure jobs are processed in the order they are received (FIFO)."
+        },
+        {
+            "question": "In a circular queue, how is the rear pointer adjusted after reaching the end of the array?",
+            "option_a": "A. It is reset to 0",
+            "option_b": "B. It is set to -1",
+            "option_c": "C. It is incremented by 1",
+            "option_d": "D. It is decremented by 1",
+            "correct_answer": "A",
+            "explanation": "In a circular queue, the rear pointer wraps around to 0 when it reaches the end of the array to utilize empty spaces at the front."
+        },
+        {
+            "question": "What is the time complexity of the enqueue operation in a queue implemented using a linked list?",
+            "option_a": "A. O(1)",
+            "option_b": "B. O(n)",
+            "option_c": "C. O(log n)",
+            "option_d": "D. O(n log n)",
+            "correct_answer": "A",
+            "explanation": "The enqueue operation in a linked list-based queue is O(1) because it only involves adding a node at the tail."
+        },
+        {
+            "question": "Which of the following is a limitation of a linear queue?",
+            "option_a": "A. It cannot handle large datasets",
+            "option_b": "B. It wastes space when elements are dequeued",
+            "option_c": "C. It does not support the peek operation",
+            "option_d": "D. It cannot be implemented using arrays",
+            "correct_answer": "B",
+            "explanation": "In a linear queue, dequeued spaces at the front cannot be reused, leading to wasted space unless a circular queue is used."
+        },
+        {
+            "question": "What is the Big-O complexity of the following pseudocode?<br><pre><code class=\"language-pseudocode\">for i = 0 to n + 1\n    for j = 0 to n + 1\n        print i * j</code></pre>",
+            "option_a": "A. O(n)",
+            "option_b": "B. O(n(n+1))",
+            "option_c": "C. O(n²)",
+            "option_d": "D. O(n+1)",
+            "correct_answer": "C",
+            "explanation": "The nested loops result in a time complexity of O(n²), as each loop runs (n+2) times, and (n+2)*(n+2) simplifies to O(n²)."
+        },
+        {
+            "question": "What is the worst-case time complexity of inserting an element into a Binary Search Tree (BST)?",
+            "option_a": "A. O(log n)",
+            "option_b": "B. O(n)",
+            "option_c": "C. O(1)",
+            "option_d": "D. O(n log n)",
+            "correct_answer": "B",
+            "explanation": "In a skewed BST (e.g., one-sided), insertion may require traversing all nodes, resulting in O(n) time complexity."
+        },
+        {
+            "question": "Which traversal method gives nodes in ascending order for a BST?",
+            "option_a": "A. Preorder",
+            "option_b": "B. Postorder",
+            "option_c": "C. Inorder",
+            "option_d": "D. Level order",
+            "correct_answer": "C",
+            "explanation": "Inorder traversal (left-root-right) of a BST visits nodes in ascending order due to the BST property."
+        },
+        {
+            "question": "What is the height of a binary tree with only a root node?",
+            "option_a": "A. 0",
+            "option_b": "B. 1",
+            "option_c": "C. -1",
+            "option_d": "D. Undefined",
+            "correct_answer": "A",
+            "explanation": "The height of a single-node tree is 0, as there are no edges from the root to any leaf."
+        },
+        {
+            "question": "How many null pointers are there in a binary tree with 10 nodes?",
+            "option_a": "A. 9",
+            "option_b": "B. 10",
+            "option_c": "C. 11",
+            "option_d": "D. 20",
+            "correct_answer": "C",
+            "explanation": "A binary tree with n nodes has exactly n+1 null pointers, as each node has 2 child pointers, and only n-1 are used for linking nodes."
+        },
+        {
+            "question": "Which of the following is NOT a property of a good algorithm?",
+            "option_a": "A. Correctness",
+            "option_b": "B. Ambiguity",
+            "option_c": "C. Termination",
+            "option_d": "D. Simplicity",
+            "correct_answer": "B",
+            "explanation": "Ambiguity is harmful in algorithms, as it leads to inconsistent execution. Good algorithms must be unambiguous."
+        },
+        {
+            "question": "What is the purpose of algorithm analysis?",
+            "option_a": "A. To improve user interface design",
+            "option_b": "B. To predict runtime and resource usage",
+            "option_c": "C. To convert pseudocode to machine code",
+            "option_d": "D. To develop new programming languages",
+            "correct_answer": "B",
+            "explanation": "Algorithm analysis helps predict the runtime and resource usage (e.g., memory, computational steps) of an algorithm."
+        },
+        {
+            "question": "Which of the following is a limitation of the RAM model for algorithm analysis?",
+            "option_a": "A. It assumes parallel execution",
+            "option_b": "B. It does not account for compiler optimizations",
+            "option_c": "C. It overcomplicates code logic",
+            "option_d": "D. It restricts recursion",
+            "correct_answer": "B",
+            "explanation": "The RAM model assumes sequential execution and does not account for hardware or compiler optimizations, making it limited in real-world scenarios."
+        },
+        {
+            "question": "What is the base case in a recursive factorial function?",
+            "option_a": "A. if n == 1 return 1",
+            "option_b": "B. if n == 0 return 0",
+            "option_c": "C. if n == 0 return 1",
+            "option_d": "D. if n == -1 return 1",
+            "correct_answer": "C",
+            "explanation": "The base case for factorial is 'if n == 0 return 1' because 0! is mathematically defined as 1."
+        },
+        {
+            "question": "Which data structure is used to implement recursion?",
+            "option_a": "A. Queue",
+            "option_b": "B. Tree",
+            "option_c": "C. Stack",
+            "option_d": "D. Array",
+            "correct_answer": "C",
+            "explanation": "Recursive function calls are managed using a call stack, where each call is pushed onto the stack and popped upon completion."
+        }
+    ]
+}
