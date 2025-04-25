@@ -39,6 +39,9 @@ const OOP2 = document.querySelector("#oop2");
 const OOP3 = document.querySelector("#oop3");
 const OOP4 = document.querySelector("#oop4");
 
+// DM
+const DM1 = document.querySelector("#dm1");
+
 // We add event listeners to the buttons.
 // Depending on the button clicked we create a session variable called quiz and set it to the JSON file we want to load in hte quiz.html. The sessions variable allows us to share
 // data between pages. We then redirect the user to the quiz.html page.
@@ -229,5 +232,11 @@ OOP3.addEventListener("click", (e) => {
 OOP4.addEventListener("click", (e) => {
     e.preventDefault();
     sessionStorage.setItem("quiz", "./database/exams/OOP/oop4.json");
+    location.href = "quiz.html";
+});
+
+DM1.addEventListener("click", (e) => {
+    e.preventDefault();
+    sessionStorage.setItem("quiz", "./database/exams/DM/dm1.json");
     location.href = "quiz.html";
 });

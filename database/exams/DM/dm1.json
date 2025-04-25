@@ -1,0 +1,256 @@
+{
+    "questions": [
+        {
+            "question": "What is a set?",
+            "option_a": "A. A list of random numbers.",
+            "option_b": "B. A collection of unordered objects.",
+            "option_c": "C. Any well-defined collection of objects.",
+            "option_d": "D. A group of integers only.",
+            "correct_answer": "C",
+            "explanation": "A set is any well-defined collection of objects."
+        },
+        {
+            "question": "What symbol denotes membership in a set?",
+            "option_a": "A. ∉",
+            "option_b": "B. ∪",
+            "option_c": "C. ∈",
+            "option_d": "D. ⊂",
+            "correct_answer": "C",
+            "explanation": "The symbol ∈ denotes that an element belongs to a set."
+        },
+        {
+            "question": "Which of the following represents an empty set?",
+            "option_a": "A. {}",
+            "option_b": "B. Ø",
+            "option_c": "C. Both A and B",
+            "option_d": "D. U",
+            "correct_answer": "C",
+            "explanation": "Both {} and Ø denote the empty set."
+        },
+        {
+            "question": "What is the universal set?",
+            "option_a": "A. A set that contains no elements.",
+            "option_b": "B. A set with only one element.",
+            "option_c": "C. The set of all elements under consideration.",
+            "option_d": "D. The set of natural numbers.",
+            "correct_answer": "C",
+            "explanation": "The universal set contains all elements under consideration."
+        },
+        {
+            "question": "What does A ⊆ B mean?",
+            "option_a": "A. A and B are equal sets.",
+            "option_b": "B. A is unrelated to B.",
+            "option_c": "C. Every element of A is also in B.",
+            "option_d": "D. B is a subset of A.",
+            "correct_answer": "C",
+            "explanation": "A ⊆ B means A is a subset of B — all elements of A are in B."
+        },
+        {
+            "question": "What defines a proper subset?",
+            "option_a": "A. A subset equal to its parent set.",
+            "option_b": "B. A set with elements not in the parent set.",
+            "option_c": "C. A subset with at least one fewer element than the parent set.",
+            "option_d": "D. A subset with exactly one element.",
+            "correct_answer": "C",
+            "explanation": "A proper subset has all its elements in the parent set but does not contain all of them."
+        },
+        {
+            "question": "What is the intersection of sets A and B?",
+            "option_a": "A. The union of A and B.",
+            "option_b": "B. The complement of A.",
+            "option_c": "C. The elements in A and not in B.",
+            "option_d": "D. Elements that are in both A and B.",
+            "correct_answer": "D",
+            "explanation": "Intersection includes only the common elements in both sets."
+        },
+        {
+            "question": "What is the union of sets A and B?",
+            "option_a": "A. Elements in A only.",
+            "option_b": "B. Elements in B only.",
+            "option_c": "C. Elements in either A or B or both.",
+            "option_d": "D. Only elements common to both.",
+            "correct_answer": "C",
+            "explanation": "Union combines all elements from both sets without duplication."
+        },
+        {
+            "question": "What is the complement of set A?",
+            "option_a": "A. Elements in A only.",
+            "option_b": "B. Elements not in A.",
+            "option_c": "C. Elements in both A and B.",
+            "option_d": "D. Elements in the empty set.",
+            "correct_answer": "B",
+            "explanation": "The complement of A includes all elements not in A but in the universal set."
+        },
+        {
+            "question": "What is the set difference A − B?",
+            "option_a": "A. Elements in B but not in A.",
+            "option_b": "B. Elements in both A and B.",
+            "option_c": "C. Elements in A but not in B.",
+            "option_d": "D. All elements in B.",
+            "correct_answer": "C",
+            "explanation": "A − B includes elements in A that are not in B."
+        },
+        {
+            "question": "What are disjoint sets?",
+            "option_a": "A. Sets with all elements common.",
+            "option_b": "B. Sets with no elements in common.",
+            "option_c": "C. Sets that are equal.",
+            "option_d": "D. Sets that overlap.",
+            "correct_answer": "B",
+            "explanation": "Disjoint sets have no elements in common."
+        },
+        {
+            "question": "What is the Cartesian product of sets A and B?",
+            "option_a": "A. Union of A and B.",
+            "option_b": "B. All possible sums of elements from A and B.",
+            "option_c": "C. Set of all ordered pairs (a, b) with a ∈ A and b ∈ B.",
+            "option_d": "D. Intersection of A and B.",
+            "correct_answer": "C",
+            "explanation": "The Cartesian product A × B is the set of all ordered pairs from A and B."
+        },
+        {
+            "question": "What is a power set?",
+            "option_a": "A. A set of all even elements.",
+            "option_b": "B. A set of all prime subsets.",
+            "option_c": "C. A set of all subsets of a set.",
+            "option_d": "D. A set with maximum elements.",
+            "correct_answer": "C",
+            "explanation": "The power set of a set A is the set of all subsets of A."
+        },
+        {
+            "question": "How many elements does the power set of a 3-element set have?",
+            "option_a": "A. 3",
+            "option_b": "B. 6",
+            "option_c": "C. 8",
+            "option_d": "D. 9",
+            "correct_answer": "C",
+            "explanation": "A set with n elements has 2^n subsets. For n = 3, it has 8."
+        },
+        {
+            "question": "What is a function in mathematics?",
+            "option_a": "A. A relationship where one input maps to multiple outputs.",
+            "option_b": "B. A relationship where each input maps to exactly one output.",
+            "option_c": "C. A collection of random values.",
+            "option_d": "D. A number generator.",
+            "correct_answer": "B",
+            "explanation": "A function relates each input to exactly one output."
+        },
+        {
+            "question": "What is the range of a function?",
+            "option_a": "A. Set of inputs.",
+            "option_b": "B. Set of all outputs.",
+            "option_c": "C. The domain.",
+            "option_d": "D. The function’s name.",
+            "correct_answer": "B",
+            "explanation": "The range is the set of values the function can output."
+        },
+        {
+            "question": "When are two functions equal?",
+            "option_a": "A. When they have same name.",
+            "option_b": "B. When they have same domain and range only.",
+            "option_c": "C. When they have the same domain, codomain, and output for each input.",
+            "option_d": "D. When they look alike.",
+            "correct_answer": "C",
+            "explanation": "Two functions are equal when they give same output for all inputs and have the same domain and codomain."
+        },
+        {
+            "question": "What defines a one-to-one function?",
+            "option_a": "A. Each input maps to many outputs.",
+            "option_b": "B. Each output comes from a unique input.",
+            "option_c": "C. Multiple inputs share the same output.",
+            "option_d": "D. Only one element in the domain.",
+            "correct_answer": "B",
+            "explanation": "One-to-one functions ensure that each output is mapped from one unique input."
+        },
+        {
+            "question": "What defines an onto function?",
+            "option_a": "A. Only some outputs are used.",
+            "option_b": "B. Every element of the codomain is an output of the function.",
+            "option_c": "C. Each input maps to multiple outputs.",
+            "option_d": "D. Only domain elements are used.",
+            "correct_answer": "B",
+            "explanation": "An onto function maps inputs such that every element in the codomain is covered."
+        },
+        {
+            "question": "What is a bijective function?",
+            "option_a": "A. One-to-one only.",
+            "option_b": "B. Onto only.",
+            "option_c": "C. One-to-one and onto.",
+            "option_d": "D. Neither one-to-one nor onto.",
+            "correct_answer": "C",
+            "explanation": "A bijective function is both one-to-one and onto."
+        },
+        {
+            "question": "What is the inverse of a function?",
+            "option_a": "A. A function that squares each output.",
+            "option_b": "B. A function that reverses the original mapping.",
+            "option_c": "C. A function that multiplies outputs.",
+            "option_d": "D. A different function.",
+            "correct_answer": "B",
+            "explanation": "The inverse function reverses the mapping of the original function."
+        },
+        {
+            "question": "Which of the following is not a type of function?",
+            "option_a": "A. One-to-one",
+            "option_b": "B. Onto",
+            "option_c": "C. Bijective",
+            "option_d": "D. Two-to-two",
+            "correct_answer": "D",
+            "explanation": "Two-to-two is not a recognized type of function."
+        },
+        {
+            "question": "Which of the following is true about a many-to-one function?",
+            "option_a": "A. One input maps to many outputs.",
+            "option_b": "B. Many inputs map to one output.",
+            "option_c": "C. Every input has a unique output.",
+            "option_d": "D. No input maps to output.",
+            "correct_answer": "B",
+            "explanation": "In a many-to-one function, different inputs can result in the same output."
+        },
+        {
+            "question": "Which function type is reversible?",
+            "option_a": "A. Injective",
+            "option_b": "B. Surjective",
+            "option_c": "C. Bijective",
+            "option_d": "D. Constant",
+            "correct_answer": "C",
+            "explanation": "Only bijective functions are reversible and have unique inverses."
+        },
+        {
+            "question": "What is the domain of a function?",
+            "option_a": "A. Set of outputs.",
+            "option_b": "B. Set of inputs.",
+            "option_c": "C. All integers.",
+            "option_d": "D. Power set.",
+            "correct_answer": "B",
+            "explanation": "The domain is the set of input values for which the function is defined."
+        },
+        {
+            "question": "What does f(x) mean?",
+            "option_a": "A. An element of set x.",
+            "option_b": "B. Value of function f at input x.",
+            "option_c": "C. x multiplied by function f.",
+            "option_d": "D. The derivative of f.",
+            "correct_answer": "B",
+            "explanation": "f(x) denotes the output value of function f at input x."
+        },
+        {
+            "question": "Which of the following always has 2^n elements?",
+            "option_a": "A. Power set",
+            "option_b": "B. Domain",
+            "option_c": "C. Codomain",
+            "option_d": "D. Cartesian product",
+            "correct_answer": "A",
+            "explanation": "The power set of a set with n elements contains 2^n subsets."
+        },
+        {
+            "question": "What is the main property of a function?",
+            "option_a": "A. One input has multiple outputs.",
+            "option_b": "B. Each input has exactly one output.",
+            "option_c": "C. Each output maps to one input.",
+            "option_d": "D. Domain and codomain are equal.",
+            "correct_answer": "B",
+            "explanation": "A function maps each input to exactly one output."
+        }
+    ]
+}
