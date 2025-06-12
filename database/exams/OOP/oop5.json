@@ -1,0 +1,229 @@
+{
+    "questions": [
+        {
+            "question": "Why can't abstract classes be instantiated in Java?",
+            "option_a": "A. They don't contain a constructor.",
+            "option_b": "B. They lack a public modifier.",
+            "option_c": "C. They may contain methods without implementations.",
+            "option_d": "D. The JVM doesn't allow it by default.",
+            "correct_answer": "C",
+            "explanation": "Abstract classes can contain methods without implementations, making them incomplete by design and unsuitable for direct instantiation."
+        },
+        {
+            "question": "Which statement best explains the purpose of using abstract classes in Java?",
+            "option_a": "A. To allow multiple inheritance.",
+            "option_b": "B. To enforce method overloading.",
+            "option_c": "C. To model incomplete behavior with some shared implementation.",
+            "option_d": "D. To initialize objects before main() is called.",
+            "correct_answer": "C",
+            "explanation": "Abstract classes allow code sharing while forcing subclasses to implement incomplete behavior."
+        },
+        {
+            "question": "What happens if a subclass does not override all abstract methods of its parent abstract class?",
+            "option_a": "A. Compilation will fail.",
+            "option_b": "B. The subclass is implicitly considered abstract.",
+            "option_c": "C. The methods are automatically inherited.",
+            "option_d": "D. The program executes normally.",
+            "correct_answer": "B",
+            "explanation": "If not all abstract methods are overridden, the subclass must be declared abstract."
+        },
+        {
+            "question": "Which of the following is a valid use case for an interface in Java?",
+            "option_a": "A. To allow multiple unrelated classes to guarantee common behavior.",
+            "option_b": "B. To allow access to private data.",
+            "option_c": "C. To provide static method inheritance.",
+            "option_d": "D. To restrict class instantiation.",
+            "correct_answer": "A",
+            "explanation": "Interfaces are useful when different classes need to guarantee implementation of certain methods."
+        },
+        {
+            "question": "What are the default modifiers of interface methods in Java?",
+            "option_a": "A. protected and abstract",
+            "option_b": "B. public and final",
+            "option_c": "C. public and abstract",
+            "option_d": "D. private and static",
+            "correct_answer": "C",
+            "explanation": "All methods in an interface are implicitly public and abstract unless specified otherwise (e.g., default, static)."
+        },
+        {
+            "question": "What does the keyword <code>static</code> mean when applied to a class variable?",
+            "option_a": "A. The variable is only accessible by constructors.",
+            "option_b": "B. The variable is immutable.",
+            "option_c": "C. The variable is shared across all instances of the class.",
+            "option_d": "D. The variable is instance-specific.",
+            "correct_answer": "C",
+            "explanation": "A static variable belongs to the class, not to individual instances, and is shared across all objects."
+        },
+        {
+            "question": "What is the primary purpose of a static block in Java?",
+            "option_a": "A. To create new objects automatically.",
+            "option_b": "B. To initialize static variables when the class loads.",
+            "option_c": "C. To destroy unused objects.",
+            "option_d": "D. To handle memory leaks.",
+            "correct_answer": "B",
+            "explanation": "A static block is executed once when the class is loaded and is mainly used to initialize static variables."
+        },
+        {
+            "question": "Which of the following is TRUE about static methods?",
+            "option_a": "A. They can use instance variables directly.",
+            "option_b": "B. They require an object to be invoked.",
+            "option_c": "C. They can only access static members.",
+            "option_d": "D. They can refer to 'this' keyword.",
+            "correct_answer": "C",
+            "explanation": "Static methods can only directly access static members of the class."
+        },
+        {
+            "question": "Which memory area stores static members in Java?",
+            "option_a": "A. Heap",
+            "option_b": "B. Stack",
+            "option_c": "C. Static memory",
+            "option_d": "D. Register memory",
+            "correct_answer": "C",
+            "explanation": "Static members are stored in a special memory area called 'static memory', shared across instances."
+        },
+        {
+            "question": "What would be the output of the following Java code?<pre><code>class Test { static int count = 0; Test() { count++; } } public class Main { public static void main(String[] args) { Test t1 = new Test(); Test t2 = new Test(); System.out.println(Test.count); } }</code></pre>",
+            "option_a": "A. 1",
+            "option_b": "B. 2",
+            "option_c": "C. 0",
+            "option_d": "D. Compilation error",
+            "correct_answer": "B",
+            "explanation": "The static variable 'count' is shared across all instances. Each constructor call increments it, resulting in 2."
+        },
+        {
+            "question": "What is the output of this code snippet?<pre><code>abstract class Animal { abstract void makeSound(); } class Dog extends Animal { void makeSound() { System.out.println(\"Bark\"); } } public class Main { public static void main(String[] args) { Animal a = new Dog(); a.makeSound(); } }</code></pre>",
+            "option_a": "A. Bark",
+            "option_b": "B. Dog",
+            "option_c": "C. makeSound",
+            "option_d": "D. Compilation error",
+            "correct_answer": "A",
+            "explanation": "The abstract method makeSound() is overridden in Dog. When invoked, it prints 'Bark'."
+        },
+        {
+            "question": "Which of the following is TRUE about abstract methods?",
+            "option_a": "A. They must have a method body.",
+            "option_b": "B. They must be declared private.",
+            "option_c": "C. They can only be declared inside abstract classes or interfaces.",
+            "option_d": "D. They can be invoked using the super keyword.",
+            "correct_answer": "C",
+            "explanation": "Abstract methods can only exist in abstract classes or interfaces and must be implemented by subclasses."
+        },
+        {
+            "question": "Choose the correct statement about interfaces in Java.",
+            "option_a": "A. An interface can contain constructors.",
+            "option_b": "B. A class can extend multiple interfaces.",
+            "option_c": "C. Interfaces can contain private instance variables.",
+            "option_d": "D. A class can implement multiple interfaces.",
+            "correct_answer": "D",
+            "explanation": "Java supports multiple inheritance of type using interfaces, allowing a class to implement more than one interface."
+        },
+        {
+            "question": "Why is <code>main()</code> declared static in Java?",
+            "option_a": "A. To prevent object creation.",
+            "option_b": "B. To allow JVM to call it without creating an object.",
+            "option_c": "C. To store it in the heap.",
+            "option_d": "D. To inherit automatically.",
+            "correct_answer": "B",
+            "explanation": "The JVM calls main() before any object exists, so it must be static."
+        },
+        {
+            "question": "What is the key difference between composition and aggregation?",
+            "option_a": "A. Aggregation requires inheritance.",
+            "option_b": "B. Composition uses abstract classes.",
+            "option_c": "C. In composition, the part cannot exist independently of the whole.",
+            "option_d": "D. Aggregation shares memory between objects.",
+            "correct_answer": "C",
+            "explanation": "Composition implies a strong relationship where the part cannot exist independently of the whole."
+        },
+        {
+            "question": "What happens when a static variable is updated in one object?",
+            "option_a": "A. Only that object's variable changes.",
+            "option_b": "B. All instances reflect the change.",
+            "option_c": "C. The variable resets to default.",
+            "option_d": "D. A new copy is created for that object.",
+            "correct_answer": "B",
+            "explanation": "Static variables are shared across all instances, so updating in one affects all."
+        },
+        {
+            "question": "Which of the following best describes the relationship between interfaces and abstract classes?",
+            "option_a": "A. Interfaces can extend abstract classes.",
+            "option_b": "B. Abstract classes can implement interfaces.",
+            "option_c": "C. Interfaces can implement other interfaces.",
+            "option_d": "D. Abstract classes can be partially abstract, interfaces cannot.",
+            "correct_answer": "D",
+            "explanation": "Abstract classes may contain both concrete and abstract methods; interfaces are fully abstract unless default methods are used."
+        },
+        {
+            "question": "When does a static block execute in Java?",
+            "option_a": "A. Every time an object is created.",
+            "option_b": "B. When a static method is called.",
+            "option_c": "C. When the class is loaded into memory.",
+            "option_d": "D. After all constructors run.",
+            "correct_answer": "C",
+            "explanation": "A static block executes once when the class is loaded by the JVM."
+        },
+        {
+            "question": "Which modifier combination is valid for interface variables?",
+            "option_a": "A. public static final",
+            "option_b": "B. protected static final",
+            "option_c": "C. private final",
+            "option_d": "D. final transient",
+            "correct_answer": "A",
+            "explanation": "Interface variables are implicitly public, static, and final in Java."
+        },
+        {
+            "question": "Which statement is FALSE about static methods?",
+            "option_a": "A. They can be called without an object.",
+            "option_b": "B. They can access static variables.",
+            "option_c": "C. They can use 'this' keyword.",
+            "option_d": "D. They belong to the class.",
+            "correct_answer": "C",
+            "explanation": "Static methods cannot use 'this' because they are not tied to any instance."
+        },
+        {
+            "question": "Which of these is a reason to prefer an interface over an abstract class?",
+            "option_a": "A. You want to use private methods.",
+            "option_b": "B. You want to share default logic.",
+            "option_c": "C. You want unrelated classes to implement a common behavior.",
+            "option_d": "D. You want to restrict object creation.",
+            "correct_answer": "C",
+            "explanation": "Interfaces are ideal when unrelated classes need to adhere to a common contract."
+        },
+        {
+            "question": "What is the default access modifier for interface methods?",
+            "option_a": "A. private",
+            "option_b": "B. protected",
+            "option_c": "C. public",
+            "option_d": "D. default",
+            "correct_answer": "C",
+            "explanation": "Interface methods are implicitly public and abstract."
+        },
+        {
+            "question": "Can an abstract class have a constructor in Java?",
+            "option_a": "A. No, constructors are not allowed.",
+            "option_b": "B. Yes, but only if it is private.",
+            "option_c": "C. Yes, to initialize common data.",
+            "option_d": "D. Only if it has no abstract methods.",
+            "correct_answer": "C",
+            "explanation": "Abstract classes can have constructors to initialize fields, even if they can't be directly instantiated."
+        },
+        {
+            "question": "Which feature does Java use to simulate multiple inheritance?",
+            "option_a": "A. Abstract classes",
+            "option_b": "B. Static methods",
+            "option_c": "C. Interfaces",
+            "option_d": "D. Anonymous classes",
+            "correct_answer": "C",
+            "explanation": "Java allows a class to implement multiple interfaces to simulate multiple inheritance."
+        },
+        {
+            "question": "What happens if an interface has a static method?",
+            "option_a": "A. It can be overridden in implementing classes.",
+            "option_b": "B. It can be called using the interface name.",
+            "option_c": "C. It is ignored by the JVM.",
+            "option_d": "D. It causes a compile-time error.",
+            "correct_answer": "B",
+            "explanation": "Static methods in interfaces are accessed using the interface name and cannot be overridden."
+        }
+    ]
+}

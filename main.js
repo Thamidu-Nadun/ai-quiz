@@ -39,6 +39,9 @@ const OOP2 = document.querySelector("#oop2");
 const OOP3 = document.querySelector("#oop3");
 const OOP4 = document.querySelector("#oop4");
 
+const OOP5 = document.querySelector("#oop5");
+const OOP6 = document.querySelector("#oop6");
+
 // DM
 const DM1 = document.querySelector("#dm1");
 
@@ -235,6 +238,17 @@ OOP4.addEventListener("click", (e) => {
     location.href = "quiz.html";
 });
 
+OOP5.addEventListener("click", (e) => {
+    e.preventDefault();
+    sessionStorage.setItem("quiz", "./database/exams/OOP/oop5.json");
+    location.href = "quiz.html";
+});
+
+OOP6.addEventListener("click", (e) => {
+    e.preventDefault();
+    sessionStorage.setItem("quiz", "./database/exams/OOP/oop6.json");
+    location.href = "quiz.html";
+});
 DM1.addEventListener("click", (e) => {
     e.preventDefault();
     sessionStorage.setItem("quiz", "./database/exams/DM/dm1.json");

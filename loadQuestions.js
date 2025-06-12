@@ -63,6 +63,10 @@ if (quiz === "./database/ccna.json") {
     heading.textContent = "OOP - 3";
 } else if (quiz === "./database/exams/OOP/oop4.json") {
     heading.textContent = "OOP - 4";
+} else if (quiz === "./database/exams/OOP/oop5.json") {
+    heading.textContent = "OOP - 5";
+} else if (quiz === "./database/exams/OOP/oop6.json") {
+    heading.textContent = "OOP - 6";
 } else if (quiz === "./database/exams/DM/dm1.json") {
     heading.textContent = "DM - 1";
 }

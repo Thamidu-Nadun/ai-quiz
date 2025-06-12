@@ -1,0 +1,274 @@
+{
+    "questions": [
+        {
+            "question": "What does the Single Responsibility Principle (SRP) state?",
+            "option_a": "a. A class should handle multiple features",
+            "option_b": "b. A class should have only one reason to change",
+            "option_c": "c. A class should be closed to extension",
+            "option_d": "d. A class should be immutable",
+            "correct_answer": "B",
+            "explanation": "SRP states that a class should have only one responsibility and one reason to change."
+        },
+        {
+            "question": "Which of the following violates SRP?",
+            "option_a": "a. A class that only calculates tax",
+            "option_b": "b. A class that reads input and writes logs",
+            "option_c": "c. A class that sends email notifications",
+            "option_d": "d. A class that validates passwords",
+            "correct_answer": "B",
+            "explanation": "Reading input and writing logs are two different responsibilities, violating SRP."
+        },
+        {
+            "question": "What symptom indicates bad design in a system?",
+            "option_a": "a. High performance",
+            "option_b": "b. Modularity",
+            "option_c": "c. Rigidity",
+            "option_d": "d. Abstraction",
+            "correct_answer": "C",
+            "explanation": "Rigidity indicates that the code is difficult to change and maintain."
+        },
+        {
+            "question": "Which SOLID principle encourages extending code without modifying it?",
+            "option_a": "a. SRP",
+            "option_b": "b. DIP",
+            "option_c": "c. OCP",
+            "option_d": "d. ISP",
+            "correct_answer": "C",
+            "explanation": "OCP states that software entities should be open for extension, but closed for modification."
+        },
+        {
+            "question": "What principle does the 'GraphicEditor' class with switch-cases violate?",
+            "option_a": "a. ISP",
+            "option_b": "b. SRP",
+            "option_c": "c. OCP",
+            "option_d": "d. DIP",
+            "correct_answer": "C",
+            "explanation": "Switch-case logic that requires modification for each new shape violates OCP."
+        },
+        {
+            "question": "What is a good practice to apply OCP?",
+            "option_a": "a. Use global variables",
+            "option_b": "b. Use inheritance and polymorphism",
+            "option_c": "c. Write static classes",
+            "option_d": "d. Avoid interfaces",
+            "correct_answer": "B",
+            "explanation": "Using polymorphism allows adding new functionality via new classes."
+        },
+        {
+            "question": "Which principle ensures that child classes can replace parent classes?",
+            "option_a": "a. SRP",
+            "option_b": "b. LSP",
+            "option_c": "c. OCP",
+            "option_d": "d. DIP",
+            "correct_answer": "B",
+            "explanation": "LSP ensures substitutability of subtypes without changing the program behavior."
+        },
+        {
+            "question": "Which example violates LSP?",
+            "option_a": "a. A Circle extends Shape and implements draw()",
+            "option_b": "b. A Penguin class extends Bird but can't fly",
+            "option_c": "c. A File class implements Saveable",
+            "option_d": "d. A Vehicle interface with Drive implemented by Car",
+            "correct_answer": "B",
+            "explanation": "Penguin violates LSP by changing the expected behavior of Bird's fly() method."
+        },
+        {
+            "question": "What principle promotes use of small, client-specific interfaces?",
+            "option_a": "a. SRP",
+            "option_b": "b. OCP",
+            "option_c": "c. LSP",
+            "option_d": "d. ISP",
+            "correct_answer": "D",
+            "explanation": "ISP recommends that clients should not depend on methods they don't use."
+        },
+        {
+            "question": "Which design follows ISP?",
+            "option_a": "a. A Device interface with print, scan, fax, copy",
+            "option_b": "b. A Fax interface with one method fax()",
+            "option_c": "c. A single interface for all machine types",
+            "option_d": "d. A general interface with all possible methods",
+            "correct_answer": "B",
+            "explanation": "Using small interfaces like Fax follows the Interface Segregation Principle."
+        },
+        {
+            "question": "What is the goal of Dependency Inversion Principle (DIP)?",
+            "option_a": "a. Depend on implementation",
+            "option_b": "b. Depend on static methods",
+            "option_c": "c. Depend on abstractions",
+            "option_d": "d. Avoid using interfaces",
+            "correct_answer": "C",
+            "explanation": "DIP emphasizes depending on abstractions rather than concrete implementations."
+        },
+        {
+            "question": "Which example violates DIP?",
+            "option_a": "a. Injecting a logger through constructor",
+            "option_b": "b. Instantiating a class using `new` inside another class",
+            "option_c": "c. Using a configuration file",
+            "option_d": "d. Using an interface for database access",
+            "correct_answer": "B",
+            "explanation": "Hardcoding dependencies via `new` violates DIP."
+        },
+        {
+            "question": "Which design principle helps in building plugin systems?",
+            "option_a": "a. SRP",
+            "option_b": "b. DIP",
+            "option_c": "c. OCP",
+            "option_d": "d. LSP",
+            "correct_answer": "C",
+            "explanation": "OCP allows adding new functionality without modifying existing code."
+        },
+        {
+            "question": "What is the result of violating SRP?",
+            "option_a": "a. Loose coupling",
+            "option_b": "b. Strong cohesion",
+            "option_c": "c. Tangled logic and difficult testing",
+            "option_d": "d. High modularity",
+            "correct_answer": "C",
+            "explanation": "SRP violations make code harder to test, reuse, and maintain."
+        },
+        {
+            "question": "Which of these symptoms shows design rot?",
+            "option_a": "a. Opacity",
+            "option_b": "b. Polymorphism",
+            "option_c": "c. Encapsulation",
+            "option_d": "d. Composition",
+            "correct_answer": "A",
+            "explanation": "Opacity indicates that the code is hard to understand, a symptom of design rot."
+        },
+        {
+            "question": "Why is 'God Class' a problem?",
+            "option_a": "a. It uses too many libraries",
+            "option_b": "b. It has too many responsibilities",
+            "option_c": "c. It is written in Java",
+            "option_d": "d. It has only one method",
+            "correct_answer": "B",
+            "explanation": "'God Classes' violate SRP by handling too many responsibilities."
+        },
+        {
+            "question": "Which is NOT a valid solution for DIP?",
+            "option_a": "a. Use of interface injection",
+            "option_b": "b. Using new keyword for dependencies",
+            "option_c": "c. Constructor-based dependency injection",
+            "option_d": "d. Programming to interfaces",
+            "correct_answer": "B",
+            "explanation": "Using the `new` keyword tightly couples code, violating DIP."
+        },
+        {
+            "question": "What is the role of abstractions in DIP?",
+            "option_a": "a. To remove methods",
+            "option_b": "b. To avoid inheritance",
+            "option_c": "c. To decouple high and low-level modules",
+            "option_d": "d. To speed up compilation",
+            "correct_answer": "C",
+            "explanation": "Abstractions allow high-level modules to remain independent of low-level details."
+        },
+        {
+            "question": "Which principle helps avoid runtime surprises from subclasses?",
+            "option_a": "a. ISP",
+            "option_b": "b. SRP",
+            "option_c": "c. LSP",
+            "option_d": "d. OCP",
+            "correct_answer": "C",
+            "explanation": "LSP ensures that subclasses behave as expected when replacing their parents."
+        },
+        {
+            "question": "What technique supports OCP the most?",
+            "option_a": "a. Composition",
+            "option_b": "b. Polymorphism",
+            "option_c": "c. Global variables",
+            "option_d": "d. Recursion",
+            "correct_answer": "B",
+            "explanation": "Polymorphism allows behavior extension without modifying existing code."
+        },
+        {
+            "question": "What should you do when a class has too many unrelated methods?",
+            "option_a": "a. Use encapsulation",
+            "option_b": "b. Apply SRP and split the class",
+            "option_c": "c. Add more methods",
+            "option_d": "d. Make it abstract",
+            "correct_answer": "B",
+            "explanation": "Multiple unrelated responsibilities violate SRP and should be split."
+        },
+        {
+            "question": "Which design approach helps implement DIP?",
+            "option_a": "a. Singleton pattern",
+            "option_b": "b. Inheritance",
+            "option_c": "c. Interface-based design",
+            "option_d": "d. Static classes",
+            "correct_answer": "C",
+            "explanation": "Using interfaces helps separate abstraction from implementation."
+        },
+        {
+            "question": "Which principle is demonstrated by a restaurant kitchen with specific stations?",
+            "option_a": "a. LSP",
+            "option_b": "b. OCP",
+            "option_c": "c. SRP",
+            "option_d": "d. ISP",
+            "correct_answer": "C",
+            "explanation": "Clear roles and division of responsibilities reflect the SRP principle."
+        },
+        {
+            "question": "When should you suspect SRP is violated?",
+            "option_a": "a. When the class has only one method",
+            "option_b": "b. When the class needs to be modified for multiple unrelated reasons",
+            "option_c": "c. When the class uses inheritance",
+            "option_d": "d. When the class is abstract",
+            "correct_answer": "B",
+            "explanation": "Multiple reasons to change a class indicate an SRP violation."
+        },
+        {
+            "question": "What kind of class makes it hard to reuse parts independently?",
+            "option_a": "a. One with high cohesion",
+            "option_b": "b. One violating SRP",
+            "option_c": "c. One that is modular",
+            "option_d": "d. One using interfaces",
+            "correct_answer": "B",
+            "explanation": "Classes that mix responsibilities are hard to reuse independently."
+        },
+        {
+            "question": "What type of principle is SOLID considered?",
+            "option_a": "a. Implementation logic",
+            "option_b": "b. Runtime behavior pattern",
+            "option_c": "c. Design guideline",
+            "option_d": "d. Testing technique",
+            "correct_answer": "C",
+            "explanation": "SOLID is a set of design principles to improve maintainability and scalability."
+        },
+        {
+            "question": "Which principle reduces client dependency on irrelevant features?",
+            "option_a": "a. SRP",
+            "option_b": "b. ISP",
+            "option_c": "c. DIP",
+            "option_d": "d. LSP",
+            "correct_answer": "B",
+            "explanation": "ISP reduces dependency on unnecessary interface methods."
+        },
+        {
+            "question": "How can we apply OCP to a NotificationService with if-else chains?",
+            "option_a": "a. Use method overloading",
+            "option_b": "b. Add a new class for each notification type",
+            "option_c": "c. Keep adding more if-else",
+            "option_d": "d. Convert to a single class",
+            "correct_answer": "B",
+            "explanation": "Extending functionality using new classes follows OCP."
+        },
+        {
+            "question": "What is the benefit of applying ISP?",
+            "option_a": "a. Reduces testing complexity",
+            "option_b": "b. Encourages using 'God classes'",
+            "option_c": "c. Forces implementation of all methods",
+            "option_d": "d. Requires fewer interfaces",
+            "correct_answer": "A",
+            "explanation": "Smaller interfaces simplify implementation and testing."
+        },
+        {
+            "question": "Why is it risky to throw exceptions in subclass methods not expected by parent?",
+            "option_a": "a. It reduces inheritance",
+            "option_b": "b. It violates LSP",
+            "option_c": "c. It follows DIP",
+            "option_d": "d. It increases cohesion",
+            "correct_answer": "B",
+            "explanation": "Throwing unexpected exceptions breaks substitutability promised by LSP."
+        }
+    ]
+}
